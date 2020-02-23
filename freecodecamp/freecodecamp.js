@@ -506,20 +506,96 @@ console.log(ourStr);
 console.log(``);
 
 
+    // Find the Length of a String
+    
+console.log("Alan Peter".length);   // expected output: 10
+
+var firstNameLength = 0;
+var firstName = "Ada";
+firstNameLength = firstName.length;
+console.log(firstNameLength);       // expected output: 3
+
+console.log(``);
+
+
+    // Use Bracket Notation to Find the First Character in a String
+    
+/**
+ * Bracket notation ( "[]" ) is a way to get a character at a specific index within a string.
+ * 
+ * Most modern programming languages, like JavaScript, don't start counting at 1 like humans do.
+ * They start at 0. This is referred to as Zero-based indexing.
+ */
+
+var firstName = "Marcelo";
+               //0123456 // Zero-based indexing
+console.log(firstName[0]);  // expected output: "M"
+console.log(firstName[1]);  // expected output: "a"
+console.log(firstName[2]);  // expected output: "r"
+console.log(firstName[3]);  // expected output: "c"
+console.log(firstName[4]);  // expected output: "e"
+console.log(firstName[5]);  // expected output: "l"
+console.log(firstName[6]);  // expected output: "o"
+console.log(firstName[7]);  // expected output: undefined
+console.log(firstName[-1]); // expected output: undefined
+
+
     // 
     
 /**
  * 
  */
 
- 
+
     // 
     
 /**
  * 
  */
 
- 
+
+    // 
+    
+/**
+ * 
+ */
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
     // 
     
 /**
