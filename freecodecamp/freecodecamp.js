@@ -540,12 +540,20 @@ console.log(firstName[7]);  // expected output: undefined
 console.log(firstName[-1]); // expected output: undefined
 
 
-    // 
+    // Understand String Immutability
     
 /**
- * 
+ * In JavaScript, String values are immutable,
+ * which means that they cannot be altered once created.
  */
 
+var myStr = "Bob";
+myStr[0] = "J";
+console.log(myStr); // expected output: Bob
+
+var myStr = "Bob";
+myStr = "Job";
+console.log(myStr); // expected output: Job
 
     // 
     
