@@ -591,13 +591,16 @@ console.log(lastLetterOfFirstName); // expected output: a
 console.log(``);
 
 
-    // 
+    // Use Bracket Notation to Find the Nth-to-Last Character in a String
     
 /**
- * 
+ * You can use the same principle we just used to retrieve the last character
+ * in a string to retrieve the Nth-to-last character.
  */
 
-
+var firstName = "Ada";
+var thirdToLastLetterOfFirstName = firstName[firstName.length - 3];
+console.log(thirdToLastLetterOfFirstName); // expected output: A
 
 console.log(``);
 
