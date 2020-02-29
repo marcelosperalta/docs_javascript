@@ -539,6 +539,8 @@ console.log(firstName[6]);  // expected output: "o"
 console.log(firstName[7]);  // expected output: undefined
 console.log(firstName[-1]); // expected output: undefined
 
+console.log(``);
+
 
     // Understand String Immutability
     
@@ -555,46 +557,38 @@ var myStr = "Bob";
 myStr = "Job";
 console.log(myStr); // expected output: Job
 
-    // 
+console.log(``);
+
+
+    // Use Bracket Notation to Find the Nth Character in a String
     
 /**
+ * You can also use bracket notation to get the character
+ * at other positions within a string.
  * 
+ * Remember that computers start counting at 0,
+ * so the first character is actually the zeroth character.
  */
 
+var firstName = "Ada";
+var secondLetterOfFirstName = firstName[1];
+console.log(secondLetterOfFirstName); // expected output: d
 
-    // 
+console.log(``);
+
+
+    // Use Bracket Notation to Find the Last Character in a String
     
 /**
- * 
+ * In order to get the last letter of a string,
+ * you can subtract one from the string's length.
  */
 
+var firstName = "Ada";
+var lastLetterOfFirstName = firstName[firstName.length - 1]
+console.log(lastLetterOfFirstName); // expected output: a
 
-    // 
-    
-/**
- * 
- */
-
-
-    // 
-    
-/**
- * 
- */
-
-
-    // 
-    
-/**
- * 
- */
-
-
-    // 
-    
-/**
- * 
- */
+console.log(``);
 
 
     // 
@@ -604,8 +598,62 @@ console.log(myStr); // expected output: Job
  */
 
 
+
+console.log(``);
+
+
     // 
     
 /**
  * 
  */
+
+
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
