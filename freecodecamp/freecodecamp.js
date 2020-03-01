@@ -605,13 +605,24 @@ console.log(thirdToLastLetterOfFirstName); // expected output: A
 console.log(``);
 
 
-    // 
+    // Word Blanks
     
 /**
+ * In a "Mad Libs" game, you are provided sentences with some missing words,
+ * like nouns, verbs, adjectives and adverbs.
  * 
+ * Consider this sentence - "It was really ____, and we ____ ourselves ____".
  */
 
+var sentence = "It was really " + "hot" + ", and we " + "laughed" + " ourselves " + "silly" + ".";
+console.log(sentence); // expected output: It was really hot, and we laughed ourselves silly.
 
+var myNoun = "dog";
+var myAdjective = "big";
+var myVerb = "ran";
+var myAdverb = "quickly";
+var wordBlanks = "My " + myNoun + " saw a " + myAdjective + " ball and " + myVerb + " " + myAdverb + ".";
+console.log(wordBlanks); // expected output: My dog saw a big ball and ran quickly.
 
 console.log(``);
 
