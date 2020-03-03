@@ -627,13 +627,17 @@ console.log(wordBlanks); // expected output: My dog saw a big ball and ran quick
 console.log(``);
 
 
-    // 
+    // Store Multiple Values in one Variable using JavaScript Arrays
     
 /**
- * 
+ * With JavaScript array variables, we can store several pieces of data in one place.
  */
 
+var sandwich = ["peanut butter", "jelly", "bread"]
+console.log(sandwich); // expected output: [ 'peanut butter', 'jelly', 'bread' ]
 
+var myArray = ["Marcelo", 39];
+console.log(myArray);  // expected output: [ 'Marcelo', 39 ]
 
 console.log(``);
 
