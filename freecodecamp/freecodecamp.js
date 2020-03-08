@@ -642,18 +642,21 @@ console.log(myArray);  // expected output: [ 'Marcelo', 39 ]
 console.log(``);
 
 
-    // 
+    // Nest one Array within Another Array
     
 /**
- * 
+ * You can also nest arrays within other arrays, like this:
+ * [["Bulls", 23], ["White Sox", 45]].
+ * This is also called a multi-dimensional array.
  */
 
-
+var ourArray = [["the universe", 42], ["everything", 101010]];
+console.log(ourArray);  // expected output: [ [ 'the universe', 42 ], [ 'everything', 101010 ] ]
 
 console.log(``);
 
 
-    // 
+    // Access Array Data with Indexes
     
 /**
  * 
