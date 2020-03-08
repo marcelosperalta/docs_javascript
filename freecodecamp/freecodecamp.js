@@ -689,13 +689,36 @@ console.log(ourArray); // expected output: [ 15, 40, 30 ]
 console.log(``);
 
 
-    // 
+    // Access Multi-Dimensional Arrays With Indexes
     
 /**
- * 
+ * One way to think of a multi-dimensional array, is as an array of arrays.
+ * When you use brackets to access your array,
+ * the first set of brackets refers to the entries in the outer-most (the first level) array,
+ * and each additional pair of brackets refers to the next level of entries inside.
  */
 
-
+var arr = [
+          [1,2,3],
+//           0
+//         0,1,2
+          [4,5,6],
+//           1
+//         0,1,2
+          [7,8,9],
+//           2
+//         0,1,2
+          [[10,11,12], 13, 14]
+//                 3
+//              0    ,  1,  2
+//           0, 1, 2 ,  0,  0
+          ];
+console.log(arr[3]);       // expected output: [[10,11,12], 13, 14]
+console.log(arr[3][0]);    // expected output: [10,11,12]
+console.log(arr[3][0][0]); // expected output: 10
+console.log(arr[3][0][1]); // expected output: 11
+console.log(arr[3][0][2]); // expected output: 12
+console.log(arr[1][2]);    // expected output: 6
 
 console.log(``);
 
