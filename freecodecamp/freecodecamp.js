@@ -659,6 +659,39 @@ console.log(``);
     // Access Array Data with Indexes
     
 /**
+ * Like strings, arrays use zero-based indexing,
+ * so the first element in an array has an index of 0.
+ * There shouldn't be any spaces between the array name
+ * and the square brackets.
+ */
+
+//          [ 0, 1, 2]
+var array = [50,60,70];
+console.log(array[0]);  // expected output: 50
+var data = array[1];
+console.log(data);      // expected output: 60
+
+console.log(``);
+
+
+    // Modify Array Data With Indexes
+    
+/**
+ * Unlike strings, the entries of arrays are mutable
+ * and can be changed freely.
+ */
+
+var ourArray = [50,40,30];
+ourArray[0] = 15;
+console.log(ourArray); // expected output: [ 15, 40, 30 ]
+
+
+console.log(``);
+
+
+    // 
+    
+/**
  * 
  */
 
@@ -677,4 +710,25 @@ console.log(``);
 
 console.log(``);
 
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
 
