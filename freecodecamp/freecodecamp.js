@@ -723,13 +723,21 @@ console.log(arr[1][2]);    // expected output: 6
 console.log(``);
 
 
-    // 
+    // Manipulate Arrays With push()
     
 /**
+ * An easy way to append data to the end of an array is via the push() function.
  * 
+ * .push() takes one or more parameters and "pushes" them onto the end of the array.
  */
 
+var arr = [1,2,3];
+arr.push(4);
+console.log(arr);     // expected output: [ 1, 2, 3, 4 ]
 
+var myArray = [["John", 23], ["cat", 2]];
+myArray.push(["dog", 3]);
+console.log(myArray); // expected output: [ [ 'John', 23 ], [ 'cat', 2 ], [ 'dog', 3 ] ]
 
 console.log(``);
 
