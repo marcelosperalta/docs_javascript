@@ -756,13 +756,16 @@ console.log(threeArr); // expected output: Returns [1, 4]
 console.log(``);
 
 
-    // 
+    // Manipulate Arrays With shift()
     
 /**
- * 
+ * .shift() removes the first element instead of the last.
  */
 
-
+var ourArray = ["Stimpson", "J", ["cat"]];
+var removedFromOurArray = ourArray.shift();
+console.log(removedFromOurArray); // expected output: Stimpson
+console.log(ourArray);            // expected output: [ 'J', [ 'cat' ] ]
 
 console.log(``);
 
