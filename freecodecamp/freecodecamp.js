@@ -742,6 +742,31 @@ console.log(myArray); // expected output: [ [ 'John', 23 ], [ 'cat', 2 ], [ 'dog
 console.log(``);
 
 
+    // Manipulate Arrays With pop()
+    
+/**
+ * .pop() removes the last element from an array and returns that element.
+ */
+
+var threeArr = [1, 4, 6];
+var oneDown = threeArr.pop();
+console.log(oneDown);  // expected output: Returns 6
+console.log(threeArr); // expected output: Returns [1, 4]
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
     // 
     
 /**
@@ -763,3 +788,35 @@ console.log(``);
 
 console.log(``);
 
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
