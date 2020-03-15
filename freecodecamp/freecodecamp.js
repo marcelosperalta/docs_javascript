@@ -770,13 +770,18 @@ console.log(ourArray);            // expected output: [ 'J', [ 'cat' ] ]
 console.log(``);
 
 
-    // 
+    // Manipulate Arrays With unshift()
     
 /**
- * 
+ * .unshift() works exactly like .push(), but instead of adding the element
+ * at the end of the array, unshift() adds the element at the beginning of the array.
  */
 
-
+var ourArray = ["Stimpson", "J", "cat"];
+console.log(ourArray.shift()); // expected output: Stimpson
+console.log(ourArray);         // expected output: [ 'J', 'cat' ] 
+ourArray.unshift("Happy");
+console.log(ourArray);         // expected output: ["Happy", "J", "cat"]
 
 console.log(``);
 
