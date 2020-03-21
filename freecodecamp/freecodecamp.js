@@ -818,13 +818,19 @@ console.log(myList);         // expected output: [
 console.log(``);
 
 
-    // 
+    // Write Reusable JavaScript with Functions
     
 /**
+ * In JavaScript, we can divide up our code into reusable parts called functions.
  * 
+ * You can call or invoke this function by using its name followed by parentheses,
+ * like this: functionName();
  */
 
-
+function functionName() {
+    console.log("Hello World");
+  }
+functionName(); // expected output: Hello World
 
 console.log(``);
 
