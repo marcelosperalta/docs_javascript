@@ -828,9 +828,37 @@ console.log(``);
  */
 
 function functionName() {
-    console.log("Hello World");
+    console.log("Hello World"); // expected output: Hello World
   }
-functionName(); // expected output: Hello World
+functionName();
+
+console.log(``);
+
+
+    // Passing Values to Functions with Arguments
+    
+/**
+ * Parameters are variables that act as placeholders for the values that
+ * are to be input to a function when it is called. When a function is defined,
+ * it is typically defined along with one or more parameters. The actual values
+ * that are input (or "passed") into a function when it is called are known as arguments.
+ */
+
+function functionWithArgs (a, b) {
+    console.log(a + b); // expected output: 4
+  }
+functionWithArgs(2, 2);
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
 
 console.log(``);
 
