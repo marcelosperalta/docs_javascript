@@ -888,13 +888,18 @@ console.log(fun2()); // expected output: myGlobal: 10
 console.log(``);
 
 
-    // 
+    // Local Scope and Functions
     
 /**
- * 
+ * Variables which are declared within a function, as well as the function parameters have local scope. That means, they are only visible within that function.
  */
 
-
+function myTest() {
+    var loc = "foo";
+    console.log(loc);
+  }
+myTest();            // expected output: "foo"
+// console.log(loc); // expected output: "ReferenceError: loc is not defined"
 
 console.log(``);
 
