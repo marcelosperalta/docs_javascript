@@ -895,11 +895,60 @@ console.log(``);
  */
 
 function myTest() {
-    var loc = "foo";
-    console.log(loc);
-  }
+  var loc = "foo";
+  console.log(loc);
+}
 myTest();            // expected output: "foo"
 // console.log(loc); // expected output: "ReferenceError: loc is not defined"
+
+console.log(``);
+
+
+    // Global vs. Local Scope in Functions
+    
+/**
+ * It is possible to have both local and global variables with the same name.
+ * When you do this, the local variable takes precedence over the global variable.
+ */
+
+var someVar = "Hat";
+
+function myFun() {
+  var someVar = "Head";
+  return someVar;
+}
+myFun();              // expected output: "Head"
+console.log(myFun()); // expected output: "Head"
+
+console.log(someVar)  // expected output: "Hat"
+
+function myFun2() {
+    return someVar;
+  }
+myFun2()               // expected output: "Hat"
+console.log(myFun2()); // expected output: "Hat"
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
 
 console.log(``);
 
