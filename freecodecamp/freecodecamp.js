@@ -969,13 +969,20 @@ console.log(addSum(3)); // expected output: undefined
 console.log(``);
 
 
-    // 
+    // Assignment with a Returned Value
     
 /**
- * 
+ * If you'll recall from our discussion of Storing Values with the Assignment Operator, 
+ * everything to the right of the equal sign is resolved before the value is assigned. 
+ * This means we can take the return value of a function and assign it to a variable.
  */
 
-
+var processed = 0;
+function processArg(num) {
+  return (num + 3) / 5;
+}
+processed = processArg(7);
+console.log(processed); // expected output: 2
 
 console.log(``);
 
