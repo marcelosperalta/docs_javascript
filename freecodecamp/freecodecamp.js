@@ -193,7 +193,8 @@ console.log(``);
  * 
  * ----- Remainder (%)
  * 
- * The remainder operator returns the remainder left over when one operand is divided by a second operand.
+ * The remainder operator returns the remainder left over
+ * when one operand is divided by a second operand.
  * It always takes the sign of the dividend.
  * 
  * 12 % 5          // 2
@@ -469,8 +470,8 @@ console.log(``);
     // Concatenating Strings with Plus Operator
     
 /**
- * When the + operator is used with a String value, it is called the concatenation operator
- * 
+ * When the + operator is used with a String value,
+ * it is called the concatenation operator
  */
 
 var ourStr = "I come first. " + "I come second.";
@@ -891,7 +892,9 @@ console.log(``);
     // Local Scope and Functions
     
 /**
- * Variables which are declared within a function, as well as the function parameters have local scope. That means, they are only visible within that function.
+ * Variables which are declared within a function, 
+ * as well as the function parameters have local scope. 
+ * That means, they are only visible within that function.
  */
 
 function myTest() {
@@ -943,6 +946,36 @@ function plusThree(num) {
   }
 var answer = plusThree(5);
 console.log(answer); // expected output: 8
+
+console.log(``);
+
+
+    // Understanding Undefined Value returned from a Function
+    
+/**
+ * A function can include the return statement but it does not have to. 
+ * In the case that the function doesn't have a return statement, 
+ * when you call it, the function processes the inner code 
+ * but the returned value is undefined.
+ */
+
+var sum = 0;
+function addSum(num) {
+  sum = sum + num;
+}
+addSum(3);              // sum will be modified but returned value is undefined
+console.log(addSum(3)); // expected output: undefined
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
 
 console.log(``);
 
