@@ -396,11 +396,11 @@ console.log(``);
     // Declare String Variables
     
 var myName1 = "this is a string literal (using double quotes)";
-console.log(myName1);                      // expected output: this is a string literal
+console.log(myName1); // expected output: this is a string literal (using double quotes)
 var myName2 = 'this is a string literal (using single quotes)';
-console.log(myName2);                      // expected output: this is a string literal
+console.log(myName2); // expected output: this is a string literal (using single quotes)
 var myName3 = `this is a string literal (using backquote/backtick)`;
-console.log(myName3);                      // expected output: this is a string literal
+console.log(myName3); // expected output: this is a string literal (using backquote/backtick)
 
 console.log(``);
 
@@ -413,7 +413,7 @@ console.log(``);
  */
 
 var sampleStr = "Alan said, \"Peter is learning JavaScript\".";
-console.log(sampleStr);
+console.log(sampleStr); // expected output: Alan said, "Peter is learning JavaScript".
 
 console.log(``);
 
@@ -428,7 +428,8 @@ doubleQuoteStr = "This is a string";
 singleQuoteStr = 'This is also a string';
 conversation = 'Finn exclaims to Jake, "Algebraic!"';
 goodStr = 'Jake asks Finn, "Hey, let\'s go on an adventure?"';
-console.log(goodStr);
+console.log(goodStr); // expected output: Jake asks Finn, "Hey, let's go on an adventure?"
+
 
 console.log(``);
 
@@ -448,21 +449,23 @@ console.log(``);
  */
 
 var singleQuote    = 'single quote    (\')';
-console.log(singleQuote);
+console.log(singleQuote);     // expected output: single quote    (')
 var doubleQuote    = "double quote    (\")";
-console.log(doubleQuote);
+console.log(doubleQuote);     // expected output: double quote    (")
 var backslash      = 'backslash       (\\)';
-console.log(backslash);
+console.log(backslash);       // expected output: backslash       (\)
 var newline        = '\nnew line        (\\n)\n';
-console.log(newline);
+console.log(newline);         // expected output:                     
+                              //                  new line        (\n)
 var carriageReturn = 'carriage return (\\r) \r  ';
-console.log(carriageReturn);
+console.log(carriageReturn);  // expected output:   rriage return (\r)
 var tab            = '\ttab     (\\t)';
-console.log(tab);
+console.log(tab);             // expected output:         tab     (\t)
 var wordBoundary   = 'word \bboundary    (\\b)';
-console.log(wordBoundary);
+console.log(wordBoundary);    // expected output: wordboundary    (\b)
 var formFeed       = '\fform feed\f       (\\f)';
-console.log(formFeed);
+console.log(formFeed);        // expected output: form feed           
+                              //                                  (\f)
 
 console.log(``);
 
@@ -475,7 +478,7 @@ console.log(``);
  */
 
 var ourStr = "I come first. " + "I come second.";
-console.log(ourStr);
+console.log(ourStr); // expected output: I come first. I come second.
 
 console.log(``);
 
@@ -483,7 +486,7 @@ console.log(``);
     
 var ourStr = "I come first. ";
 ourStr += "I come second.";
-console.log(ourStr);
+console.log(ourStr); // expected output: I come first. I come second.
 
 console.log(``);
 
@@ -492,7 +495,7 @@ console.log(``);
 
 var ourName = "freeCodeCamp";
 var ourStr = "Hello, our name is " + ourName + ", how are you?";
-console.log(ourStr);
+console.log(ourStr); // expected output: Hello, our name is freeCodeCamp, how are you?
 
 console.log(``);
 
@@ -502,7 +505,7 @@ console.log(``);
 var anAdjective = "awesome!";
 var ourStr = "freeCodeCamp is ";
 ourStr += anAdjective;
-console.log(ourStr);
+console.log(ourStr); // expected output: freeCodeCamp is awesome!
 
 console.log(``);
 
@@ -846,9 +849,9 @@ console.log(``);
  */
 
 function functionWithArgs (a, b) {
-    console.log(a + b); // expected output: 4
+    console.log(a + b);
   }
-functionWithArgs(2, 2);
+functionWithArgs(2, 2); // expected output: 4
 
 console.log(``);
 
