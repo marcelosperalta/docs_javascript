@@ -29,7 +29,7 @@ Index:
 [String - Bracket Notation (myString[0], myString[1], ...)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L525)  
 [String - Immutability](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L549)  
 [String - Nth Character (myString[1], ...)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L567)  
-[String - Last Character (myString[myString.length - 1])](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L548)  
+[String - Last Character (myString[myString.length - 1])](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L584)  
 [String - Nth-to-Last Character (myString[myString.length - 3])](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L598)  
 [**_Array_** (myArray = ["Marcelo", 39])](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L634)  
 [Array - within Another Array (myArray = \[ ["the universe", 42], [ ["everything", 101010] ])](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L649)  
