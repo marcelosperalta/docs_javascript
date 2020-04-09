@@ -32,11 +32,11 @@ Index:
 [String - Last Character (myString[myString.length - 1])](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L584)  
 [String - Nth-to-Last Character (myString[myString.length - 3])](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L598)  
 [**_Array_** (myArray = ["Marcelo", 39])](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L634)  
-[Array - within Another Array (myArray = \[ ["the universe", 42], [ ["everything", 101010] ])](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L649)  
+[Array - Nested Arrays (myArray = \[ ["the universe", 42], [ ["everything", 101010] ])](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L649)  
 [Array - Index - Access (myArray[0], myArray[1], ...)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L663)  
-[Array - Index - Modify (myArray[0] = 1;), line   
-[Array - Multi-Dimensional - Access (myArray[3][0][0]);), line   
-[Array - push() (myArray.push(["dog", 3]);), line   
+[Array - Index - Modify (myArray[0] = 1)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L681)  
+[Array - Multi-Dimensional - Access (myArray[3][0][0]))](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L696)  
+[Array - push() (myArray.push(["dog", 3]))](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L732)  
 
 ### Concepts:
 
