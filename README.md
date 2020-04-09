@@ -37,6 +37,7 @@ Index:
 [Array - Index - Modify (myArray[0] = 1)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L681)  
 [Array - Multi-Dimensional - Access (myArray[3][0][0]))](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L696)  
 [Array - push() (myArray.push(["dog", 3]))](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L732)  
+[Array - pop() (myArray.pop()](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L751)  
 
 ### Concepts:
 
