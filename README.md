@@ -22,17 +22,25 @@ Unary plus (+"1" = 1);
 Floats (0.1);  
 Remainder (%);  
 Compound Assignment ("+=", "-=", "*=", "/=");  
-Strings ("string", 'string', \`string`);  
-Strings - Escaping Literal Quotes ("...\"...\"");  
-Strings - Quoting ('this is a "string"');  
-Strings - Escaping ("\\'", "\\"", ...);  
-Strings - Concatenating ("+", "+=");
-Strings - with Variables ("..." + myVariable + "...");
-Strings - Appending Variables (myString1 += myString2);
-Strings - Length ("string".length);
-Strings - Bracket Notation (myString[0], myString[1], ...);
-Strings - Immutability;
-
+**String** ("string", 'string', \`string`);  
+String - Escaping Literal Quotes ("...\"...\"");  
+String - Quoting ('this is a "string"');  
+String - Escaping ("\\'", "\\"", ...);  
+String - Concatenating ("+", "+=");  
+String - with Variables ("..." +  myVariable + "...");  
+String - Appending Variables (myString1 += myString2);  
+String - Length ("string".length);  
+String - Bracket Notation (myString[0], myString[1], ...);  
+String - Immutability;  
+String - Nth Character (myString[1], ...);  
+String - Last Character (myString[myString.length - 1]);  
+String - Nth-to-Last Character (myString[myString.length - 3]);  
+**Array** (myArray = ["Marcelo", 39];);  
+Array - within Another Array (myArray = [["the universe", 42], ["everything", 101010]];);  
+Array - Index - Access (myArray[0], myArray[1], ...);  
+Array - Index - Modify (myArray[0] = 1;);  
+Array - Multi-Dimensional - Access (myArray[3][0][0]);)  
+Array - push() (myArray.push(["dog", 3]););  
 
 
 

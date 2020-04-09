@@ -703,26 +703,28 @@ console.log(``);
  */
 
 var arr = [
-          [1,2,3],
-//           0
-//         0,1,2
-          [4,5,6],
-//           1
-//         0,1,2
-          [7,8,9],
-//           2
-//         0,1,2
-          [[10,11,12], 13, 14]
-//                 3
-//              0    ,  1,  2
-//           0, 1, 2 ,  0,  0
+            [ 1, 2, 3],
+//            0, 0, 0
+//            0, 1, 2
+            [ 4, 5, 6],
+//            1, 1, 1
+//            0, 1, 2
+            [ 7, 8, 9],
+//            2, 2, 2
+//            0, 1, 2
+           [[10,11,12], 13, 14]
+//            3, 3, 3 ,  3,  3
+//            0, 0, 0 ,  1,  2
+//            0, 1, 2
           ];
 console.log(arr[3]);       // expected output: [[10,11,12], 13, 14]
 console.log(arr[3][0]);    // expected output: [10,11,12]
 console.log(arr[3][0][0]); // expected output: 10
 console.log(arr[3][0][1]); // expected output: 11
 console.log(arr[3][0][2]); // expected output: 12
+console.log(arr[3][1]);    // expected output: 13
 console.log(arr[1][2]);    // expected output: 6
+console.log(arr[0][2]);    // expected output: 3
 
 console.log(``);
 
