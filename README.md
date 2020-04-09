@@ -1,15 +1,11 @@
-# JavaScript
+# **JavaScript Study**
 
-## **JavaScript Study**
-
-### Tutorials:
+## Tutorials:
 
 **[FreeCodeCamp](https://www.freecodecamp.org/)**  
-_[JavaScript Algorithms and Data Structures Certification (300 hours)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)_  
-https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/
-
-#### Index:
-
+_[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)_  
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/  
+Index:  
 [var](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L35)  
 assignment operator ("="), line 61  
 NaN, line 94  
@@ -41,9 +37,6 @@ Array - Index - Access (myArray[0], myArray[1], ...), line
 Array - Index - Modify (myArray[0] = 1;), line   
 Array - Multi-Dimensional - Access (myArray[3][0][0]);), line   
 Array - push() (myArray.push(["dog", 3]);), line   
-
-
-
 
 ### Concepts:
 
