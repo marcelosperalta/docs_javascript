@@ -17,13 +17,13 @@ Index:
 [Unary plus (+"1" = 1)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L280)  
 [Floats (0.1)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L310)  
 [Remainder (%)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L334)  
-[Compound Assignment ("+=", "-=", "*=", "/=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L352)   
-[**_String_** ("string", 'string', \`string`), line   
-[String - Escaping Literal Quotes ("...\"...\""), line   
-[String - Quoting ('this is a "string"'), line   
-[String - Escaping ("\\'", "\\"", ...), line   
-[String - Concatenating ("+", "+="), line   
-[String - with Variables ("..." +  myVariable + "..."), line   
+[Compound Assignment ("+=", "-=", "*=", "/=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L352)  
+[**String** ("string", 'string', \`string`)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L396)  
+[String - Escaping Literal Quotes ("...\"...\"")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L408)  
+[String - Quoting ('this is a "string"')](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L421)  
+[String - Escaping ("\\'", "\\"", ...)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L437)  
+[String - Concatenating ("+", "+=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L473)  
+[String - with Variables ("..." +  myVariable + "...")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L494)  
 [String - Appending Variables (myString1 += myString2), line   
 [String - Length ("string".length), line   
 [String - Bracket Notation (myString[0], myString[1], ...), line   
