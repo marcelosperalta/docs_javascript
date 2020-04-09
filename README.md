@@ -24,11 +24,11 @@ Index:
 [String - Escaping ("\\'", "\\"", ...)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L437)  
 [String - Concatenating ("+", "+=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L473)  
 [String - with Variables ("..." +  myVariable + "...")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L494)  
-[String - Appending Variables (myString1 += myString2), line   
-[String - Length ("string".length), line   
-[String - Bracket Notation (myString[0], myString[1], ...), line   
-[String - Immutability, line   
-[String - Nth Character (myString[1], ...), line   
+[String - Appending Variables (myString1 += myString2)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L503)  
+[String - Length ("string".length)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L513)  
+[String - Bracket Notation (myString[0], myString[1], ...)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L525)  
+[String - Immutability](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L549)  
+[String - Nth Character (myString[1], ...)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L567)  
 [String - Last Character (myString[myString.length - 1]), line   
 [String - Nth-to-Last Character (myString[myString.length - 3]), line   
 [**_Array_** (myArray = ["Marcelo", 39];), line   
