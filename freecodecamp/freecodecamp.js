@@ -1010,6 +1010,39 @@ console.log(nextInLine([1,2],3)); // expected output: 1
 console.log(``);
 
 
+    // Understanding Boolean Values
+    
+/**
+ * Another data type is the Boolean. 
+ * Booleans may only be one of two values: true or false. 
+ * They are basically little on-off switches, where true is "on" 
+ * and false is "off." These two states are mutually exclusive.
+ */
+
+function welcomeToBooleans() {
+    return true;
+}
+console.log(welcomeToBooleans());  // expected output: true
+
+function welcomeToBooleans2() {
+    return false;
+}
+console.log(welcomeToBooleans2()); // expected output: false
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
     // 
     
 /**
