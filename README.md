@@ -10,7 +10,7 @@ https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/bas
 
 #### Index:
 
-var, line 35  
+[var](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L35)  
 assignment operator ("="), line 61  
 NaN, line 94  
 camelCase, line 102  
