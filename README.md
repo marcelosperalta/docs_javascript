@@ -7,17 +7,17 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/  
 Index:  
 [var](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L35)  
-[assignment operator ("=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#61)  
-[NaN](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#94)  
-[camelCase](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#102)  
-[Arithmetic operators ("+", "-", "\*", "/")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#120)  
-[Increment ("++")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#229)  
-[Decrement ("--")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#250)  
-[Unary negation (-"1" = -1)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#271)  
-[Unary plus (+"1" = 1)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#280)  
-[Floats (0.1)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#310)  
-[Remainder (%), line 334  
-[Compound Assignment ("+=", "-=", "*=", "/="), line   
+[assignment operator ("=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L61)  
+[NaN](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L94)  
+[camelCase](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L102)  
+[Arithmetic operators ("+", "-", "\*", "/")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L120)  
+[Increment ("++")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L229)  
+[Decrement ("--")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L250)  
+[Unary negation (-"1" = -1)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L271)  
+[Unary plus (+"1" = 1)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L280)  
+[Floats (0.1)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L310)  
+[Remainder (%)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L334)  
+[Compound Assignment ("+=", "-=", "*=", "/=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L352)   
 [**_String_** ("string", 'string', \`string`), line   
 [String - Escaping Literal Quotes ("...\"...\""), line   
 [String - Quoting ('this is a "string"'), line   
