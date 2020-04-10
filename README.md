@@ -38,6 +38,16 @@ Index:
 [Array - Multi-Dimensional - Access (myArray[3][0][0]))](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L696)  
 [Array - push() (myArray.push(["dog", 3]))](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L732)  
 [Array - pop() (myArray.pop())](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L751)  
+[Array - shift() (myArray.shift())](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L765)  
+[Array - unshift() (myArray.unshift())](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L779)  
+[**_Function_** (function functionName() {})](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L827)  
+[Function - Arguments (function functionName(a, b) {})](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L844)  
+[Function - Global Scope](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L861)  
+[Function - Local Scope](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L897)  
+[Function - Return](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L942)  
+[Function - Undefined](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L958)  
+[Stand in Line (queue)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L995)  
+[Boolean (true, false)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1013)  
 
 ### Concepts:
 
