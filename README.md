@@ -49,6 +49,7 @@ Index:
 [Stand in Line (queue)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L995)  
 [Boolean (true, false)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1013)  
 [if](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1035)  
+[Equality Operator ("==")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1057)  
 
 ### Concepts:
 

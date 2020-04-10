@@ -1054,6 +1054,83 @@ console.log(test(false)); // expected output: "It was false"
 console.log(``);
 
 
+    // Comparison with the Equality Operator
+    
+/**
+ * The most basic operator is the equality operator ==. 
+ * The equality operator compares two values 
+ * and returns true if they're equivalent or false if they are not. 
+ * Note that equality is different from assignment (=), 
+ * which assigns the value at the right of the operator 
+ * to a variable in the left.
+ * 
+ * In order for JavaScript to compare two different data types 
+ * (for example, numbers and strings), it must convert one type to another. 
+ * This is known as "Type Coercion". 
+ * Once it does, however, it can compare terms as follows:
+ * 
+ * 1   ==  1   // true
+ * 1   ==  2   // false
+ * 1   == '1'  // true
+ * "3" ==  3   // true
+ */
+
+function equalityTest(myVal) {
+  if (myVal == 10) {
+     return "Equal";
+  }
+  return "Not Equal";
+}
+console.log(equalityTest(10)); // expected output: "Equal"
+console.log(equalityTest(11)); // expected output: "Not Equal"
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
     // 
     
 /**
