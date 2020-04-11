@@ -50,6 +50,7 @@ Index:
 [Boolean (true, false)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1013)  
 [if](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1035)  
 [Equality Operator ("==")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1057)  
+[Strict Equality Operator ("===")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1090)  
 
 ### Concepts:
 
