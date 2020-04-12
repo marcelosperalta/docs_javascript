@@ -1115,13 +1115,38 @@ console.log(testStrict(7));  // expected output: "Equal"
 console.log(``);
 
 
-    // 
+    // Practice comparing different values
     
 /**
+ * If the values being compared are not of the same type, 
+ * the equality operator will perform a type conversion, 
+ * and then evaluate the values. 
+ * However, the strict equality operator will compare both the data type and value as-is, 
+ * without converting one type to the other.
+ * 
+ * 3 == '3'  // returns true because JavaScript performs type conversion from string to number
+ * 3 === '3' // returns false because the types are different and type conversion is not performed
+ * 
+ * typeof 3   // returns 'number'
+ * typeof '3' // returns 'string'
  * 
  */
 
+function compareEquality(a, b) {
+  if (a == b) {
+    return "Equal";
+  }
+  return "Not Equal";
+}
+console.log(compareEquality(10, "10")); // expected output: "Equal"
 
+function compareEquality2(a, b) {
+  if (a === b) {
+    return "Equal";
+  }
+  return "Not Equal";
+}
+console.log(compareEquality2(10, "10")); // expected output: "Not Equal"
 
 console.log(``);
 
