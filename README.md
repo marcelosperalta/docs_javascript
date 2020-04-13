@@ -53,6 +53,7 @@ Index:
 [Strict Equality Operator ("===")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1090)  
 [Inequality Operator ("!=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1154)  
 [Strict Inequality Operator ("!==")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1181)  
+[Greater Than Operator (">")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1205)  
 
 ### Concepts:
 
