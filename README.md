@@ -56,6 +56,7 @@ Index:
 [Greater Than Operator (">")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1205)  
 [Greater Than Or Equal To Operator (">=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1237)  
 [Less Than Operator ("<")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1269)  
+[Less Than Or Equal To Operator ("<=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1301)  
 
 ### Concepts:
 
