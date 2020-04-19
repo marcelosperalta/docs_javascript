@@ -49,14 +49,15 @@ Index:
 [Stand in Line (queue)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L995)  
 [Boolean (true, false)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1013)  
 [if](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1035)  
-[Equality Operator ("==")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1057)  
-[Strict Equality Operator ("===")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1090)  
-[Inequality Operator ("!=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1154)  
-[Strict Inequality Operator ("!==")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1181)  
-[Greater Than Operator (">")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1205)  
-[Greater Than Or Equal To Operator (">=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1237)  
-[Less Than Operator ("<")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1269)  
-[Less Than Or Equal To Operator ("<=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1301)  
+[_Equality_ operator ("==")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1057)  
+[_Strict Equality_ operator ("===")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1090)  
+[_Inequality_ operator ("!=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1154)  
+[_Strict Inequality_ operator ("!==")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1181)  
+[_Greater Than_ operator (">")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1205)  
+[_Greater Than Or Equal To_ operator (">=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1237)  
+[_Less Than_ operator ("<")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1269)  
+[_Less Than Or Equal To_ operator ("<=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1301)  
+[_Logical And_ operator ("&&")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1334)  
 
 ### Concepts:
 
