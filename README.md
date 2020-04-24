@@ -58,6 +58,7 @@ Index:
 [_Less Than_ operator ("<")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1269)  
 [_Less Than Or Equal To_ operator ("<=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1301)  
 [_Logical And_ operator ("&&")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1334)  
+[_Logical Or_ operator ("||")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp/freecodecamp.js#L1371)  
 
 ### Concepts:
 
