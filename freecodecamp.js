@@ -1423,13 +1423,45 @@ console.log(testLogicalOr2(9));  // expected output: "Outside"
 console.log(``);
 
 
-    // 
+    // Introducing Else Statements
     
 /**
+ * When a condition for an if statement is true, the block of code following it is executed. 
+ * What about when that condition is false? Normally nothing would happen. 
+ * With an else statement, an alternate block of code can be executed.
  * 
+ * if (num > 10) {
+ * return "Bigger than 10";
+ * } else {
+ * return "10 or Less";
+}
  */
 
+function testElse(val) {
+  var result = "";
+  if (val > 5) {
+    result = "Bigger than 5";
+  }
+  if (val <= 5) {
+    result = "5 or Smaller";
+  }
+  return result;
+}
 
+console.log(testElse(4)); // expected output: "5 or Smaller"
+console.log(testElse(6)); // expected output: "Bigger than 5"
+
+function testElse2(val) {
+  var result = "";
+  if (val > 5) {
+    return result = "Bigger than 5";
+  } else {
+    return result = "5 or Smaller";
+  }
+}
+
+console.log(testElse2(4)); // expected output: "5 or Smaller"
+console.log(testElse2(6)); // expected output: "Bigger than 5"
 
 console.log(``);
 
