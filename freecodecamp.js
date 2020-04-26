@@ -1491,8 +1491,8 @@ function testElseIf(val) {
   }
 }
 console.log(testElseIf(11)); // expected output: "Greater than 10"
-console.log(testElseIf(4)); // expected output: "Smaller than 5"
-console.log(testElseIf(7)); // expected output: "Between 5 and 10"
+console.log(testElseIf(4));  // expected output: "Smaller than 5"
+console.log(testElseIf(7));  // expected output: "Between 5 and 10"
 
 console.log(``);
 
