@@ -48,7 +48,7 @@ Index:
 [Function - Undefined](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L958)  
 [Stand in Line (queue)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L995)  
 [Boolean (true, false)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1013)  
-[_if_ statement](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1035)  
+[_if_ statements](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1035)  
 [_Equality_ operator ("==")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1057)  
 [_Strict Equality_ operator ("===")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1090)  
 [_Inequality_ operator ("!=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1154)  
@@ -59,8 +59,8 @@ Index:
 [_Less Than Or Equal To_ operator ("<=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1301)  
 [_Logical And_ operator ("&&")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1334)  
 [_Logical Or_ operator ("||")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1371)  
-[_else_ statement](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1426)  
-
+[_else_ statements](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1426)  
+[_else if_ statements](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1469)  
 
 ### Concepts:
 
