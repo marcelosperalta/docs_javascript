@@ -1554,13 +1554,43 @@ console.log(orderMyLogic(10)); // expected output: "Greater than or equal to 10"
 console.log(``);
 
 
-    // 
+    // Chaining If Else Statements
     
 /**
+ * if/else statements can be chained together for complex logic. 
+ * Here is pseudocode of multiple chained if / else if statements:
  * 
+ * if (condition1) {
+ *   statement1
+ * } else if (condition2) {
+ *   statement2
+ * } else if (condition3) {
+ *   statement3
+ * . . .
+ * } else {
+ *   statementN
+ * }
  */
 
-
+function testSize(num) {
+  // Only change code below this line
+  if (num < 5) {
+    return "Tiny";
+  } else if (num < 10) {
+    return "Small";
+  } else if (num < 15) {
+    return "Medium";
+  } else if (num < 20) {
+    return "Large";
+  } else {
+    return "Huge";
+  }
+}
+console.log(testSize(7));  // expected output: "Small"
+console.log(testSize(4));  // expected output: "Tiny"
+console.log(testSize(11)); // expected output: "Medium"
+console.log(testSize(19)); // expected output: "Large"
+console.log(testSize(21)); // expected output: "Huge"
 
 console.log(``);
 
