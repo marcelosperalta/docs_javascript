@@ -1594,10 +1594,12 @@ console.log(testSize(21)); // expected output: "Huge"
 console.log(``);
 
 
-    // 
+    // Golf Code
     
 /**
+ * Exercise
  * 
+ * https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/golf-code
  */
 
 
