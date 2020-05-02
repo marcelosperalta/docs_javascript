@@ -1602,7 +1602,30 @@ console.log(``);
  * https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/golf-code
  */
 
-
+var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+function golfScore(par, strokes) {
+  if (strokes == 1) {
+    return names[0];
+  } else if (strokes <= par - 2) {
+    return names[1];
+  } else if (strokes == par - 1) {
+    return names[2];
+  } else if (strokes == par) {
+    return names[3];
+  } else if (strokes == par + 1) {
+    return names[4];
+  } else if (strokes == par + 2) {
+    return names[5];
+  } else
+  return "Go Home!";
+}
+console.log(golfScore(5, 1)); // expected output: "Hole-in-one!"
+console.log(golfScore(5, 3)); // expected output: "Eagle"
+console.log(golfScore(5, 4)); // expected output: "Birdie"
+console.log(golfScore(5, 5)); // expected output: "Par"
+console.log(golfScore(5, 6)); // expected output: "Bogey"
+console.log(golfScore(5, 7)); // expected output: "Double Bogey"
+console.log(golfScore(5, 8)); // expected output: "Go Home!"
 
 console.log(``);
 
