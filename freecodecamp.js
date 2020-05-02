@@ -1617,7 +1617,7 @@ function golfScore(par, strokes) {
   } else if (strokes == par + 2) {
     return names[5];
   } else
-  return "Go Home!";
+  return names[6];
 }
 console.log(golfScore(5, 1)); // expected output: "Hole-in-one!"
 console.log(golfScore(5, 3)); // expected output: "Eagle"
