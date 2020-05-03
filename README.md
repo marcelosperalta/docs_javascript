@@ -61,6 +61,7 @@ Index:
 [_Logical Or_ operator ("||")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1371)  
 [_else_ statements](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1426)  
 [_else if_ statements](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1469)  
+[_switch_ statements](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1633)  
 
 ### Concepts:
 
