@@ -62,6 +62,7 @@ Index:
 [_else_ statements](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1426)  
 [_else if_ statements](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1469)  
 [_switch_ statements](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1633)  
+[_switch_ statements - Default Option](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1683)  
 
 ### Concepts:
 
