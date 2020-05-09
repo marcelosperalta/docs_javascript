@@ -1729,13 +1729,48 @@ switchOfStuff(1);   // expected output: "stuff"
 console.log(``);
 
 
-    // 
+    // Multiple Identical Options in Switch Statements
     
 /**
+ * If the break statement is omitted from a switch statement's case, 
+ * the following case statement(s) are executed until a break is encountered. 
+ * If you have multiple inputs with the same output, 
+ * you can represent them in a switch statement like this:
  * 
+ * switch(val) {
+ *  case 1:
+ *  case 2:
+ *  case 3:
+ *    result = "1, 2, or 3";
+ *    break;
+ *  case 4:
+ *    result = "4 alone";
+ * }
  */
 
-
+function sequentialSizes(val) {
+  var answer = "";
+  switch(val) {
+    case 1:
+    case 2:
+    case 3:
+      console.log(answer = "Low");
+      break;
+    case 4:
+    case 5:
+    case 6:
+      console.log(answer = "Mid");
+      break;
+    case 7:
+    case 8:
+    case 9:
+      console.log(answer = "High");
+  }
+  return answer;
+}
+sequentialSizes(1); // expected output: "Low"
+sequentialSizes(5); // expected output: "Mid"
+sequentialSizes(9); // expected output: "High"
 
 console.log(``);
 
