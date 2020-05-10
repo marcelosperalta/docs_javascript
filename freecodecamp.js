@@ -1775,6 +1775,113 @@ sequentialSizes(9); // expected output: "High"
 console.log(``);
 
 
+    // Replacing If Else Chains with Switch
+    
+/**
+ * If you have many options to choose from, 
+ * a switch statement can be easier to write than many chained if/else if statements. 
+ * The following:
+ * 
+ * if (val === 1) {
+ *   answer = "a";
+ * } else if (val === 2) {
+ *   answer = "b";
+ * } else {
+ *   answer = "c";
+ * }
+ * 
+ * can be replaced with:
+ * 
+ * switch(val) {
+ *   case 1:
+ *     answer = "a";
+ *     break;
+ *   case 2:
+ *     answer = "b";
+ *     break;
+ *   default:
+ *     answer = "c";
+ * }
+ */
+
+function chainToSwitch(val) {
+  var answer = "";
+  switch(val) {
+    case "bob":
+      answer = "Marley";
+      break;
+    case 42:
+      answer = "The Answer";
+      break;
+    case 1:
+      answer = "There is no #1";
+      break;
+    case 99:
+      answer = "Missed me by this much!";
+      break;
+    case 7:
+      answer = "Ate Nine";
+      break;
+    default:
+      answer = "";
+  }
+  return console.log(answer);
+}
+chainToSwitch("bob");  // expected output: "Marley"
+chainToSwitch(42);     // expected output: "The Answer"
+chainToSwitch(1);      // expected output: "There is no #1"
+chainToSwitch(99);     // expected output: "Missed me by this much!"
+chainToSwitch("John"); // expected output: (empty)
+chainToSwitch(156);    // expected output: (empty)
+chainToSwitch(7);      // expected output: "Ate Nine"
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
+    // 
+    
+/**
+ * 
+ */
+
+
+
+console.log(``);
+
+
     // 
     
 /**
