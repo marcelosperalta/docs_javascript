@@ -17,13 +17,13 @@ Index:
 [Unary plus (+"1" = 1)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L280)  
 [Floats (0.1)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L310)  
 [Remainder (%)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L334)  
-[Compound Assignment ("+=", "-=", "*=", "/=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L352)  
+[Compound Assignment ("+=", "-=", "\*=", "/=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L352)  
 [**String** ("string", 'string', \`string`)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L396)  
 [String - Escaping Literal Quotes ("...\"...\"")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L408)  
 [String - Quoting ('this is a "string"')](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L421)  
 [String - Escaping ("\\'", "\\"", ...)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L437)  
 [String - Concatenating ("+", "+=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L473)  
-[String - with Variables ("..." +  myVariable + "...")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L494)  
+[String - with Variables ("..." + myVariable + "...")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L494)  
 [String - Appending Variables (myString1 += myString2)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L503)  
 [String - Length ("string".length)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L513)  
 [String - Bracket Notation (myString[0], myString[1], ...)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L525)  
@@ -64,6 +64,7 @@ Index:
 [_switch_ statements](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1633)  
 [_switch_ statements - Default Option](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1683)  
 [_switch_ statements - Multiple Identical Options](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1732)  
+[**Exercise** "Counting Cards"](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1868)
 
 ### Concepts:
 
