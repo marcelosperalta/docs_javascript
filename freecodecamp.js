@@ -1902,6 +1902,50 @@ console.log(``);
  * Do NOT include quotes (single or double) in the output.
  */
 
+var count = 0;
+function cc(card) {
+  var msg = "";
+  switch (card) {
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+      count += 1;
+      break;
+    case 7:
+    case 8:
+    case 9:
+      count += 0;
+      break;
+    case 10:
+    case "J":
+    case "Q":
+    case "K":
+    case "A":
+      count -= 1;
+      break;
+  }
+  if (count > 0) {
+    msg = `${count} Bet`;
+  } else if (count == 0) {
+    msg = `${count} Hold`;
+  } else {
+    msg = `${count} Hold`;
+  }
+  return msg;
+}
+console.log(cc(2));
+console.log(count);
+console.log(cc(3));
+console.log(count);
+console.log(cc(7));
+console.log(count);
+console.log(cc("K"));
+console.log(count);
+console.log(cc("A"));
+console.log(count);
+
 console.log(``);
 
 //
