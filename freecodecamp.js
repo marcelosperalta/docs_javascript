@@ -1981,6 +1981,14 @@ console.log(``);
  * JavaScript will automatically typecast them as strings.
  */
 
+var myDog = {
+  name: "Dog",
+  legs: 4,
+  tails: 1,
+  friends: ["Ball", "Grass"],
+};
+console.log(myDog);
+
 console.log(``);
 
 //
