@@ -65,7 +65,8 @@ Index:
 [_switch_ statements - Default Option](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1683)  
 [_switch_ statements - Multiple Identical Options](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1732)  
 [**Exercise** "Counting Cards"](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1868)  
-[**_Objects_** (var cat = { "name": "Whiskers", "legs": 4};)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1951)
+[**_Objects_** (var cat = { "name": "Whiskers", "legs": 4};)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1951)  
+[Objects - Accessing Object Properties with Dot Notation](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1994)  
 
 ### Concepts:
 
