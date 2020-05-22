@@ -1860,7 +1860,7 @@ function abTest(a, b) {
   // Only change code above this line
   return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
 }
-console.log(abTest(2, 2)); // expected output: "8"
+console.log(abTest(2, 2));  // expected output: "8"
 console.log(abTest(-1, 2)); // expected output: "undefined"
 
 console.log(``);
@@ -1935,16 +1935,16 @@ function cc(card) {
   }
   return msg;
 }
-console.log(cc(2));
-console.log(count);
-console.log(cc(3));
-console.log(count);
-console.log(cc(7));
-console.log(count);
-console.log(cc("K"));
-console.log(count);
-console.log(cc("A"));
-console.log(count);
+console.log(cc(2));   // expected output: "1 Bet"
+console.log(count);   // expected output: "1"
+console.log(cc(3));   // expected output: "2 Bet"
+console.log(count);   // expected output: "2"
+console.log(cc(7));   // expected output: "2 Bet"
+console.log(count);   // expected output: "2"
+console.log(cc("K")); // expected output: "1 Bet"
+console.log(count);   // expected output: "1"
+console.log(cc("A")); // expected output: "0 Hold"
+console.log(count);   // expected output: "0"
 
 console.log(``);
 
@@ -1987,7 +1987,7 @@ var myDog = {
   tails: 1,
   friends: ["Ball", "Grass"],
 };
-console.log(myDog);
+console.log(myDog); // expected output: "{ name: 'Dog', legs: 4, tails: 1, friends: [ 'Ball', 'Grass' ] }"
 
 console.log(``);
 
@@ -2018,16 +2018,43 @@ var testObj = {
 };
 var hatValue = testObj.hat;
 var shirtValue = testObj.shirt;
-console.log(hatValue);
-console.log(shirtValue);
+console.log(hatValue);   // expected output: "ballcap"
+console.log(shirtValue); // expected output: "jersey"
 
 console.log(``);
 
-//
+// Accessing Object Properties with Bracket Notation
 
 /**
- *
+ * The second way to access the properties of an object is bracket notation ([]). 
+ * If the property of the object you are trying to access has a space in its name, 
+ * you will need to use bracket notation.
+ * 
+ * However, you can still use bracket notation on object properties without spaces.
+ * 
+ * Here is a sample of using bracket notation to read an object's property:
+ * 
+ * var myObj = {
+ *   "Space Name": "Kirk",
+ *   "More Space": "Spock",
+ *   "NoSpace": "USS Enterprise"
+ * };
+ * myObj["Space Name"]; // Kirk
+ * myObj['More Space']; // Spock
+ * myObj["NoSpace"];    // USS Enterprise
+ * 
+ * Note that property names with spaces in them must be in quotes (single or double).
  */
+
+var testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+var entreeValue = testObj["an entree"];
+var drinkValue = testObj["the drink"];
+console.log(entreeValue); // expected output: "hamburger"
+console.log(drinkValue);  // expected output: "water"
 
 console.log(``);
 

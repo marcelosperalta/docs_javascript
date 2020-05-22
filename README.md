@@ -67,6 +67,7 @@ Index:
 [**Exercise** "Counting Cards"](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1868)  
 [**_Objects_** (var cat = { "name": "Whiskers", "legs": 4};)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1951)  
 [Objects - Accessing Object Properties with Dot Notation](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1994)  
+[Objects - Accessing Object Properties with Bracket Notation](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2026)  
 
 ### Concepts:
 
