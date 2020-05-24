@@ -68,6 +68,8 @@ Index:
 [**_Objects_** (var cat = { "name": "Whiskers", "legs": 4};)](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1951)  
 [Objects - Accessing Object Properties with Dot Notation](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L1994)  
 [Objects - Accessing Object Properties with Bracket Notation](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2026)  
+[Objects - Accessing Object Properties with Variables](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2026)  
+[Objects - Updating Object Properties](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2104)  
 
 ### Concepts:
 

@@ -2123,6 +2123,18 @@ console.log(``);
  * instead of getting "Camper", we'll get his new name, "Happy Camper".
  */
 
+var myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+console.log(myDog.name);
+myDog.name = "Happy Coder";
+console.log(myDog.name);
+myDog["name"] = "Coder"
+console.log(myDog["name"]);
+
 console.log(``);
 
 //
