@@ -71,6 +71,7 @@ Index:
 [Objects - Accessing Object Properties with Variables](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2026)  
 [Objects - Updating Object Properties](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2104)  
 [Objects - Add New Properties](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2140)  
+[Objects - Delete Properties](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2179)  
 
 ### Concepts:
 
