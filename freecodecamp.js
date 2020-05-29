@@ -2137,6 +2137,85 @@ console.log(myDog["name"]);
 
 console.log(``);
 
+// Add New Properties to a JavaScript Object
+
+/**
+ * You can add new properties to existing JavaScript objects the same way you would modify them.
+ * 
+ * Here's how we would add a "bark" property to ourDog:
+ * 
+ * ourDog.bark = "bow-wow";
+ * 
+ * or
+ * 
+ * ourDog["bark"] = "bow-wow";
+ * 
+ * Now when we evaluate ourDog.bark, we'll get his bark, "bow-wow".
+ * 
+ * Example:
+ * 
+ * var ourDog = {
+ *   "name": "Camper",
+ *   "legs": 4,
+ *   "tails": 1,
+ *   "friends": ["everything!"]
+ * };
+ * 
+ * ourDog.bark = "bow-wow";
+ */
+
+var myDog2 = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+console.log(myDog2);
+myDog2.bark = "woof";
+console.log(myDog2);
+
+console.log(``);
+
+//
+
+/**
+ *
+ */
+
+console.log(``);
+
+//
+
+/**
+ *
+ */
+
+console.log(``);
+
+//
+
+/**
+ *
+ */
+
+console.log(``);
+
+//
+
+/**
+ *
+ */
+
+console.log(``);
+
+//
+
+/**
+ *
+ */
+
+console.log(``);
+
 //
 
 /**
