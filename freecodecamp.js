@@ -2129,11 +2129,11 @@ var myDog = {
   "tails": 1,
   "friends": ["freeCodeCamp Campers"]
 };
-console.log(myDog.name);
+console.log(myDog.name);    // expected output: "Coder"
 myDog.name = "Happy Coder";
-console.log(myDog.name);
+console.log(myDog.name);    // expected output: "Happy Coder"
 myDog["name"] = "Coder"
-console.log(myDog["name"]);
+console.log(myDog["name"]); // expected output: "Coder"
 
 console.log(``);
 
@@ -2171,9 +2171,24 @@ var myDog2 = {
   "friends": ["freeCodeCamp Campers"]
 };
 console.log(myDog2);
+// expected output:
+// {
+//   name: 'Happy Coder',
+//   legs: 4,
+//   tails: 1,
+//   friends: [ 'freeCodeCamp Campers' ]
+// }
 myDog2.bark = "woof";
 // or myDog2["bark"] = "woof";
 console.log(myDog2);
+// expected output:
+// {
+//   name: 'Happy Coder',
+//   legs: 4,
+//   tails: 1,
+//   friends: [ 'freeCodeCamp Campers' ],
+//   bark: 'woof'
+// }
 
 console.log(``);
 
@@ -2214,17 +2229,94 @@ var myDog3 = {
   "bark": "woof"
 };
 console.log(myDog3);
+// expected output:
+// {
+//   name: 'Happy Coder',
+//   legs: 4,
+//   tails: 1,
+//   friends: [ 'freeCodeCamp Campers' ],
+//   bark: 'woof'
+// }
 delete myDog3["tails"];
 //or delete myDog3.tails;
 console.log(myDog3);
+// expected output:
+// {
+//   name: 'Happy Coder',
+//   legs: 4,
+//   friends: [ 'freeCodeCamp Campers' ],
+//   bark: 'woof'
+// }
 
 console.log(``);
 
-//
+// Using Objects for Lookups
 
 /**
- *
+ * Objects can be thought of as a key/value storage, like a dictionary. 
+ * If you have tabular data, you can use an object to "lookup" values rather than
+ *  a switch statement or an if/else chain. 
+ * This is most useful when you know that your input data is limited to a certain range.
+ * 
+ * Here is an example of a simple reverse alphabet lookup:
+ * 
+ * var alpha = {
+ *   1:"Z",
+ *   2:"Y",
+ *   3:"X",
+ *   4:"W",
+ *   ...
+ *   24:"C",
+ *   25:"B",
+ *   26:"A"
+ * };
+ * alpha[2]; // "Y"
+ * alpha[24]; // "C"
+ * 
+ * var value = 2;
+ * alpha[value]; // "Y"
  */
+
+function phoneticLookup(val) {
+  var result = "";
+  switch (val) {
+    case "alpha":
+      result = "Adams";
+      break;
+    case "bravo":
+      result = "Boston";
+      break;
+    case "charlie":
+      result = "Chicago";
+      break;
+    case "delta":
+      result = "Denver";
+      break;
+    case "echo":
+      result = "Easy";
+      break;
+    case "foxtrot":
+      result = "Frank";
+  }
+  return result;
+}
+console.log(phoneticLookup("charlie")); // expected output: Chicago
+
+function phoneticLookupObject(val) {
+  var result = "";
+  var lookup = {
+    alpha: "Adams",
+    bravo: "Boston",
+    charlie: "Chicago",
+    delta: "Denver",
+    echo: "Easy",
+    foxtrot: "Frank"
+  };
+  result = lookup[val];
+  return result;
+}
+console.log(phoneticLookupObject("charlie")); // expected output: Chicago
+
 
 console.log(``);
 
