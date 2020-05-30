@@ -6,7 +6,7 @@
 _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)_  
 https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/  
 Index:  
-[var](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L35)  
+[var](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L32)  
 [assignment operator ("=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L61)  
 [NaN](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L94)  
 [camelCase](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L102)  
