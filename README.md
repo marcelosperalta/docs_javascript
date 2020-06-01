@@ -73,6 +73,7 @@ Index:
 [Objects - Add New Properties](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2140)  
 [Objects - Delete Properties](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2195)  
 [Objects - Using Objects for Lookups](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2253)  
+[Objects - Testing Objects for Properties (.hasOwnProperty())](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2323)  
 
 ### Concepts:
 

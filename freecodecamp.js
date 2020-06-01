@@ -2320,11 +2320,47 @@ console.log(phoneticLookupObject("charlie")); // expected output: Chicago
 
 console.log(``);
 
-//
+// Testing Objects for Properties
 
-/**
- *
+/*
+ * Sometimes it is useful to check if the property of a given object exists or not. 
+ * We can use the .hasOwnProperty(propname) method of objects to determine 
+ * if that object has the given property name. .hasOwnProperty() returns true or false 
+ * if the property is found or not.
+ * 
+ * Example
+ * 
+ * var myObj = {
+ *   top: "hat",
+ *   bottom: "pants"
+ * };
+ * myObj.hasOwnProperty("top");    // true
+ * myObj.hasOwnProperty("middle"); // false
  */
+
+function checkObj(obj, checkProp) {
+  return obj.hasOwnProperty(checkProp) ? console.log(obj[checkProp]) : console.log("Not Found");
+}
+checkObj({ gift: "pony", pet: "kitten", bed: "sleigh" }, "gift");  // expected output: "pony"
+checkObj({ gift: "pony", pet: "kitten", bed: "sleigh" }, "pet");   // expected output: "kitten"
+checkObj({ gift: "pony", pet: "kitten", bed: "sleigh" }, "house"); // expected output: "Not Found"
+checkObj({ city: "Seattle" }, "city");                             // expected output: "Seattle"
+checkObj({ city: "Seattle" }, "district");                         // expected output: "Not Found"
+
+// or
+
+function checkObj2(obj, checkProp) {
+  if (obj.hasOwnProperty(checkProp)) {
+    return obj[checkProp];
+  } else {
+    return "Not Found";
+  }
+}
+console.log(checkObj2({ gift: "pony", pet: "kitten", bed: "sleigh" }, "gift"));  // expected output: "pony"
+console.log(checkObj2({ gift: "pony", pet: "kitten", bed: "sleigh" }, "pet"));   // expected output: "kitten"
+console.log(checkObj2({ gift: "pony", pet: "kitten", bed: "sleigh" }, "house")); // expected output: "Not Found"
+console.log(checkObj2({ city: "Seattle" }, "city"));                             // expected output: "Seattle"
+console.log(checkObj2({ city: "Seattle" }, "district"));                         // expected output: "Not Found"
 
 console.log(``);
 
