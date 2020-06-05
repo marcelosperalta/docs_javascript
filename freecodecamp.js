@@ -2393,7 +2393,8 @@ console.log(``);
  * you can do this by adding records to the top level array. Objects hold data in a property, 
  * which has a key-value format. 
  * In the example above, "artist": "Daft Punk" is a property that has a key of "artist" and a value of "Daft Punk". 
- * JavaScript Object Notation or JSON is a related data interchange format used to store data.
+ * JavaScript Object Notation or JSON (https://www.json.org/json-en.html) 
+ * is a related data interchange format used to store data.
  * 
  * {
  *   "artist": "Daft Punk",
@@ -2411,7 +2412,29 @@ console.log(``);
  * You will need to place a comma after every object in the array, unless it is the last object in the array.
  */
 
-
+var myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  },
+  {
+    "artist": "Korn",
+    "title": "The Nothing",
+    "release_year": 2019,
+    "formats": [
+      "CD",
+      "LP"
+    ]
+  }
+];
+console.log(myMusic);
 
 console.log(``);
 
