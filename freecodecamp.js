@@ -2435,6 +2435,22 @@ var myMusic = [
   }
 ];
 console.log(myMusic);
+// expected output:
+// [
+//   {
+//     artist: 'Billy Joel',
+//     title: 'Piano Man',
+//     release_year: 1973,
+//     formats: [ 'CD', '8T', 'LP' ],
+//     gold: true
+//   },
+//   {
+//     artist: 'Korn',
+//     title: 'The Nothing',
+//     release_year: 2019,
+//     formats: [ 'CD', 'LP' ]
+//   }
+// ]
 
 console.log(``);
 
@@ -2460,6 +2476,20 @@ console.log(``);
  * ourStorage.cabinet["top drawer"].folder2;  // "secrets"
  * ourStorage.desk.drawer;                    // "stapler"
  */
+
+var myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+    },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
+var gloveBoxContents = myStorage.car.inside["glove box"];
+console.log(gloveBoxContents); // expected output: "maps"
 
 console.log(``);
 
