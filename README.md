@@ -75,6 +75,7 @@ Index:
 [Objects - Using Objects for Lookups](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2253)  
 [Objects - Testing Objects for Properties (.hasOwnProperty())](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2323)  
 [Objects - Manipulating Complex Objects](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2367)  
+[Objects - Accessing Nested Objects](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2441)  
 
 ### Concepts:
 
