@@ -77,6 +77,7 @@ Index:
 [Objects - Manipulating Complex Objects](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2367)  
 [Objects - Accessing Nested Objects](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2457)  
 [Objects - Accessing Nested Arrays](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2496)  
+[**Exercise** "Record Collection"](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2549)  
 
 ### Concepts:
 
