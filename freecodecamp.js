@@ -2603,11 +2603,17 @@ var collection = {
 };
 
 function updateRecords(id, prop, value) {
-
+  if (value === "") delete collection[id][prop];
+  else if (prop === "tracks") {
+    collection[id][prop] = collection[id][prop] || [];
+    collection[id][prop].push(value);
+  } else {
+    collection[id][prop] = value;
+  }
   return collection;
 }
 updateRecords(5439, "artist", "ABBA");
-console.log(collection);
+console.log(collection[5439]); // expected output: { album: 'ABBA Gold', artist: 'ABBA' }
 
 
 console.log(``);
