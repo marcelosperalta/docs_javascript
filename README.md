@@ -78,6 +78,7 @@ Index:
 [Objects - Accessing Nested Objects](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2457)  
 [Objects - Accessing Nested Arrays](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2496)  
 [**Exercise** "Record Collection"](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2549)  
+[Iterate with JavaScript While Loops](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2621)  
 
 ### Concepts:
 
