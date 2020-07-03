@@ -2637,6 +2637,14 @@ console.log(``);
  * and append the numbers 0 through 4 to ourArray.
  */
 
+var myArray = [];
+i = 5;
+while (i >= 0) {
+  myArray.push(i);
+  i--;
+}
+console.log(myArray); // expected output: [ 5, 4, 3, 2, 1, 0 ]
+
 console.log(``);
 
 //
