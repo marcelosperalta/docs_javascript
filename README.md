@@ -80,7 +80,8 @@ Index:
 [**Exercise** "Record Collection"](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2549)  
 [Iterate with JavaScript While Loops](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2621)  
 
-### Concepts:
+### References:
+
+**[Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)**  
 
 **[Temporal dead zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone)**  
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone
