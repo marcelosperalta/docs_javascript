@@ -2,7 +2,7 @@
 
 ## Design Patterns:
 
-[Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/index.html)
+[Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/index.html)  
 
 ## Tutorials:
 
@@ -83,6 +83,7 @@ Index:
 [Objects - Accessing Nested Arrays](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2496)  
 [**Exercise** "Record Collection"](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2549)  
 [Iterate with JavaScript While Loops](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2621)  
+[Iterate with JavaScript For Loops](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2650)  
 
 ### References:
 
