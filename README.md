@@ -1,5 +1,9 @@
 # **JavaScript Study**
 
+## Design Patterns:
+
+[Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/index.html)
+
 ## Tutorials:
 
 **[FreeCodeCamp](https://www.freecodecamp.org/)**  
