@@ -2768,6 +2768,23 @@ console.log(``);
  * 
  */
 
+//        index =  0, 1, 2, 3, 4
+      var myArr = [2, 3, 4, 5, 6];
+// myArr.length =  1, 2, 3, 4, 5
+// myArr.length =  5
+var total = 0;
+for (var i5 = 0; i5 < myArr.length; i5++) {
+  total += myArr[i5];
+  // total = total + myArr[i5]; 
+  //     0 =     0 + 2          // index 0 = 2   // i5 = 0
+  //     2 =     2 + 3          // index 1 = 3   // i5 = 1
+  //     5 =     5 + 4          // index 2 = 4   // i5 = 1
+  //     9 =     9 + 5          // index 3 = 5   // i5 = 3
+  //    14 =    14 + 6          // index 4 = 6   // i5 = 4  // i5 = 4 < myArr.length = 5
+  //    20
+}
+console.log(total);
+
 console.log(``);
 
 //
