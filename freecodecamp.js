@@ -2739,7 +2739,11 @@ console.log(``);
  * so we can count backward by twos by odd numbers.
  */
 
-
+var myArray3 = [];
+for (var i4 = 9; i4 > 0; i4 -= 2) {
+  myArray3.push(i4);
+}
+console.log(myArray3); // expected output: [ 9, 7, 5, 3, 1 ]
 
 console.log(``);
 
