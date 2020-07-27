@@ -85,6 +85,7 @@ Index:
 [Iterate with JavaScript While Loops](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2621)  
 [Iterate with JavaScript For Loops](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2650)  
 [Iterate Odd Numbers With a For Loop](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2695)  
+[Iterate Through an Array with a For Loop](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2750)  
 
 ### References:
 
