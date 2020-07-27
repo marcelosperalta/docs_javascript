@@ -2675,7 +2675,20 @@ console.log(``);
  * In the following example we initialize with i = 0 
  * and iterate while our condition i < 5 is true. 
  * We'll increment i by 1 in each loop iteration with i++ as our final-expression.
+ * 
+ * var ourArray = [];
+ * for (var i = 0; i < 5; i++) {
+ *   ourArray.push(i);
+ * 
+ * ourArray will now contain [0,1,2,3,4].
+}
  */
+
+var myArray = [];
+for (var i2 = 1; i2 < 6; i2++) {
+  myArray.push(i2);
+}
+console.log(myArray);
 
 console.log(``);
 
