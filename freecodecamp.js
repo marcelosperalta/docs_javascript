@@ -2713,15 +2713,33 @@ var myArray2 = [];
 for (var i3 = 1; i3 < 10; i3 += 2) {
   myArray2.push(i3);
 }
-console.log(myArray2);
+console.log(myArray2); // expected output: [ 1, 3, 5, 7, 9 ]
 
 console.log(``);
 
-//
+// Count Backwards With a For Loop
 
 /**
- *
+ * A for loop can also count backwards, 
+ * so long as we can define the right conditions.
+ * 
+ * In order to count backwards by twos, we'll need to change 
+ * our initialization, condition, and final-expression.
+ * 
+ * We'll start at i = 10 and loop while i > 0. 
+ * We'll decrement i by 2 each loop with i -= 2.
+ * 
+ * var ourArray = [];
+ * for (var i = 10; i > 0; i -= 2) {
+ *   ourArray.push(i);
+ * }
+ * 
+ * ourArray will now contain [10,8,6,4,2]. 
+ * Let's change our initialization and final-expression 
+ * so we can count backward by twos by odd numbers.
  */
+
+
 
 console.log(``);
 
