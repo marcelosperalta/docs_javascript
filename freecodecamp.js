@@ -2688,7 +2688,7 @@ var myArray = [];
 for (var i2 = 1; i2 < 6; i2++) {
   myArray.push(i2);
 }
-console.log(myArray);
+console.log(myArray); // expected output: [ 1, 2, 3, 4, 5 ]
 
 console.log(``);
 
@@ -2710,7 +2710,9 @@ console.log(``);
  */
 
 var myArray2 = [];
-
+for (var i3 = 1; i3 < 10; i3 += 2) {
+  myArray2.push(i3);
+}
 console.log(myArray2);
 
 console.log(``);
