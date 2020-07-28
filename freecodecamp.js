@@ -2808,6 +2808,30 @@ console.log(``);
  * since arr[i] is itself an array.
  */
 
+console.log(`Nesting For Loops:`)
+
+var arr = [
+// length =      1     ,       2     ,       3
+            [1   ,   2],  [3   ,   4],  [5   ,   6]
+// index  =      0     ,       1     ,       2
+// index  =  0   ,   1 ,   0   ,   1 ,   0   ,   1
+// index  =  0 0 , 0 1 ,   1 0 , 1 1 ,   2 0 , 2 1
+          ];
+
+console.log(arr);
+console.log(`Array length: ${arr.length}`); // expected output: 3
+console.log(``);
+
+  for (var i6 = 0; i6 < arr.length; i6++) {
+
+    for (var j6 = 0; j6 < arr[i6].length; j6++) {
+    console.log(arr[i6].length);
+// 1st step: j6 = 0; 0  < 
+
+    console.log(`i6: ${i6} j6: ${j6} array content ${arr[i6][j6]}`);
+  }
+}
+
 console.log(``);
 
 // 
