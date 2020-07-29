@@ -2809,9 +2809,14 @@ console.log(``);
  */
 
 console.log(`Nesting For Loops:`)
-
+//  arr = [ array
+//          [nesting array], 
+//          [nesting array], 
+//          [nesting array],
+//         ]
 var arr = [
-// length =      1     ,       2     ,       3
+// length =      1     ,       2     ,       3     = total = 3
+// length =  1   ,   2 ,   1   ,   2 ,   1   ,   2 > total for each nesting arrays = 2
             [1   ,   2],  [3   ,   4],  [5   ,   6]
 // index  =      0     ,       1     ,       2
 // index  =  0   ,   1 ,   0   ,   1 ,   0   ,   1
@@ -2822,14 +2827,27 @@ console.log(arr);
 console.log(`Array length: ${arr.length}`); // expected output: 3
 console.log(``);
 
-  for (var i6 = 0; i6 < arr.length; i6++) {
+for (var i6 = 0; i6 < arr.length; i6++) {
+// 1st step: i6 = 0;  0 < 3
+
+// 4th step: i6 = 1;  1 < 3
+
+// 7th step: i6 = 2;  2 < 3
 
     for (var j6 = 0; j6 < arr[i6].length; j6++) {
-    console.log(arr[i6].length);
-// 1st step: j6 = 0; 0  < 
+// 2nd step: j6 = 0;  0 < 2 (arr[0].length = 2)
+// 3rd step: j6 = 1;  1 < 2 (arr[0].length = 2)
 
-    console.log(`i6: ${i6} j6: ${j6} array content ${arr[i6][j6]}`);
+// 5th step: j6 = 0;  0 < 2 (arr[1].length = 2)
+// 6th step: j6 = 1;  1 < 2 (arr[1].length = 2)
+
+// 8th step: j6 = 0;  0 < 2 (arr[2].length = 2)
+// 9th step: j6 = 1;  1 < 2 (arr[2].length = 2)
+
+    console.log(`i6: ${i6} / j6: ${j6} / array content ${arr[i6][j6]}`);
+
   }
+
 }
 
 console.log(``);
