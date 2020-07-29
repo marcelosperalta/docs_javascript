@@ -2923,7 +2923,14 @@ console.log(``);
  * Let's try getting a do...while loop to work by pushing values to an array.
  */
 
-
+var myArray2 = [];
+var i7 = 10;
+do {
+  myArray2.push(i7);
+  i7++;
+} while (i7 < 5);
+console.log(myArray2); // expected output: [ 10 ]
+console.log(i7);       // expected output: 11
 
 console.log(``);
 
