@@ -2972,6 +2972,17 @@ console.log(``);
  * otherwise they can never finish executing.
  */
 
+function multiply(arr, n) {
+   var product = 1;
+   for (var i = 0; i < n; i++) {
+       product *= arr[i];
+   }
+   return product;
+}
+console.log(multiply([2, 4, 6, 8], 2)); // expected output: 8
+console.log(multiply([2, 4, 6, 8], 4)); // expected output: 384
+console.log(multiply([1, 2], 1));       // expected output: 1
+
 console.log(``);
 
 // 
