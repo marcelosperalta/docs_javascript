@@ -70,4 +70,18 @@ console.log(squared(100)); // expected output: 10000
 console.log(``);
 
 
+// Return the Remainder from Two Numbers
+function remainder(x, y) {
+	return x % y;
+}
+console.log(remainder(1, 3));   // expected output:  1
+console.log(remainder(3, 4));   // expected output:  3
+console.log(remainder(7, 10));  // expected output:  7
+console.log(remainder(-4, 2));  // expected output: -0
+console.log(remainder(-12, 5)); // expected output: -2
+
+
+console.log(``);
+
+
 // 
