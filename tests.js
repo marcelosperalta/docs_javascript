@@ -16,5 +16,5 @@
 // console.log(myArray2); // expected output: 10
 // console.log(i7);       // expected output: 11
 
-var x = ([2, 4, 6, 8], 2) * 4;
-console.log(x);
+// var x = ([2, 4, 6, 8], 2) * 4;
+// console.log(x);
