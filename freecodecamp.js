@@ -2985,6 +2985,31 @@ console.log(multiply([1, 2], 1));       // expected output: 1
 
 console.log(``);
 
+function multiply2(arr, n) {
+// index:          0, 1, 2, 3, 4 
+//              ([25, 4, 5, 8, 10], 4)
+
+if (n <= 0) {
+    return 1;
+
+  } else {
+// console.log(arr);
+// console.log(n);
+
+// index:                0, 1, 2, 3, 4 
+//                    ([25, 4, 5, 8, 10], 4)
+// function "multiply2(arr, n - 1)" * arr[n - 1]
+     return  multiply2(arr, n - 1)  * arr[n - 1];
+//                    (arr, 4)      * arr[4 - 1] => arr[3] = number  8 inside the Array
+//                    (arr, 3)      * arr[3 - 1] => arr[2] = number  5 inside the Array * 8
+//                    (arr, 2)      * arr[3 - 1] => arr[1] = number  4 inside the Array * 5 * 8
+//                    (arr, 1)      * arr[3 - 1] => arr[0] = number 25 inside the Array * 4 * 5 * 8 = 4000
+  }
+}
+console.log(multiply2([25, 4, 5, 8, 10], 4)); // expected output: 4000
+
+console.log(``);
+
 // 
 
 /**
