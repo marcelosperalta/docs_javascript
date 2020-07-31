@@ -1,5 +1,11 @@
 # **JavaScript Study**
 
+## References:
+
+**[Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)**  
+
+**[Temporal dead zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone)**  
+
 ## Design Patterns:
 
 [Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/index.html)  
@@ -90,8 +96,6 @@ Index:
 [Iterate with JavaScript Do...While Loops](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2870)  
 [Replace Loops using Recursion](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2937)  
 
-### References:
+## Challenges:
 
-**[Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)**  
-
-**[Temporal dead zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone)**  
+[Edabit](https://edabit.com/challenges)
