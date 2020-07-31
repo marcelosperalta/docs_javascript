@@ -91,3 +91,19 @@ function footballPoints(wins, draws, losses) {
 console.log(footballPoints(3, 4, 2)); // expected output: 13
 console.log(footballPoints(5, 0, 2)); // expected output: 15
 console.log(footballPoints(0, 0, 1)); // expected output: 0
+
+
+console.log(``);
+
+
+// Are the Numbers Equal?
+function isSameNum(num1, num2) {
+    if (num1 === num2) {
+        return true;
+    } else {
+        return false
+    }
+}
+console.log(isSameNum(4, 8));   // expected output: false
+console.log(isSameNum(2, 2));   // expected output: true
+console.log(isSameNum(2, "2")); // expected output: false
