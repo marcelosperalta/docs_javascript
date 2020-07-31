@@ -119,3 +119,15 @@ function triArea (base, height) {
 console.log(triArea(3, 2));   // expected output: 3
 console.log(triArea(7, 4));   // expected output: 14
 console.log(triArea(10, 10)); // expected output: 50
+
+
+console.log(``);
+
+
+// Convert Minutes into Seconds
+function convert(minutes){
+    return minutes * 60;
+}
+console.log(convert(5)); // expected output: 300
+console.log(convert(3)); // expected output: 180
+console.log(convert(2)); // expected output: 120
