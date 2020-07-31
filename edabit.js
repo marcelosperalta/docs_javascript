@@ -107,3 +107,15 @@ function isSameNum(num1, num2) {
 console.log(isSameNum(4, 8));   // expected output: false
 console.log(isSameNum(2, 2));   // expected output: true
 console.log(isSameNum(2, "2")); // expected output: false
+
+
+console.log(``);
+
+
+// Area of a Triangle
+function triArea (base, height) {
+    return (base * height) / 2;
+}
+console.log(triArea(3, 2));   // expected output: 3
+console.log(triArea(7, 4));   // expected output: 14
+console.log(triArea(10, 10)); // expected output: 50
