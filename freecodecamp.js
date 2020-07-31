@@ -3010,6 +3010,19 @@ console.log(multiply2([25, 4, 5, 8, 10], 4)); // expected output: 4000
 
 console.log(``);
 
+function sum2(arr, n) {
+  if (n <= 0) {
+    return 0;
+  } else {
+    return sum2(arr, n - 1) + arr[n - 1];
+  }
+}
+console.log(sum2([1], 0));          // expected output: 0
+console.log(sum2([2, 3, 4], 1));    // expected output: 2
+console.log(sum2([2, 3, 4, 5], 3)); // expected output: 9
+
+console.log(``);
+
 // 
 
 /**
