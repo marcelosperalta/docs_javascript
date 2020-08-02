@@ -259,4 +259,10 @@ console.log(convert(0, 0)); // expected output: 0
 console.log(``);
 
 
-// 
+// Convert Hours into Seconds
+function howManySeconds(hours) {
+    return (hours * 60) * 60;
+}
+console.log(howManySeconds(2));  // expected output: 7200
+console.log(howManySeconds(10)); // expected output: 36000
+console.log(howManySeconds(24)); // expected output: 86400
