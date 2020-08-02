@@ -150,6 +150,7 @@ console.log(lessThan100(83, 34)); // expected output: false
 
 console.log(``);
 
+
 // Is the Number Less than or Equal to Zero?
 function lessThanOrEqualToZero(num) {
     if (num <= 0) {
@@ -161,3 +162,19 @@ function lessThanOrEqualToZero(num) {
 console.log(lessThanOrEqualToZero(5));  // expected output: false
 console.log(lessThanOrEqualToZero(0));  // expected output: true
 console.log(lessThanOrEqualToZero(-2)); // expected output: true
+
+
+console.log(``);
+
+
+// Equality Check
+function checkEquality(a, b) {
+    if (a === b) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(checkEquality(1, true)); // expected output: false
+console.log(checkEquality(0, "0"));  // expected output: false
+console.log(checkEquality(1, 1));    // expected output: true
