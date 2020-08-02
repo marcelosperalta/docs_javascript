@@ -211,6 +211,22 @@ console.log(``);
 function giveMeSomething(a) {
     return `something ${a}`;
 }
-console.log(giveMeSomething("is better than nothing")); // expected output:"something is better than nothing"
-console.log(giveMeSomething("Bob Jane"));               // expected output:"something Bob Jane"
-console.log(giveMeSomething("something") );             // expected output:"something something"
+console.log(giveMeSomething("is better than nothing")); // expected output: "something is better than nothing"
+console.log(giveMeSomething("Bob Jane"));               // expected output: "something Bob Jane"
+console.log(giveMeSomething("something") );             // expected output: "something something"
+
+
+console.log(``);
+
+
+// Compare Strings by Count of Characters
+function comp(str1, str2) {
+    if (str1.length === str2.length) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(comp("AB", "CD"));        // expected output:true
+console.log(comp("ABC", "DE"));       // expected output:false
+console.log(comp("hello", "edabit")); // expected output:false
