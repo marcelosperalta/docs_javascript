@@ -125,9 +125,24 @@ console.log(``);
 
 
 // Convert Minutes into Seconds
-function convert(minutes){
+function convert(minutes) {
     return minutes * 60;
 }
 console.log(convert(5)); // expected output: 300
 console.log(convert(3)); // expected output: 180
 console.log(convert(2)); // expected output: 120
+
+
+console.log(``);
+
+
+// Less Than 100?
+function lessThan100(a, b) {
+    if (a + b < 100) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(lessThan100(22, 15)); // expected output: true
+console.log(lessThan100(83, 34)); // expected output: false
