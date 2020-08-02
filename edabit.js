@@ -227,6 +227,36 @@ function comp(str1, str2) {
         return false;
     }
 }
-console.log(comp("AB", "CD"));        // expected output:true
-console.log(comp("ABC", "DE"));       // expected output:false
-console.log(comp("hello", "edabit")); // expected output:false
+console.log(comp("AB", "CD"));        // expected output: true
+console.log(comp("ABC", "DE"));       // expected output: false
+console.log(comp("hello", "edabit")); // expected output: false
+
+
+console.log(``);
+
+
+// Maximum Edge of a Triangle
+function nextEdge(side1, side2) {
+    return (side1 + side2) - 1;
+}
+console.log(nextEdge(8, 10)); // expected output: 17
+console.log(nextEdge(5, 7));  // expected output: 11
+console.log(nextEdge(9, 2));  // expected output: 10
+
+
+console.log(``);
+
+
+// Convert Hours and Minutes into Seconds
+function convert(hours, minutes) {
+    return ((hours * 60) + minutes) * 60;
+}
+console.log(convert(1, 3)); // expected output: 3780
+console.log(convert(2, 0)); // expected output: 7200
+console.log(convert(0, 0)); // expected output: 0
+
+
+console.log(``);
+
+
+// 
