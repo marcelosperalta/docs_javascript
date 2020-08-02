@@ -14,7 +14,7 @@ Very Easy
 
 // How Edabit Works
 function hello() {
-	return "hello edabit.com"
+	return "hello edabit.com";
 }
 console.log(hello()); // expected output: hello edabit.com
 
@@ -101,7 +101,7 @@ function isSameNum(num1, num2) {
     if (num1 === num2) {
         return true;
     } else {
-        return false
+        return false;
     }
 }
 console.log(isSameNum(4, 8));   // expected output: false
@@ -146,3 +146,18 @@ function lessThan100(a, b) {
 }
 console.log(lessThan100(22, 15)); // expected output: true
 console.log(lessThan100(83, 34)); // expected output: false
+
+
+console.log(``);
+
+// Is the Number Less than or Equal to Zero?
+function lessThanOrEqualToZero(num) {
+    if (num <= 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(lessThanOrEqualToZero(5));  // expected output: false
+console.log(lessThanOrEqualToZero(0));  // expected output: true
+console.log(lessThanOrEqualToZero(-2)); // expected output: true
