@@ -178,3 +178,21 @@ function checkEquality(a, b) {
 console.log(checkEquality(1, true)); // expected output: false
 console.log(checkEquality(0, "0"));  // expected output: false
 console.log(checkEquality(1, 1));    // expected output: true
+
+
+console.log(``);
+
+
+// Find the Perimeter of a Rectangle
+function findPerimeter(lenght, width) {
+    return (lenght + width) * 2;
+}
+console.log(findPerimeter(6, 7));   // expected output: 26
+console.log(findPerimeter(20, 10)); // expected output: 30
+console.log(findPerimeter(2, 9));   // expected output: 22
+
+
+console.log(``);
+
+
+// 
