@@ -207,4 +207,10 @@ console.log(getFirstValue([-500, 0, 50])); // expected output: -500
 console.log(``);
 
 
-// 
+// Return Something to Me!
+function giveMeSomething(a) {
+    return `something ${a}`;
+}
+console.log(giveMeSomething("is better than nothing")); // expected output:"something is better than nothing"
+console.log(giveMeSomething("Bob Jane"));               // expected output:"something Bob Jane"
+console.log(giveMeSomething("something") );             // expected output:"something something"
