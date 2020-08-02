@@ -195,4 +195,16 @@ console.log(findPerimeter(2, 9));   // expected output: 22
 console.log(``);
 
 
+// Return the First Element in an Array
+function getFirstValue(arr) {
+    return arr[0];
+}
+console.log(getFirstValue([1, 2, 3]));     // expected output:    1
+console.log(getFirstValue([80, 5, 100]));  // expected output:   80
+console.log(getFirstValue([-500, 0, 50])); // expected output: -500
+
+
+console.log(``);
+
+
 // 
