@@ -312,3 +312,18 @@ console.log(acceptIntoMovie(16, false)); // expected output: true
 console.log(acceptIntoMovie(16, true));  // expected output: true
 console.log(acceptIntoMovie(15, true));  // expected output: true
 console.log(acceptIntoMovie(15, false)); // expected output: true
+
+
+console.log(``);
+
+
+// Divides Evenly
+function dividesEvenly(a, b) {
+    if (a % b === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(dividesEvenly(98, 7)); // expected output: true
+console.log(dividesEvenly(85, 4)); // expected output: false
