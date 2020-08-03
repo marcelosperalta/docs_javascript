@@ -266,3 +266,15 @@ function howManySeconds(hours) {
 console.log(howManySeconds(2));  // expected output: 7200
 console.log(howManySeconds(10)); // expected output: 36000
 console.log(howManySeconds(24)); // expected output: 86400
+
+
+console.log(``);
+
+
+// Return a String as an Integer
+function stringInt(str) {
+    return parseInt(str);
+}
+console.log(stringInt("6"));    // expected output: 6
+console.log(stringInt("1000")); // expected output: 1000
+console.log(stringInt("12"));   // expected output: 12
