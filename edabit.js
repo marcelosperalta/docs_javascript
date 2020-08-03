@@ -298,9 +298,9 @@ console.log(``);
 
 // Movie Theatre Admittance
 function acceptIntoMovie(age, isSupervised) {
-    if (age < 15 && isSupervised === true) {
+    if (age < 15 && isSupervised == true) {
         return true;
-    } else if (age > 14) {
+    } else if (age >= 15) {
         return true;
     } else {
         return false;
@@ -309,3 +309,6 @@ function acceptIntoMovie(age, isSupervised) {
 console.log(acceptIntoMovie(14, true));  // expected output: true
 console.log(acceptIntoMovie(14, false)); // expected output: false
 console.log(acceptIntoMovie(16, false)); // expected output: true
+console.log(acceptIntoMovie(16, true));  // expected output: true
+console.log(acceptIntoMovie(15, true));  // expected output: true
+console.log(acceptIntoMovie(15, false)); // expected output: true
