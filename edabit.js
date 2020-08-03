@@ -278,3 +278,34 @@ function stringInt(str) {
 console.log(stringInt("6"));    // expected output: 6
 console.log(stringInt("1000")); // expected output: 1000
 console.log(stringInt("12"));   // expected output: 12
+
+
+console.log(``);
+
+
+// Recursion: Length of a String
+function length(str) {
+    return str.length;
+}
+console.log(length("apple")); // expected output: 5
+console.log(length("make"));  // expected output: 4
+console.log(length("a"));     // expected output: 1
+console.log(length(""));      // expected output: 0
+
+
+console.log(``);
+
+
+// Movie Theatre Admittance
+function acceptIntoMovie(age, isSupervised) {
+    if (age < 15 && isSupervised === true) {
+        return true;
+    } else if (age > 14) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(acceptIntoMovie(14, true));  // expected output: true
+console.log(acceptIntoMovie(14, false)); // expected output: false
+console.log(acceptIntoMovie(16, false)); // expected output: true
