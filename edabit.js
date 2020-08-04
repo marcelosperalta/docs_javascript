@@ -370,3 +370,21 @@ function isEmpty(s) {
 console.log(isEmpty(""));  // expected output: true
 console.log(isEmpty(" ")); // expected output: false
 console.log(isEmpty("a")); // expected output: false
+
+
+console.log(``);
+
+
+// The Farm Problem
+function animals(chickens, cows, pigs) {
+    return (chickens * 2) + (cows * 4) + (pigs * 4);
+}
+console.log(animals(2, 3, 5)); // expected output: 36
+console.log(animals(1, 2, 3)); // expected output: 22
+console.log(animals(5, 2, 8)); // expected output: 50
+
+
+console.log(``);
+
+
+// 
