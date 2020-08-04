@@ -3088,7 +3088,42 @@ console.log(lookUpProfile("Sherlock", "likes"));    // expected output: ["Intrig
 console.log(lookUpProfile("Harry", "likes"));       // expected output: ["Hogwarts", "Magic", "Hagrid"]
 console.log(lookUpProfile("Bob", "number"));        // expected output: "No such contact"
 console.log(lookUpProfile("Bob", "potato"));        // expected output: "No such contact"
-console.log(lookUpProfile("Akira", "address"));     // expected output: "No property"
+console.log(lookUpProfile("Akira", "address"));     // expected output: "No such property"
+
+console.log(``);
+
+// Generate Random Fractions with JavaScript
+
+/**
+ * Random numbers are useful for creating random behavior.
+ * 
+ * JavaScript has a Math.random() function that generates 
+ * a random decimal number between 0 (inclusive) and not quite up to 1 (exclusive). 
+ * Thus Math.random() can return a 0 but never quite return a 1
+ * 
+ * Note
+ * Like Storing Values with the Equal Operator, 
+ * all function calls will be resolved before the return executes, 
+ * so we can return the value of the Math.random() function.
+ */
+
+
+
+console.log(``);
+
+// 
+
+/**
+ *
+ */
+
+console.log(``);
+
+// 
+
+/**
+ *
+ */
 
 console.log(``);
 
