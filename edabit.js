@@ -339,8 +339,18 @@ function eq(evaluate) {
 console.log(eq("1+2"));     // expected output: 3
 console.log(eq("6/(9-7)")); // expected output: 3
 console.log(eq("3+2-4"));   // expected output: 1
-
-
 // Warning: Executing JavaScript from a string is an enormous security risk. 
 // It is far too easy for a bad actor to run arbitrary code when you use eval(). 
 // See Never use eval()!, below.
+
+
+console.log(``);
+
+
+// Solve the Equation
+function equation(s) {
+    return eval(s);
+}
+console.log(equation("1+1"));       // expected output: 2
+console.log(equation("7*4-2"));     // expected output: 26
+console.log(equation("1+1+1+1+1")); // expected output: 5
