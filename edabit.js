@@ -327,3 +327,20 @@ function dividesEvenly(a, b) {
 }
 console.log(dividesEvenly(98, 7)); // expected output: true
 console.log(dividesEvenly(85, 4)); // expected output: false
+
+
+console.log(``);
+
+
+// Evaluate an Equation
+function eq(evaluate) {
+    return eval(evaluate);
+}
+console.log(eq("1+2"));     // expected output: 3
+console.log(eq("6/(9-7)")); // expected output: 3
+console.log(eq("3+2-4"));   // expected output: 1
+
+
+// Warning: Executing JavaScript from a string is an enormous security risk. 
+// It is far too easy for a bad actor to run arbitrary code when you use eval(). 
+// See Never use eval()!, below.
