@@ -95,6 +95,7 @@ Index:
 [Nesting For Loops](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2790)  
 [Iterate with JavaScript Do...While Loops](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2870)  
 [Replace Loops using Recursion](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2937)  
+[**Exercise** "Profile Lookup"](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3026)  
 
 ## Challenges:
 
