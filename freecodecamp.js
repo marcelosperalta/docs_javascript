@@ -3072,8 +3072,12 @@ var contacts = [
 
 function lookUpProfile(name, prop) {
   for (let index = 0; index < contacts.length; index++) {
-    if(contacts[index].firstName === name && contacts[index][prop]) {
-      return contacts[index][prop];
+    if(contacts[index].firstName === name) {
+      if (contacts[index][prop]) {
+        return contacts[index][prop];
+      } else {
+        return "No such property";
+      }
     }
   }
   return "No such contact";
@@ -3084,7 +3088,7 @@ console.log(lookUpProfile("Sherlock", "likes"));    // expected output: ["Intrig
 console.log(lookUpProfile("Harry", "likes"));       // expected output: ["Hogwarts", "Magic", "Hagrid"]
 console.log(lookUpProfile("Bob", "number"));        // expected output: "No such contact"
 console.log(lookUpProfile("Bob", "potato"));        // expected output: "No such contact"
-console.log(lookUpProfile("Akira", "address"));     // expected output: "No such contact"
+console.log(lookUpProfile("Akira", "address"));     // expected output: "No property"
 
 console.log(``);
 
