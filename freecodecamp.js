@@ -3107,7 +3107,10 @@ console.log(``);
  * so we can return the value of the Math.random() function.
  */
 
-
+function randomFraction() {
+  return Math.random();
+}
+console.log(randomFraction());
 
 console.log(``);
 
