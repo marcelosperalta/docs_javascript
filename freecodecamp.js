@@ -3070,17 +3070,20 @@ var contacts = [
   }
 ];
 
-function lookUpProfile(name, prop){
-// Only change code below this line
-  if (contacts.name === true) {
-    return `${contacts[prop]}`;
-  } else {
-    return "test"
+function lookUpProfile(name, prop) {
+  for (let index = 0; index < contacts.length; index++) {
+    if(contacts[index].firstName === name && contacts[index][prop]) {
+      return contacts[index][prop];
+    }
   }
-// Only change code above this line
+  return "No such contact";
 }
-
-console.log(lookUpProfile("Akira", "likes"));
+console.log(lookUpProfile("Kristian", "lastName")); // expected output: Vos
+console.log(lookUpProfile("Sherlock", "likes"));    // expected output: ["Intriguing Cases", "Violin"]
+console.log(lookUpProfile("Harry", "likes"));        // expected output: ["Hogwarts", "Magic", "Hagrid"]
+console.log(lookUpProfile("Bob", "number"));        // expected output: "No such contact"
+console.log(lookUpProfile("Bob", "potato"));        // expected output: "No such contact"
+console.log(lookUpProfile("Akira", "address"));     // expected output: "No such contact"
 
 console.log(``);
 
