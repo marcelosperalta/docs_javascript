@@ -184,8 +184,8 @@ console.log(``);
 
 
 // Find the Perimeter of a Rectangle
-function findPerimeter(lenght, width) {
-    return (lenght + width) * 2;
+function findPerimeter(length, width) {
+    return (length + width) * 2;
 }
 console.log(findPerimeter(6, 7));   // expected output: 26
 console.log(findPerimeter(20, 10)); // expected output: 30
@@ -354,3 +354,19 @@ function equation(s) {
 console.log(equation("1+1"));       // expected output: 2
 console.log(equation("7*4-2"));     // expected output: 26
 console.log(equation("1+1+1+1+1")); // expected output: 5
+
+
+console.log(``);
+
+
+// Is the String Empty?
+function isEmpty(s) {
+    if (s.length === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(isEmpty(""));  // expected output: true
+console.log(isEmpty(" ")); // expected output: false
+console.log(isEmpty("a")); // expected output: false
