@@ -98,6 +98,7 @@ Index:
 [**Exercise** "Profile Lookup"](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3026)  
 [Generate Random Fractions with JavaScript (Math.random())](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3095)  
 [Generate Random Whole Numbers with JavaScript (Math.floor())](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3117)  
+[Generate Random Whole Numbers within a Range](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3148)  
 
 ## Challenges:
 

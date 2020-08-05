@@ -3138,18 +3138,49 @@ console.log(``);
  * to round the value down to the nearest whole number.
  */
 
-function randomWholeNum() {
+ function randomWholeNum() {
   return Math.floor(Math.random() * 10);
 }
 console.log(randomWholeNum()); // return a random whole number between 0 and 9.
 
 console.log(``);
 
-// 
+// Generate Random Whole Numbers within a Range
 
 /**
- *
+ * Instead of generating a random whole number between zero 
+ * and a given number like we did before, 
+ * we can generate a random whole number that falls within a range of two specific numbers.
+ * 
+ * To do this, we'll define a minimum number min and a maximum number max.
+ * 
+ * Here's the formula we'll use. 
+ * Take a moment to read it and try to understand what this code is doing:
+ * 
+ * Math.floor(Math.random() * (max - min + 1)) + min
+ * 
+ *  e.g.
+ *  max = 5
+ *  min = 1
  */
+let mathRandom = Math.random(); 
+console.log(mathRandom);                               // return a random number
+console.log(Math.floor(mathRandom));                   // expected output: 0
+console.log(mathRandom);                               // return a random number
+console.log(Math.floor(mathRandom * (5 - 1 + 1)));     // return a random whole number between 0 and 5
+console.log(mathRandom);                               // return a random number
+console.log(Math.floor(mathRandom * (5 - 1 + 1)) + 1); // return a random whole number between 1 and 5
+
+console.log(``);
+
+function randomRange(myMin, myMax) {
+  return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
+}
+console.log(randomRange(1, 5)); // return a random whole number between 1 and 5
+console.log(randomRange(1, 5)); // return a random whole number between 1 and 5
+console.log(randomRange(1, 5)); // return a random whole number between 1 and 5
+console.log(randomRange(1, 5)); // return a random whole number between 1 and 5
+console.log(randomRange(1, 5)); // return a random whole number between 1 and 5
 
 console.log(``);
 
