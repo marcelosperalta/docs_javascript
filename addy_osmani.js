@@ -12,3 +12,11 @@
 // Target Audience
 // If you would like to learn how to write beautiful, structured and organized code, 
 // I believe this is the book for you.
+
+// Reading
+// Recommended titles
+// JavaScript: The Definitive Guide by David Flanagan
+// Eloquent JavaScript by Marijn Haverbeke
+// JavaScript Patterns by Stoyan Stefanov
+// Writing Maintainable JavaScript by Nicholas Zakas
+// JavaScript: The Good Parts by Douglas Crockford
