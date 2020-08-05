@@ -387,4 +387,20 @@ console.log(animals(5, 2, 8)); // expected output: 50
 console.log(``);
 
 
+// Check if an Integer is Divisible By Five
+function divisibleByFive(n) {
+    if (n % 5 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(divisibleByFive(5));   // expected output: true
+console.log(divisibleByFive(-55)); // expected output: true
+console.log(divisibleByFive(37));  // expected output: false
+
+
+console.log(``);
+
+
 // 
