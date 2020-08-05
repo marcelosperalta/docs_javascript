@@ -3110,7 +3110,7 @@ console.log(``);
 function randomFraction() {
   return Math.random();
 }
-console.log(randomFraction());
+console.log(randomFraction()); // return a random number
 
 console.log(``);
 
@@ -3141,7 +3141,7 @@ console.log(``);
 function randomWholeNum() {
   return Math.floor(Math.random() * 10);
 }
-console.log(randomWholeNum());
+console.log(randomWholeNum()); // return a random whole number between 0 and 9.
 
 console.log(``);
 
