@@ -97,6 +97,7 @@ Index:
 [Replace Loops using Recursion](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L2937)  
 [**Exercise** "Profile Lookup"](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3026)  
 [Generate Random Fractions with JavaScript (Math.random())](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3095)  
+[Generate Random Whole Numbers with JavaScript (Math.random())](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3117)  
 
 ## Challenges:
 
