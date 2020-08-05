@@ -403,4 +403,4 @@ console.log(divisibleByFive(37));  // expected output: false
 console.log(``);
 
 
-// 
+// Minimal I: If Boolean Then Boolean
