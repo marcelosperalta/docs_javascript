@@ -3257,7 +3257,7 @@ console.log(convertToInteger2("11111111", 2)); // expected output: 255
 
 console.log(``);
 
-//
+// 
 
 /**
  * 
