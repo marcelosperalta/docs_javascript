@@ -3233,6 +3233,28 @@ console.log(``);
  * or base 2. This example converts the string "11" to an integer 3.
  */
 
+function convertToInteger(str) {
+  return parseInt(str, 2);
+}
+console.log(convertToInteger("11"));    // expected output: 3
+console.log(convertToInteger("10011")); // expected output: 19
+
+console.log(``);
+
+function convertToInteger2(str, radix) {
+  return parseInt(str, radix);
+}
+console.log(convertToInteger2("11", 10));      // expected output: 11
+console.log(convertToInteger2("11", 2));       // expected output: 3
+console.log(convertToInteger2("11", 16));      // expected output: 17
+console.log(convertToInteger2("10011", 10));   // expected output: 10011
+console.log(convertToInteger2("10011", 2));    // expected output: 19
+console.log(convertToInteger2("10011", 16));   // expected output: 65553
+console.log(convertToInteger2("00", 16));      // expected output: 0
+console.log(convertToInteger2("FF", 16));      // expected output: 255
+console.log(convertToInteger2("00000000", 2)); // expected output: 0
+console.log(convertToInteger2("11111111", 2)); // expected output: 255
+
 console.log(``);
 
 //
