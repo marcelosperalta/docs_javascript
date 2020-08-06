@@ -99,6 +99,7 @@ Index:
 [Generate Random Fractions with JavaScript (Math.random())](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3095)  
 [Generate Random Whole Numbers with JavaScript (Math.floor())](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3117)  
 [Generate Random Whole Numbers within a Range](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3148)  
+[Use the parseInt Function(parseInt())](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3187)  
 
 ## Challenges:
 
