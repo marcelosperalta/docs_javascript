@@ -3197,6 +3197,12 @@ console.log(``);
  * then it returns NaN.
  */
 
+function convertToInteger(str) {
+  return parseInt(str);
+}
+console.log(convertToInteger("56"));        // expected output: 56
+console.log(convertToInteger("JamesBond")); // expected output: NaN
+
 console.log(``);
 
 //
