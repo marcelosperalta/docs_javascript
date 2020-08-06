@@ -3205,10 +3205,32 @@ console.log(convertToInteger("JamesBond")); // expected output: NaN
 
 console.log(``);
 
-//
+// Use the parseInt Function with a Radix
 
 /**
  * 
+ * Radix
+ * In a positional numeral system, the radix or base is the number of unique digits, 
+ * including the digit zero, used to represent numbers. 
+ * For example, for the decimal/denary system (the most common system in use today) 
+ * the radix (base number) is ten, because it uses the ten digits from 0 through 9.
+ * https://en.wikipedia.org/wiki/Radix
+ * 
+ * The parseInt() function parses a string and returns an integer. 
+ * It takes a second argument for the radix, 
+ * which specifies the base of the number in the string. 
+ * The radix can be an integer between 2 and 36.
+ * 
+ * The function call looks like:
+ * 
+ * parseInt(string, radix);
+ * 
+ * And here's an example:
+ * 
+ * var a = parseInt("11", 2);
+ * 
+ * The radix variable says that "11" is in the binary system, 
+ * or base 2. This example converts the string "11" to an integer 3.
  */
 
 console.log(``);
