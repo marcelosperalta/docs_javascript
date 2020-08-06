@@ -500,6 +500,30 @@ console.log(isEven3(5)); // expected output: false
 console.log(``);
 
 
+// Drinks Allowed?
+function shouldServeDrinks(age, onBreak) {
+    return age >= 18 && onBreak == false;
+}
+console.log(shouldServeDrinks(17, true));  // expected output: false
+console.log(shouldServeDrinks(19, false)); // expected output: true
+console.log(shouldServeDrinks(30, true));  // expected output: false
+
+
+console.log(``);
+
+
+// 
+
+
+console.log(``);
+
+
+// 
+
+
+console.log(``);
+
+
 // 
 
 
