@@ -3293,7 +3293,31 @@ console.log(checkEqual(1, -1)); // expected output: "Not Equal"
 
 console.log(``);
 
-//
+// Use Multiple Conditional (Ternary) Operators
+
+/**
+ * 
+ */
+
+console.log(``);
+
+// 
+
+/**
+ * 
+ */
+
+console.log(``);
+
+// 
+
+/**
+ * 
+ */
+
+console.log(``);
+
+// 
 
 /**
  * 
