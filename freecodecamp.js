@@ -3380,6 +3380,53 @@ console.log(``);
  * countup(n - 1) has already been evaluated and returned [1, 2, ..., n - 1].
  */
 
+// Recursion in software development:
+// https://www.youtube.com/watch?v=vPEJSJMg4jY
+function countup(n) {
+
+  if (n < 1) {
+  
+    console.log(` `)
+    console.log(`step 6 => passed here`); // --- -- step  6 // n = 1
+    return [];
+
+  } else {
+
+    console.log(`step ${6 - n} => n = ${n}`); // -- step  1 // n = 5
+                                              // -- step  2 // n = 4
+                                              // -- step  3 // n = 3
+                                              // -- step  4 // n = 2
+                                              // -- step  5 // n = 1
+    const countArray = countup(n - 1); // --------- step  1 // n = 5
+                                       // --------- step  2 // n = 4
+                                       // --------- step  3 // n = 3
+                                       // --------- step  4 // n = 2
+                                       // --------- step  5 // n = 1
+    console.log(` `)
+    console.log(`step ${6 + n} => n = ${n}`); // -- step  7 // n = 1
+                                              // -- step  8 // n = 2
+                                              // -- step  9 // n = 3
+                                              // -- step 10 // n = 4
+                                              // -- step 11 // n = 5
+    countArray.push(n); // ------------------------ step  7 // n = 1
+                        // ------------------------ step  8 // n = 2
+                        // ------------------------ step  9 // n = 3
+                        // ------------------------ step 10 // n = 4
+                        // ------------------------ step 11 // n = 5
+
+    console.log(countArray); // ------------------- step  7 // countArray [ 1 ]
+                             // ------------------- step  8 // countArray [ 1, 2 ]
+                             // ------------------- step  9 // countArray [ 1, 2, 3 ]
+                             // ------------------- step 10 // countArray [ 1, 2, 3, 4 ]
+                             // ------------------- step 11 // countArray [ 1, 2, 3, 4, 5 ]
+    return countArray; // ------------------------- step  7 // countArray [ 1 ]
+                       // ------------------------- step  8 // countArray [ 1, 2 ]
+                       // ------------------------- step  9 // countArray [ 1, 2, 3 ]
+                       // ------------------------- step 10 // countArray [ 1, 2, 3, 4 ]
+                       // ------------------------- step 11 // countArray [ 1, 2, 3, 4, 5 ]
+  }
+}
+countup(5);
 
 console.log(``);
 
