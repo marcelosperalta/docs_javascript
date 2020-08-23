@@ -3332,8 +3332,14 @@ console.log(``);
  * }
  */
 
-
-console.log(``);
+function checkSign(num) {
+  return (num > 0) ? "positive" 
+    : (num < 0) ? "negative"
+    : "zero";
+}
+console.log(checkSign(10));  // expected output: "positive"
+console.log(checkSign(-12)); // expected output: "negative"
+console.log(checkSign(0));   // expected output: "zero"
 
 console.log(``);
 
