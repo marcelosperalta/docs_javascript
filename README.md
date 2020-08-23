@@ -103,6 +103,7 @@ Index:
 [Use the parseInt Function with a Radix](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3208)  
 [Use the Conditional (Ternary) Operator](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3260)  
 [Use Multiple Conditional (Ternary) Operators](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3296)  
+[Use Recursion to Create a Countdown](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3346)  
 
 ## Challenges:
 
