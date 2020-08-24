@@ -104,6 +104,7 @@ Index:
 [Use the Conditional (Ternary) Operator](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3260)  
 [Use Multiple Conditional (Ternary) Operators](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3296)  
 [Use Recursion to Create a Countdown](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3346)  
+[Use Recursion to Create a Range of Numbers](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3448)  
 
 ## Challenges:
 
