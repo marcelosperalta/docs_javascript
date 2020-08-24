@@ -3414,16 +3414,16 @@ function countup(n) {
                         // ------------------------ step 10 // n = 4
                         // ------------------------ step 11 // n = 5
 
-    console.log(countArray); // ------------------- step  7 // countArray [ 1 ]
-                             // ------------------- step  8 // countArray [ 1, 2 ]
-                             // ------------------- step  9 // countArray [ 1, 2, 3 ]
-                             // ------------------- step 10 // countArray [ 1, 2, 3, 4 ]
-                             // ------------------- step 11 // countArray [ 1, 2, 3, 4, 5 ]
-    return countArray; // ------------------------- step  7 // countArray [ 1 ]
-                       // ------------------------- step  8 // countArray [ 1, 2 ]
-                       // ------------------------- step  9 // countArray [ 1, 2, 3 ]
-                       // ------------------------- step 10 // countArray [ 1, 2, 3, 4 ]
-                       // ------------------------- step 11 // countArray [ 1, 2, 3, 4, 5 ]
+    console.log(countArray); // ------------------- step  7 // countArray = [ 1 ]
+                             // ------------------- step  8 // countArray = [ 1, 2 ]
+                             // ------------------- step  9 // countArray = [ 1, 2, 3 ]
+                             // ------------------- step 10 // countArray = [ 1, 2, 3, 4 ]
+                             // ------------------- step 11 // countArray = [ 1, 2, 3, 4, 5 ]
+    return countArray; // ------------------------- step  7 // countArray = [ 1 ]
+                       // ------------------------- step  8 // countArray = [ 1, 2 ]
+                       // ------------------------- step  9 // countArray = [ 1, 2, 3 ]
+                       // ------------------------- step 10 // countArray = [ 1, 2, 3, 4 ]
+                       // ------------------------- step 11 // countArray = [ 1, 2, 3, 4, 5 ]
   }
 }
 countup(5);
