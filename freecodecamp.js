@@ -3460,8 +3460,15 @@ console.log(``);
  * It should also work for cases where both startNum and endNum are the same.
  */
 
-function reangeOfNumbers(startNum, endNum) {
-  return [];
+function rangeOfNumbers(startNum, endNum) {
+  if (startNum == endNum) {
+    return [startNum];
+  } else if (startNum < endNum) {
+    const rangeArray = rangeOfNumbers(startNum, endNum - 1);
+    rangeArray.push(endNum);
+    return rangeArray;
+  }
 };
-
-console.log(``);
+console.log(rangeOfNumbers(1, 5)); // expected output: [1, 2, 3, 4, 5]
+console.log(rangeOfNumbers(6, 9)); // expected output: [6, 7, 8, 9]
+console.log(rangeOfNumbers(4, 4)); // expected output: [4]
