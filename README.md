@@ -14,6 +14,11 @@
 
 [Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/index.html)  
 
+## Static code analysis:
+
+[ESLint](https://eslint.org/)
+- ESLint is a static code analysis tool for identifying problematic patterns found in JavaScript code.
+
 ## Tutorials:
 
 **[FreeCodeCamp](https://www.freecodecamp.org/)**  
