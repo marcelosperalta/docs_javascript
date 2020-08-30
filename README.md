@@ -116,4 +116,4 @@ Index:
 
 ## :question: Challenges:
 
-[Edabit](https://edabit.com/challenges)
+**[Edabit](https://edabit.com/challenges)**  
