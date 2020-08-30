@@ -22,8 +22,7 @@
 
 :mortar_board: **[FreeCodeCamp](https://www.freecodecamp.org/)**  
 _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)_  
-https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/  
-Index:  
+**_index:_**  
 [var](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L32)  
 [assignment operator ("=")](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L58)  
 [NaN](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L88)  
