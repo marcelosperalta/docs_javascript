@@ -17,7 +17,6 @@
 ## :mag_right: Static code analysis:  
 
 [ESLint](https://eslint.org/)  
-ESLint is a static code analysis tool for identifying problematic patterns found in JavaScript code.  
 
 ## :books: Tutorials:  
 
