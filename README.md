@@ -12,11 +12,11 @@
 
 ## :book: Design Patterns:
 
-[Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/index.html)  
+**[Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/index.html)**  
 
 ## :mag_right: Static code analysis:  
 
-[ESLint](https://eslint.org/)  
+**[ESLint](https://eslint.org/)**  
 
 ## :books: Tutorials:  
 
