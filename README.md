@@ -4,22 +4,22 @@
 
 # **JavaScript Study**
 
-## References:
+## :blue_book: Concepts:
 
 **[Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)**  
 
 **[Temporal dead zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone)**  
 
-## Design Patterns:
+## :book: Design Patterns:
 
 [Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/index.html)  
 
-## Static code analysis:
+## :mag_right: Static code analysis:  
 
-[ESLint](https://eslint.org/)
-- ESLint is a static code analysis tool for identifying problematic patterns found in JavaScript code.
+[ESLint](https://eslint.org/)  
+ESLint is a static code analysis tool for identifying problematic patterns found in JavaScript code.  
 
-## Tutorials:
+## :books: Tutorials:  
 
 **[FreeCodeCamp](https://www.freecodecamp.org/)**  
 _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)_  
@@ -115,6 +115,6 @@ Index:
 [Use Recursion to Create a Countdown](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3346)  
 [Use Recursion to Create a Range of Numbers](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3448)  
 
-## Challenges:
+## :question: Challenges:
 
 [Edabit](https://edabit.com/challenges)
