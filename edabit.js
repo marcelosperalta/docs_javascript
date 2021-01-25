@@ -13,6 +13,7 @@ Very Easy
 `);
 
 // How Edabit Works
+// https://edabit.com/challenge/ARr5tA458o2tC9FTN
 function hello() {
 	return "hello edabit.com";
 }
@@ -23,6 +24,7 @@ console.log(``);
 
 
 // Return the Sum of Two Numbers
+// https://edabit.com/challenge/3LpBLgNRyaHMvNb4j
 function addition(a, b) {
 	return a + b;
 }
@@ -33,6 +35,7 @@ console.log(``);
 
 
 // Return the Next Number from the Integer Passed
+// https://edabit.com/challenge/NAQhEoxbofPidLxm9
 function addition2(num) {
 	return num + 1;
 }
@@ -44,6 +47,7 @@ console.log(``);
 
 
 // Using the "&&" Operator
+// https://edabit.com/challenge/vJCZmgvvDjehyDcDK
 function and(a, b) {
 	if (a === true && b === true){
         return true;
@@ -59,6 +63,7 @@ console.log(``);
 
 
 // Correct the Mistakes
+// https://edabit.com/challenge/ks3vMrqdnW3CQ3F4i
 function squared(b) {
 	return b * b;
 }
@@ -512,11 +517,16 @@ console.log(shouldServeDrinks(30, true));  // expected output: false
 console.log(``);
 
 
-// 
-
+// Convert Age to Days
+// https://edabit.com/challenge/bL7hSc6Zh4zZJzGmw
+function calcAge(age) {
+    return age * 365;
+}
+console.log(calcAge(65)); // expected output: 23725
+console.log(calcAge(0));  // expected output: 0
+console.log(calcAge(20)); // expected output: 7300
 
 console.log(``);
-
 
 // 
 
