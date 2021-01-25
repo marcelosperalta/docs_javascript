@@ -14,6 +14,7 @@ Very Easy
 
 // How Edabit Works
 // https://edabit.com/challenge/ARr5tA458o2tC9FTN
+
 function hello() {
 	return "hello edabit.com";
 }
@@ -25,6 +26,7 @@ console.log(``);
 
 // Return the Sum of Two Numbers
 // https://edabit.com/challenge/3LpBLgNRyaHMvNb4j
+
 function addition(a, b) {
 	return a + b;
 }
@@ -36,6 +38,7 @@ console.log(``);
 
 // Return the Next Number from the Integer Passed
 // https://edabit.com/challenge/NAQhEoxbofPidLxm9
+
 function addition2(num) {
 	return num + 1;
 }
@@ -48,6 +51,7 @@ console.log(``);
 
 // Using the "&&" Operator
 // https://edabit.com/challenge/vJCZmgvvDjehyDcDK
+
 function and(a, b) {
 	if (a === true && b === true){
         return true;
@@ -64,6 +68,7 @@ console.log(``);
 
 // Correct the Mistakes
 // https://edabit.com/challenge/ks3vMrqdnW3CQ3F4i
+
 function squared(b) {
 	return b * b;
 }
@@ -76,6 +81,8 @@ console.log(``);
 
 
 // Return the Remainder from Two Numbers
+// https://edabit.com/challenge/Q2j5FTFtsk7PdzrQk
+
 function remainder(x, y) {
 	return x % y;
 }
@@ -90,6 +97,8 @@ console.log(``);
 
 
 // Football Points
+// https://edabit.com/challenge/GwvwXHWCThHZrR7xu
+
 function footballPoints(wins, draws, losses) {
 	return (wins * 3) + (draws * 1) + (losses * 0);
 }
@@ -102,6 +111,8 @@ console.log(``);
 
 
 // Are the Numbers Equal?
+// https://edabit.com/challenge/QSnaSH5S3oxZkwcNc
+
 function isSameNum(num1, num2) {
     if (num1 === num2) {
         return true;
@@ -118,6 +129,8 @@ console.log(``);
 
 
 // Area of a Triangle
+// https://edabit.com/challenge/3CaszbdZYGN4otQD8
+
 function triArea (base, height) {
     return (base * height) / 2;
 }
@@ -130,6 +143,8 @@ console.log(``);
 
 
 // Convert Minutes into Seconds
+// https://edabit.com/challenge/8q54MKnRrm89pSLmW
+
 function convert(minutes) {
     return minutes * 60;
 }
@@ -142,6 +157,8 @@ console.log(``);
 
 
 // Less Than 100?
+// https://edabit.com/challenge/9MjEpkL7yAjAqiH58
+
 function lessThan100(a, b) {
     if (a + b < 100) {
         return true;
@@ -157,6 +174,8 @@ console.log(``);
 
 
 // Is the Number Less than or Equal to Zero?
+// https://edabit.com/challenge/PTiLYyb4A69KZtBCg
+
 function lessThanOrEqualToZero(num) {
     if (num <= 0) {
         return true;
@@ -173,6 +192,8 @@ console.log(``);
 
 
 // Equality Check
+// https://edabit.com/challenge/BGvTMfwxYDRbtaTJ3
+
 function checkEquality(a, b) {
     if (a === b) {
         return true;
@@ -189,6 +210,8 @@ console.log(``);
 
 
 // Find the Perimeter of a Rectangle
+// https://edabit.com/challenge/XnJ24rWW7iJkNrtsh
+
 function findPerimeter(length, width) {
     return (length + width) * 2;
 }
@@ -201,6 +224,8 @@ console.log(``);
 
 
 // Return the First Element in an Array
+// https://edabit.com/challenge/QaApgtePE6QrCZ64o
+
 function getFirstValue(arr) {
     return arr[0];
 }
@@ -213,6 +238,8 @@ console.log(``);
 
 
 // Return Something to Me!
+// https://edabit.com/challenge/MvZK536X7fyrWH8Qc
+
 function giveMeSomething(a) {
     return `something ${a}`;
 }
