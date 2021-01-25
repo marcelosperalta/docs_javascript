@@ -252,6 +252,8 @@ console.log(``);
 
 
 // Compare Strings by Count of Characters
+// https://edabit.com/challenge/yHGowWucg3k2kJdZ4
+
 function comp(str1, str2) {
     if (str1.length === str2.length) {
         return true;
@@ -268,6 +270,8 @@ console.log(``);
 
 
 // Maximum Edge of a Triangle
+// https://edabit.com/challenge/nhXofMMyrowMyr9Nv
+
 function nextEdge(side1, side2) {
     return (side1 + side2) - 1;
 }
@@ -280,6 +284,8 @@ console.log(``);
 
 
 // Convert Hours and Minutes into Seconds
+// https://edabit.com/challenge/JesaFi5ntBEbGT8bu
+
 function convert(hours, minutes) {
     return ((hours * 60) + minutes) * 60;
 }
@@ -292,6 +298,8 @@ console.log(``);
 
 
 // Convert Hours into Seconds
+// https://edabit.com/challenge/6AnQqiEjkJdZrWhPS
+
 function howManySeconds(hours) {
     return (hours * 60) * 60;
 }
@@ -304,6 +312,8 @@ console.log(``);
 
 
 // Return a String as an Integer
+// https://edabit.com/challenge/rGsgEswWuW339yNxY
+
 function stringInt(str) {
     return parseInt(str);
 }
@@ -316,6 +326,8 @@ console.log(``);
 
 
 // Recursion: Length of a String
+// https://edabit.com/challenge/4MSbtYFBiRtxHEkY8
+
 function length(str) {
     return str.length;
 }
@@ -329,6 +341,8 @@ console.log(``);
 
 
 // Movie Theatre Admittance
+// https://edabit.com/challenge/fP7gFvDaBymoZrXFx
+
 function acceptIntoMovie(age, isSupervised) {
     if (age < 15 && isSupervised == true) {
         return true;
@@ -350,6 +364,8 @@ console.log(``);
 
 
 // Divides Evenly
+// https://edabit.com/challenge/JfB9mWmbwYHbupxCB
+
 function dividesEvenly(a, b) {
     if (a % b === 0) {
         return true;
@@ -365,6 +381,8 @@ console.log(``);
 
 
 // Evaluate an Equation
+// https://edabit.com/challenge/n2bFd2enCnHJkTwsK
+
 function eq(evaluate) {
     return eval(evaluate);
 }
@@ -380,6 +398,8 @@ console.log(``);
 
 
 // Solve the Equation
+// https://edabit.com/challenge/X6PDfNfJwcB4TkQuQ
+
 function equation(s) {
     return eval(s);
 }
@@ -392,6 +412,8 @@ console.log(``);
 
 
 // Is the String Empty?
+// https://edabit.com/challenge/EzbfiquDoAc2Zc9FL
+
 function isEmpty(s) {
     if (s.length === 0) {
         return true;
@@ -408,6 +430,8 @@ console.log(``);
 
 
 // The Farm Problem
+// https://edabit.com/challenge/8Qg78sf5SNDEANKti
+
 function animals(chickens, cows, pigs) {
     return (chickens * 2) + (cows * 4) + (pigs * 4);
 }
@@ -420,6 +444,8 @@ console.log(``);
 
 
 // Check if an Integer is Divisible By Five
+// https://edabit.com/challenge/iBQYbSHZGhpktLRdn
+
 function divisibleByFive(n) {
     if (n % 5 === 0) {
         return true;
@@ -533,6 +559,8 @@ console.log(``);
 
 
 // Drinks Allowed?
+// https://edabit.com/challenge/PwpJNJiysvq3AuYJ8
+
 function shouldServeDrinks(age, onBreak) {
     return age >= 18 && onBreak == false;
 }
@@ -546,6 +574,7 @@ console.log(``);
 
 // Convert Age to Days
 // https://edabit.com/challenge/bL7hSc6Zh4zZJzGmw
+
 function calcAge(age) {
     return age * 365;
 }
