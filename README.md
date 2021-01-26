@@ -116,6 +116,7 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 ## :question: Challenges:
 
 **[Edabit](https://edabit.com/challenges)**  
+[How Edabit Works](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L20)  
 **_very easy:_**  
 [Are the Numbers Equal?](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L118)  
 [Area of a Triangle](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L136)  
@@ -132,7 +133,6 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 [Evaluate an Equation](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L388)  
 [Find the Perimeter of a Rectangle](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L217)  
 [Football Points](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L104)  
-[How Edabit Works](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L20)  
 [Is the Number Less than or Equal to Zero?](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L181)  
 [Is the String Empty?](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L419)  
 [Less Than 100?](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L164)  
