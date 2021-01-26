@@ -116,3 +116,19 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 ## :question: Challenges:
 
 **[Edabit](https://edabit.com/challenges)**  
+
+[Are the Numbers Equal?](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L15)  
+[](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L)  
+[](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L)  
+[](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L)  
+[](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L)  
+[](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L)  
+[](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L)  
+[](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L)  
+[](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L)  
+[](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L)  
+[](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L)  
+[](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L)  
+[](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L)  
+[](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L)  
+[](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L)  

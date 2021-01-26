@@ -4,7 +4,7 @@
 // Challenges
 // JavaScript
 
-// Very Easy
+// Very Easy: ------------------------------------------------------------------------ //
 
 console.log(`
 Challenges 
