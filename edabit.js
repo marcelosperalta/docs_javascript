@@ -26,7 +26,7 @@ function hello() {
 console.log(hello()); // expected output: hello edabit.com
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Return the Sum of Two Numbers
@@ -38,7 +38,7 @@ function addition(a, b) {
 console.log(addition(2, 2)); // expected output: 4
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Return the Next Number from the Integer Passed
@@ -51,7 +51,7 @@ console.log(addition2(1));  // expected output: 2
 console.log(addition2(-1)); // expected output: 0
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Using the "&&" Operator
@@ -68,7 +68,7 @@ console.log(and(true, true));  // expected output: true
 console.log(and(false, true)); // expected output: false
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Correct the Mistakes
@@ -82,7 +82,7 @@ console.log(squared(9));   // expected output: 81
 console.log(squared(100)); // expected output: 10000
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Return the Remainder from Two Numbers
@@ -98,7 +98,7 @@ console.log(remainder(-4, 2));  // expected output: -0
 console.log(remainder(-12, 5)); // expected output: -2
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Football Points
@@ -112,7 +112,7 @@ console.log(footballPoints(5, 0, 2)); // expected output: 15
 console.log(footballPoints(0, 0, 1)); // expected output: 0
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Are the Numbers Equal?
@@ -130,7 +130,7 @@ console.log(isSameNum(2, 2));   // expected output: true
 console.log(isSameNum(2, "2")); // expected output: false
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Area of a Triangle
@@ -144,7 +144,7 @@ console.log(triArea(7, 4));   // expected output: 14
 console.log(triArea(10, 10)); // expected output: 50
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Convert Minutes into Seconds
@@ -158,7 +158,7 @@ console.log(convert(3)); // expected output: 180
 console.log(convert(2)); // expected output: 120
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Less Than 100?
@@ -175,7 +175,7 @@ console.log(lessThan100(22, 15)); // expected output: true
 console.log(lessThan100(83, 34)); // expected output: false
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Is the Number Less than or Equal to Zero?
@@ -193,7 +193,7 @@ console.log(lessThanOrEqualToZero(0));  // expected output: true
 console.log(lessThanOrEqualToZero(-2)); // expected output: true
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Equality Check
@@ -211,7 +211,7 @@ console.log(checkEquality(0, "0"));  // expected output: false
 console.log(checkEquality(1, 1));    // expected output: true
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Find the Perimeter of a Rectangle
@@ -225,7 +225,7 @@ console.log(findPerimeter(20, 10)); // expected output: 30
 console.log(findPerimeter(2, 9));   // expected output: 22
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Return the First Element in an Array
@@ -239,7 +239,7 @@ console.log(getFirstValue([80, 5, 100]));  // expected output:   80
 console.log(getFirstValue([-500, 0, 50])); // expected output: -500
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Return Something to Me!
@@ -253,7 +253,7 @@ console.log(giveMeSomething("Bob Jane"));               // expected output: "som
 console.log(giveMeSomething("something") );             // expected output: "something something"
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Compare Strings by Count of Characters
@@ -271,7 +271,7 @@ console.log(comp("ABC", "DE"));       // expected output: false
 console.log(comp("hello", "edabit")); // expected output: false
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Maximum Edge of a Triangle
@@ -285,7 +285,7 @@ console.log(nextEdge(5, 7));  // expected output: 11
 console.log(nextEdge(9, 2));  // expected output: 10
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Convert Hours and Minutes into Seconds
@@ -299,7 +299,7 @@ console.log(convert(2, 0)); // expected output: 7200
 console.log(convert(0, 0)); // expected output: 0
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Convert Hours into Seconds
@@ -313,7 +313,7 @@ console.log(howManySeconds(10)); // expected output: 36000
 console.log(howManySeconds(24)); // expected output: 86400
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Return a String as an Integer
@@ -327,7 +327,7 @@ console.log(stringInt("1000")); // expected output: 1000
 console.log(stringInt("12"));   // expected output: 12
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Recursion: Length of a String
@@ -342,7 +342,7 @@ console.log(length("a"));     // expected output: 1
 console.log(length(""));      // expected output: 0
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Movie Theatre Admittance
@@ -365,7 +365,7 @@ console.log(acceptIntoMovie(15, true));  // expected output: true
 console.log(acceptIntoMovie(15, false)); // expected output: true
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Divides Evenly
@@ -382,7 +382,7 @@ console.log(dividesEvenly(98, 7)); // expected output: true
 console.log(dividesEvenly(85, 4)); // expected output: false
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Evaluate an Equation
@@ -399,7 +399,7 @@ console.log(eq("3+2-4"));   // expected output: 1
 // See Never use eval()!, below.
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Solve the Equation
@@ -413,7 +413,7 @@ console.log(equation("7*4-2"));     // expected output: 26
 console.log(equation("1+1+1+1+1")); // expected output: 5
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Is the String Empty?
@@ -431,7 +431,7 @@ console.log(isEmpty(" ")); // expected output: false
 console.log(isEmpty("a")); // expected output: false
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // The Farm Problem
@@ -445,7 +445,7 @@ console.log(animals(1, 2, 3)); // expected output: 22
 console.log(animals(5, 2, 8)); // expected output: 50
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Check if an Integer is Divisible By Five
@@ -462,7 +462,9 @@ console.log(divisibleByFive(5));   // expected output: true
 console.log(divisibleByFive(-55)); // expected output: true
 console.log(divisibleByFive(37));  // expected output: false
 
-console.log(``);
+
+console.log(`--------------------------------------------`);
+
 
 console.log(`
 Minimal I: If Boolean Then Boolean
@@ -560,7 +562,7 @@ console.log(isEven2(4)); // expected output: true
 console.log(isEven3(5)); // expected output: false
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Drinks Allowed?
@@ -574,7 +576,7 @@ console.log(shouldServeDrinks(19, false)); // expected output: true
 console.log(shouldServeDrinks(30, true));  // expected output: false
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // Convert Age to Days
@@ -587,18 +589,94 @@ console.log(calcAge(65)); // expected output: 23725
 console.log(calcAge(0));  // expected output: 0
 console.log(calcAge(20)); // expected output: 7300
 
-console.log(``);
+
+console.log(`--------------------------------------------`);
+
+
+// Buggy Code (Part 1)
+// https://edabit.com/challenge/j7yQbF3J3rToHsDBP
+
+// Fix the code below to pass this challenge (only syntax errors). 
+// Look at the examples below to get an idea of what the function should do.
+//
+// Examples:
+// cubes(3)  ➞ 27
+// cubes(5)  ➞ 125
+// cubes(10) ➞ 1000
+//
+// Notes:
+// READ EVERY WORD CAREFULLY, CHARACTER BY CHARACTER!
+// Don't overthink this challenge; it's not supposed to be hard.
+//
+// Code:
+// function cubes(a) {
+//  retunr a ** 3
+// }
+
+function cubes(a) {
+    return a ** 3;
+}
+
+console.log(cubes(3));  // expected output: 27
+console.log(cubes(5));  // expected output: 125
+console.log(cubes(10)); // expected output: 1000
+
+
+console.log(`--------------------------------------------`);
+
+
+// Word without First Character
+// https://edabit.com/challenge/Me4pMDq7yX2XzHiYc
+
+function newWord(str) {
+    return str.slice(1);
+}
+console.log(newWord("apple"));  // expected output: "pple"
+console.log(newWord("cherry")); // expected output: "herry"
+console.log(newWord("plum"));   // expected output: "lum"
+
+console.log(`--------------------------------------------`);
+
+
+// Alphabet Soup
+// https://edabit.com/challenge/bHDbMWpdeNaw23jqT
+
+function alphabetSoup(str) {
+    return str.split("").sort().join("").toString();
+}
+console.log(alphabetSoup("hello"));      // expected output: "ehllo"
+console.log(alphabetSoup("edabit"));     // expected output: "abdeit"
+console.log(alphabetSoup("hacker"));     // expected output: "acehkr"
+console.log(alphabetSoup("geek"));       // expected output: "eegk"
+console.log(alphabetSoup("javascript")); // expected output: "aacijprstv"
+
+
+console.log(`--------------------------------------------`);
+
+
+// Letters Only
+// https://edabit.com/challenge/GPKkNbytRpsAnHcrX
+
+function lettersOnly(str) {
+    return str.replace(/[^A-Za-z]/g, "")
+}
+console.log(lettersOnly("R!=:~0o0./c&}9k`60=y"));     // expected output: "Rocky"
+console.log(lettersOnly("^,]%4B|@56a![0{2m>b1&4i4")); // expected output: "Bambi"
+console.log(lettersOnly("^U)6$22>8p)."));             // expected output: "Up"
+
+console.log(`--------------------------------------------`);
+
 
 // 
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // 
 
 
-console.log(``);
+console.log(`--------------------------------------------`);
 
 
 // 
