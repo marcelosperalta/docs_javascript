@@ -130,7 +130,7 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 [Convert Minutes into Seconds](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L150)  
 [Correct the Mistakes](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L74)  
 [Divides Evenly](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L371)  
-[Drinks Allowed?](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L566)  
+[Drinks Allowed?](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L568)  
 [Equality Check](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L199)  
 [Evaluate an Equation](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L388)  
 [Find the Perimeter of a Rectangle](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L217)  
