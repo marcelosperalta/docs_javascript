@@ -116,7 +116,7 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 ## :question: Challenges:
 
 **[Edabit](https://edabit.com/challenges)**  
-
+**_very easy:_**  
 [Are the Numbers Equal?](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L113)  
 [Area of a Triangle](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L)  
 [Check if an Integer is Divisible By Five](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L)  
