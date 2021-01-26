@@ -124,7 +124,7 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 [Buggy Code (Part 1)](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L596)  
 [Check if an Integer is Divisible By Five](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L451)  
 [Compare Strings by Count of Characters](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L259)  
-[Convert Age to Days](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L580)  
+[Convert Age to Days](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L582)  
 [Convert Hours and Minutes into Seconds](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L291)  
 [Convert Hours into Seconds](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L305)  
 [Convert Minutes into Seconds](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L150)  
