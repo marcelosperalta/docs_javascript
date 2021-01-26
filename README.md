@@ -118,8 +118,10 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 **[Edabit](https://edabit.com/challenges)**  
 **_very easy:_**  
 [_How Edabit Works_](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L20)  
+[Alphabet Soup](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L640)  
 [Are the Numbers Equal?](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L118)  
 [Area of a Triangle](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L136)  
+[Buggy Code (Part 1)](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L596)  
 [Check if an Integer is Divisible By Five](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L451)  
 [Compare Strings by Count of Characters](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L259)  
 [Convert Age to Days](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L580)  
@@ -136,6 +138,7 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 [Is the Number Less than or Equal to Zero?](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L181)  
 [Is the String Empty?](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L419)  
 [Less Than 100?](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L164)  
+[Letters Only](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L656)  
 [Maximum Edge of a Triangle](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L277)  
 [Movie Theatre Admittance](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L348)  
 [Recursion: Length of a String](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L333)  
@@ -148,3 +151,4 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 [Solve the Equation](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L405)  
 [The Farm Problem](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L437)  
 [Using the "&&" Operator](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L57)  
+[Word without First Character](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L627)  

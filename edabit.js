@@ -616,7 +616,6 @@ console.log(`--------------------------------------------`);
 function cubes(a) {
     return a ** 3;
 }
-
 console.log(cubes(3));  // expected output: 27
 console.log(cubes(5));  // expected output: 125
 console.log(cubes(10)); // expected output: 1000
