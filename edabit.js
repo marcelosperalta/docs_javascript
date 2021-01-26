@@ -1,3 +1,8 @@
+// How to run: *********** //
+// npm install -g nodemon  //
+// nodemon edabit.js       //
+// *********************** //
+
 // Edabit
 // https://edabit.com/
 
