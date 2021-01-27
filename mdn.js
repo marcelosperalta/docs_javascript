@@ -1,9 +1,7 @@
 // MDN 
 // https://developer.mozilla.org/
 
-
 // JavaScript > JavaScript reference > Standard built-in objects > String:
-
 
 // String Length                  -------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator
