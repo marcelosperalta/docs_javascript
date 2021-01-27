@@ -24,7 +24,6 @@
 
 **_String Properties_**  
 [String length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator):  
-<br>
 
 **_String Methods_**  
 [String.prototype[@@iterator]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator):
