@@ -20,6 +20,11 @@
 
 ## :books: Tutorials:  
 
+:mag_right: **Quick Reference**  
+**_String Methods_**  
+[String.prototype[@@iterator]()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator):
+
+
 :book: **[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**  
 [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)  
 [JavaScript reference > Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)  

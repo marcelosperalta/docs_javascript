@@ -21,11 +21,15 @@ Easy
 // https://edabit.com/challenge/yaXQvCzAXJLe37Qie
 
 function sortDescending(str) {
-    return str.
+    if (str >= 0) {
+        return str;
+    } else {
+        return 
+    }
 }
-console.log(sortDescending("R!=:~0o0./c&}9k`60=y"));     // expected output: "Rocky"
-console.log(sortDescending("^,]%4B|@56a![0{2m>b1&4i4")); // expected output: "Bambi"
-console.log(sortDescending("^U)6$22>8p)."));             // expected output: "Up"
+console.log(sortDescending(123)); // expected output: "321"
+console.log(sortDescending(1254859723)); // expected output: "9875543221"
+console.log(sortDescending(73065)); // expected output: "76530"
 
 console.log(`--------------------------------------------`);
 
