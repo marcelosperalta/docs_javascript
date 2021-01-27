@@ -22,11 +22,11 @@
 
 ### :mag_right: **Quick Reference**  
 
-**_String Properties_**  
+**_String Properties_** | description  
 ------------ | -------------
 [String length](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L6) | The length property of a String object...  
 
-**_String Methods_**  
+**_String Methods_** | description  
 ------------ | -------------
 [String.prototype[@@iterator]](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L14)  | Returns a new iterator object...  
 [String.prototype.charAt()]() | Returns a new string consisting of the single UTF-16 code unit...
