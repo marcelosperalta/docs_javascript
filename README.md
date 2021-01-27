@@ -20,17 +20,19 @@
 
 ## :books: Tutorials:  
 
-:mag_right: **Quick Reference**  
+### :mag_right: **Quick Reference**  
+**_String Properties_**  
+[String length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator):
 **_String Methods_**  
 [String.prototype[@@iterator]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator):
 
 
-:book: **[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**  
+### :book: **[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**  
 [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)  
 [JavaScript reference > Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)  
 [JavaScript reference > Standard built-in objects > String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)  
 
-:mortar_board: **[FreeCodeCamp](https://www.freecodecamp.org/)**  
+### :mortar_board: **[FreeCodeCamp](https://www.freecodecamp.org/)**  
 _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)_  
 **_index:_**  
 [var](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L32)  
