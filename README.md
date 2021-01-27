@@ -22,7 +22,7 @@
 
 :mag_right: **Quick Reference**  
 **_String Methods_**  
-[String.prototype[@@iterator]()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator):
+[String.prototype[@@iterator]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator):
 
 
 :book: **[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**  
