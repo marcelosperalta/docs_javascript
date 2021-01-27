@@ -27,14 +27,20 @@ console.log(`-------------------------------------------------------------------
 
 // String.prototype.charAt() ------------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt
-var str = 'ABC';
-var strIter = str[Symbol.iterator]();
-console.log(strIter.next().value); // expected output: A
-console.log(strIter.next().value); // expected output: B
-console.log(strIter.next().value); // expected output: C
-var str2 = 'DEF';
-var strIter2 = str2[Symbol.iterator]();
-console.log(strIter2.next().value, strIter2.next().value, strIter2.next().value); // expected output: D E F
+var strCharAt = 'Returns a new string';
+// index:        0123456789
+console.log(strCharAt.charAt(4)); // expected output: "r"
+console.log(strCharAt.charAt(9)); // expected output: " "
+// --------------------------------------------------------------------------------------------------------- //
+
+console.log(`-----------------------------------------------------------------------------------------------`);
+
+// String.prototype.charCodeAt()---------------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt
+var strCharCodeAt = 'Returns an integer between 0 and 65535';
+// index:            0123456789
+var index = 0;
+console.log(`The character code ${strCharCodeAt.charCodeAt(index)} is equal to ${strCharCodeAt.charAt(index)}`); // expected output: "The character code 82 is equal to R"
 // --------------------------------------------------------------------------------------------------------- //
 
 console.log(`-----------------------------------------------------------------------------------------------`);
