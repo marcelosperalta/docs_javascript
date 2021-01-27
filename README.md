@@ -1,4 +1,4 @@
-<div align="start">
+<div align="end">
 <img height="100" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="javascript"/>
 </div>
 
@@ -21,18 +21,23 @@
 ## :books: Tutorials:  
 
 ### :mag_right: **Quick Reference**  
+
 **_String Properties_**  
-[String length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator):
+[String length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator):  
+<br>
+
 **_String Methods_**  
 [String.prototype[@@iterator]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator):
 
 
 ### :book: **[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**  
+
 [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)  
 [JavaScript reference > Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)  
 [JavaScript reference > Standard built-in objects > String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)  
 
 ### :mortar_board: **[FreeCodeCamp](https://www.freecodecamp.org/)**  
+
 _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)_  
 **_index:_**  
 [var](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L32)  
@@ -127,7 +132,8 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 ## :question: Challenges:
 
-**[Edabit](https://edabit.com/challenges)**  
+### [Edabit](https://edabit.com/challenges)
+
 **_very easy:_**  
 [_How Edabit Works_](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L20)  
 [Alphabet Soup](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L640)  
