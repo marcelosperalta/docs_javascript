@@ -23,10 +23,10 @@
 ### :mag_right: **Quick Reference**  
 
 **_String Properties_**  
-[String length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator):  
+[String length](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L6)  
 
 **_String Methods_**  
-[String.prototype[@@iterator]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator):
+[String.prototype[@@iterator]](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L14)  
 
 
 ### :book: **[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**  
