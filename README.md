@@ -23,11 +23,17 @@
 ### :mag_right: **Quick Reference**  
 
 **_String Properties_**  
-[String length](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L6)  
+[String length](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L6) - The length property of a String object...  
 
 **_String Methods_**  
-[String.prototype[@@iterator]](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L14)  
-
+[String.prototype[@@iterator]](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L14) - ...returns a new iterator object...  
+[String.prototype.charAt()]()  
+[]()  
+[]()  
+[]()  
+[]()  
+[]()  
+[]()  
 
 ### :book: **[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**  
 
