@@ -20,6 +20,11 @@
 
 ## :books: Tutorials:  
 
+:book: **[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**  
+[JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)  
+[JavaScript reference > Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)  
+[JavaScript reference > Standard built-in objects > String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)  
+
 :mortar_board: **[FreeCodeCamp](https://www.freecodecamp.org/)**  
 _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)_  
 **_index:_**  

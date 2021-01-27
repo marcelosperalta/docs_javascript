@@ -9,7 +9,7 @@
 // Challenges
 // JavaScript
 
-// Very Easy: ------------------------------------------------------------------------ //
+// Very Easy:
 
 console.log(`
 Challenges 
@@ -657,7 +657,7 @@ console.log(`--------------------------------------------`);
 // https://edabit.com/challenge/GPKkNbytRpsAnHcrX
 
 function lettersOnly(str) {
-    return str.replace(/[^A-Za-z]/g, "")
+    return str.replace(/[^A-Za-z]/g, "");
 }
 console.log(lettersOnly("R!=:~0o0./c&}9k`60=y"));     // expected output: "Rocky"
 console.log(lettersOnly("^,]%4B|@56a![0{2m>b1&4i4")); // expected output: "Bambi"
