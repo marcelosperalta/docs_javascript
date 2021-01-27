@@ -177,3 +177,6 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 [The Farm Problem](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L437)  
 [Using the "&&" Operator](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L57)  
 [Word without First Character](https://github.com/marcelosperalta/study_javascript/blob/master/edabit.js#L627)  
+
+**_easy:_**  
+[Sort Numbers in Descending Order](https://github.com/marcelosperalta/study_javascript/blob/master/edabit_easy.js#L20)  
