@@ -180,3 +180,4 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 **_easy:_**  
 [Sort Numbers in Descending Order](https://github.com/marcelosperalta/study_javascript/blob/master/edabit_easy.js#L20)  
+[Reverse the Case](https://github.com/marcelosperalta/study_javascript/blob/master/edabit_easy.js#L38)  

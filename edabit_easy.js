@@ -35,8 +35,37 @@ console.log(sortDescending(-1));         // expected output: Only positive numbe
 console.log(`--------------------------------------------`);
 
 
-// 
+// Reverse the Case
+// https://edabit.com/challenge/PTvYKkvf7oytHmJFm
 
+function reverseCase(str) {
+    let array = str.split("");
+    let newString = "";
+    for (let index = 0; index < array.length; index++) {
+        const element = array[index];
+        if (element === element.toUpperCase()) {
+            result = element.toLowerCase();
+        } else {
+            result = element.toUpperCase();
+        }
+        newString = newString + result;
+    }
+    return newString;
+}
+console.log(reverseCase("Happy Birthday")); // expected output: "hAPPY bIRTHDAY"
+console.log(reverseCase("MANY THANKS"));    // expected output: "many thanks"
+console.log(reverseCase("sPoNtAnEoUs"));    // expected output: "SpOnTaNeOuS"
+
+console.log(`
+or
+`)
+
+function reverseCaseYavor(str) {
+	return [...str].map(c => c.toLowerCase() == c ? c.toUpperCase() : c.toLowerCase()).join("")
+}
+console.log(reverseCaseYavor("Happy Birthday")); // expected output: "hAPPY bIRTHDAY"
+console.log(reverseCaseYavor("MANY THANKS"));    // expected output: "many thanks"
+console.log(reverseCaseYavor("sPoNtAnEoUs"));    // expected output: "SpOnTaNeOuS"
 
 console.log(`--------------------------------------------`);
 
