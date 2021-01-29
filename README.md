@@ -31,7 +31,7 @@
 [String.prototype[@@iterator]](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L14)  | Returns a new iterator object that iterates over the code points of a String value, returning each code point as a String value.  
 [String.prototype.charAt()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L28) | Returns a new string consisting of the single UTF-16 code unit located at the specified offset into the string.  
 [String.prototype.charCodeAt()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L38) | Returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index. 
-[String.prototype.codePointAt()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L49) | Returns a non-negative integer that is the UTF-16 code point value.                         
+[String.prototype.codePointAt()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L49) | Returns a non-negative integer that is the UTF-16 code point value./  
 [String.prototype.concat()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L60) | Concatenates the string arguments to the calling string and returns a new string.  
 [String.prototype.endsWith()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L72) | Determines whether a string ends with the characters of a specified string, returning true or false as appropriate.  
 [](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L) |   
