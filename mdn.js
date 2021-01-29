@@ -4,7 +4,7 @@
 // JavaScript > JavaScript reference > Standard built-in objects > String:
 
 // String Length                  -------------------------------------------------------------------------- //
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length
 var strLength = "The length property of a String object contains the length of the string";
 console.log(strLength.length); // expected output: 72
 // --------------------------------------------------------------------------------------------------------- //
