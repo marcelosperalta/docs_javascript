@@ -69,8 +69,9 @@ console.log(strConcat1 + ", " + strConcat2);      // expected output: "Hello, Wo
 
 console.log(`-----------------------------------------------------------------------------------------------`);
 
-//  -------------------------------------------------------------------------- //
-// 
+// String.prototype.endsWith() ----------------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith
+const strEndsWith = ""
 // expected output: ""
 // --------------------------------------------------------------------------------------------------------- //
 
