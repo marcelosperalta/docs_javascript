@@ -70,10 +70,82 @@ console.log(reverseCaseYavor("sPoNtAnEoUs"));    // expected output: "SpOnTaNeOu
 console.log(`--------------------------------------------`);
 
 
-// 
+// Hiding the Card Number
+// https://edabit.com/challenge/rtpvAqFT3koqMoFCJ
 
+function cardHide(card) {
+    return card.slice(0, card.length - 4).replace(new RegExp("[0-9]", "g"), "*") + card.slice(-4);
+}
+console.log(cardHide("1234123456785678")); // expected output: "************5678"
+console.log(cardHide("8754456321113213")); // expected output: "************3213"
+console.log(cardHide("35123413355523"));   // expected output: "**********5523"
+
+console.log(`
+or
+`)
+
+function cardHide2(card) {
+    return card.slice(0, card.length - 4).replace(/[0-9]/g, "*") + card.slice(-4);
+}
+console.log(cardHide2("1234123456785678")); // expected output: "************5678"
+console.log(cardHide2("8754456321113213")); // expected output: "************3213"
+console.log(cardHide2("35123413355523"));   // expected output: "**********5523"
+
+console.log(`
+or
+`)
+
+function cardHide3(card) {
+    return card.slice(0, card.length - 4).replace(/[0-9]/g, "*").concat(card.slice(-4));
+}
+console.log(cardHide3("1234123456785678")); // expected output: "************5678"
+console.log(cardHide3("8754456321113213")); // expected output: "************3213"
+console.log(cardHide3("35123413355523"));   // expected output: "**********5523"
+
+console.log(`
+or
+`)
+
+function cardHideCodeSmell(card) {
+    return card.replace(/.(?=.{4,}$)/g, '*');
+}
+console.log(cardHideCodeSmell("1234123456785678")); // expected output: "************5678"
+console.log(cardHideCodeSmell("8754456321113213")); // expected output: "************3213"
+console.log(cardHideCodeSmell("35123413355523"));   // expected output: "**********5523"
+
+console.log(`
+or
+`)
+
+const cardHideMbbentley = card => '*'.repeat(card.length - 4) + card.slice(-4);
+console.log(cardHideMbbentley("1234123456785678")); // expected output: "************5678"
+console.log(cardHideMbbentley("8754456321113213")); // expected output: "************3213"
+console.log(cardHideMbbentley("35123413355523"));   // expected output: "**********5523"
+
+console.log(`
+or
+`)
+
+const cardHideAlessandroManicone = card => card.slice(-4).padStart(card.length, '*');
+console.log(cardHideAlessandroManicone("1234123456785678")); // expected output: "************5678"
+console.log(cardHideAlessandroManicone("8754456321113213")); // expected output: "************3213"
+console.log(cardHideAlessandroManicone("35123413355523"));   // expected output: "**********5523"
+console.log(`--------------------------------------------`);
+
+
+// 
+//
 
 console.log(`--------------------------------------------`);
 
 
 // 
+//
+
+console.log(`--------------------------------------------`);
+
+
+// 
+//
+
+console.log(`--------------------------------------------`);
