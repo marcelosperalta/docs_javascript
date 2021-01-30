@@ -20,11 +20,73 @@ Medium
 // Finding Nemo
 // https://edabit.com/challenge/c23dFfNiKbnguSQtq
 
-function findNemo(str) {
-    
+function findNemo(sentence) {
+    // console.log(sentence.split(" "));
+    if (sentence.split(" ").includes("Nemo") === true) {
+        let order = sentence.split(" ").indexOf("Nemo");
+        return `I found Nemo at ${order + 1}!`;
+    } else {
+        return "I can't find Nemo :(";
+    } 
 }
-console.log(findNemo("I am finding Nemo !")); // expected output: "I found Nemo at 4!"
-console.log(findNemo("Nemo is me"));          // expected output: "I found Nemo at 1!"
-console.log(findNemo("I Nemo am"));           // expected output: "I found Nemo at 2!"
+console.log(findNemo("I am finding Nemo !"));                      // expected output: "I found Nemo at 4!"
+console.log(findNemo("Nemo is me"));                               // expected output: "I found Nemo at 1!"
+console.log(findNemo("I Nemo am"));                                // expected output: "I found Nemo at 2!"
+console.log(findNemo("Is it Nemos, Nemona, Nemoor or Garfield?")); // expected output: "I can't find Nemo :("
+
+console.log(`
+or
+`)
+
+const findNemo2 = sentence => 
+sentence.split(" ").includes("Nemo") === true  
+? `I found Nemo at ${sentence.split(" ").indexOf("Nemo") + 1}`
+: "I can't find Nemo :(";
+console.log(findNemo2("I am finding Nemo !"));                      // expected output: "I found Nemo at 4!"
+console.log(findNemo2("Nemo is me"));                               // expected output: "I found Nemo at 1!"
+console.log(findNemo2("I Nemo am"));                                // expected output: "I found Nemo at 2!"
+console.log(findNemo2("Is it Nemos, Nemona, Nemoor or Garfield?")); // expected output: "I can't find Nemo :("
+
+console.log(`
+or
+`)
+
+const findNemoYanEcomp = sentence => {
+    const index = sentence.split(' ').findIndex(e => e === 'Nemo')
+    return index >= 0 ? `I found Nemo at ${index+1}!` : "I can't find Nemo :("
+}
+console.log(findNemoYanEcomp("I am finding Nemo !"));                      // expected output: "I found Nemo at 4!"
+console.log(findNemoYanEcomp("Nemo is me"));                               // expected output: "I found Nemo at 1!"
+console.log(findNemoYanEcomp("I Nemo am"));                                // expected output: "I found Nemo at 2!"
+console.log(findNemoYanEcomp("Is it Nemos, Nemona, Nemoor or Garfield?")); // expected output: "I can't find Nemo :("
+
+console.log(`
+or
+`)
+
+const findNemoFnogcps  = a => {
+    b = a.split(" ").indexOf("Nemo") + 1
+    return b ? `I found Nemo at ${b}!` : "I can't find Nemo :("
+}
+console.log(findNemoFnogcps("I am finding Nemo !"));                      // expected output: "I found Nemo at 4!"
+console.log(findNemoFnogcps("Nemo is me"));                               // expected output: "I found Nemo at 1!"
+console.log(findNemoFnogcps("I Nemo am"));                                // expected output: "I found Nemo at 2!"
+console.log(findNemoFnogcps("Is it Nemos, Nemona, Nemoor or Garfield?")); // expected output: "I can't find Nemo :("
 
 console.log(`--------------------------------------------`);
+
+
+// 
+// 
+
+console.log(`--------------------------------------------`);
+
+
+// 
+// 
+
+console.log(`--------------------------------------------`);
+
+
+// 
+// 
