@@ -185,3 +185,6 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 [Sort Numbers in Descending Order](https://github.com/marcelosperalta/study_javascript/blob/master/edabit_easy.js#L20)  
 [Reverse the Case](https://github.com/marcelosperalta/study_javascript/blob/master/edabit_easy.js#L38)  
 [Hiding the Card Number](https://github.com/marcelosperalta/study_javascript/blob/master/edabit_easy.js#L73)  
+
+**_medium:_**  
+[Finding Nemo](https://github.com/marcelosperalta/study_javascript/blob/master/edabit_medium.js#L20)  

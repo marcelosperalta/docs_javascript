@@ -61,7 +61,7 @@ or
 `)
 
 function reverseCaseYavor(str) {
-	return [...str].map(c => c.toLowerCase() == c ? c.toUpperCase() : c.toLowerCase()).join("")
+	return [...str].map(c => c.toLowerCase() == c ? c.toUpperCase() : c.toLowerCase()).join("");
 }
 console.log(reverseCaseYavor("Happy Birthday")); // expected output: "hAPPY bIRTHDAY"
 console.log(reverseCaseYavor("MANY THANKS"));    // expected output: "many thanks"
