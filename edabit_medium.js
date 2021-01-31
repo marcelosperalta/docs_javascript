@@ -76,8 +76,20 @@ console.log(findNemoFnogcps("Is it Nemos, Nemona, Nemoor or Garfield?")); // exp
 console.log(`--------------------------------------------`);
 
 
-// 
-// 
+// Return the Middle Character(s) of a String
+// https://edabit.com/challenge/R3649PDvoFf6wGxyg
+
+function getMiddle(str) {
+    if (str.length % 2 === 0) {
+        return str.slice(str.length / 2 - 1, str.length / 2 + 1);
+    } else {
+        return str.slice(str.length / 2, str.length / 2 + 1);
+    }
+}
+console.log(getMiddle("test"));    // expected output: "es"
+console.log(getMiddle("testing")); // expected output: "t"
+console.log(getMiddle("middle"));  // expected output: "dd"
+console.log(getMiddle("A"));       // expected output: "A"
 
 console.log(`--------------------------------------------`);
 
