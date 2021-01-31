@@ -189,3 +189,9 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 **_medium:_**  
 [Finding Nemo](https://github.com/marcelosperalta/study_javascript/blob/master/edabit_medium.js#L20)  
 [Return the Middle Character(s) of a String](https://github.com/marcelosperalta/study_javascript/blob/master/edabit_medium.js#L79)  
+
+**_hard:_**  
+[Reverse the Odd Length Words](https://github.com/marcelosperalta/study_javascript/blob/master/edabit_hard.js#L20)  
+
+**_very hard:_**  
+[Game of Thrones: Character Titles](https://github.com/marcelosperalta/study_javascript/blob/master/edabit_very_hard.js#L20)  
