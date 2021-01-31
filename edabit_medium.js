@@ -91,6 +91,20 @@ console.log(getMiddle("testing")); // expected output: "t"
 console.log(getMiddle("middle"));  // expected output: "dd"
 console.log(getMiddle("A"));       // expected output: "A"
 
+console.log(`
+or
+`)
+
+function getMiddleAsdf(str) {
+    var start = Math.ceil(str.length / 2) - 1;
+    var end = Math.floor(str.length / 2) + 1;
+    return str.substring(start, end);
+  }
+  console.log(getMiddleAsdf("test"));    // expected output: "es"
+  console.log(getMiddleAsdf("testing")); // expected output: "t"
+  console.log(getMiddleAsdf("middle"));  // expected output: "dd"
+  console.log(getMiddleAsdf("A"));       // expected output: "A"
+
 console.log(`--------------------------------------------`);
 
 
