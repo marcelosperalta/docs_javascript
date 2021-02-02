@@ -83,14 +83,22 @@ console.log(strEndsWith.endsWith("best", strEndsWith.length - 1)) // expected ou
 
 console.log(`-----------------------------------------------------------------------------------------------`);
 
-//  -------------------------------------------------------------------------- //
-// 
-// expected output: ""
+// String.fromCharCode() ----------------------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode
+// Share on PinboardShare on HackerNewsShare on TwitterShare on FacebookShare on Reddit
+// https://www.fileformat.info/info/charset/UTF-16/list.htm
+console.log(String.fromCharCode(33));               // expected output: "!"
+// UTF-16 (decimal) >  33 > https://www.fileformat.info/info/unicode/char/0021/index.htm
+console.log(String.fromCharCode(189, 43, 190, 61)); // expected output: "½+¾="
+// UTF-16 (decimal) > 189 > https://www.fileformat.info/info/unicode/char/00bd/index.htm
+// UTF-16 (decimal) >  43 > https://www.fileformat.info/info/unicode/char/002b/index.htm
+// UTF-16 (decimal) > 190 > https://www.fileformat.info/info/unicode/char/00be/index.htm
+// UTF-16 (decimal) >  61 > https://www.fileformat.info/info/unicode/char/003d/index.htm
 // --------------------------------------------------------------------------------------------------------- //
 
 console.log(`-----------------------------------------------------------------------------------------------`);
 
-//  -------------------------------------------------------------------------- //
+// String.fromCodePoint() ---------------------------------------------------------------------------------- //
 // 
 // expected output: ""
 // --------------------------------------------------------------------------------------------------------- //
