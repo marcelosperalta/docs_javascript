@@ -22,9 +22,9 @@
 
 ### :mag_right: **Quick Reference**  
 
-**_String Properties_** | description  
+**_String Properties_** | description | example  
 ------------ | -------------
-[String length](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L6) | The length property of a String object contains the length of the string, in UTF-16 code units. length is a read-only data property of string instances.  
+[String length](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L6) | The length property of a String object contains the length of the string, in UTF-16 code units. length is a read-only data property of string instances. | String.fromCodePoint(42);  
 
 **_String Methods_** | description  
 ------------ | -------------
