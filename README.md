@@ -22,12 +22,12 @@
 
 ### :mag_right: **Quick Reference**  
 
-**_String Properties_** | description | example  
------------- | ------------- | -------------
-[String length](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L6) | The length property of a String object contains the length of the string, in UTF-16 code units. length is a read-only data property of string instances. | String.fromCodePoint(42);  
+**_String Properties_** | description
+------------ | -------------
+[String length](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L6) | The length property of a String object contains the length of the string, in UTF-16 code units. length is a read-only data property of string instances.
 
-**_String Methods_** | description | -------------
------------- | ------------- | -------------
+**_String Methods_** | description
+------------ | -------------
 [String.prototype[@@iterator]](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L14)  | Returns a new iterator object that iterates over the code points of a String value, returning each code point as a String value.  
 [String.prototype.charAt()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L28) | Returns a new string consisting of the single UTF-16 code unit located at the specified offset into the string.  
 [String.prototype.charCodeAt()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L38) | Returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index. 
