@@ -99,8 +99,13 @@ console.log(String.fromCharCode(189, 43, 190, 61)); // expected output: "½+¾="
 console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.fromCodePoint() ---------------------------------------------------------------------------------- //
-// 
-// expected output: ""
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint
+console.log(String.fromCodePoint(9731, 32, 9733, 32, 9842, 32, 0x4F60)); // expected output: "☃★♲你"
+// UTF-16 (decimal) > 32      > "SPACE" > https://www.fileformat.info/info/unicode/char/0020/index.htm
+// UTF-16 (decimal) > 9731    > ☃       > https://www.fileformat.info/info/unicode/char/2603/index.htm
+// UTF-16 (decimal) > 9733    > ★       > https://www.fileformat.info/info/unicode/char/2605/index.htm
+// UTF-16 (decimal) > 9842    > ♲       > https://www.fileformat.info/info/unicode/char/2672/index.htm
+// UTF-16 (hex)     > 0x2F804 > 你       > https://www.fileformat.info/info/unicode/char/4f60/index.htm
 // --------------------------------------------------------------------------------------------------------- //
 
 console.log(`-----------------------------------------------------------------------------------------------`);
