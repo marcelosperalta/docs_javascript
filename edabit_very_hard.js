@@ -54,7 +54,8 @@ function correctTitle(str) {
         newArray = newArray + " " + element[0].toUpperCase() + element.slice(1, element.length);
     }
     return newArray
-    .replace(/And/g, "and")
+    .replace(/\-[a-z]/g, x => "-" + x[1].toUpperCase())
+    .replace(/And\b/g, "and")
     .replace(/The/g, "the")
     .replace(/Of/g, "of")
     .replace(/In/g, "in")
@@ -66,6 +67,62 @@ console.log(correctTitle("sansa stark, lady of winterfell."));                 /
 console.log(correctTitle("TYRION LANNISTER, HAND OF THE QUEEN."));             // expected output: "Tyrion Lannister, Hand of the Queen."
 console.log(correctTitle("doran martell, prince of dorne, lord of sunspear.")) // expected output: "Doran Martell, Prince of Dorne, Lord of Sunspear."
 console.log(correctTitle("MANCE RAYDER, KING-BEYOND-THE-WALL."))               // expected output: "Mance Rayder, King-Beyond-the-Wall."
+
+console.log(`
+or
+`);
+
+const exceptions = ['and', 'the', 'of', 'in'];
+const capitalize = word => word[0].toUpperCase() + word.slice(1);
+const correctTitleAlessandroManicone = str => {
+    let words = str.toLowerCase().split(' ');
+    return words
+        .map(word => 
+                 word
+                     .split('-')
+                     .map(subword => 
+                             exceptions.includes(subword)? 
+                             subword : capitalize(subword))
+                     .join('-'))
+        .join(' ');
+}
+console.log(correctTitleAlessandroManicone("jOn SnoW, kINg IN thE noRth."));                     // expected output: "Jon Snow, King in the North."
+console.log(correctTitleAlessandroManicone("sansa stark, lady of winterfell."));                 // expected output: "Sansa Stark, Lady of Winterfell."
+console.log(correctTitleAlessandroManicone("TYRION LANNISTER, HAND OF THE QUEEN."));             // expected output: "Tyrion Lannister, Hand of the Queen."
+console.log(correctTitleAlessandroManicone("doran martell, prince of dorne, lord of sunspear.")) // expected output: "Doran Martell, Prince of Dorne, Lord of Sunspear."
+console.log(correctTitleAlessandroManicone("MANCE RAYDER, KING-BEYOND-THE-WALL."))               // expected output: "Mance Rayder, King-Beyond-the-Wall."
+
+console.log(`
+or
+`);
+
+const lower = ['and', 'the', 'of', 'in'];
+const capFirst = word => lower.includes(word) ? word : word.charAt(0).toUpperCase() + word.substring(1);
+const capitalize2 = word => word.split('-').map(capFirst).join('-');
+const correctTitleEuphonicSounds = str => str.toLowerCase().split(' ').map(capitalize2).join(' ');
+console.log(correctTitleEuphonicSounds("jOn SnoW, kINg IN thE noRth."));                     // expected output: "Jon Snow, King in the North."
+console.log(correctTitleEuphonicSounds("sansa stark, lady of winterfell."));                 // expected output: "Sansa Stark, Lady of Winterfell."
+console.log(correctTitleEuphonicSounds("TYRION LANNISTER, HAND OF THE QUEEN."));             // expected output: "Tyrion Lannister, Hand of the Queen."
+console.log(correctTitleEuphonicSounds("doran martell, prince of dorne, lord of sunspear.")) // expected output: "Doran Martell, Prince of Dorne, Lord of Sunspear."
+console.log(correctTitleEuphonicSounds("MANCE RAYDER, KING-BEYOND-THE-WALL."))               // expected output: "Mance Rayder, King-Beyond-the-Wall."
+
+console.log(`
+or
+`);
+
+function correctTitleYKim(str) {
+    let upper = str.toLowerCase().replace(/\b[a-z]\B/gi, c => c.toUpperCase());
+    upper = upper.replace(/\b(and)\b/gi, 'and');
+    upper = upper.replace(/\b(the)\b/gi, 'the');
+    upper = upper.replace(/\b(of)\b/gi, 'of');
+    upper = upper.replace(/\b(in)\b/gi, 'in');
+    return upper;
+}
+console.log(correctTitleYKim("jOn SnoW, kINg IN thE noRth."));                     // expected output: "Jon Snow, King in the North."
+console.log(correctTitleYKim("sansa stark, lady of winterfell."));                 // expected output: "Sansa Stark, Lady of Winterfell."
+console.log(correctTitleYKim("TYRION LANNISTER, HAND OF THE QUEEN."));             // expected output: "Tyrion Lannister, Hand of the Queen."
+console.log(correctTitleYKim("doran martell, prince of dorne, lord of sunspear.")) // expected output: "Doran Martell, Prince of Dorne, Lord of Sunspear."
+console.log(correctTitleYKim("MANCE RAYDER, KING-BEYOND-THE-WALL."))               // expected output: "Mance Rayder, King-Beyond-the-Wall."
 
 console.log(`--------------------------------------------`);
 
