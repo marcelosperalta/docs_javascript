@@ -71,7 +71,27 @@ console.log(`-------------------------------------------------------------------
 
 // String.prototype.endsWith() ----------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith
-const strEndsWith = ""
+const strEndsWith = "Cats are the best!";
+//                   0123456789        
+console.log(strEndsWith.endsWith("!"))                            // expected output: "true"
+console.log(strEndsWith.endsWith("!", 18))                        // expected output: "true"
+console.log(strEndsWith.endsWith("best"))                         // expected output: "false"
+console.log(strEndsWith.endsWith("!", 17))                        // expected output: "false"
+console.log(strEndsWith.endsWith("best", 17))                     // expected output: "true"
+console.log(strEndsWith.endsWith("best", strEndsWith.length - 1)) // expected output: "true"
+// --------------------------------------------------------------------------------------------------------- //
+
+console.log(`-----------------------------------------------------------------------------------------------`);
+
+//  -------------------------------------------------------------------------- //
+// 
+// expected output: ""
+// --------------------------------------------------------------------------------------------------------- //
+
+console.log(`-----------------------------------------------------------------------------------------------`);
+
+//  -------------------------------------------------------------------------- //
+// 
 // expected output: ""
 // --------------------------------------------------------------------------------------------------------- //
 
