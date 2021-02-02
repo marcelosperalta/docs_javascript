@@ -35,7 +35,7 @@
 [String.prototype.concat()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L60) | Concatenates the string arguments to the calling string <br/>and returns a new string.  
 [String.prototype.endsWith()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L72) | Determines whether a string ends with the characters of a specified string, returning true or false as appropriate.  
 [String.fromCharCode()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L86) | Determines whether a string ends with the characters of a specified string, returning true or false as appropriate.  
-[String.fromCodePoint()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L101) | Returns a string created by using the specified sequence of code points.  
+[String.fromCodePoint()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L101) | Returns a string created<br/> by using the specified sequence of code points.  
 
 ### :book: **[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**  
 
