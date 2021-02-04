@@ -197,4 +197,9 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 ### [Codility](https://app.codility.com/programmers/)
 
-[Refactor yourself](https://github.com/marcelosperalta/study_javascript/blob/master/codility.js#L11)  
+[Refactor yourself](https://github.com/marcelosperalta/study_javascript/blob/master/codility.js#L12)  
+
+### [Coderbyte](https://coderbyte.com/)
+
+**_easy:_** 
+[Codeland Username Validation](https://github.com/marcelosperalta/study_javascript/blob/master/coderbyte_easy.js#L14)  

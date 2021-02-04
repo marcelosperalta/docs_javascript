@@ -1,12 +1,13 @@
 // How to run: *********** //
 // npm install -g nodemon  //
-// nodemon edabit.js       //
+// nodemon <file-name>     //
 // *********************** //
 
 // Codility
 // https://app.codility.com/programmers/
 
 // Challenges
+// JavaScript
 
 // Refactor yourself ------------------------------------------------------------------------ //
 var yourself = {
