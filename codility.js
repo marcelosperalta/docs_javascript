@@ -1,4 +1,4 @@
-// Refactor yourself ----------------------------------------------------------------------- //
+// Refactor yourself ------------------------------------------------------------------------ //
 var yourself = {
     fibonacci : function(n) {
         if (n === 0) {
@@ -85,3 +85,4 @@ console.log(yourself3.fibonacci(1));
 console.log(yourself3.fibonacci(2));
 console.log(yourself3.fibonacci(3));
 console.log(yourself3.fibonacci(15));
+// ------------------------------------------------------------------------------------------ //

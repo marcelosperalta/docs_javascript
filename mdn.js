@@ -123,9 +123,28 @@ console.log(sentence.includes("false", 16)); // expected output: "false";
 
 console.log(`-----------------------------------------------------------------------------------------------`);
 
-//  -------------------------------------------------------------------------- //
-// 
-// expected output: ""
+// String.prototype.indexOf() ------------------------------------------------------------------------------ //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf
+const strIndexOf = "Returns the index within the calling String...";
+console.log(strIndexOf.indexOf("Returns"));     // expected output: "0"
+console.log(strIndexOf.indexOf("eturns"));      // expected output: "1"
+console.log(strIndexOf.indexOf("and"));         // expected output: "-1"
+console.log(strIndexOf.indexOf("Returns", 0));  // expected output: "0"
+console.log(strIndexOf.indexOf("Returns", 1));  // expected output: "-1"
+console.log(`-----`);
+const strIndexOf2 = "And the and the and";
+console.log(strIndexOf2.indexOf("And"));        // expected output: "0"
+console.log(strIndexOf2.indexOf("and"));        // expected output: "8"
+console.log(strIndexOf2.indexOf("Returns"));    // expected output: "-1"
+console.log(`-----`);
+const strIndexOf3 = "Returns";
+console.log(strIndexOf3.indexOf("Returns"));    // expected output: "0"
+console.log(strIndexOf3.indexOf("Returns", 0)); // expected output: "0"
+console.log(strIndexOf3.indexOf("Returns", 1)); // expected output: "-1"
+console.log(strIndexOf3.indexOf("Returns", 6)); // expected output: "-1"
+console.log(`-----`);
+console.log('Blue Whale'.indexOf('Whale', 0))  // returns  5
+console.log('Blue Whale'.indexOf('Whale', 5))  // returns  5
 // --------------------------------------------------------------------------------------------------------- //
 
 console.log(`-----------------------------------------------------------------------------------------------`);
