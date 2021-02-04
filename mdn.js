@@ -113,8 +113,12 @@ console.log(`-------------------------------------------------------------------
 // String.prototype.includes() ----------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
 const sentence = "Return true or false";
-console.log(sentence.includes("Return")); // expected output: "true";
-console.log(sentence.includes("Test"));   // expected output: "false";
+console.log(sentence.includes("Return"));    // expected output: "true";
+console.log(sentence.includes("Test"));      // expected output: "false";
+console.log(sentence.includes("Return", 0)); // expected output: "true";
+console.log(sentence.includes("Return", 1)); // expected output: "false";
+console.log(sentence.includes("false", 15)); // expected output: "true";
+console.log(sentence.includes("false", 16)); // expected output: "false";
 // --------------------------------------------------------------------------------------------------------- //
 
 console.log(`-----------------------------------------------------------------------------------------------`);
