@@ -194,3 +194,7 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 **_very hard:_**  
 [Game of Thrones: Character Titles](https://github.com/marcelosperalta/study_javascript/blob/master/edabit_very_hard.js#L20)  
+
+### [Codility](https://app.codility.com/programmers/)
+
+[Refactor yourself](https://github.com/marcelosperalta/study_javascript/blob/master/codility.js#L11)  

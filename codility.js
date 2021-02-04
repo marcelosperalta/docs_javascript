@@ -1,3 +1,13 @@
+// How to run: *********** //
+// npm install -g nodemon  //
+// nodemon edabit.js       //
+// *********************** //
+
+// Codility
+// https://app.codility.com/programmers/
+
+// Challenges
+
 // Refactor yourself ------------------------------------------------------------------------ //
 var yourself = {
     fibonacci : function(n) {
