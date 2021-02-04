@@ -201,5 +201,5 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 ### [Coderbyte](https://coderbyte.com/)
 
-**_easy:_** 
+**_easy:_**  
 [Codeland Username Validation](https://github.com/marcelosperalta/study_javascript/blob/master/coderbyte_easy.js#L14)  
