@@ -143,14 +143,44 @@ console.log(strIndexOf3.indexOf("Returns", 0)); // expected output: "0"
 console.log(strIndexOf3.indexOf("Returns", 1)); // expected output: "-1"
 console.log(strIndexOf3.indexOf("Returns", 6)); // expected output: "-1"
 console.log(`-----`);
-console.log('Blue Whale'.indexOf('Whale', 0))  // returns  5
-console.log('Blue Whale'.indexOf('Whale', 5))  // returns  5
+console.log('Blue Whale'.indexOf('Whale', 0));  // returns  5
+console.log('Blue Whale'.indexOf('Whale', 5));  // returns  5
 // --------------------------------------------------------------------------------------------------------- //
 
 console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.prototype.lastIndexOf() -------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf
+const strLastIndexOf = "The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?";
+console.log(strLastIndexOf.lastIndexOf("dog"));  // expected output: "52"
+console.log(strLastIndexOf.lastIndexOf("test")); // expected output: "-1"
+// --------------------------------------------------------------------------------------------------------- //
+
+console.log(`-----------------------------------------------------------------------------------------------`);
+
+// String.prototype.localeCompare() ------------------------------------------------------------------------ //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
+console.log('a'.localeCompare('c'));           // expected output: "-2 or -1"
+console.log('check'.localeCompare('against')); // expected output: "2 or 1"
+console.log('a'.localeCompare('a'));           // expected output: "0"
+console.log('b'.localeCompare('a'));           // expected output: "1"
+console.log('c'.localeCompare('a'));           // expected output: "1"
+console.log('d'.localeCompare('a'));           // expected output: "1"
+
+let items = ['réservé', 'Premier', 'Cliché', 'communiqué', 'café', 'Adieu'];
+items.sort( (a, b) => a.localeCompare(b, 'fr', {ignorePunctuation: true})); 
+console.log(items)                             // expected output: "['Adieu', 'café', 'Cliché', 'communiqué', 'Premier', 'réservé']""
+
+// in German, ä has a as the base letter
+console.log('ä'.localeCompare('a', 'de', { sensitivity: 'base' })); // expected output: "0"
+// in Swedish, ä and a are separate base letters
+console.log('ä'.localeCompare('a', 'sv', { sensitivity: 'base' })); // expected output: a positive value
+// --------------------------------------------------------------------------------------------------------- //
+
+console.log(`-----------------------------------------------------------------------------------------------`);
+
+//  -------------------------------------------------------------------------- //
+// 
 // expected output: ""
 // --------------------------------------------------------------------------------------------------------- //
 
