@@ -38,6 +38,7 @@
 [String.fromCodePoint()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L101) | Returns a string created<br/> by using the specified sequence of code points.  
 [String.prototype.includes()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L113) | Determines whether one string may be found within another string, returning true or false as appropriate.  
 [String.prototype.indexOf()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L126) | Returns the index within the calling String object of the first occurrence of the specified value, starting the search at fromIndex. Returns -1 if the value is not found.  
+[String.prototype.lastIndexOf()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L152) | Returns the index within the calling String object of the last occurrence of the specified value, searching backwards from fromIndex. Returns -1 if the value is not found.  
 
 ### :book: **[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**  
 
