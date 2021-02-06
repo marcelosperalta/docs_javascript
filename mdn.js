@@ -166,11 +166,11 @@ console.log('a'.localeCompare('a'));           // expected output: "0"
 console.log('b'.localeCompare('a'));           // expected output: "1"
 console.log('c'.localeCompare('a'));           // expected output: "1"
 console.log('d'.localeCompare('a'));           // expected output: "1"
-
+console.log(`-----`);
 let items = ['réservé', 'Premier', 'Cliché', 'communiqué', 'café', 'Adieu'];
 items.sort( (a, b) => a.localeCompare(b, 'fr', {ignorePunctuation: true})); 
 console.log(items)                             // expected output: "['Adieu', 'café', 'Cliché', 'communiqué', 'Premier', 'réservé']""
-
+console.log(`-----`);
 // in German, ä has a as the base letter
 console.log('ä'.localeCompare('a', 'de', { sensitivity: 'base' })); // expected output: "0"
 // in Swedish, ä and a are separate base letters
