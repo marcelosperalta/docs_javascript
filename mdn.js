@@ -181,8 +181,15 @@ console.log(`-------------------------------------------------------------------
 
 // String.prototype.match() -------------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match
-
-// expected output: ""
+const strMatch = "The quick brown fox jumps over the lazy dog. It barked."
+const regex = /[A-Z]/g;
+const found = strMatch.match(regex);
+console.log(found);         // expected output: Array ["T", "I"]
+console.log(`-----`);
+const strMatch2 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+const regexp2 = /[A-E]/gi;
+const matches_array = str.match(regexp2);
+console.log(matches_array); // expected output: ['A', 'B', 'C', 'D', 'E', 'a', 'b', 'c', 'd', 'e']
 // --------------------------------------------------------------------------------------------------------- //
 
 console.log(`-----------------------------------------------------------------------------------------------`);
