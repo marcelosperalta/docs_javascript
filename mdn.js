@@ -194,9 +194,13 @@ console.log(matches_array); // expected output: ['A', 'B', 'C', 'D', 'E', 'a', '
 
 console.log(`-----------------------------------------------------------------------------------------------`);
 
-//  -------------------------------------------------------------------------- //
-// 
-// expected output: ""
+// String.prototype.matchAll() ----------------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll
+const regexp = /t(e)(st(\d?))/g;
+const strMatchAll = 'test1test2';
+const arrayMatchAll = [...strMatchAll.matchAll(regexp)];
+console.log(arrayMatchAll[0]); // expected output: Array ["test1", "e", "st1", "1"]
+console.log(arrayMatchAll[1]); // expected output: Array ["test2", "e", "st2", "2"]
 // --------------------------------------------------------------------------------------------------------- //
 
 console.log(`-----------------------------------------------------------------------------------------------`);

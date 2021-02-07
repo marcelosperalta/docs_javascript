@@ -14,17 +14,17 @@
 // Codeland Username Validation ------------------------------------------------------------- //
 // https://coderbyte.com/editor/Codeland%20Username%20Validation:JavaScript
 function CodelandUsernameValidation(str) {
-    const regex = /[A-Z]/gi;
-    const found = str.match(regex);
-    console.log(found);
-    if (str.length < 4 || str.length > 25 || str[0].match(/[A-Z]/gi)) {
-        return false
+    console.log(str[0]);
+    if (str.length < 4 || str.length > 25 || str[0] !== new RegExp('\/[A-B]', 'gi')) {
+        return console.log(false);
     } else {
-        return str;
+        return console.log(str);
     }
 }
-console.log(CodelandUsernameValidation("aa_"));
+CodelandUsernameValidation("aa_")
+CodelandUsernameValidation("_u__hello_world12")
+//console.log(CodelandUsernameValidation("aa_"));
 // console.log(CodelandUsernameValidation("u__hello_world123"));
 // console.log(CodelandUsernameValidation("_aa"));
-console.log(CodelandUsernameValidation("_u__hello_world12"));
+//console.log(CodelandUsernameValidation("_u__hello_world12"));
 // -------------------- --------------------------------------------------------------------- //
