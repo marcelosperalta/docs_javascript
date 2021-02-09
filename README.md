@@ -42,6 +42,7 @@
 [String.prototype.localeCompare()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L161) | Returns a number indicating whether a reference string comes before, or after, or is the same as the given string in sort order.  
 [String.prototype.match()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L182) | Retrieves the result of matching a string against a regular expression.  
 [String.prototype.matchAll()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L197) | Returns an iterator of all results matching a string against a regular expression, including capturing groups.  
+[String.prototype.normalize()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L208) | Returns an iterator of all results matching a string against a regular expression, including capturing groups.  
 
 ### :book: **[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**  
 
