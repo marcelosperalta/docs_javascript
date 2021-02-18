@@ -43,6 +43,7 @@
 [String.prototype.match()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L182) | Retrieves the result of matching a string against a regular expression.  
 [String.prototype.matchAll()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L197) | Returns an iterator of all results matching a string against a regular expression, including capturing groups.  
 [String.prototype.normalize()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L208) | Returns the Unicode Normalization Form of the string.  
+[String.prototype.padEnd()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L224) | Pads the current string with a given string (repeated, if needed) so that the resulting string reaches a given length. The padding is applied from the end of the current string..  
 
 ### :book: **[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**  
 
