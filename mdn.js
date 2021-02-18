@@ -223,7 +223,18 @@ console.log(`-------------------------------------------------------------------
 
 // String.prototype.padEnd() ------------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd
-
+const strPadEnd1 = 'Breaded Mushrooms';
+console.log(strPadEnd1.padEnd(18, '.'));   // expected output: "Breaded Mushrooms."
+const strPadEnd2 = 'Breaded Mushrooms';
+console.log(strPadEnd2.padEnd(25, '.'));   // expected output: "Breaded Mushrooms........"
+const strPadEnd3 = 'Breaded Mushrooms';
+console.log(strPadEnd3.padEnd(25, '123')); // expected output: "Breaded Mushrooms12312312"
+const strPadEnd4 = '200';
+console.log(strPadEnd4.padEnd(5));         // expected output: "200  "
+const strPadEnd5 = '200';
+console.log(strPadEnd5.padEnd(4, "abc"));  // expected output: "200a"
+const strPadEnd6 = '200';
+console.log(strPadEnd6.padEnd(6, "abc"));  // expected output: "200abc"
 // --------------------------------------------------------------------------------------------------------- //
 
 console.log(`-----------------------------------------------------------------------------------------------`);
