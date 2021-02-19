@@ -241,7 +241,14 @@ console.log(`-------------------------------------------------------------------
 
 // String.prototype.padStart() ----------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart
-
+const strPadStart1 = '5';
+console.log(strPadStart1.padStart(2, '0')); // expected output: "05"
+const strPadStart2 = '5';
+console.log(strPadStart2.padStart(5, '0')); // expected output: "05"
+const fullNumber = '2034399002125581';
+const last4Digits = fullNumber.slice(-4);
+const maskedNumber = last4Digits.padStart(fullNumber.length, '*');
+console.log(maskedNumber);                  // expected output: "************5581"
 // --------------------------------------------------------------------------------------------------------- //
 
 console.log(`-----------------------------------------------------------------------------------------------`);
