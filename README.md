@@ -46,6 +46,11 @@
 [String.prototype.padEnd()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L224) | Pads the current string with a given string (repeated, if needed) so that the resulting string reaches a given length. The padding is applied from the end of the current string.  
 [String.prototype.padStart()](https://github.com/marcelosperalta/study_javascript/blob/master/mdn.js#L242) | Pads the current string with another string (multiple times, if needed) until the resulting string reaches the given length. The padding is applied from the start of the current string.  
 
+**_Regular expressions_**
+
+[MDN Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)  
+[RegExr by Grant Skinner and the gskinner team](https://regexr.com/)  
+
 ### :book: **[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**  
 
 [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)  
