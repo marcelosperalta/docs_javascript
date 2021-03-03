@@ -5,8 +5,8 @@
 // --> If, For, While
 
 
-// ❗ Visual Studio Code
-// -> Code Runer
+// ❗ Visual Studio Code extensions
+// -> Code Runner
 // --> Ctrl + Alt + n = to run the code
 // --> Ctrl + Alt + m = stop to running the code
-// --> Manage > Extension Settings > Code-runner: Clear Previous Outpot > Check ✔️
+// ---> Extensions > Code Runner > Manage > Extension Settings > Code-runner: Clear Previous Outpot > Check ✔️
