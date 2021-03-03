@@ -57,7 +57,17 @@
 [JavaScript reference > Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)  
 [JavaScript reference > Standard built-in objects > String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)  
 
-### :mortar_board: **[FreeCodeCamp](https://www.freecodecamp.org/)**  
+## :mortar_board: Courses:  
+
+<div>
+  <img 
+    src="./readme/usa.png"
+    width="16px">
+    <b>english:</b>
+  </img>
+</div>
+
+### :school: **[FreeCodeCamp](https://www.freecodecamp.org/)**  
 
 _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)_  
 **_index:_**  
@@ -150,6 +160,18 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 [Use Multiple Conditional (Ternary) Operators](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3296)  
 [Use Recursion to Create a Countdown](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3346)  
 [Use Recursion to Create a Range of Numbers](https://github.com/marcelosperalta/javascript/blob/master/freecodecamp.js#L3448)  
+
+<div>
+  <img 
+    src="./readme/brazil.png"
+    width="16px">
+     <b>portuguese:</b>
+  </img>
+</div>
+
+### :school: **[Cod3r Cursos](https://www.cod3r.com.br/)**  
+
+[O ESSENCIAL de JavaScript Funcional em DUAS HORAS](https://www.youtube.com/watch?v=W3f6hiTLipc)  
 
 ## :question: Challenges:
 
