@@ -21,5 +21,7 @@ console.log(increment2(5));   // 6
 console.log(increment3(24));  // 25
 console.log(increment4(199)); // 200
 
+const OneParameter = a => a
+console.log(OneParameter(3)); // 3
 const sum = (a, b) => a + b
-console.log(sum(3, 8));
+console.log(sum(3, 8));       // 11
