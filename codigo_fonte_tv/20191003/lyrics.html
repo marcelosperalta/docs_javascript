@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Lyrics</title>
+
+        <style>
+            * {
+                margin-left: 20px;
+            }
+            .lyrics {
+                margin-left: 30px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Lyrics Search</h1>
+
+        <form id="lyrics_form">
+            <div>
+                <div>
+                    <label for="artist">Artist</label>
+                    <input type="text" id="artist">
+                </div>
+                <br>
+                <div>
+                    <label for="song">Song</label>
+                    <input type="text" id="song">
+                </div>
+                <br>
+            </div>
+            <button type="submit">Let's Sing</button>
+        </form>
+
+        <div class="lyrics">
+            <pre id="lyrics"></pre>
+        </div>
+
+        <script src="./js/lyrics.js"></script>
+    </body>
+
+</html>
