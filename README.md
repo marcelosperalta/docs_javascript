@@ -63,7 +63,7 @@
 
 <div>
   <img 
-    src="./readme/usa.png"
+    src="./.github/usa.png"
     width="16px">
     <b>english:</b>
   </img>
@@ -165,7 +165,7 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 <div>
   <img 
-    src="./readme/brazil.png"
+    src="./.github/brazil.png"
     width="16px">
      <b>portuguese:</b>
   </img>
