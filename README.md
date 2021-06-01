@@ -233,7 +233,7 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 ### [Codility](https://app.codility.com/programmers/)
 
-[Refactor yourself](https://github.com/marcelosperalta/study_javascript/blob/master/challenges_edabit/codility.js#L12)  
+[Refactor yourself](https://github.com/marcelosperalta/study_javascript/blob/master/challenges_codility/codility.js#L12)  
 
 ### [Coderbyte](https://coderbyte.com/)
 
