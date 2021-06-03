@@ -81,4 +81,28 @@ const [n, ...o] = [1, 2, 3];
 console.log(n); // 1
 console.log(o); // [2, 3]
 
-// Unpacking values from a regular expression match
+// Unpacking values from a regular expression match (using exec())
+// exec() = The exec() method executes a search for a match in 
+// a specified string. Returns a result array, or null.
+function parseProtocol(url) {
+    const parsedURL = /^(\w+)\:\/\/([^\/]+)\/(.*)$/.exec(url);
+    if (!parsedURL) {
+        return false;
+    }
+    console.log(parsedURL);
+    // [
+    //  "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    //  "https", 
+    //   "developer.mozilla.org", 
+    //   "en-US/docs/Web/JavaScript"
+    // ]
+
+    const [
+            , 
+            protocol, 
+            fullhost, 
+            fullpath
+          ] = parsedURL;
+    return protocol;
+}
+console.log(parseProtocol('https://developer.mozilla.org/en-US/docs/Web/JavaScript')); // "https"
