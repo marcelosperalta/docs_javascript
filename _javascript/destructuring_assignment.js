@@ -26,6 +26,8 @@ console.log(z); // 2
 
 // Examples
 
+// ----- Array destructuring
+
 // Basic
 const foo = ['one', 'two', 'three'];
 const [red, yellow, green] = foo;
@@ -106,3 +108,8 @@ function parseProtocol(url) {
     return protocol;
 }
 console.log(parseProtocol('https://developer.mozilla.org/en-US/docs/Web/JavaScript')); // "https"
+
+
+// ----- Object destructuring
+
+// Basic variable assignment
