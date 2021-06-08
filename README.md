@@ -6,6 +6,8 @@
 
 ## :blue_book: Concepts:
 
+**[Closures](https://www.freecodecamp.org/news/closures-in-javascript/)**  
+
 **[Currying](https://javascript.info/currying-partials)**  
 
 **[Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)**  
