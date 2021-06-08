@@ -6,7 +6,7 @@
 
 ## :blue_book: Concepts:
 
-**[Closures](https://www.freecodecamp.org/news/closures-in-javascript/)**  
+**[Closures](https://github.com/marcelosperalta/study_javascript/blob/master/course_freecodecamp/20200714_closures/closures.js)**  
 
 **[Currying](https://javascript.info/currying-partials)**  
 
