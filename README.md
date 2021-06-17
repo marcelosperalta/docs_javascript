@@ -16,6 +16,10 @@
 
 **[Temporal dead zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone)**  
 
+## :blue_book: Security:
+
+**[Cross-site scripting(XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting)**  
+
 ## :book: Design Patterns:
 
 **[Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/index.html)**  
