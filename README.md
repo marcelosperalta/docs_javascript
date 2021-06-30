@@ -11,6 +11,7 @@
 [Design Patterns](https://github.com/marcelosperalta/study_javascript#book-design-patterns)  
 [Static code analysis](https://github.com/marcelosperalta/study_javascript#mag_right-static-code-analysis)  
 [Quick Reference](https://github.com/marcelosperalta/study_javascript#dash-quick-reference)  
+[Debug](https://github.com/marcelosperalta/study_javascript#debug)  
 [Tutorials](https://github.com/marcelosperalta/study_javascript#books-tutorials)  
 [Courses](https://github.com/marcelosperalta/study_javascript#mortar_board-courses)  
 
@@ -66,7 +67,7 @@
 [String.prototype.padEnd()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L224) | Pads the current string with a given string (repeated, if needed) so that the resulting string reaches a given length. The padding is applied from the end of the current string.  
 [String.prototype.padStart()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L242) | Pads the current string with another string (multiple times, if needed) until the resulting string reaches the given length. The padding is applied from the start of the current string.  
 
-## Debug
+## :flashlight: Debug
 
 [Chrome DevTools](https://developer.chrome.com/docs/devtools/javascript/)  
 
