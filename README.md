@@ -11,7 +11,7 @@
 [Design Patterns](https://github.com/marcelosperalta/study_javascript#book-design-patterns)  
 [Static code analysis](https://github.com/marcelosperalta/study_javascript#mag_right-static-code-analysis)  
 [Quick Reference](https://github.com/marcelosperalta/study_javascript#dash-quick-reference)  
-[Debug](https://github.com/marcelosperalta/study_javascript#debug)  
+[Debug](https://github.com/marcelosperalta/study_javascript#flashlight-debug)  
 [Tutorials](https://github.com/marcelosperalta/study_javascript#books-tutorials)  
 [Courses](https://github.com/marcelosperalta/study_javascript#mortar_board-courses)  
 
