@@ -4,15 +4,15 @@
 
 # **[JavaScript](https://262.ecma-international.org/) study**
 
-## Summary
+## :arrow_heading_down: Summary
 
 [Concepts](https://github.com/marcelosperalta/study_javascript#blue_book-concepts)  
 [Security](https://github.com/marcelosperalta/study_javascript#blue_book-security)  
 [Design Patterns](https://github.com/marcelosperalta/study_javascript#book-design-patterns)  
 [Static code analysis](https://github.com/marcelosperalta/study_javascript#mag_right-static-code-analysis)  
+[Quick Reference](https://github.com/marcelosperalta/study_javascript#dash-quick-reference)  
 [Tutorials](https://github.com/marcelosperalta/study_javascript#books-tutorials)  
-[]()  
-[]()  
+[Courses](https://github.com/marcelosperalta/study_javascript#mortar_board-courses)  
 
 ## :blue_book: Concepts:
 
@@ -65,6 +65,10 @@
 [String.prototype.normalize()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L208) | Returns the Unicode Normalization Form of the string.  
 [String.prototype.padEnd()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L224) | Pads the current string with a given string (repeated, if needed) so that the resulting string reaches a given length. The padding is applied from the end of the current string.  
 [String.prototype.padStart()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L242) | Pads the current string with another string (multiple times, if needed) until the resulting string reaches the given length. The padding is applied from the start of the current string.  
+
+## Debug
+
+[Chrome DevTools](https://developer.chrome.com/docs/devtools/javascript/)  
 
 ## :books: Tutorials:
 
