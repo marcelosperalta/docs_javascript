@@ -4,6 +4,16 @@
 
 # **[JavaScript](https://262.ecma-international.org/) study**
 
+## Summary
+
+[Concepts](https://github.com/marcelosperalta/study_javascript#blue_book-concepts)  
+[Security](https://github.com/marcelosperalta/study_javascript#blue_book-security)  
+[Design Patterns](https://github.com/marcelosperalta/study_javascript#book-design-patterns)  
+[Static code analysis](https://github.com/marcelosperalta/study_javascript#mag_right-static-code-analysis)  
+[Tutorials](https://github.com/marcelosperalta/study_javascript#books-tutorials)  
+[]()  
+[]()  
+
 ## :blue_book: Concepts:
 
 **[Closures](https://github.com/marcelosperalta/study_javascript/blob/master/course_freecodecamp/20200714_closures/closures.js)**  
@@ -11,6 +21,8 @@
 **[Currying](https://javascript.info/currying-partials)**  
 
 **[Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)**  
+
+**[Recursion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#recursion)**  
 
 **[String interpolation (Template literals / Template strings)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)**  
 
@@ -24,13 +36,11 @@
 
 **[Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/index.html)**  
 
-## :mag_right: Static code analysis:  
+## :mag_right: Static code analysis:
 
 **[ESLint](https://eslint.org/)**  
 
-## :books: Tutorials:  
-
-### :mag_right: **Quick Reference**  
+## :dash: **Quick Reference**
 
 **_String Properties_** | description
 ------------ | -------------
@@ -56,10 +66,19 @@
 [String.prototype.padEnd()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L224) | Pads the current string with a given string (repeated, if needed) so that the resulting string reaches a given length. The padding is applied from the end of the current string.  
 [String.prototype.padStart()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L242) | Pads the current string with another string (multiple times, if needed) until the resulting string reaches the given length. The padding is applied from the start of the current string.  
 
-**_Regular expressions_**
+## :books: Tutorials:
+
+**_Regular expressions_**  
 
 [MDN Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)  
 [RegExr by Grant Skinner and the gskinner team](https://regexr.com/)  
+
+**_Regular expressions_**  
+
+[Program for length of a string using recursion](https://www.geeksforgeeks.org/program-for-length-of-a-string-using-recursion/)  
+[](https://www.sitepoint.com/recursion-functional-javascript/)  
+[](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)  
+[](https://www.freecodecamp.org/news/quick-intro-to-recursion/)  
 
 ### :book: **[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**  
 
