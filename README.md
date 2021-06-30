@@ -7,7 +7,7 @@
 ## :arrow_heading_down: Summary
 
 [Concepts](https://github.com/marcelosperalta/study_javascript#blue_book-concepts)  
-[Security](https://github.com/marcelosperalta/study_javascript#blue_book-security)  
+[Security](https://github.com/marcelosperalta/study_javascript#lock-security)  
 [Design Patterns](https://github.com/marcelosperalta/study_javascript#book-design-patterns)  
 [Static Code Analysis](https://github.com/marcelosperalta/study_javascript#mag_right-static-code-analysis)  
 [Quick Reference](https://github.com/marcelosperalta/study_javascript#dash-quick-reference)  
