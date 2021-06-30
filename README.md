@@ -73,12 +73,11 @@
 [MDN Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)  
 [RegExr by Grant Skinner and the gskinner team](https://regexr.com/)  
 
-**_Regular expressions_**  
+**_Recursion_**  
 
+[A  Quick Intro to Recursion in Javascript](https://www.freecodecamp.org/news/quick-intro-to-recursion/)  
+[Recursion in Functional JavaScript](https://www.sitepoint.com/recursion-functional-javascript/)  
 [Program for length of a string using recursion](https://www.geeksforgeeks.org/program-for-length-of-a-string-using-recursion/)  
-[](https://www.sitepoint.com/recursion-functional-javascript/)  
-[](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)  
-[](https://www.freecodecamp.org/news/quick-intro-to-recursion/)  
 
 ### :book: **[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**  
 
