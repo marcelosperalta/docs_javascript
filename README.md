@@ -30,7 +30,7 @@
 
 **[Temporal dead zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone)**  
 
-## :blue_book: Security:
+## :lock: Security:
 
 **[Cross-site scripting(XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting)**  
 
