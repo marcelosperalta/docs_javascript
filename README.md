@@ -32,7 +32,7 @@
 
 ## :lock: Security:
 
-**[Cross-site scripting(XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting)**  
+**[Cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting)**  
 
 ## :book: Design Patterns:
 
