@@ -9,11 +9,12 @@
 [Concepts](https://github.com/marcelosperalta/study_javascript#blue_book-concepts)  
 [Security](https://github.com/marcelosperalta/study_javascript#blue_book-security)  
 [Design Patterns](https://github.com/marcelosperalta/study_javascript#book-design-patterns)  
-[Static code analysis](https://github.com/marcelosperalta/study_javascript#mag_right-static-code-analysis)  
+[Static Code Analysis](https://github.com/marcelosperalta/study_javascript#mag_right-static-code-analysis)  
 [Quick Reference](https://github.com/marcelosperalta/study_javascript#dash-quick-reference)  
 [Debug](https://github.com/marcelosperalta/study_javascript#flashlight-debug)  
 [Tutorials](https://github.com/marcelosperalta/study_javascript#books-tutorials)  
 [Courses](https://github.com/marcelosperalta/study_javascript#mortar_board-courses)  
+[Challenges](https://github.com/marcelosperalta/study_javascript#question-challenges)  
 
 ## :blue_book: Concepts:
 
@@ -37,7 +38,7 @@
 
 **[Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/index.html)**  
 
-## :mag_right: Static code analysis:
+## :mag_right: Static Code Analysis:
 
 **[ESLint](https://eslint.org/)**  
 
