@@ -15,6 +15,7 @@
 [Tutorials](https://github.com/marcelosperalta/study_javascript#books-tutorials)  
 [Courses](https://github.com/marcelosperalta/study_javascript#mortar_board-courses)  
 [Challenges](https://github.com/marcelosperalta/study_javascript#question-challenges)  
+[YouTube](https://github.com/marcelosperalta/study_javascript#youtube)  
 
 ## :blue_book: Concepts:
 
@@ -271,3 +272,9 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 **_easy:_**  
 [Codeland Username Validation](https://github.com/marcelosperalta/study_javascript/blob/master/challenges_coderbyte/coderbyte_easy.js#L14)  
+
+## :tv: YouTube:
+
+### :woman_technologist: :man_technologist: [Código Fonte TV](https://github.com/marcelosperalta/study_javascript/tree/master/youtube_codigo_fonte_tv)
+
+### :man_technologist: [Dev Soutinho](https://github.com/marcelosperalta/study_javascript/tree/master/youtube_dev_soutinho)
