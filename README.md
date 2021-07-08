@@ -276,5 +276,3 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 ## :tv: YouTube:
 
 ### :woman_technologist: [Código Fonte TV](https://github.com/marcelosperalta/study_javascript/tree/master/youtube_codigo_fonte_tv)
-
-### :man_technologist: [Dev Soutinho](https://github.com/marcelosperalta/study_javascript/tree/master/youtube_dev_soutinho)
