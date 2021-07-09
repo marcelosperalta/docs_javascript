@@ -16,6 +16,7 @@
 [Courses](https://github.com/marcelosperalta/study_javascript#mortar_board-courses)  
 [Challenges](https://github.com/marcelosperalta/study_javascript#question-challenges)  
 [YouTube](https://github.com/marcelosperalta/study_javascript#tv-youtube)  
+[Articles](https://github.com/marcelosperalta/study_javascript#tv-youtube)  
 
 ## :blue_book: Concepts:
 
@@ -278,3 +279,8 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 ## :tv: YouTube:
 
 ### :woman_technologist: [Código Fonte TV](https://github.com/marcelosperalta/study_javascript/tree/master/youtube_codigo_fonte_tv)
+
+## :newspaper: Articles:
+
+\#object  
+**[What is a JavaScript Object? Key Value Pairs and Dot Notation Explained](https://www.freecodecamp.org/news/what-is-a-javascript-object/amp/)**  
