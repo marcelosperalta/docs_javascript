@@ -82,13 +82,13 @@
 [String.prototype.padEnd()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L224) | Pads the current string with a given string (repeated, if needed) so that the resulting string reaches a given length. The padding is applied from the end of the current string.  
 [String.prototype.padStart()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L242) | Pads the current string with another string (multiple times, if needed) until the resulting string reaches the given length. The padding is applied from the start of the current string.  
 
-<br>
+<hr>
 
 ## :flashlight: Debug
 
 [Chrome DevTools](https://developer.chrome.com/docs/devtools/javascript/)  
 
-<br>
+<hr>
 
 ## :books: Tutorials:
 
@@ -109,7 +109,7 @@
 [JavaScript reference > Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)  
 [JavaScript reference > Standard built-in objects > String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)  
 
-<br>
+<hr>
 
 ## :mortar_board: Courses:  
 
@@ -227,7 +227,7 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 [O ESSENCIAL de JavaScript Funcional em DUAS HORAS](https://www.youtube.com/watch?v=W3f6hiTLipc)  
 
-<br>
+<hr>
 
 ## :question: Challenges:
 
@@ -294,13 +294,13 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 **_easy:_**  
 [Codeland Username Validation](https://github.com/marcelosperalta/study_javascript/blob/master/challenges_coderbyte/coderbyte_easy.js#L14)  
 
-<br>
+<hr>
 
 ## :tv: YouTube:
 
 ### :woman_technologist: [Código Fonte TV](https://github.com/marcelosperalta/study_javascript/tree/master/youtube_codigo_fonte_tv)
 
-<br>
+<hr>
 
 ## :newspaper: Articles:
 
