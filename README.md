@@ -16,7 +16,9 @@
 [Courses](https://github.com/marcelosperalta/study_javascript#mortar_board-courses)  
 [Challenges](https://github.com/marcelosperalta/study_javascript#question-challenges)  
 [YouTube](https://github.com/marcelosperalta/study_javascript#tv-youtube)  
-[Articles](https://github.com/marcelosperalta/study_javascript#tv-youtube)  
+[Articles](https://github.com/marcelosperalta/study_javascript#newspaper-articles)  
+
+<hr>
 
 ## :blue_book: Concepts:
 
@@ -34,17 +36,25 @@
 
 **[Temporal dead zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone)**  
 
+<hr>
+
 ## :lock: Security:
 
 **[Cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting)**  
+
+<hr>
 
 ## :book: Design Patterns:
 
 **[Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/index.html)**  
 
+<hr>
+
 ## :mag_right: Static Code Analysis:
 
 **[ESLint](https://eslint.org/)**  
+
+<hr>
 
 ## :dash: **Quick Reference**
 
@@ -72,9 +82,13 @@
 [String.prototype.padEnd()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L224) | Pads the current string with a given string (repeated, if needed) so that the resulting string reaches a given length. The padding is applied from the end of the current string.  
 [String.prototype.padStart()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L242) | Pads the current string with another string (multiple times, if needed) until the resulting string reaches the given length. The padding is applied from the start of the current string.  
 
+<br>
+
 ## :flashlight: Debug
 
 [Chrome DevTools](https://developer.chrome.com/docs/devtools/javascript/)  
+
+<br>
 
 ## :books: Tutorials:
 
@@ -94,6 +108,8 @@
 [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)  
 [JavaScript reference > Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)  
 [JavaScript reference > Standard built-in objects > String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)  
+
+<br>
 
 ## :mortar_board: Courses:  
 
@@ -211,6 +227,8 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 [O ESSENCIAL de JavaScript Funcional em DUAS HORAS](https://www.youtube.com/watch?v=W3f6hiTLipc)  
 
+<br>
+
 ## :question: Challenges:
 
 ### [Edabit](https://edabit.com/challenges)
@@ -276,11 +294,15 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 **_easy:_**  
 [Codeland Username Validation](https://github.com/marcelosperalta/study_javascript/blob/master/challenges_coderbyte/coderbyte_easy.js#L14)  
 
+<br>
+
 ## :tv: YouTube:
 
 ### :woman_technologist: [Código Fonte TV](https://github.com/marcelosperalta/study_javascript/tree/master/youtube_codigo_fonte_tv)
 
+<br>
+
 ## :newspaper: Articles:
 
 \#object  
-**[What is a JavaScript Object? Key Value Pairs and Dot Notation Explained](https://www.freecodecamp.org/news/what-is-a-javascript-object/amp/)**  
+**[What is a JavaScript Object? Key Value Pairs and Dot Notation Explained](https://github.com/marcelosperalta/study_javascript/tree/master/articles_freecodecamp)**  
