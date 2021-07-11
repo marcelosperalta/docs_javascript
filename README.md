@@ -4,7 +4,7 @@
 
 # **[JavaScript](https://262.ecma-international.org/) study**
 
-## :arrow_heading_down: Summary
+## :arrow_heading_down: Table of Contents
 
 [Concepts](https://github.com/marcelosperalta/study_javascript#blue_book-concepts)  
 [Security](https://github.com/marcelosperalta/study_javascript#lock-security)  
