@@ -25,6 +25,7 @@
 **[Closures](https://github.com/marcelosperalta/study_javascript/blob/master/course_freecodecamp/20200714_closures/closures.js)**  
 **[Currying](https://javascript.info/currying-partials)**  
 **[Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)**  
+**[Hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)**  
 **[Recursion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#recursion)**  
 **[Rest parameters (Rest arguments)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)**  
 **[Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)**  
