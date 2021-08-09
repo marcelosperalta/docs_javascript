@@ -302,3 +302,6 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 \#object  
 **[What is a JavaScript Object? Key Value Pairs and Dot Notation Explained](https://github.com/marcelosperalta/study_javascript/tree/master/articles_freecodecamp)**  
+
+\#this  
+**[Understanding JavaScript Function Invocation and "this"](https://yehudakatz.com/2011/08/11/understanding-javascript-function-invocation-and-this/)**  
