@@ -41,17 +41,6 @@ person.hello("world")               // [object Object] says hello world
 // desugars to this:
 person.hello.call(person, "world"); // [object Object] says hello world
 
-var person = {
-  name: "Brendan Eich",
-  hello: function(thing) {
-    console.log(this.name + " says hello " + thing);
-  }
-}
-// this:
-person.hello("world")               // Brendan Eich says hello world
-// desugars to this:
-person.hello.call(person, "world"); // Brendan Eich says hello world
-
 // Note that it doesn't matter how the hello method becomes attached 
 // to the object in this form. Remember that we previously defined hello 
 // as a standalone function. 
@@ -67,3 +56,26 @@ person.hello("world") // still desugars to person.hello.call(person, "world")
 hello("world")        // "[object DOMWindow]world"
 
 // Using Function.prototype.bind
+
+var person = {
+  name: "Brendan Eich",
+  hello: function(thing) {
+    console.log(this.name + " says hello " + thing);
+  }
+}
+var boundHello = function(thing) { return person.hello.call(person, thing); }
+boundHello("world"); // Brendan Eich says hello world
+
+// Even though our boundHello call still desugars to boundHello.call(window, "world"), 
+// we turn right around and use our primitive call method 
+// to change the this value back to what we want it to be.
+
+// We can make this trick general-purpose with a few tweaks:
+
+var bind = function(func, thisValue) {
+    return function() {
+      return func.apply(thisValue, arguments);
+    }
+}
+var boundHello = bind(person.hello, person);
+boundHello("world") // "Brendan Eich says hello world"
