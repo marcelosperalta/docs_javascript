@@ -6,7 +6,7 @@
 
 ## :arrow_heading_down: Table of Contents
 
-[Concepts](https://github.com/marcelosperalta/study_javascript#blue_book-concepts)  
+[Commom Practices](https://github.com/marcelosperalta/study_javascript#1-common-practices)  
 [Concepts](https://github.com/marcelosperalta/study_javascript#blue_book-concepts)  
 [Security](https://github.com/marcelosperalta/study_javascript#lock-security)  
 [Design Patterns](https://github.com/marcelosperalta/study_javascript#book-design-patterns)  
