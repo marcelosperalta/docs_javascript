@@ -7,6 +7,7 @@
 ## :arrow_heading_down: Table of Contents
 
 [Concepts](https://github.com/marcelosperalta/study_javascript#blue_book-concepts)  
+[Concepts](https://github.com/marcelosperalta/study_javascript#blue_book-concepts)  
 [Security](https://github.com/marcelosperalta/study_javascript#lock-security)  
 [Design Patterns](https://github.com/marcelosperalta/study_javascript#book-design-patterns)  
 [Static Code Analysis](https://github.com/marcelosperalta/study_javascript#mag_right-static-code-analysis)  
@@ -17,6 +18,22 @@
 [Challenges](https://github.com/marcelosperalta/study_javascript#question-challenges)  
 [YouTube](https://github.com/marcelosperalta/study_javascript#tv-youtube)  
 [Articles](https://github.com/marcelosperalta/study_javascript#newspaper-articles)  
+
+<hr>
+
+## :+1: Common Practices:
+
+### Immutable values and mutable values
+
+A common practice when naming constants is to use all uppercase letters, with words separated by an underscore.  
+
+It is common for developers to use uppercase variable identifiers for immutable values and lowercase or camelCase for mutable values (objects and arrays).  
+
+### ``Const``
+
+Some developers prefer to assign all their variables using ``const`` by default, unless they know they will need to reassign the value. Only in that case, they use ``let``.  
+
+However, it is important to understand that objects (including arrays and functions) assigned to a variable using ``const`` are still mutable. Using the ``const`` declaration only prevents reassignment of the variable identifier.  
 
 <hr>
 
