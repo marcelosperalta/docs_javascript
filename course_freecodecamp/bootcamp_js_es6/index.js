@@ -270,25 +270,150 @@ let arr2;
 arr2 = [...arr1];
 console.log(arr2);
 
+// ----- Use Destructuring Assignment to Extract Values from Objects
+
+// ES5
+const user = { name: 'John Doe', age: 34 };
+const name = user.name;
+const age = user.age;
+console.log(name, age); // John Doe 34
+// ES6
+const user = { name: 'John Doe', age: 34 };
+const { name, age } = user;
+console.log(name, age); // John Doe 34
+
+// Test
+
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80
+};
+// Only change code below this line
+const today = HIGH_TEMPERATURES.today;
+const tomorrow = HIGH_TEMPERATURES.tomorrow;
+// Only change code above this line
+
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80
+};
+const { today, tomorrow } = HIGH_TEMPERATURES;
+console.log(today, tomorrow);
+
+// ----- Use Destructuring Assignment to Assign Variables from Objects
+
+// Test
+
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80
+};
+// Only change code below this line
+const highToday = HIGH_TEMPERATURES.today;
+const highTomorrow = HIGH_TEMPERATURES.tomorrow; 
+// Only change code above this line
+
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80
+};
+const { today: highToday , tomorrow: highTomorrow } = HIGH_TEMPERATURES;
+console.log(highToday, highTomorrow);
+
+// ----- Use Destructuring Assignment to Assign Variables from Nested Objects
+
+// Test
+
+const LOCAL_FORECAST = {
+  yesterday: { low: 61, high: 75 },
+  today: { low: 64, high: 77 },
+  tomorrow: { low: 68, high: 80 }
+};
+// Only change code below this line
+const lowToday = LOCAL_FORECAST.today.low;
+const highToday = LOCAL_FORECAST.today.high;
+// Only change code above this line
+
+const LOCAL_FORECAST = {
+  yesterday: { low: 61, high: 75 },
+  today: { low: 64, high: 77 },
+  tomorrow: { low: 68, high: 80 }
+};
+const { today: {low: lowToday, high: highToday} } = LOCAL_FORECAST;
+console.log(lowToday, highToday);
+
+// ----- Use Destructuring Assignment to Assign Variables from Arrays
+
+// Test
+
+let a = 8, b = 6;
+// Only change code below this line
+
+let a = 8, b = 6;
+[b, a] = [a, b]
+console.log(a, b);
+
+// ----- Use Destructuring Assignment with the Rest Parameter to Reassign Array Elements
+
+const [a, b, ...arr] = [1, 2, 3, 4, 5, 7];
+console.log(a, b);
+console.log(arr);
+
+// Test
+
+const source = [1,2,3,4,5,6,7,8,9,10];
+function removeFirstTwo(list) {
+  // Only change code below this line
+  const arr = list; // Change this line
+  // Only change code above this line
+  return arr;
+}
+const arr = removeFirstTwo(source);
+
+const source = [1,2,3,4,5,6,7,8,9,10];
+function removeFirstTwo(list) {
+  const [, , ...arr] = list; // Change this line
+  return arr;
+}
+const arr = removeFirstTwo(source);
+console.log(arr);
+
+// ----- Use Destructuring Assignment to Pass an Object as a Function's Parameters
+
+// Test
+
+const stats = {
+  max: 56.78,
+  standard_deviation: 4.34,
+  median: 34.54,
+  mode: 23.87,
+  min: -0.75,
+  average: 35.85
+};
+// Only change code below this line
+const half = (stats) => (stats.max + stats.min) / 2.0; 
+// Only change code above this line
+
+const stats = {
+  max: 56.78,
+  standard_deviation: 4.34,
+  median: 34.54,
+  mode: 23.87,
+  min: -0.75,
+  average: 35.85
+};
+const half = ({max, min}) => (max + min) / 2.0; 
 // -----
-
-
 
 // Test
 
 
 
 // -----
-
-
-
-// Test
-
-
-
-// -----
-
-
 
 // Test
 
