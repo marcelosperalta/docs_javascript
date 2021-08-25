@@ -28,6 +28,8 @@
 ------------ | -------------
 [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) | Template literals are literals delimited with backticks (`` ` ``), allowing embedded expressions called substitutions.  
 
+<hr>
+
 ## :+1: Common Practices:
 
 ### Immutable values and mutable values
@@ -303,7 +305,8 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 [Reverse the Odd Length Words](https://github.com/marcelosperalta/study_javascript/blob/master/challenges_edabit/edabit_hard.js#L20)  
 
 **_very hard:_**  
-[Game of Thrones: Character Titles](https://github.com/marcelosperalta/study_javascript/blob/master/challenges_codility/edabit_very_hard.js#L20)  
+[Game of Thrones: Character Titles](https://github.com/marcelosperalta/study_javascript/blob/master/challenges_edabit/edabit_very_hard.js#L20)  
+
 
 ### [Codility](https://app.codility.com/programmers/)
 
