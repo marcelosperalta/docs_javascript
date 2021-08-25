@@ -6,6 +6,7 @@
 
 ## :arrow_heading_down: Table of Contents
 
+[Glossary](https://github.com/marcelosperalta/study_javascript#mag-glossary)  
 [Commom Practices](https://github.com/marcelosperalta/study_javascript#1-common-practices)  
 [Concepts](https://github.com/marcelosperalta/study_javascript#blue_book-concepts)  
 [Security](https://github.com/marcelosperalta/study_javascript#lock-security)  
@@ -20,6 +21,12 @@
 [Articles](https://github.com/marcelosperalta/study_javascript#newspaper-articles)  
 
 <hr>
+
+## :mag: Glossary:
+
+**Concept** | description
+------------ | -------------
+[Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) | Template literals are literals delimited with backticks (`` \` ``), allowing embedded expressions called substitutions.s.
 
 ## :+1: Common Practices:
 
