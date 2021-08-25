@@ -256,7 +256,15 @@ console.log(`-------------------------------------------------------------------
 // String.raw() -------------------------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw
 
+// Create a variable that uses a Windows path without escaping the backslashes:
+const filePath = String.raw`C:\Development\profile\aboutme.html`;
+console.log(`The file was uploaded from: ${filePath}`);
+// expected output: "The file was uploaded from: C:\Development\profile\aboutme.html"
 
+String.raw`Hi\n${2+3}!`;
+// 'Hi\\n5!', the character after 'Hi'
+// is not a newline character,
+// '\' and 'n' are two characters.
 // --------------------------------------------------------------------------------------------------------- //
 
 console.log(`-----------------------------------------------------------------------------------------------`);

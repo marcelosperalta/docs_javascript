@@ -259,3 +259,46 @@ const profileUpdate = ({ name, age, nationality, location }) => {
 ```
 
 When profileData is passed to the above function, the values are destructured from the function parameter for use within the function.  
+
+## Create Strings using Template Literals
+
+A new feature of ES6 is the **template literal**. This is a special type of string that makes creating complex strings easier.  
+
+Template literals allow you to create multi-line strings and to use string interpolation features to create strings.  
+
+Consider the code below:  
+
+```
+const person = {
+  name: "Zodiac Hasbro",
+  age: 56
+};
+
+const greeting = `Hello, my name is ${person.name}!
+I am ${person.age} years old.`;
+
+console.log(greeting);
+```
+
+The console will display the strings Hello, my name is Zodiac Hasbro! and I am 56 years old..  
+
+A lot of things happened there. Firstly, the example uses backticks (`` ` ``), not quotes (``' or "``), to wrap the string. Secondly, notice that the string is multi-line, both in the code and the output. This saves inserting ``\n`` within strings. The ``${variable}`` syntax used above is a placeholder. Basically, you won't have to use concatenation with the + operator anymore. To add variables to strings, you just drop the variable in a template string and wrap it with ``${ and }``. Similarly, you can include other expressions in your string literal, for example`` ${a + b}``. This new way of creating strings gives you more flexibility to create robust strings.  
+
+## Write Concise Object Literal Declarations Using Object Property Shorthand
+
+ES6 adds some nice support for easily defining object literals.  
+
+Consider the following code:  
+
+```
+const getMousePosition = (x, y) => ({
+  x: x,
+  y: y
+});
+```
+
+``getMousePosition`` is a simple function that returns an object containing two properties. ES6 provides the syntactic sugar to eliminate the redundancy of having to write ``x: x``. You can simply write ``x`` once, and it will be converted to ``x: x`` (or something equivalent) under the hood. Here is the same function from above rewritten to use this new syntax:  
+
+```
+const getMousePosition = (x, y) => ({ x, y });
+```

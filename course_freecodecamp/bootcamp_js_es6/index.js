@@ -407,6 +407,66 @@ const stats = {
   average: 35.85
 };
 const half = ({max, min}) => (max + min) / 2.0; 
+
+// ----- Create Strings using Template Literals
+
+// Test
+
+const result = {
+  success: ["max-length", "no-amd", "prefer-arrow-functions"],
+  failure: ["no-var", "var-on-top", "linebreak"],
+  skipped: ["no-extra-semi", "no-dup-keys"]
+};
+function makeList(arr) {
+  // Only change code below this line
+  const failureItems = [];
+  // Only change code above this line
+  return failureItems;
+}
+const failuresList = makeList(result.failure);
+
+const result = {
+  success: ["max-length", "no-amd", "prefer-arrow-functions"],
+  failure: ["no-var", "var-on-top", "linebreak"],
+  skipped: ["no-extra-semi", "no-dup-keys"]
+};
+function makeList(arr) {
+  const failureItems = arr.map(element => `<li class="text-warning">${element}</li>`);
+  return failureItems;
+}
+const failuresList = makeList(result.failure);
+console.log(failuresList);
+
+// ----- Write Concise Object Literal Declarations Using Object Property Shorthand
+
+// Test
+
+const createPerson = (name, age, gender) => {
+  // Only change code below this line
+  return {
+    name: name,
+    age: age,
+    gender: gender
+  };
+  // Only change code above this line
+};
+
+const createPerson = (name, age, gender) => ({ name, age, gender });
+console.log(createPerson("Marcelo", "40", "Male"));
+// output: { name: 'Marcelo', age: '40', gender: 'Male' }
+
+// -----
+
+// Test
+
+
+
+// -----
+
+// Test
+
+
+
 // -----
 
 // Test
