@@ -249,6 +249,10 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 [O ESSENCIAL de JavaScript Funcional em DUAS HORAS](https://www.youtube.com/watch?v=W3f6hiTLipc)  
 
+### :school: **[Rocketseat Discover](https://rocketseat.com.br/discover)**  
+
+[O Guia Estelar de JavaScript](https://app.rocketseat.com.br/node/o-guia-estelar-de-java-script)  
+
 <hr>
 
 ## :question: Challenges:
