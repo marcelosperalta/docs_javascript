@@ -455,19 +455,67 @@ const createPerson = (name, age, gender) => ({ name, age, gender });
 console.log(createPerson("Marcelo", "40", "Male"));
 // output: { name: 'Marcelo', age: '40', gender: 'Male' }
 
-// -----
+// ----- Write Concise Declarative Functions with ES6
 
 // Test
 
+// Only change code below this line
+const bicycle = {
+  gear: 2,
+  setGear: function(newGear) {
+    this.gear = newGear;
+  }
+};
+// Only change code above this line
+bicycle.setGear(3);
+console.log(bicycle.gear);
 
+const bicycle = {
+  gear: 2,
+  setGear(newGear) {
+    this.gear = newGear;
+  }
+};
+bicycle.setGear(3);
+console.log(bicycle.gear);
 
-// -----
+// ----- Use class Syntax to Define a Constructor Function
 
 // Test
 
+// Only change code below this line
 
+// Only change code above this line
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // Should display 'carrot'
 
-// -----
+class Vegetable {
+  constructor(name) {
+    this.name = name;
+  }
+}
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // Should display 'carrot'
+
+// ----- Use getters and setters to Control Access to an Object
+
+class Book {
+  constructor(author) {
+    this._author = author;
+  }
+  // getter
+  get writer() {
+    return this._author;
+  }
+  // setter
+  set writer(updatedAuthor) {
+    this._author = updatedAuthor;
+  }
+}
+const novel = new Book('anonymous');
+console.log(novel.writer);
+novel.writer = 'newAuthor';
+console.log(novel.writer);
 
 // Test
 

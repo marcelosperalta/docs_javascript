@@ -1,7 +1,9 @@
 // MDN 
 // https://developer.mozilla.org/
 
+
 // JavaScript > JavaScript reference > Standard built-in objects > String:
+
 
 // String Length                  -------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length
@@ -9,7 +11,6 @@ var strLength = "The length property of a String object contains the length of t
 console.log(strLength.length); // expected output: 72
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.prototype[@@iterator]() -------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator
@@ -23,7 +24,6 @@ const strIter2 = str2[Symbol.iterator]();
 console.log(strIter2.next().value, strIter2.next().value, strIter2.next().value); // expected output: D E F
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.prototype.charAt() ------------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt
@@ -33,7 +33,6 @@ console.log(strCharAt.charAt(4)); // expected output: "r"
 console.log(strCharAt.charAt(9)); // expected output: " "
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.prototype.charCodeAt() --------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt
@@ -44,7 +43,6 @@ console.log(`The character code ${strCharCodeAt.charCodeAt(index)} is equal to $
 // expected output: "The character code 82 is equal to R"
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.prototype.codePointAt() -------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/codePointAt
@@ -55,7 +53,6 @@ console.log(icons.codePointAt(1)); // expected output: "9733"
 // https://www.unicode.org/charts/#symbols
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.prototype.concat() ------------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat
@@ -67,7 +64,6 @@ console.log(strConcat1 + " " + strConcat2);       // expected output: "Hello Wor
 console.log(strConcat1 + ", " + strConcat2);      // expected output: "Hello, World"
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.prototype.endsWith() ----------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith
@@ -81,7 +77,6 @@ console.log(strEndsWith.endsWith("best", 17))                     // expected ou
 console.log(strEndsWith.endsWith("best", strEndsWith.length - 1)) // expected output: "true"
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.fromCharCode() ----------------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode
@@ -96,7 +91,6 @@ console.log(String.fromCharCode(189, 43, 190, 61)); // expected output: "½+¾="
 // UTF-16 (decimal) >  61 > https://www.fileformat.info/info/unicode/char/003d/index.htm
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.fromCodePoint() ---------------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint
@@ -108,7 +102,6 @@ console.log(String.fromCodePoint(9731, 32, 9733, 32, 9842, 32, 0x4F60)); // expe
 // UTF-16 (hex)     > 0x2F804 > 你       > https://www.fileformat.info/info/unicode/char/4f60/index.htm
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.prototype.includes() ----------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
@@ -121,7 +114,6 @@ console.log(sentence.includes("false", 15)); // expected output: "true";
 console.log(sentence.includes("false", 16)); // expected output: "false";
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.prototype.indexOf() ------------------------------------------------------------------------------ //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf
@@ -147,7 +139,6 @@ console.log('Blue Whale'.indexOf('Whale', 0));  // returns  5
 console.log('Blue Whale'.indexOf('Whale', 5));  // returns  5
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.prototype.lastIndexOf() -------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf
@@ -156,7 +147,6 @@ console.log(strLastIndexOf.lastIndexOf("dog"));  // expected output: "52"
 console.log(strLastIndexOf.lastIndexOf("test")); // expected output: "-1"
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.prototype.localeCompare() ------------------------------------------------------------------------ //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
@@ -177,7 +167,6 @@ console.log('ä'.localeCompare('a', 'de', { sensitivity: 'base' })); // expected
 console.log('ä'.localeCompare('a', 'sv', { sensitivity: 'base' })); // expected output: a positive value
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.prototype.match() -------------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match
@@ -192,7 +181,6 @@ const matches_array = str.match(regexp2);
 console.log(matches_array); // expected output: ['A', 'B', 'C', 'D', 'E', 'a', 'b', 'c', 'd', 'e']
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.prototype.matchAll() ----------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll
@@ -203,7 +191,6 @@ console.log(arrayMatchAll[0]); // expected output: Array ["test1", "e", "st1", "
 console.log(arrayMatchAll[1]); // expected output: Array ["test2", "e", "st2", "2"]
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.prototype.normalize() ---------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize
@@ -219,7 +206,6 @@ console.log(name1NFC === name2NFC);               // expected output: true
 console.log(name1NFC.length === name2NFC.length); // expected output: true
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.prototype.padEnd() ------------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd
@@ -237,7 +223,6 @@ const strPadEnd6 = '200';
 console.log(strPadEnd6.padEnd(6, "abc"));  // expected output: "200abc"
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.prototype.padStart() ----------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart
@@ -251,7 +236,6 @@ const maskedNumber = last4Digits.padStart(fullNumber.length, '*');
 console.log(maskedNumber);                  // expected output: "************5581"
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
 
 // String.raw() -------------------------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw
@@ -267,4 +251,20 @@ String.raw`Hi\n${2+3}!`;
 // '\' and 'n' are two characters.
 // --------------------------------------------------------------------------------------------------------- //
 
-console.log(`-----------------------------------------------------------------------------------------------`);
+
+// String.prototype.repeat() ------------------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
+const chorus = 'Because I\'m happy. ';
+console.log(`Chorus lyrics for "Happy": ${chorus.repeat(27)}`);
+// expected output: 
+// "Chorus lyrics for "Happy": Because I'm happy. Because I'm happy. Because I'm happy. 
+// Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. 
+// Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. 
+// Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. 
+// Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. 
+// Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. 
+// Because I'm happy. Because I'm happy. Because I'm happy. Because I'm happy. "
+'abc'.repeat(-1)    // RangeError
+'abc'.repeat(0)     // ''
+'abc'.repeat(3.5)   // 'abcabcabc' (count will be converted to integer)
+// --------------------------------------------------------------------------------------------------------- //
