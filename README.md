@@ -106,6 +106,7 @@ However, it is important to understand that objects (including arrays and functi
 [String.prototype.padStart()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L227) | Pads the current string with another string (multiple times, if needed) until the resulting string reaches the given length. The padding is applied from the start of the current string.  
 [String.raw()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L240) | The static ``String.raw()`` method is a tag function of template literals. This is similar to the ``r`` prefix in Python, or the`` @`` prefix in C# for string literals. (But it is not identical; see explanations in this issue.) It's used to get the raw string form of template literals, that is, substitutions (e.g. ``${foo}``) are processed, but escapes (e.g. ``\n``) are not.  
 [String.prototype.repeat()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L255) | The ``repeat()`` method constructs and returns a new string which contains the specified number of copies of the string on which it was called, concatenated together.  
+[String.prototype.replace()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L273) | The ``replace()`` method returns a new string with some or all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match. If pattern is a string, only the first occurrence will be replaced. The original string is left unchanged.  
 
 <hr>
 
@@ -328,7 +329,29 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 ## :tv: YouTube:
 
-### :woman_technologist: [Código Fonte TV](https://github.com/marcelosperalta/study_javascript/tree/master/youtube_codigo_fonte_tv)
+<div>
+  <img 
+    src="./.github/usa.png"
+    width="16px">
+    <b>english:</b>
+  </img>
+</div>
+
+### :link: [freeCodeCamp](https://www.youtube.com/c/Freecodecamp/)
+
+### :link: [Programming with Mosh](https://www.youtube.com/c/programmingwithmosh/)
+
+<div>
+  <img 
+    src="./.github/brazil.png"
+    width="16px">
+     <b>portuguese:</b>
+  </img>
+</div>
+
+### :link: [Código Fonte TV](https://github.com/marcelosperalta/study_javascript/tree/master/youtube_codigo_fonte_tv)
+
+### :link: [RocketSeat](https://www.youtube.com/c/RocketSeat/)
 
 <hr>
 

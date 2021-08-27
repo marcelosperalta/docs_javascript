@@ -268,3 +268,48 @@ console.log(`Chorus lyrics for "Happy": ${chorus.repeat(27)}`);
 'abc'.repeat(0)     // ''
 'abc'.repeat(3.5)   // 'abcabcabc' (count will be converted to integer)
 // --------------------------------------------------------------------------------------------------------- //
+
+
+// String.prototype.repeat() ------------------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
+
+const p = 'The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?';
+console.log(p.replace('dog', 'monkey'));
+// expected output: "The quick brown fox jumps over the lazy monkey. If the dog reacted, was it really lazy?"
+const regex = /Dog/i;
+console.log(p.replace(regex, 'ferret'));
+// expected output: "The quick brown fox jumps over the lazy ferret. If the dog reacted, was it really lazy?"
+
+let str = 'Twas the night before Xmas...';
+let newstr = str.replace(/xmas/i, 'Christmas');
+console.log(newstr);  // Twas the night before Christmas...
+
+let re = /apples/gi;
+let str = 'Apples are round, and apples are juicy.';
+let newstr = str.replace(re, 'oranges');
+console.log(newstr);  // oranges are round, and oranges are juicy.
+
+let re = /(\w+)\s(\w+)/;
+let str = 'John Smith';
+let newstr = str.replace(re, '$2, $1');
+console.log(newstr);  // Smith, John
+
+function styleHyphenFormat(propertyName) {
+    function upperToHyphenLower(match, offset, string) {
+      return (offset > 0 ? '-' : '') + match.toLowerCase();
+    }
+    return propertyName.replace(/[A-Z]/g, upperToHyphenLower);
+  }
+console.log(styleHyphenFormat('borderTop')); // border-top
+
+// Replacing a Fahrenheit degree with its Celsius equivalent
+function f2c(x) {
+    function convert(str, p1, offset, s) {
+      return ((p1 - 32) * 5/9) + 'C';
+    }
+    let s = String(x);
+    let test = /(-?\d+(?:\.\d*)?)F\b/g;
+    return s.replace(test, convert);
+  }
+console.log(f2c("86F")); // 30C
+// --------------------------------------------------------------------------------------------------------- //
