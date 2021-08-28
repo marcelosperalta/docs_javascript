@@ -565,6 +565,52 @@ thermos.temperature = 26;
 temp = thermos.temperature;
 console.log(temp);          // 26 in Celsius
 
+// ----- Use export to Share a Code Block
+
+// Test
+
+const uppercaseString = (string) => {
+  return string.toUpperCase();
+}
+const lowercaseString = (string) => {
+  return string.toLowerCase()
+}
+
+export const uppercaseString = (string) => {
+  return string.toUpperCase();
+}
+export const lowercaseString = (string) => {
+  return string.toLowerCase()
+}
+
+// or
+
+const uppercaseString = (string) => {
+  return string.toUpperCase();
+}
+export {uppercaseString};
+const lowercaseString = (string) => {
+  return string.toLowerCase()
+}
+export {lowercaseString};
+
+
+// or
+
+const uppercaseString = (string) => {
+  return string.toUpperCase();
+}
+const lowercaseString = (string) => {
+  return string.toLowerCase()
+}
+export {uppercaseString, lowercaseString};
+
+// ----- Reuse JavaScript Code Using import
+
+// Test
+
+
+
 // -----
 
 // Test
