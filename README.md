@@ -109,7 +109,7 @@ However, it is important to understand that objects (including arrays and functi
 [String.prototype.replace()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L273) | The ``replace()`` method returns a new string with some or all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match. If pattern is a string, only the first occurrence will be replaced. The original string is left unchanged.  
 [String.prototype.replaceAll()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L318) | The ``replaceAll()`` method returns a new string with all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match. The original string is left unchanged.  
 
-### Methods that _change_ and _do not change_ the object.
+### Methods that _change_ and _do not change_ the original object.
 
 **Method** |  _Change_  | _Do Not Change_
 ---------- | ---------- | ----------
@@ -118,24 +118,37 @@ charAt() | ---------- | returns a new string
 charCodeAt() | ---------- | returns an integer between 0 and 65535
 codePointAt() | ---------- | returns a non-negative integer
 concat() | ---------- | returns a new string
-endsWith() | ---------- | returning true or false
-String.fromCharCode() | ---------- | returns a string created from the specified sequence of UTF-16 code units.
-String.fromCodePoint() | ---------- | returns a string created by using the specified sequence of code points.
- | ---------- | 
- | ---------- | 
- | ---------- | 
- | ---------- | 
- | ---------- | 
- | ---------- | 
- | ---------- | 
- | ---------- | 
- | ---------- | 
- | ---------- | 
- | ---------- | 
- | ---------- | 
- | ---------- | 
- | ---------- | 
- | ---------- | 
+endsWith() | ---------- | returns true or false as appropriate
+String.fromCharCode() | ---------- | returns a string created from the specified sequence of UTF-16 code units
+String.fromCodePoint() | ---------- | returns a string created by using the specified sequence of code points
+includes() | ---------- | returns true or false as appropriate
+indexOf() | ---------- | returns -1 if the value is not found
+lastIndexOf( | ---------- | returns -1 if the value is not found
+localeCompare() | ---------- | returns a number indicating whether a reference string comes before, or after, or is the same as the given string in sort order
+match() | ---------- | retrieves the result of matching a string against a regular expression
+matchAll() | ---------- | returns an iterator of all results matching a string against a regular expression
+normalize() | ---------- | returns the Unicode Normalization Form of the string
+padEnd() | ---------- | pads the current string with a given string so that the resulting string reaches a given length
+padStart() | ---------- | pads the current string with another string (multiple times, if needed) until the resulting string reaches the given length
+String.raw() | ---------- | the raw string form of a given template literal
+repeat() | ---------- |  constructs and returns a new string which contains the specified number of copies of the string on which it was called, concatenated together
+replace() | ---------- | returns a new string with some or all matches of a pattern replaced by a replacement
+replaceAll() | ---------- | returns a new string with all matches of a pattern replaced by a replacement
+search() | ---------- | the index of the first match between the regular expression and the given string, or -1 if no match was found
+slice() | ---------- | extracts a section of a string and returns it as a new string, without modifying the original 
+string
+split() | ---------- | returns an array of strings, split at each point where the separator occurs in the given string
+startsWith() | ---------- | returns true or false as appropriate
+substring() | ---------- | returns the part of the string between the start and end indexes, or to the end of the string
+toLocaleLowerCase() | ---------- | returns a new string representing the calling string converted to lower case, according to any locale-specific case mappings
+toLocaleUpperCase() | ---------- | returns a new string representing the calling string converted to upper case, according to any locale-specific case mappings
+toLowerCase() | ---------- | returns a new string representing the calling string converted to lower case
+toUpperCase() | ---------- | returns a new string representing the calling string converted to upper case
+trim() | ---------- | returns a new string representing str stripped of whitespace from both its beginning and end
+trimEnd() | ---------- | returns a new string representing str stripped of whitespace from its end (right side)
+trimStart() | ---------- | returns a new string representing str stripped of whitespace from its beginning (left side).
+valueOf() | ---------- | returns a string representing the primitive value of a given String object
+toString() | The String object overrides the toString() method of the Object object | ----------
 
 <hr>
 
