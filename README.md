@@ -135,8 +135,7 @@ repeat() | ---------- |  constructs and returns a new string which contains the 
 replace() | ---------- | returns a new string with some or all matches of a pattern replaced by a replacement
 replaceAll() | ---------- | returns a new string with all matches of a pattern replaced by a replacement
 search() | ---------- | the index of the first match between the regular expression and the given string, or -1 if no match was found
-slice() | ---------- | extracts a section of a string and returns it as a new string, without modifying the original 
-string
+slice() | ---------- | extracts a section of a string and returns it as a new string, without modifying the original string
 split() | ---------- | returns an array of strings, split at each point where the separator occurs in the given string
 startsWith() | ---------- | returns true or false as appropriate
 substring() | ---------- | returns the part of the string between the start and end indexes, or to the end of the string
