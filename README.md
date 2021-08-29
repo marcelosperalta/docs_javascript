@@ -107,6 +107,35 @@ However, it is important to understand that objects (including arrays and functi
 [String.raw()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L240) | The static ``String.raw()`` method is a tag function of template literals. This is similar to the ``r`` prefix in Python, or the`` @`` prefix in C# for string literals. (But it is not identical; see explanations in this issue.) It's used to get the raw string form of template literals, that is, substitutions (e.g. ``${foo}``) are processed, but escapes (e.g. ``\n``) are not.  
 [String.prototype.repeat()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L255) | The ``repeat()`` method constructs and returns a new string which contains the specified number of copies of the string on which it was called, concatenated together.  
 [String.prototype.replace()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L273) | The ``replace()`` method returns a new string with some or all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match. If pattern is a string, only the first occurrence will be replaced. The original string is left unchanged.  
+[String.prototype.replaceAll()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L318) | The ``replaceAll()`` method returns a new string with all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match. The original string is left unchanged.  
+
+### Methods that _change_ and _do not change_ the object.
+
+**Method** |  _Change_  | _Do Not Change_
+---------- | ---------- | ----------
+\[@@iterator]() | ---------- | returns a new iterator object
+charAt() | ---------- | returns a new string
+charCodeAt() | ---------- | returns an integer between 0 and 65535
+codePointAt() | ---------- | returns a non-negative integer
+concat() | ---------- | returns a new string
+endsWith() | ---------- | returning true or false
+String.fromCharCode() | ---------- | returns a string created from the specified sequence of UTF-16 code units.
+String.fromCodePoint() | ---------- | returns a string created by using the specified sequence of code points.
+ | ---------- | 
+ | ---------- | 
+ | ---------- | 
+ | ---------- | 
+ | ---------- | 
+ | ---------- | 
+ | ---------- | 
+ | ---------- | 
+ | ---------- | 
+ | ---------- | 
+ | ---------- | 
+ | ---------- | 
+ | ---------- | 
+ | ---------- | 
+ | ---------- | 
 
 <hr>
 
