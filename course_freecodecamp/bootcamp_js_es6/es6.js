@@ -609,6 +609,32 @@ export {uppercaseString, lowercaseString};
 
 // Test
 
+// Only change code above this line
+uppercaseString("hello");
+lowercaseString("WORLD!");
+
+import { uppercaseString , lowercaseString  } from './string_functions.js'; 
+uppercaseString("hello");
+lowercaseString("WORLD!");
+
+// ----- Use * to Import Everything from a File
+
+// Test
+
+// Only change code above this line
+stringFunctions.uppercaseString("hello");
+stringFunctions.lowercaseString("WORLD!");
+
+// -----
+
+// Test
+
+
+
+// -----
+
+// Test
+
 
 
 // -----
