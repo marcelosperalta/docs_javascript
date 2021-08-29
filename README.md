@@ -123,7 +123,7 @@ String.fromCharCode() | ---------- | returns a string created from the specified
 String.fromCodePoint() | ---------- | returns a string created by using the specified sequence of code points
 includes() | ---------- | returns true or false as appropriate
 indexOf() | ---------- | returns -1 if the value is not found
-lastIndexOf( | ---------- | returns -1 if the value is not found
+lastIndexOf() | ---------- | returns -1 if the value is not found
 localeCompare() | ---------- | returns a number indicating whether a reference string comes before, or after, or is the same as the given string in sort order
 match() | ---------- | retrieves the result of matching a string against a regular expression
 matchAll() | ---------- | returns an iterator of all results matching a string against a regular expression
