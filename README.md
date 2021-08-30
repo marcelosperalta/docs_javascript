@@ -26,7 +26,7 @@
 
 **term** | definition
 ------------ | -------------
-[``new`` operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new) | The new operator lets developers create an instance of a user-defined object type or of one of the built-in object types that has a constructor function.
+[``new`` operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new) | The ``new`` operator lets developers create an instance of a user-defined object type or of one of the built-in object types that has a constructor function.
 [Object Literals](https://betterprogramming.pub/object-literal-in-javascript-d3e0e7d58f3b) | An object literal is a comma-separated list of name-value pairs inside of curly braces.  
 [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) | Template literals are literals delimited with backticks (`` ` ``), allowing embedded expressions called substitutions.  
 
@@ -34,13 +34,13 @@
 
 ## :+1: Common Practices:
 
-- Immutable values and mutable values
+- **Immutable values and mutable values**
 
   A common practice when naming constants is to use all uppercase letters, with words separated by an underscore.  
 
   It is common for developers to use uppercase variable identifiers for immutable values and lowercase or camelCase for mutable values (objects and arrays).  
 
-- ``Const``
+- **``Const``**
 
   Some developers prefer to assign all their variables using ``const`` by default, unless they know they will need to reassign the value. Only in that case, they use ``let``.  
 
