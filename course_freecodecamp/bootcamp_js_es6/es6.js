@@ -651,6 +651,72 @@ subtract(7,4);
 
 // Test
 
+const makeServerRequest = new Promise((resolve, reject) => {
 
+});
 
-// -----
+// ----- Complete a Promise with resolve and reject
+
+// Test
+
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer represents a response from a server
+  let responseFromServer;
+    
+  if(responseFromServer) {
+    // Change this line
+  } else {  
+    // Change this line
+  }
+});
+
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer represents a response from a server
+  let responseFromServer = true;
+  if(responseFromServer) {
+    resolve(console.log("We got the data"));
+  } else {  
+    reject(console.log("Data not received"));
+  }
+});
+
+// ----- Handle a Fulfilled Promise with then
+
+// Test
+
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer is set to true to represent a successful response from a server
+  let responseFromServer = true;
+    
+  if(responseFromServer) {
+    resolve("We got the data");
+  } else {  
+    reject("Data not received");
+  }
+});
+makeServerRequest.then(result => {
+  console.log(result);  // We got the data
+});
+
+// ----- Handle a Rejected Promise with catch
+
+// Test
+
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer is set to false to represent an unsuccessful response from a server
+  let responseFromServer = false;
+    
+  if(responseFromServer) {
+    resolve("We got the data");
+  } else {  
+    reject("Data not received");
+  }
+});
+
+makeServerRequest.then(result => {
+  console.log(result);
+});
+
+makeServerRequest.catch(error => {
+  console.log(error); // Data not received
+});
