@@ -326,5 +326,20 @@ console.log(p.replaceAll('dog', 'monkey'));
 const regex = /Dog/ig;
 console.log(p.replaceAll(regex, 'ferret'));
 // expected output: "The quick brown fox jumps over the lazy ferret. If the ferret reacted, was it really lazy?"
+// --------------------------------------------------------------------------------------------------------- //
 
+
+// String.prototype.search() ------------------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search
+
+const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
+const regex = /[^\w\s]/g; // any character that is not a word character or whitespace
+console.log(paragraph.search(regex));            // expected output: 43
+console.log(paragraph[paragraph.search(regex)]); // expected output: "."
+
+let str = "hey JudE"
+let re = /[A-Z]/g
+let reDot = /[.]/g
+console.log(str.search(re))    // returns 4, which is the index of the first capital letter "J"
+console.log(str.search(reDot)) // returns -1 cannot find '.' dot punctuation
 // --------------------------------------------------------------------------------------------------------- //

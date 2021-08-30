@@ -24,8 +24,9 @@
 
 ## :mag: Glossary:
 
-**concept** | description
+**term** | definition
 ------------ | -------------
+[``new`` operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new) | The new operator lets developers create an instance of a user-defined object type or of one of the built-in object types that has a constructor function.
 [Object Literals](https://betterprogramming.pub/object-literal-in-javascript-d3e0e7d58f3b) | An object literal is a comma-separated list of name-value pairs inside of curly braces.  
 [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) | Template literals are literals delimited with backticks (`` ` ``), allowing embedded expressions called substitutions.  
 
@@ -33,17 +34,17 @@
 
 ## :+1: Common Practices:
 
-### Immutable values and mutable values
+- Immutable values and mutable values
 
-A common practice when naming constants is to use all uppercase letters, with words separated by an underscore.  
+  A common practice when naming constants is to use all uppercase letters, with words separated by an underscore.  
 
-It is common for developers to use uppercase variable identifiers for immutable values and lowercase or camelCase for mutable values (objects and arrays).  
+  It is common for developers to use uppercase variable identifiers for immutable values and lowercase or camelCase for mutable values (objects and arrays).  
 
-### ``Const``
+- ``Const``
 
-Some developers prefer to assign all their variables using ``const`` by default, unless they know they will need to reassign the value. Only in that case, they use ``let``.  
+  Some developers prefer to assign all their variables using ``const`` by default, unless they know they will need to reassign the value. Only in that case, they use ``let``.  
 
-However, it is important to understand that objects (including arrays and functions) assigned to a variable using ``const`` are still mutable. Using the ``const`` declaration only prevents reassignment of the variable identifier.  
+  However, it is important to understand that objects (including arrays and functions) assigned to a variable using ``const`` are still mutable. Using the ``const`` declaration only prevents reassignment of the variable identifier.  
 
 <hr>
 
@@ -108,6 +109,7 @@ However, it is important to understand that objects (including arrays and functi
 [String.prototype.repeat()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L255) | The ``repeat()`` method constructs and returns a new string which contains the specified number of copies of the string on which it was called, concatenated together.  
 [String.prototype.replace()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L273) | The ``replace()`` method returns a new string with some or all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match. If pattern is a string, only the first occurrence will be replaced. The original string is left unchanged.  
 [String.prototype.replaceAll()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L318) | The ``replaceAll()`` method returns a new string with all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match. The original string is left unchanged.  
+[String.prototype.search()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L332) | The ``search()`` method executes a search for a match between a regular expression and this String object.  
 
 ### Methods that _change_ and _do not change_ the original object.
 

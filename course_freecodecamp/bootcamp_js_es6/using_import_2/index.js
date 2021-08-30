@@ -1,6 +1,5 @@
-import * as stringFunctions from './string_functions.js';
-console.log(stringFunctions.uppercaseString("hello"));
-console.log(stringFunctions.lowercaseString("WORLD!"));
+import subtract from "./math_functions.js";
+console.log(subtract(7,4));
 // To see the result, run the index.html and inspect the page using the console.
 // Works because of type="module" on the:
 // <script type="module" src="index.js"></script>
