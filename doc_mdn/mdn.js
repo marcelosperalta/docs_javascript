@@ -343,3 +343,27 @@ let reDot = /[.]/g
 console.log(str.search(re))    // returns 4, which is the index of the first capital letter "J"
 console.log(str.search(reDot)) // returns -1 cannot find '.' dot punctuation
 // --------------------------------------------------------------------------------------------------------- //
+
+
+// String.prototype.slice() -------------------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice
+
+// The zero-based index
+//           0123456789                                 43
+//                     10                   31
+//                                                     -1
+//                                                  -4
+//                                   -19       -9  -5
+const str = 'The quick brown fox jumps over the lazy dog.';
+console.log(str.slice(31));      // expected output: "the lazy dog."
+console.log(str.slice(4, 19));   // expected output: "quick brown fox"´
+console.log(str.slice(43));      // expected output: "."
+console.log(str.slice(-1));      // expected output: "."
+console.log(str.slice(-4));      // expected output: "dog."
+console.log(str.slice(-9, -5));  // expected output: "lazy"
+console.log(str.slice(44));      // expected output: "" (an empty string is returned)
+console.log(str.slice(-43));     // expected output: "he quick brown fox jumps over the lazy dog."
+console.log(str.slice(-44));     // expected output: "The quick brown fox jumps over the lazy dog."
+console.log(str.slice(10, -19)); // expected output: "brown fox jumps"
+
+// --------------------------------------------------------------------------------------------------------- //

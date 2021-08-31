@@ -26,9 +26,11 @@
 
 **term** | definition
 ------------ | -------------
-[``new`` operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new) | The ``new`` operator lets developers create an instance of a user-defined object type or of one of the built-in object types that has a constructor function.
-[Object Literals](https://betterprogramming.pub/object-literal-in-javascript-d3e0e7d58f3b) | An object literal is a comma-separated list of name-value pairs inside of curly braces.  
-[Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) | Template literals are literals delimited with backticks (`` ` ``), allowing embedded expressions called substitutions.  
+[Case or letter case](https://en.wikipedia.org/wiki/Letter_case) | Is the difference between uppercase letters and lowercase letters.
+[``new`` Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new) | The ``new`` operator lets developers create an instance of a user-defined object type or of one of the built-in object types that has a constructor function.
+[Object Literals](https://betterprogramming.pub/object-literal-in-javascript-d3e0e7d58f3b) | An object literal is a comma-separated list of name-value pairs inside of curly braces.
+[Regular Expressions](https://en.wikipedia.org/wiki/Regular_expression) | Are used in programming languages to match parts of strings. You create patterns to help you do that matching.
+[Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) | Template literals are literals delimited with backticks (`` ` ``), allowing embedded expressions called substitutions.
 
 <hr>
 
@@ -110,6 +112,7 @@
 [String.prototype.replace()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L273) | The ``replace()`` method returns a new string with some or all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match. If pattern is a string, only the first occurrence will be replaced. The original string is left unchanged.  
 [String.prototype.replaceAll()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L318) | The ``replaceAll()`` method returns a new string with all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match. The original string is left unchanged.  
 [String.prototype.search()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L332) | The ``search()`` method executes a search for a match between a regular expression and this String object.  
+[String.prototype.slice()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L348) | The ``slice()`` method extracts a section of a string and returns it as a new string, without modifying the original string.  
 
 ### Methods that _change_ and _do not change_ the original object.
 
