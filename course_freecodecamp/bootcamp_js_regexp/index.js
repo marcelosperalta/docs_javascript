@@ -58,3 +58,20 @@ let myString = "FreeCodeCamp";
 let fccRegex = /freeCodeCamp/i;
 let result = fccRegex.test(myString);
 console.log(result); // true
+
+
+// Extract Matches
+
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /change/; // Change this line
+let result = extractStr;    // Change this line
+
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /coding/;
+let result = extractStr.match(codingRegex);
+console.log(result); // [
+//                        'coding',
+//                        index: 18,
+//                        input: "Extract the word 'coding' from this string.",
+//                        groups: undefined
+//                      ]

@@ -41,3 +41,25 @@ Sometimes, you might want to also match case differences.
 Case (or sometimes letter case) is the difference between uppercase letters and lowercase letters. Examples of uppercase are ``A``, ``B``, and ``C``. Examples of lowercase are ``a``, ``b``, and ``c``.  
 
 You can match both cases using what is called a flag. There are other flags but here you'll focus on the flag that ignores case - the ``i`` flag. You can use it by appending it to the regex. An example of using this flag is ``/ignorecase/i``. This regex can match the strings ``ignorecase``, ``igNoreCase``, and ``IgnoreCase``.  
+
+## Extract Matches
+
+You can also extract the actual matches you found with the ``.match()`` method.  
+
+To use the ``.match()`` method, apply the method on a string and pass in the regex inside the parentheses.  
+
+```
+"Hello, World!".match(/Hello/);
+let ourStr = "Regular expressions";
+let ourRegex = /expressions/;
+ourStr.match(ourRegex);
+```
+
+Here the first match would return ``["Hello"]`` and the second would return ``["expressions"]``.  
+
+Note that the ``.match`` syntax is the "opposite" of the ``.test`` method you have been using thus far:  
+
+```
+'string'.match(/regex/);
+/regex/.test('string');
+```
