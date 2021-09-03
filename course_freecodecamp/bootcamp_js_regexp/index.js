@@ -75,3 +75,27 @@ console.log(result); // [
 //                        input: "Extract the word 'coding' from this string.",
 //                        groups: undefined
 //                      ]
+
+
+// Find More Than the First Match
+
+let twinkleStar = "Twinkle, twinkle, little star";
+let starRegex = /change/; // Change this line
+let result = twinkleStar; // Change this line
+
+let twinkleStar = "Twinkle, twinkle, little star";
+let starRegex = /Twinkle/gi;
+let result = twinkleStar.match(starRegex);
+console.log(result); // [ 'Twinkle', 'twinkle' ]
+
+
+// Match Anything with Wildcard Period
+
+let exampleStr = "Let's have fun with regular expressions!";
+let unRegex = /change/; // Change this line
+let result = unRegex.test(exampleStr);
+
+let exampleStr = "Let's have fun with regular expressions!";
+let unRegex = /.un./;
+let result = unRegex.test(exampleStr);
+console.log(result); // true
