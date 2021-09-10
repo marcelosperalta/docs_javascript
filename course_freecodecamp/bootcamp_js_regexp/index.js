@@ -99,3 +99,68 @@ let exampleStr = "Let's have fun with regular expressions!";
 let unRegex = /.un./;
 let result = unRegex.test(exampleStr);
 console.log(result); // true
+
+
+// Match Single Character with Multiple Possibilities
+
+let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
+let vowelRegex = /[aeiou]/ig;
+let result = quoteSample.match(vowelRegex);
+console.log(result); // [
+//                        'e', 'a', 'e', 'o', 'u', 'i',
+//                        'e', 'a', 'o', 'e', 'o', 'e',
+//                        'I', 'a', 'e', 'o', 'o', 'e',
+//                        'i', 'o', 'e', 'o', 'i', 'e',
+//                        'i'
+//                      ]
+
+
+// Match Letters of the Alphabet
+
+let quoteSample = "The quick brown fox jumps over the lazy dog.";
+let alphabetRegex = /change/; // Change this line
+let result = alphabetRegex;   // Change this line
+
+let quoteSample = "The quick brown fox jumps over the lazy dog.";
+let alphabetRegex = /[a-z]/ig; 
+let result = quoteSample.match(alphabetRegex);
+console.log(result); // [
+//                        'T', 'h', 'e', 'q', 'u', 'i', 'c',
+//                        'k', 'b', 'r', 'o', 'w', 'n', 'f',
+//                        'o', 'x', 'j', 'u', 'm', 'p', 's',
+//                        'o', 'v', 'e', 'r', 't', 'h', 'e',
+//                        'l', 'a', 'z', 'y', 'd', 'o', 'g'
+//                      ]
+
+
+// Match Numbers and Letters of the Alphabet
+
+let quoteSample = "Blueberry 3.141592653s are delicious.";
+let myRegex = /change/; // Change this line
+let result = myRegex;   // Change this line
+
+let quoteSample = "Blueberry 3.141592653s are delicious.";
+let myRegex = /[h-s2-6]/ig;
+let result = quoteSample.match(myRegex);
+console.log(result); // [
+//                        'l', 'r', 'r', '3', '4',
+//                        '5', '2', '6', '5', '3',
+//                        's', 'r', 'l', 'i', 'i',
+//                        'o', 's'
+//                      ]
+
+
+// Match Single Characters Not Specified
+
+let quoteSample = "3 blind mice.";
+let myRegex = /change/; // Change this line
+let result = myRegex;   // Change this line
+
+let quoteSample = "3 blind mice.";
+let myRegex = /[^aeiou0-9]/gi;
+let result = quoteSample.match(myRegex);
+console.log(result); // [
+//                        ' ', 'b', 'l',
+//                        'n', 'd', ' ',
+//                        'm', 'c', '.'
+//                      ]

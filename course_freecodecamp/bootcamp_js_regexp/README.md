@@ -91,3 +91,61 @@ huRegex.test(hugStr);
 ```
 
 Both of these test calls would return true.  
+
+## Match Single Character with Multiple Possibilities
+
+You can search for a literal pattern with some flexibility with **character classes**.  
+
+Character classes allow you to define a group of characters you wish to match by placing them inside square (``[`` and ``]``) brackets.  
+
+You want to match ``bag``, ``big``, and ``bug`` but not ``bog``. You can create the regex ``/b[aiu]g/`` to do this. The ``[aiu]`` is the character class that will only match the characters ``a``, ``i``, or ``u``.  
+
+```
+let bigStr = "big";
+let bagStr = "bag";
+let bugStr = "bug";
+let bogStr = "bog";
+let bgRegex = /b[aiu]g/;
+bigStr.match(bgRegex);
+bagStr.match(bgRegex);
+bugStr.match(bgRegex);
+bogStr.match(bgRegex);
+```
+In order, the four ``match`` calls would return the values ``["big"]``, ``["bag"]``, ``["bug"]``, and ``null``.  
+
+## Match Letters of the Alphabet
+
+Inside a character set, you can define a range of characters to match using a hyphen character: ``-``.  
+
+To match lowercase letters ``a`` through ``e`` you would use ``[a-e]``.`  
+
+```
+let catStr = "cat";
+let batStr = "bat";
+let matStr = "mat";
+let bgRegex = /[a-e]at/;
+catStr.match(bgRegex);
+batStr.match(bgRegex);
+matStr.match(bgRegex);
+```
+In order, the three ``match`` calls would return the values ``["cat"]``, ``["bat"]``, and ``null``.  
+
+## Match Numbers and Letters of the Alphabet
+
+Using the hyphen (``-``) to match a range of characters is not limited to letters. It also works to match a range of numbers.  
+
+It is possible to combine a range of letters and numbers in a single character set.  
+
+```
+let jennyStr = "Jenny8675309";
+let myRegex = /[a-z0-9]/ig;
+jennyStr.match(myRegex);
+```
+
+## Match Single Characters Not Specified
+
+You could also create a set of characters that you do not want to match. These types of character sets are called **negated character sets**.  
+
+For example, ``/[^aeiou]/gi`` matches all characters that are not a vowel. Note that characters like ``.``, ``!``, ``[``,`` @``, ``/`` and white space are matched - the negated vowel character set only excludes the vowel characters.  
+
+To create a negated character set, you place a caret character (``^``) after the opening bracket and before the characters you do not want to match.  
