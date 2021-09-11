@@ -164,3 +164,28 @@ console.log(result); // [
 //                        'n', 'd', ' ',
 //                        'm', 'c', '.'
 //                      ]
+
+
+// Match Characters that Occur One or More Times
+
+let difficultSpelling = "Mississippi";
+let myRegex = /change/; // Change this line
+let result = difficultSpelling.match(myRegex);
+
+let difficultSpelling = "Mississippi";
+let myRegex = /s+/g; 
+let result = difficultSpelling.match(myRegex);
+console.log(result); // [ 'ss', 'ss' ]
+
+
+// Match Characters that Occur Zero or More Times
+
+// Only change code below this line
+let chewieRegex = /change/; // Change this line
+// Only change code above this line
+let result = chewieQuote.match(chewieRegex);
+
+let chewieQuote = "Aaaaaaaaaaaaaaaarrrgh!";
+let chewieRegex = /Aa*/;
+let result = chewieQuote.match(chewieRegex);
+console.log(result); // 
