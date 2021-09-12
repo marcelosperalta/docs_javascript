@@ -188,4 +188,33 @@ let result = chewieQuote.match(chewieRegex);
 let chewieQuote = "Aaaaaaaaaaaaaaaarrrgh!";
 let chewieRegex = /Aa*/;
 let result = chewieQuote.match(chewieRegex);
-console.log(result); // 
+console.log(result); // [
+//                        'Aaaaaaaaaaaaaaaa',
+//                        index: 0,
+//                        input: 'Aaaaaaaaaaaaaaaarrrgh!',
+//                        groups: undefined
+//                      ]
+
+
+// Find Characters with Lazy Matching
+
+let text = "<h1>Winter is coming</h1>";
+let myRegex = /<.*>/; // Change this line
+let result = text.match(myRegex);
+
+let text = "<h1>Winter is coming</h1>";
+let myRegex = /<h[0-9]*?1>/;
+let result = text.match(myRegex);
+console.log(result); // [
+//                        '<h1>',
+//                        index: 0,
+//                        input: '<h1>Winter is coming</h1>',
+//                        groups: undefined
+//                      ]
+
+
+// Find One or More Criminals in a Hunt
+
+let reCriminals = /./; // Change this line
+
+let reCriminals = /c+|C+/g;
