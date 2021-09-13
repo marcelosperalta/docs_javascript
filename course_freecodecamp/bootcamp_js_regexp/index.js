@@ -352,3 +352,27 @@ let ohStr = "Ohhh no";
 let ohRegex = /Oh{3,6} no/;
 let result = ohRegex.test(ohStr);
 console.log(result); // true
+
+
+// Specify Only the Lower Number of Matches
+
+let haStr = "Hazzzzah";
+let haRegex = /change/; // Change this line
+let result = haRegex.test(haStr);
+
+let haStr = "Hazzzzah";
+let haRegex = /Haz{4,}ah/;
+let result = haRegex.test(haStr);
+console.log(result); // true
+
+
+// Specify Exact Number of Matches
+
+let timStr = "Timmmmber";
+let timRegex = /change/; // Change this line
+let result = timRegex.test(timStr);
+
+let timStr = "Timmmmber";
+let timRegex = /Tim{4}ber/;
+let result = timRegex.test(timStr);
+console.log(result); // true
