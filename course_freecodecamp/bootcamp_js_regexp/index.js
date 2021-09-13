@@ -218,3 +218,75 @@ console.log(result); // [
 let reCriminals = /./; // Change this line
 
 let reCriminals = /c+|C+/g;
+
+
+// Match Beginning String Patterns
+
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /change/; // Change this line
+let result = calRegex.test(rickyAndCal);
+
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /^Cal/;
+let result = calRegex.test(rickyAndCal);
+console.log(result); // true
+
+
+// Match Ending String Patterns
+
+let caboose = "The last car on a train is the caboose";
+let lastRegex = /change/; // Change this line
+let result = lastRegex.test(caboose);
+
+let caboose = "The last car on a train is the caboose";
+let lastRegex = /caboose$/;
+let result = lastRegex.test(caboose);
+console.log(result); // true
+
+
+// Match All Letters and Numbers
+
+let quoteSample = "The five boxing wizards jump quickly.";
+let alphabetRegexV2 = /change/; // Change this line
+let result = quoteSample.match(alphabetRegexV2).length;
+
+let quoteSample = "The five boxing wizards jump quickly.";
+let alphabetRegexV2 = /\w/g;
+let result = quoteSample.match(alphabetRegexV2).length;
+console.log(result); // 31
+
+
+// Match Everything But Letters and Numbers
+
+let quoteSample = "The five boxing wizards jump quickly.";
+let nonAlphabetRegex = /change/; // Change this line
+let result = quoteSample.match(nonAlphabetRegex).length;
+
+let quoteSample = "The five boxing wizards jump quickly.";
+let nonAlphabetRegex = /\W/g;
+let result = quoteSample.match(nonAlphabetRegex).length;
+console.log(result); // 6
+
+
+// Match All Numbers
+
+let movieName = "2001: A Space Odyssey";
+let numRegex = /change/; // Change this line
+let result = movieName.match(numRegex).length;
+
+let movieName = "2001: A Space Odyssey";
+let numRegex = /\d/g;
+let result = movieName.match(numRegex).length;
+console.log(result); // 4
+
+
+// Match All Non-Numbers
+
+let movieName = "2001: A Space Odyssey";
+let noNumRegex = /change/; // Change this line
+let result = movieName.match(noNumRegex).length;
+
+let movieName = "2001: A Space Odyssey";
+let noNumRegex = /\D/g;
+let result = movieName.match(noNumRegex).length;
+console.log(result); // 17
