@@ -290,3 +290,65 @@ let movieName = "2001: A Space Odyssey";
 let noNumRegex = /\D/g;
 let result = movieName.match(noNumRegex).length;
 console.log(result); // 17
+
+
+// Restrict Possible Usernames
+
+// 1. Usernames can only use alpha-numeric characters.
+// 2. The only numbers in the username have to be at the end. 
+//    There can be zero or more of them at the end. Username cannot start with the number.
+// 3. Username letters can be lowercase and uppercase.
+// 4. Usernames have to be at least two characters long. 
+//    A two-character username can only use alphabet letters as characters.
+
+let username = "JackOfAllTrades";
+let userCheck = /change/; // Change this line
+let result = userCheck.test(username);
+
+let username = "JackOfAllTrades";
+let userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i;
+let result = userCheck.test(username);
+console.log(result); // true
+
+
+// Match Whitespace
+
+let sample = "Whitespace is important in separating words";
+let countWhiteSpace = /change/; // Change this line
+let result = sample.match(countWhiteSpace);
+
+let sample = "Whitespace is important in separating words";
+let countWhiteSpace = /\s/g;
+let result = sample.match(countWhiteSpace);
+console.log(result); // [ ' ', ' ', ' ', ' ', ' ' ]
+
+
+// Match Non-Whitespace Characters
+
+let sample = "Whitespace is important in separating words";
+let countNonWhiteSpace = /change/; // Change this line
+let result = sample.match(countNonWhiteSpace);
+
+let sample = "Whitespace is important in separating words";
+let countNonWhiteSpace = /\S/g;
+let result = sample.match(countNonWhiteSpace);
+console.log(result); // [
+//                        'W', 'h', 'i', 't', 'e', 's', 'p',
+//                        'a', 'c', 'e', 'i', 's', 'i', 'm',
+//                        'p', 'o', 'r', 't', 'a', 'n', 't',
+//                        'i', 'n', 's', 'e', 'p', 'a', 'r',
+//                        'a', 't', 'i', 'n', 'g', 'w', 'o',
+//                        'r', 'd', 's'
+//                      ]
+
+
+// Specify Upper and Lower Number of Matches
+
+let ohStr = "Ohhh no";
+let ohRegex = /change/; // Change this line
+let result = ohRegex.test(ohStr);
+
+let ohStr = "Ohhh no";
+let ohRegex = /Oh{3,6} no/;
+let result = ohRegex.test(ohStr);
+console.log(result); // true

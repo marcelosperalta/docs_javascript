@@ -278,3 +278,54 @@ The first ``match`` call would return the value ``["%"]`` and the second would r
 ## Match All Numbers
 
 The shortcut to look for digit characters is ``\d``, with a lowercase ``d``. This is equal to the character class ``[0-9]``, which looks for a single character of any number between zero and nine.  
+
+## Restrict Possible Usernames
+
+Usernames are used everywhere on the internet. They are what give users a unique identity on their favorite sites.  
+
+You need to check all the usernames in a database. Here are some simple rules that users have to follow when creating their username.  
+
+1. Usernames can only use alpha-numeric characters.
+2. The only numbers in the username have to be at the end. There can be zero or more of them at the end. Username cannot start with the number.
+3. Username letters can be lowercase and uppercase.
+4. Usernames have to be at least two characters long. A two-character username can only use alphabet letters as characters.
+
+## Match Whitespace
+
+You can search for whitespace using ``\s``, which is a lowercase ``s``. This pattern not only matches whitespace, but also carriage return, tab, form feed, and new line characters. You can think of it as similar to the character class ``[ \r\t\f\n\v]``.  
+
+```
+let whiteSpace = "Whitespace. Whitespace everywhere!"
+let spaceRegex = /\s/g;
+whiteSpace.match(spaceRegex);
+```
+This ``match`` call would return ``[" ", " "]``.` 
+
+## Match Non-Whitespace Characters
+
+Search for non-whitespace using ``\S``, which is an uppercase ``s``. This pattern will not match whitespace, carriage return, tab, form feed, and new line characters. You can think of it being similar to the character class ``[^ \r\t\f\n\v]``.  
+
+```
+let whiteSpace = "Whitespace. Whitespace everywhere!"
+let nonSpaceRegex = /\S/g;
+whiteSpace.match(nonSpaceRegex).length;
+```
+The value returned by the ``.length`` method would be ``32``.  
+
+## Specify Upper and Lower Number of Matches
+
+Recall that you use the plus sign ``+`` to look for one or more characters and the asterisk ``*`` to look for zero or more characters. These are convenient but sometimes you want to match a certain range of patterns.  
+
+You can specify the lower and upper number of patterns with **quantity specifiers**. Quantity specifiers are used with curly brackets (``{`` and`` }``). You put two numbers between the curly brackets - for the lower and upper number of patterns.  
+
+For example, to match only the letter ``a`` appearing between ``3`` and ``5`` times in the string ``ah``, your regex would be ``/a{3,5}h/``.  
+
+```
+let A4 = "aaaah";
+let A2 = "aah";
+let multipleA = /a{3,5}h/;
+multipleA.test(A4);
+multipleA.test(A2);
+```
+
+The first ``test`` call would return ``true``, while the second would return ``false``.  
