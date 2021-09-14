@@ -388,3 +388,64 @@ let favWord = "favorite";
 let favRegex = /favou?rite/;
 let result = favRegex.test(favWord);
 console.log(result); // true
+
+
+// Positive and Negative Lookahead
+
+let sampleWord = "astronaut";
+let pwRegex = /change/; // Change this line
+let result = pwRegex.test(sampleWord);
+
+let sampleWord = "astronaut";
+let pwRegex = /(?=\w{6})(?=\w*\d{2})/;
+let result = pwRegex.test(sampleWord);
+console.log(result); // false
+
+
+// Check For Mixed Grouping of Characters
+
+let myString = "Eleanor Roosevelt";
+let myRegex = /False/; // Change this line
+let result = false; // Change this line
+// After passing the challenge experiment with myString and see how the grouping works
+
+let myString = "Eleanor Roosevelt";
+let myRegex = /(Franklin|Eleanor)*Roosevelt/;
+let result = myRegex.test(myString);
+console.log(result); // true
+
+let myString = "Franklin D. Roosevelt";
+let myRegex = /(Franklin|Eleanor).*Roosevelt/;
+let result = myRegex.test(myString);
+console.log(result); // true
+
+let myString = "Frank Roosevelt";
+let myRegex = /(Franklin|Eleanor).*Roosevelt/;
+let result = myRegex.test(myString);
+console.log(result); // false
+
+// Reuse Patterns Using Capture Groups
+
+let repeatNum = "42 42 42";
+let reRegex = /change/; // Change this line
+let result = reRegex.test(repeatNum);
+
+let repeatNum = "42 42 42";
+let reRegex = /^(\d+)\s\1\s\1$/;
+let result = reRegex.test(repeatNum);
+let result2 = repeatNum.match(reRegex)
+console.log(result);  // true
+console.log(result2); // [ '42 42 42', '42', index: 0, input: '42 42 42', groups: undefined ]
+
+
+// Use Capture Groups to Search and Replace
+
+let str = "one two three";
+let fixRegex = /change/; // Change this line
+let replaceText = ""; // Change this line
+let result = str.replace(fixRegex, replaceText);
+
+let str = "one two three";
+let fixRegex = /change/;
+let replaceText = "";
+let result = str.replace(fixRegex, replaceText);
