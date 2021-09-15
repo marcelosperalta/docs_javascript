@@ -156,9 +156,14 @@ toString() | The String object overrides the toString() method of the Object obj
 
 <hr>
 
-## :flashlight: Debug
+## :flashlight: Debug (_Debugging_)
 
 [Chrome DevTools](https://developer.chrome.com/docs/devtools/javascript/)  
+
+Item | Type | Description
+----- | ----- | -----
+console.log() | method | outputs a message to the web console
+typeof | operator | returns a string indicating the type of the unevaluated operand
 
 <hr>
 
