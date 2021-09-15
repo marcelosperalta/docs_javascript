@@ -365,5 +365,80 @@ console.log(str.slice(44));      // expected output: "" (an empty string is retu
 console.log(str.slice(-43));     // expected output: "he quick brown fox jumps over the lazy dog."
 console.log(str.slice(-44));     // expected output: "The quick brown fox jumps over the lazy dog."
 console.log(str.slice(10, -19)); // expected output: "brown fox jumps"
+// --------------------------------------------------------------------------------------------------------- //
+
+
+// String.prototype.slice() -------------------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+
+const str = 'The quick brown fox jumps over the lazy dog.';
+
+const words = str.split(' ');
+console.log(words[3]); // expected output: "fox"
+
+const chars = str.split('');
+console.log(chars[8]); // expected output: "k"
+
+const strCopy = str.split();
+console.log(strCopy); // expected output: Array ["The quick brown fox jumps over the lazy dog."]
+
+function splitString(stringToSplit, separator) {
+  const arrayOfStrings = stringToSplit.split(separator)
+
+  console.log('The original string is: ', stringToSplit)
+  console.log('The separator is: ', separator)
+  console.log('The array has ', arrayOfStrings.length, ' elements: ', arrayOfStrings.join(' / '))
+}
+const tempestString = 'Oh brave new world that has such people in it.'
+const monthString = 'Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec'
+const space = ' '
+const comma = ','
+splitString(tempestString, space) 
+// The original string is:  Oh brave new world that has such people in it.
+// The separator is:   
+// The array has  10  elements:  Oh / brave / new / world / that / has / such / people / in / it.
+splitString(tempestString)
+// The original string is:  Oh brave new world that has such people in it.
+// The separator is:  undefined
+// The array has  1  elements:  Oh brave new world that has such people in it.
+splitString(monthString, comma)
+// The original string is:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+// The separator is:  ,
+// The array has  12  elements:  Jan / Feb / Mar / Apr / May / Jun / Jul / Aug / Sep / Oct / Nov / Dec
+
+// // Removing spaces from a string
+const names = 'Harry Trump ;Fred Barney; Helen Rigby ; Bill Abel ;Chris Hand '
+console.log(names) // Harry Trump ;Fred Barney; Helen Rigby ; Bill Abel ;Chris Hand 
+const re = /\s*(?:;|$)\s*/
+const nameList = names.split(re)
+console.log(nameList) // [
+//                         'Harry Trump',
+//                         'Fred Barney',
+//                         'Helen Rigby',
+//                         'Bill Abel',
+//                         'Chris Hand',
+//                         ''
+//                       ]
+
+// // Returning a limited number of splits
+const myString = 'Hello World. How are you doing?'
+const splits = myString.split(' ', 3)
+console.log(splits) // [ 'Hello', 'World.', 'How' ]
+
+// Splitting with a RegExp to include parts of the separator in the result
+const myString = 'Hello 1 word. Sentence number 2.'
+const splits = myString.split(/(\d)/)
+console.log(splits) // [ 'Hello ', '1', ' word. Sentence number ', '2', '.' ]
+
+// Reversing a String using split()
+const str = 'asdfghjkl'
+const strReverse = str.split('').reverse().join('') // 'lkjhgfdsa'
+// Is it a palindrome?
+console.log(str === strReverse); // false
+const str2 = 'level'
+const strReverse2 = str2.split('').reverse().join('') // 'level'
+console.log(str2 === strReverse2); // true
+// It doesn't work if the string contains grapheme clusters 
+//: Use https://github.com/mathiasbynens/esrever
 
 // --------------------------------------------------------------------------------------------------------- //
