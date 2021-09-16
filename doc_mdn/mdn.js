@@ -368,7 +368,7 @@ console.log(str.slice(10, -19)); // expected output: "brown fox jumps"
 // --------------------------------------------------------------------------------------------------------- //
 
 
-// String.prototype.slice() -------------------------------------------------------------------------------- //
+// String.prototype.split() -------------------------------------------------------------------------------- //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
 
 const str = 'The quick brown fox jumps over the lazy dog.';
@@ -440,5 +440,92 @@ const strReverse2 = str2.split('').reverse().join('') // 'level'
 console.log(str2 === strReverse2); // true
 // It doesn't work if the string contains grapheme clusters 
 //: Use https://github.com/mathiasbynens/esrever
+// --------------------------------------------------------------------------------------------------------- //
 
+
+// String.prototype.startsWith() --------------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith
+
+const str1 = 'Saturday night plans';
+console.log(str1.startsWith('Sat'));    // expected output: true
+console.log(str1.startsWith('Sat', 3)); // expected output: false
+
+// startswith
+//         0123456789
+//                   10
+//                    11
+let str = 'To be, or not to be, that is the question.'
+console.log(str.startsWith('To be'))          // true
+console.log(str.startsWith('not to be'))      // false
+console.log(str.startsWith('not to be', 10))  // true
+// --------------------------------------------------------------------------------------------------------- //
+
+
+// String.prototype.substring() ---------------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring
+
+//           0123456
+const str = 'Mozilla';
+console.log(str.substring(1, 3)); // expected output: "oz"
+console.log(str.substring(2));    // expected output: "zilla"
+
+//               0123456
+let anyString = 'Mozilla'
+// Displays 'M'
+console.log(anyString.substring(0, 1))
+console.log(anyString.substring(1, 0))
+// Displays 'Mozill'
+console.log(anyString.substring(0, 6))
+// Displays 'lla'
+console.log(anyString.substring(4))
+console.log(anyString.substring(4, 7))
+console.log(anyString.substring(7, 4))
+// Displays 'Mozilla'
+console.log(anyString.substring(0, 7))
+console.log(anyString.substring(0, 10))
+
+// // using length
+// Displays 'illa' the last 4 characters
+//               0123456
+let anyString = 'Mozilla'
+let anyString4 = anyString.substring(anyString.length - 4)
+console.log(anyString4)
+// Displays 'zilla' the last 5 characters
+//               0123456
+let anyString = 'Mozilla'
+let anyString5 = anyString.substring(anyString.length - 5)
+console.log(anyString5)
+
+// // The difference between substring() and substr()
+//          0123456
+let text = 'Mozilla'
+console.log(text.substring(2,5))  // => "zil"
+console.log(text.substr(2,3))     // => "zil" (legacy feature in ECMAScript)
+
+// // Differences between substring() and slice()
+//          0123456
+let text = 'Mozilla'
+console.log(text.substring(5, 2))   // => "zil"
+console.log(text.slice(5, 2))       // => ""
+console.log(text.substring(-5, 2))  // => "Mo"
+console.log(text.substring(-5, -2)) // => ""
+console.log(text.slice(-5, 2))      // => ""
+console.log(text.slice(-5, -2))     // => "zil"
+
+// // Replacing a substring within a string
+// Replaces oldS with newS in the string fullS
+function replaceString(oldS, newS, fullS) {
+  for (let i = 0; i < fullS.length; ++i) {
+    if (fullS.substring(i, i + oldS.length) == oldS) {
+      fullS = fullS.substring(0, i) + newS + fullS.substring(i + oldS.length, fullS.length)
+    }
+  }
+  return fullS
+}
+console.log(replaceString('World', 'Web', 'Brave New World')); // Brave New Web
+
+function replaceString(oldS, newS, fullS) {
+  return fullS.split(oldS).join(newS)
+}
+console.log(replaceString('World', 'OtherWorld', 'Brave New World')); // Brave New OtherWorld
 // --------------------------------------------------------------------------------------------------------- //

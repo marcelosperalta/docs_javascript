@@ -113,7 +113,9 @@
 [String.prototype.replaceAll()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L318) | Returns a new string with all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match. The original string is left unchanged.  
 [String.prototype.search()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L332) | Executes a search for a match between a regular expression and this String object.  
 [String.prototype.slice()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L348) | Extracts a section of a string and returns it as a new string, without modifying the original string.  
-[String.prototype.split()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L371) | Ddivides a String into an ordered list of substrings, puts these substrings into an array, and returns the array.  The division is done by searching for a pattern; where the pattern is provided as the first parameter in the method's call.  
+[String.prototype.split()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L371) | Divides a String into an ordered list of substrings, puts these substrings into an array, and returns the array.  The division is done by searching for a pattern; where the pattern is provided as the first parameter in the method's call.  
+[String.prototype.startsWith()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L446) | Determines whether a string begins with the characters of a specified string, returning true or false as appropriate.  
+[String.prototype.substring()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L464) | Returns the part of the string between the start and end indexes, or to the end of the string.  
 
 ### Methods that _change_ and _do not change_ the original object.
 
