@@ -559,3 +559,103 @@ console.log(city.toLocaleUpperCase('TR'));    // expected output: "İSTANBUL"
 let locales = ['lt', 'LT', 'lt-LT', 'lt-u-co-phonebk', 'lt-x-lietuva'];
 'i\u0307'.toLocaleUpperCase(locales); // 'I'
 // --------------------------------------------------------------------------------------------------------- //
+
+
+// String.prototype.toLowerCase() -------------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
+
+const sentence = 'The quick brown fox jumps over the lazy dog.';
+console.log(sentence.toLowerCase()); // expected output: "the quick brown fox jumps over the lazy dog."
+
+console.log('ALPHABET'.toLowerCase()); // 'alphabet'
+// --------------------------------------------------------------------------------------------------------- //
+
+
+// String.prototype.toString() ----------------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toString
+
+const stringObj = new String('foo');
+console.log(stringObj);            // expected output: [String: 'foo']
+console.log(stringObj.toString()); // expected output: "foo"
+
+var x = new String('Hello world');
+console.log(x);            // [String: 'Hello world']
+console.log(x.toString()); // logs 'Hello world'
+// --------------------------------------------------------------------------------------------------------- //
+
+
+// String.prototype.toUpperCase() -------------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
+
+const sentence = 'The quick brown fox jumps over the lazy dog.';
+console.log(sentence.toUpperCase()); // expected output: "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG."
+
+console.log('alphabet'.toUpperCase()); // 'ALPHABET'
+
+// // Conversion of non-string this values to strings
+const a = String.prototype.toUpperCase.call({
+  toString: function toString() {
+    return 'abcdef';
+  }
+});
+const b = String.prototype.toUpperCase.call(true);
+// prints out 'ABCDEF TRUE'.
+console.log(a, b);
+// --------------------------------------------------------------------------------------------------------- //
+
+
+// String.prototype.trim() --------------------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+
+const greeting = '   Hello world!   ';
+console.log(greeting);        // expected output: "   Hello world!   ";
+console.log(greeting.trim()); // expected output: "Hello world!";
+
+var orig = '   foo  ';
+console.log(orig.trim()); // 'foo'
+// --------------------------------------------------------------------------------------------------------- //
+
+
+// String.prototype.trimEnd() ------------------------------------------------------------------------------ //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimEnd
+
+const greeting = '   Hello world!   ';
+console.log(greeting);           // expected output: "   Hello world!   ";
+console.log(greeting.trimEnd()); // expected output: "   Hello world!";
+
+var str = '   foo  ';
+console.log(str.length); // 8
+str = str.trimEnd();
+console.log(str.length); // 6
+console.log(str);        // '   foo'
+// --------------------------------------------------------------------------------------------------------- //
+
+
+// String.prototype.trimStart() ---------------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimStart
+
+const greeting = '   Hello world!   ';
+console.log(greeting);             // expected output: "   Hello world!   ";
+console.log(greeting.trimStart()); // expected output: "Hello world!   ";
+
+var str = '   foo  ';
+console.log(str.length); // 8
+str = str.trimStart();
+console.log(str.length); // 5
+console.log(str);        // 'foo  '
+// --------------------------------------------------------------------------------------------------------- //
+
+
+// String.prototype.valueOf() ------------------------------------------------------------------------------ //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/valueOf
+
+// This value is equivalent to String.prototype.toString().
+// This method is usually called internally by JavaScript and not explicitly in code.
+
+const stringObj = new String('foo');
+console.log(stringObj);           // expected output: String { "foo" }
+console.log(stringObj.valueOf()); // expected output: "foo"
+
+var x = new String('Hello world');
+console.log(x.valueOf()); // Displays 'Hello world'
+// --------------------------------------------------------------------------------------------------------- //

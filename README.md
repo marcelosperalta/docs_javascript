@@ -118,6 +118,13 @@
 [String.prototype.substring()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L464) | Returns the part of the string between the start and end indexes, or to the end of the string.  
 [String.prototype.toLocaleLowerCase()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L534) | Returns the calling string value converted to lower case, according to any locale-specific case mappings.  
 [String.prototype.toLocaleUpperCase()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L549) | Returns the calling string value converted to upper case, according to any locale-specific case mappings.  
+[String.prototype.toLowerCase()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L564) | Returns the calling string value converted to lower case.  
+[String.prototype.toString()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L574) | Returns a string representing the specified object.  
+[String.prototype.toUpperCase()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L587) | Returns the calling string value converted to uppercase (the value will be converted to a string if it isn't one).  
+[String.prototype.trim()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L607) | Removes whitespace from both ends of a string. Whitespace in this context is all the whitespace characters (space, tab, no-break space, etc.) and all the line terminator characters (LF, CR, etc.).  
+[String.prototype.trimEnd()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L619) | Removes whitespace from the end of a string. trimRight() is an alias of this method.  
+[String.prototype.trimStart()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L634) | Removes whitespace from the beginning of a string. trimLeft() is an alias of this method.  
+[String.prototype.valueOf()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L649) | Returns the primitive value of a String object.  
 
 ### Methods that _change_ and _do not change_ the original object.
 
