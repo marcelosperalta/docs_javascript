@@ -96,7 +96,7 @@
 [String.prototype.codePointAt()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L47) | Returns a non-negative integer that is<br/> the UTF-16 code point value.  
 [String.prototype.concat()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L57) | Concatenates the string arguments to the calling string <br/>and returns a new string.  
 [String.prototype.endsWith()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L68) | Determines whether a string ends with the characters of a specified string, returning true or false as appropriate.  
-[String.fromCharCode()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L81) | Determines whether a string ends with the characters of a specified string, returning true or false as appropriate.  
+[String.fromCharCode()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L81) | Returns a string created from the specified sequence of UTF-16 code units.  
 [String.fromCodePoint()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L95) | Returns a string created<br/> by using the specified sequence of code points.  
 [String.prototype.includes()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L106) | Determines whether one string may be found within another string, returning true or false as appropriate.  
 [String.prototype.indexOf()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L118) | Returns the index within the calling String object of the first occurrence of the specified value, starting the search at fromIndex. Returns -1 if the value is not found.  
