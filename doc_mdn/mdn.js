@@ -529,3 +529,33 @@ function replaceString(oldS, newS, fullS) {
 }
 console.log(replaceString('World', 'OtherWorld', 'Brave New World')); // Brave New OtherWorld
 // --------------------------------------------------------------------------------------------------------- //
+
+
+// String.prototype.toLocaleLowerCase() -------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleLowerCase
+
+const dotted = 'İstanbul';
+console.log(`EN-US: ${dotted.toLocaleLowerCase('en-US')}`); // expected output: "i̇stanbul"
+console.log(`TR: ${dotted.toLocaleLowerCase('tr')}`);       // expected output: "istanbul"
+
+'ALPHABET'.toLocaleLowerCase();              // 'alphabet'
+'\u0130'.toLocaleLowerCase('tr') === 'i';    // true
+'\u0130'.toLocaleLowerCase('en-US') === 'i'; // false
+let locales = ['tr', 'TR', 'tr-TR', 'tr-u-co-search', 'tr-x-turkish'];
+'\u0130'.toLocaleLowerCase(locales) === 'i'; // true
+// --------------------------------------------------------------------------------------------------------- //
+
+
+// String.prototype.toLocaleUpperCase() -------------------------------------------------------------------- //
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleUpperCase
+
+const city = 'istanbul';
+console.log(city.toLocaleUpperCase('en-US')); // expected output: "ISTANBUL"
+console.log(city.toLocaleUpperCase('TR'));    // expected output: "İSTANBUL"
+
+'alphabet'.toLocaleUpperCase();       // 'ALPHABET'
+'Gesäß'.toLocaleUpperCase();          // 'GESÄSS'
+'i\u0307'.toLocaleUpperCase('lt-LT'); // 'I'
+let locales = ['lt', 'LT', 'lt-LT', 'lt-u-co-phonebk', 'lt-x-lietuva'];
+'i\u0307'.toLocaleUpperCase(locales); // 'I'
+// --------------------------------------------------------------------------------------------------------- //

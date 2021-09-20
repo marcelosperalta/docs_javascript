@@ -116,6 +116,8 @@
 [String.prototype.split()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L371) | Divides a String into an ordered list of substrings, puts these substrings into an array, and returns the array.  The division is done by searching for a pattern; where the pattern is provided as the first parameter in the method's call.  
 [String.prototype.startsWith()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L446) | Determines whether a string begins with the characters of a specified string, returning true or false as appropriate.  
 [String.prototype.substring()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L464) | Returns the part of the string between the start and end indexes, or to the end of the string.  
+[String.prototype.toLocaleLowerCase()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L534) | Returns the calling string value converted to lower case, according to any locale-specific case mappings.  
+[String.prototype.toLocaleUpperCase()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L549) | Returns the calling string value converted to upper case, according to any locale-specific case mappings.  
 
 ### Methods that _change_ and _do not change_ the original object.
 

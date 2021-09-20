@@ -24,7 +24,17 @@ In this Basic Data Structures course, you'll learn more about the differences be
 
 ## Add Items to an Array with push() and unshift()
 
+arrays are **mutable**  
+
+``push()`` method adds elements to the end of an array.  
+
+``unshift()`` adds elements to the beginning.  
+
 ## Remove Items from an Array with pop() and shift()
+
+``pop()`` removes an element from the end of an array - no parameters - only allows an array to be modified by a single element at a time.  
+
+``shift()`` removes an element from the beginning - no parameters - only allows an array to be modified by a single element at a time.  
 
 ## Remove Items Using splice()
 

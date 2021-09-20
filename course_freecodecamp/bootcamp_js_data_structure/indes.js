@@ -44,7 +44,42 @@ console.log(myArray);
 
 // Add Items to an Array with push() and unshift()
 
+let twentyThree = 'XXIII';
+let romanNumerals = ['XXI', 'XXII'];
+romanNumerals.unshift('XIX', 'XX');
+console.log(romanNumerals); // [ 'XIX', 'XX', 'XXI', 'XXII' ]
+romanNumerals.push(twentyThree);
+console.log(romanNumerals); // [ 'XIX', 'XX', 'XXI', 'XXII', 'XXIII' ]
+
+function mixedNumbers(arr) {
+  arr.unshift('I', 2, 'three');
+  arr.push(7, 'VIII', 9);
+  return arr;
+}
+console.log(mixedNumbers(['IV', 5, 'six'])); // [
+                                             //   'I',     2,
+                                             //   'three', 'IV',
+                                             //   5,       'six',
+                                             //   7,       'VIII',
+                                             //   9
+                                             // ]
+
 // Remove Items from an Array with pop() and shift()
+
+let greetings = ['whats up?', 'hello', 'see ya!'];
+greetings.pop();
+console.log(greetings);       // [ 'whats up?', 'hello' ]
+greetings.shift();
+console.log(greetings);       // [ 'hello' ]
+let popped = greetings.pop();
+console.log(popped);          // hello
+
+function popShift(arr) {
+  let popped = arr.pop();
+  let shifted = arr.shift();
+  return [shifted, popped];
+}
+console.log(popShift(['challenge', 'is', 'not', 'complete']));
 
 // Remove Items Using splice()
 
