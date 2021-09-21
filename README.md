@@ -174,7 +174,7 @@ toString() | The String object overrides the toString() method of the Object obj
 **_Array Methods_** | description
 ------------ | -------------
 [Array.prototype\[@@iterator\]()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | The ``@@iterator`` method is part of **The iterable protocol**, that defines how to synchronously iterate over a sequence of values.  
-[get Array[@@species]](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | The ``Array[@@species]`` accessor property returns the Array constructor.  
+[get Array\[@@species\]](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | The ``Array[@@species]`` accessor property returns the Array constructor.  
 [Array.prototype.concat()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | Is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.  
 [Array.prototype.copyWithin()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | Shallow copies part of an array to another location in the same array and returns it without modifying its length.  
 [Array.prototype.entries()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | Returns a new **Array Iterator** object that contains the key/value pairs for each index in the array.  
