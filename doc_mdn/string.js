@@ -270,7 +270,7 @@ console.log(`Chorus lyrics for "Happy": ${chorus.repeat(27)}`);
 // --------------------------------------------------------------------------------------------------------- //
 
 
-// String.prototype.repeat() ------------------------------------------------------------------------------- //
+// String.prototype.replace() ------------------------------------------------------------------------------ //
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
 
 const p = 'The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?';
