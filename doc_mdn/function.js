@@ -2,7 +2,7 @@
 // https://developer.mozilla.org/
 
 
-// Web technology for developers > JavaScript >JavaScript reference > Standard built-in objects > Function:
+// Web technology for developers > JavaScript > JavaScript reference > Standard built-in objects > Function:
 
 
 // Function.length ----------------------------------------------------------------------------------------- //
