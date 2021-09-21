@@ -168,7 +168,7 @@ toString() | The String object overrides the toString() method of the Object obj
 
 **_Array Properties_** | description
 ------------ | -------------
-[Array.prototype[@@unscopables]](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | The ``@@unscopable`` symbol property contains property names that were not included in the ECMAScript standard prior to the ES2015 version. These properties are excluded from with statement bindings.  
+[Array.prototype\[@@unscopables]](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | The ``@@unscopable`` symbol property contains property names that were not included in the ECMAScript standard prior to the ES2015 version. These properties are excluded from with statement bindings.  
 [Array.prototype.length](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | The ``length`` property of an object which is an instance of type ``Array`` sets or returns the number of elements in that array. The value is an unsigned, 32-bit integer that is always numerically greater than the highest index in the array.  
 
 **_Array Methods_** | description
