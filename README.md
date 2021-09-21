@@ -184,7 +184,34 @@ toString() | The String object overrides the toString() method of the Object obj
 
 **_Object Methods_** | description
 ------------ | -------------
-[Object.prototype.constructor](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns a reference to the Object constructor function that created the instance object. Note that the value of this property is a reference to _the function itself_, not a string containing the function's name.  
+[Object.assign()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Copies all enumerable own properties from one or more source objects to a target object. It returns the modified target object.  
+[Object.create()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Creates a new object, using an existing object as the prototype of the newly created object.  
+[Object.defineProperties()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Defines new or modifies existing properties directly on an object, returning the object.  
+[Object.defineProperty()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Defines a new property directly on an object, or modifies an existing property on an object, and returns the object.  
+[Object.entries()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns an array of a given object's own enumerable string-keyed property ``[key, value]`` pairs. This is the same as iterating with a ``for...in`` loop, except that a ``for...in`` loop enumerates properties in the prototype chain as well.  
+[Object.freeze()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Freezes an object. A frozen object can no longer be changed; freezing an object prevents new properties from being added to it, existing properties from being removed, prevents changing the enumerability, configurability, or writability of existing properties, and prevents the values of existing properties from being changed. In addition, freezing an object also prevents its prototype from being changed. ``freeze()`` returns the same object that was passed in.  
+[Object.fromEntries()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Transforms a list of key-value pairs into an object.  
+[Object.getOwnPropertyDescriptor()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns an object describing the configuration of a specific property on a given object (that is, one directly present on an object and not in the object's prototype chain). The object returned is mutable but mutating it has no effect on the original property's configuration.  
+[Object.getOwnPropertyDescriptors()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns all own property descriptors of a given  
+[Object.getOwnPropertyNames()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns an array of all properties (including non-enumerable properties except for those which use Symbol) found directly in a given object.  
+[Object.getOwnPropertySymbols()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns an array of all symbol properties found directly upon a given object.  
+[Object.getPrototypeOf()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns the prototype (i.e. the value of the internal ``[[Prototype]]`` property) of the specified object.  
+[Object.prototype.hasOwnProperty()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns a boolean indicating whether the object has the specified property as its own property (as opposed to inheriting it).  
+[Object.is()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Determines whether two values are the same value.  
+[Object.isExtensible()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Determines if an object is extensible (whether it can have new properties added to it).  
+[Object.isFrozen()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Determines if an object is frozen.  
+[Object.prototype.isPrototypeOf()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Checks if an object exists in another object's prototype chain.  
+[Object.isSealed()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | 
+Determines if an object is sealed.  
+[Object.keys()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns an array of a given object's own enumerable property names, iterated in the same order that a normal loop would.  
+[Object.preventExtensions()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Prevents new properties from ever being added to an object (i.e. prevents future extensions to the object).  
+[Object.prototype.propertyIsEnumerable()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns a Boolean indicating whether the specified property is enumerable and is the object's own property.  
+[Object.seal()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Seals an object, preventing new properties from being added to it and marking all existing properties as non-configurable. Values of present properties can still be changed as long as they are writable.  
+[Object.setPrototypeOf()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Sets the prototype (i.e., the internal ``[[Prototype]]`` property) of a specified object to another object or ``null``.  
+[Object.prototype.toLocaleString()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns a string representing the object. This method is meant to be overridden by derived objects for locale-specific purposes.  
+[Object.prototype.toString()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns a string representing the object.  
+[Object.prototype.valueOf()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns the primitive value of the specified object.  
+[Object.values()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns an array of a given object's own enumerable property values, in the same order as that provided by a ``for...in`` loop. (The only difference is that a ``for...in`` loop enumerates properties in the prototype chain as well.)  
 
 <hr>
 
