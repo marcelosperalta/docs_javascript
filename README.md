@@ -168,7 +168,7 @@ toString() | The String object overrides the toString() method of the Object obj
 
 **_Function Properties_** | description
 ------------ | -------------
-[Function.length](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L8) | The length property of a String object contains the length of the string, in UTF-16 code units. length is a read-only data property of string instances.
+[Function.length](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L8) | Indicates the number of parameters expected by the function.  
 
 <hr>
 
