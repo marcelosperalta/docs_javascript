@@ -201,8 +201,7 @@ toString() | The String object overrides the toString() method of the Object obj
 [Object.isExtensible()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Determines if an object is extensible (whether it can have new properties added to it).  
 [Object.isFrozen()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Determines if an object is frozen.  
 [Object.prototype.isPrototypeOf()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Checks if an object exists in another object's prototype chain.  
-[Object.isSealed()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | 
-Determines if an object is sealed.  
+[Object.isSealed()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Determines if an object is sealed.  
 [Object.keys()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns an array of a given object's own enumerable property names, iterated in the same order that a normal loop would.  
 [Object.preventExtensions()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Prevents new properties from ever being added to an object (i.e. prevents future extensions to the object).  
 [Object.prototype.propertyIsEnumerable()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns a Boolean indicating whether the specified property is enumerable and is the object's own property.  
