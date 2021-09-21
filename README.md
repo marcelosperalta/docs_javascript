@@ -168,12 +168,12 @@ toString() | The String object overrides the toString() method of the Object obj
 
 **_Array Properties_** | description
 ------------ | -------------
-[Array.prototype\[@@unscopables]](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | The ``@@unscopable`` symbol property contains property names that were not included in the ECMAScript standard prior to the ES2015 version. These properties are excluded from with statement bindings.  
+[Array.prototype\[@@unscopables\]](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | The ``@@unscopable`` symbol property contains property names that were not included in the ECMAScript standard prior to the ES2015 version. These properties are excluded from with statement bindings.  
 [Array.prototype.length](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | The ``length`` property of an object which is an instance of type ``Array`` sets or returns the number of elements in that array. The value is an unsigned, 32-bit integer that is always numerically greater than the highest index in the array.  
 
 **_Array Methods_** | description
 ------------ | -------------
-[Array.prototype[@@iterator]()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | The ``@@iterator`` method is part of **The iterable protocol**, that defines how to synchronously iterate over a sequence of values.  
+[Array.prototype\[@@iterator\]()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | The ``@@iterator`` method is part of **The iterable protocol**, that defines how to synchronously iterate over a sequence of values.  
 [get Array[@@species]](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | The ``Array[@@species]`` accessor property returns the Array constructor.  
 [Array.prototype.concat()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | Is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.  
 [Array.prototype.copyWithin()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | Shallow copies part of an array to another location in the same array and returns it without modifying its length.  
