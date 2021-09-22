@@ -38,7 +38,15 @@ arrays are **mutable**
 
 ## Remove Items Using splice()
 
+remove any number of consecutive elements from anywhere in an array  
+
+_can take up to 3 parameters_  
+- first parameter represents the index on the array from which to begin removing elements, 
+- while the second parameter indicates the number of elements to delete,
+
 ## Add Items Using splice()
+
+- the third parameter, comprised of one or more element(s), to add to the array.  
 
 ## Copy Array Items Using slice()
 
