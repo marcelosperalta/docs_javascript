@@ -108,57 +108,127 @@ const amountToDelete = 1;
 numbers.splice(startIndex, amountToDelete, 13, 14);
 console.log(numbers);  // [ 10, 11, 12, 13, 14, 15 ]
 
+function htmlColorNames(arr) {
+  arr.splice(0, 2, 'DarkSalmon', 'BlanchedAlmond')
+    return arr;
+  }
+  console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
+  // [
+  //   'DarkSalmon',
+  //   'BlanchedAlmond',
+  //   'LavenderBlush',
+  //   'PaleTurquoise',
+  //   'FireBrick'
+  // ]
+
 
 // Copy Array Items Using slice()
 
-function htmlColorNames(arr) {
-arr.splice(0, 2, 'DarkSalmon', 'BlanchedAlmond')
-  return arr;
+//                            0,      1,       2,      3,       4
+let weatherConditions = ['rain', 'snow', 'sleet', 'hail', 'clear'];
+let todaysWeather = weatherConditions.slice(1, 3);
+console.log(todaysWeather); // [ 'snow', 'sleet' ]
+
+function forecast(arr) {
+  let newArray = arr.slice(2, 4);
+  return newArray;
 }
-console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
-// [
-//   'DarkSalmon',
-//   'BlanchedAlmond',
-//   'LavenderBlush',
-//   'PaleTurquoise',
-//   'FireBrick'
-// ]
+console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms'])); 
+// [ 'warm', 'sunny' ]
 
 
 // Copy an Array with the Spread Operator
 
+let thisArray = [true, true, undefined, false, null];
+let thatArray = [...thisArray];
+console.log(thatArray); // [ true, true, undefined, false, null ]
+
 
 // Combine Arrays with the Spread Operator
+
+function copyMachine(arr, num) {
+  let newArr = [];
+  while (num >= 1) {
+    newArr.push([...arr]);
+    num--;
+  }
+  return newArr;
+}
+console.log(copyMachine([true, false, true], 2)); 
+// [ [ true, false, true ], [ true, false, true ] ]
+
+let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];
+let thatArray = ['basil', 'cilantro', ...thisArray, 'coriander'];
+console.log(thatArray); 
+// [
+//   'basil',
+//   'cilantro',
+//   'sage',
+//   'rosemary',
+//   'parsley',
+//   'thyme',
+//   'coriander'
+// ]
+
+function spreadOut() {
+  let fragment = ['to', 'code'];
+  let sentence = ['learning', ...fragment, 'is', 'fun'];
+  return sentence;
+}
+console.log(spreadOut()); // [ 'learning', 'to', 'code', 'is', 'fun' ]
 
 
 // Check For The Presence of an Element With indexOf()
 
+//                   0,       1,         2,         3,       4
+let fruits = ['apples', 'pears', 'oranges', 'peaches', 'pears'];
+console.log(fruits.indexOf('dates'));   // -1
+console.log(fruits.indexOf('oranges')); // 2
+console.log(fruits.indexOf('pears'));   // 1
 
 // Iterate Through All an Array's Items Using For Loops
+
+function quickCheck(arr, elem) {
+  return arr.indexOf(elem) != -1 ? true : false;
+}
+console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms')); // false
 
 
 // Create complex multi-dimensional arrays
 
 
+
 // Add Key-Value Pairs to JavaScript Objects
+
+
 
 
 // Modify an Object Nested Within an Object
 
 
+
 // Access Property Names with Bracket Notation
+
 
 
 // Use the delete Keyword to Remove Object Properties
 
 
+
+
 // Check if an Object has a Property
+
+
 
 
 // Iterate Through the Keys of an Object with a for...in Statement
 
 
+
+
 // Generate an Array of All Object Keys with Object.keys()
+
+
 
 
 // Modify an Array Stored in an Object

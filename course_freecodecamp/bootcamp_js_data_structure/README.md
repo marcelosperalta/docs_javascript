@@ -40,8 +40,10 @@ arrays are **mutable**
 
 remove any number of consecutive elements from anywhere in an array  
 
-_can take up to 3 parameters_  
-- first parameter represents the index on the array from which to begin removing elements, 
+_can take up to 3 parameters:_  
+
+- first parameter represents the index on the array from which to begin removing elements,
+
 - while the second parameter indicates the number of elements to delete,
 
 ## Add Items Using splice()
@@ -50,28 +52,71 @@ _can take up to 3 parameters_
 
 ## Copy Array Items Using slice()
 
+copies or _extracts_ a given number of elements to a new array, **leaving the array it is called upon untouched**.  
+
+_takes only 2 parameters:_
+
+- the first is the index at which to begin extraction,
+- the second is the index at which to stop extraction (extraction will occur up to, but not including the element at this index)
+
 ## Copy an Array with the Spread Operator
+
+ ES6's **spread operator** allows us to easily copy all of an array's elements, in order, with a simple and highly readable syntax.  
+
+ The spread syntax simply looks like this: ``...``  
+
+```
+let thisArray = [true, true, undefined, false, null];
+let thatArray = [...thisArray];
+```
 
 ## Combine Arrays with the Spread Operator
 
+```
+let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];
+let thatArray = ['basil', 'cilantro', ...thisArray, 'coriander'];
+```
+
 ## Check For The Presence of an Element With indexOf()
+
+allows us to quickly and easily check for the presence of an element on an array  
+
+returns ``-1`` if the element does not exist  
 
 ## Iterate Through All an Array's Items Using For Loops
 
+
+
 ## Create complex multi-dimensional arrays
+
+
 
 ## Add Key-Value Pairs to JavaScript Objects
 
+
+
 ## Modify an Object Nested Within an Object
+
+
 
 ## Access Property Names with Bracket Notation
 
+
+
 ## Use the delete Keyword to Remove Object Properties
+
+
 
 ## Check if an Object has a Property
 
+
+
 ## Iterate Through the Keys of an Object with a for...in Statement
 
+
+
 ## Generate an Array of All Object Keys with Object.keys()
+
+
 
 ## Modify an Array Stored in an Object
