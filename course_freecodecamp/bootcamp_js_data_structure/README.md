@@ -85,11 +85,66 @@ returns ``-1`` if the element does not exist
 
 ## Iterate Through All an Array's Items Using For Loops
 
+Sometimes when working with arrays, it is very handy to be able to iterate through each item to find one or more elements that we might need, or to manipulate an array based on which data items meet a certain set of criteria.  
 
+JavaScript offers several built in methods that each iterate over arrays in slightly different ways to achieve different results (such as ``every()``, ``forEach()``, ``map()``, etc.), however the technique which is most flexible and offers us the greatest amount of control is a simple for loop.  
+
+
+Consider the following:  
+
+```
+function greaterThanTen(arr) {
+  let newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > 10) {
+      newArr.push(arr[i]);
+    }
+  }
+  return newArr;
+}
+
+greaterThanTen([2, 12, 8, 14, 80, 0, 1]);
+```
+Using a ``for`` loop, this function iterates through and accesses each element of the array, and subjects it to a simple test that we have created. In this way, we have easily and programmatically determined which data items are greater than ``10``, and returned a new array, ``[12, 14, 80]``, containing those items.
 
 ## Create complex multi-dimensional arrays
 
+One of the most powerful features when thinking of arrays as data structures, is that arrays can contain, or even be completely made up of other arrays. We have seen arrays that contain arrays in previous challenges, but fairly simple ones. However, arrays can contain an infinite depth of arrays that can contain other arrays, each with their own arbitrary levels of depth, and so on. In this way, an array can very quickly become very complex data structure, known as a **multi-dimensional**, or nested array. Consider the following example:  
 
+```
+let nestedArray = [
+  ['deep'],
+  [
+    ['deeper'], ['deeper'] 
+  ],
+  [
+    [
+      ['deepest'], ['deepest']
+    ],
+    [
+      [
+        ['deepest-est?']
+      ]
+    ]
+  ]
+];
+```
+The ``deep`` array is nested 2 levels deep. The ``deeper`` arrays are 3 levels deep. The ``deepest`` arrays are 4 levels, and the ``deepest-est``? is 5.  
+
+While this example may seem convoluted, this level of complexity is not unheard of, or even unusual, when dealing with large amounts of data. However, we can still very easily access the deepest levels of an array this complex with bracket notation:  
+
+```
+console.log(nestedArray[2][1][0][0][0]);
+```
+
+This logs the string ``deepest-est?``. And now that we know where that piece of data is, we can reset it if we need to:  
+
+```
+nestedArray[2][1][0][0][0] = 'deeper still';
+
+console.log(nestedArray[2][1][0][0][0]);
+```
+Now it logs ``deeper still``.  
 
 ## Add Key-Value Pairs to JavaScript Objects
 

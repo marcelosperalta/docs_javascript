@@ -82,7 +82,7 @@ function popShift(arr) {
   let shifted = arr.shift();
   return [shifted, popped];
 }
-console.log(popShift(['challenge', 'is', 'not', 'complete']));
+console.log(popShift(['challenge', 'is', 'not', 'complete'])); // [ 'challenge', 'complete' ]
 
 
 // Remove Items Using splice()
@@ -186,16 +186,86 @@ console.log(fruits.indexOf('dates'));   // -1
 console.log(fruits.indexOf('oranges')); // 2
 console.log(fruits.indexOf('pears'));   // 1
 
-// Iterate Through All an Array's Items Using For Loops
-
 function quickCheck(arr, elem) {
   return arr.indexOf(elem) != -1 ? true : false;
 }
 console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms')); // false
 
 
+// Iterate Through All an Array's Items Using For Loops
+
+function greaterThanTen(arr) {
+  let newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > 10) {
+      newArr.push(arr[i]);
+    }
+  }
+  return newArr;
+}
+console.log(greaterThanTen([2, 12, 8, 14, 80, 0, 1])); // [ 12, 14, 80 ]
+
+function filteredArray(arr, elem) {
+  let newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].indexOf(elem) == -1) {
+      newArr.push(arr[i]);
+    }
+  }
+  return newArr;
+}
+console.log(filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 3));
+// []
+console.log(filteredArray([[10, 8, 3], [14, 6, 23], [3, 18, 6]], 18));
+// [ [ 10, 8, 3 ], [ 14, 6, 23 ] ]
+
+
 // Create complex multi-dimensional arrays
 
+let nestedArray = [
+  ['deep'],
+  [
+    ['deeper'], ['deeper'] 
+  ],
+  [
+    [
+      ['deepest'], ['deepest']
+    ],
+    [
+      [
+        ['deepest-est?']
+      ]
+    ]
+  ]
+];
+console.log(nestedArray[2][1][0][0][0]); // deepest-est?
+nestedArray[2][1][0][0][0] = 'deeper still';
+console.log(nestedArray[2][1][0][0][0]); // deeper still
+
+// We have defined a variable, myNestedArray, set equal to an array. 
+// Modify myNestedArray, using any combination of strings, numbers, and booleans 
+// for data elements, so that it has exactly five levels of depth 
+// (remember, the outer-most array is level 1). 
+// Somewhere on the third level, include the string "deep", 
+// on the fourth level, include the string "deeper", and on the fifth level, 
+// include the string "deepest".
+
+let myNestedArray = [                                                                      // level 1
+                      [2,                                                                  // level 2
+                        [3, "deep",                                                        // level 3
+                          [4, "deeper",                                                    // level 4
+                            [5,"deepest", 'unshift', false, 1, 2, 3, 'complex', 'nested'], // level 5
+                            ['loop', 'shift', 6, 7, 1000, 'method'],
+                            ['concat', false, true, 'spread', 'array'],
+                            ['mutate', 1327.98, 'splice', 'slice', 'push'],
+                            ['iterate', 1.3849, 7, '8.4876', 'arbitrary', 'depth']
+                          ]
+                        ]
+                      ]
+];
+console.log(myNestedArray);                // [ [ 2, [ 3, 'deep', [Array] ] ] ]
+console.log(myNestedArray[0][1][2][2][0]); // 5
+console.log(myNestedArray[0][1][2][2][1]); // deepest
 
 
 // Add Key-Value Pairs to JavaScript Objects
@@ -207,7 +277,9 @@ console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms')); // false
 
 
 
+
 // Access Property Names with Bracket Notation
+
 
 
 
