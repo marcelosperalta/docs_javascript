@@ -270,12 +270,96 @@ console.log(myNestedArray[0][1][2][2][1]); // deepest
 
 // Add Key-Value Pairs to JavaScript Objects
 
+const tekkenCharacter = {
+  player: 'Hwoarang',
+  fightingStyle: 'Tae Kwon Doe',
+  human: true
+};
+console.log(tekkenCharacter); // { player: 'Hwoarang', fightingStyle: 'Tae Kwon Doe', human: true }
+tekkenCharacter.origin = 'South Korea';
+console.log(tekkenCharacter); // {
+                              //   player: 'Hwoarang',
+                              //   fightingStyle: 'Tae Kwon Doe',
+                              //   human: true,
+                              //   origin: 'South Korea'
+                              // }
+tekkenCharacter['hair color'] = 'dyed orange';
+console.log(tekkenCharacter); // {
+                              //   player: 'Hwoarang',
+                              //   fightingStyle: 'Tae Kwon Doe',
+                              //   human: true,
+                              //   origin: 'South Korea',
+                              //   'hair color': 'dyed orange'
+                              // }
+const eyes = 'eye color';
+tekkenCharacter[eyes] = 'brown';
+console.log(tekkenCharacter); // {
+                              //   player: 'Hwoarang',
+                              //   fightingStyle: 'Tae Kwon Doe',
+                              //   human: true,
+                              //   origin: 'South Korea',
+                              //   'hair color': 'dyed orange',
+                              //   'eye color': 'brown'
+                              // }
 
+let foods = {
+  apples: 25,
+  oranges: 32,
+  plums: 28
+};
+foods.bananas = 13;
+foods.grapes = 35;
+foods.strawberries = 27;
+console.log(foods); // {
+                    //   apples: 25,
+                    //   oranges: 32,
+                    //   plums: 28,
+                    //   bananas: 13,
+                    //   grapes: 35,
+                    //   strawberries: 27
+                    // }
 
 
 // Modify an Object Nested Within an Object
 
+let nestedObject = {
+  id: 28802695164,
+  date: 'December 31, 2016',
+  data: {
+    totalUsers: 99,
+    online: 80,
+    onlineStatus: {
+      active: 67,
+      away: 13,
+      busy: 8
+    }
+  }
+};
+nestedObject.data.onlineStatus.busy = 10;
+console.log(nestedObject); // {
+                           //   id: 28802695164,
+                           //   date: 'December 31, 2016',
+                           //   data: {
+                           //     totalUsers: 99,
+                           //     online: 80,
+                           //     onlineStatus: { active: 67, away: 13, busy: 10 }
+                           //   }
+                           // }
 
+let userActivity = {
+  id: 23894201352,
+  date: 'January 1, 2017',
+  data: {
+    totalUsers: 51,
+    online: 42
+  }
+};
+userActivity.data.online = 45;
+console.log(userActivity); // {
+                           //   id: 23894201352,
+                           //   date: 'January 1, 2017',
+                           //   data: { totalUsers: 51, online: 45 }
+                           // }
 
 
 // Access Property Names with Bracket Notation
