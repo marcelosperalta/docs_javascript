@@ -210,22 +210,96 @@ nestedObject.data.onlineStatus.busy = 10;
 
 ## Access Property Names with Bracket Notation
 
+```
+let selectedFood = getCurrentFood(scannedItem);
+let inventory = foods[selectedFood];
+```
 
+This code will evaluate the value stored in the ``selectedFood`` variable and return the value of that key in the ``foods`` object, or ``undefined`` if it is not present.  
+
+Bracket notation is very useful because sometimes object properties are not known before runtime or we need to access them in a more dynamic way.  
 
 ## Use the delete Keyword to Remove Object Properties
 
+In short, **objects** are key-value stores which provide a flexible, intuitive way to structure data, and, they provide very fast lookup time.  
 
+Here we will see how we can remove a key-value pair from an object.  
+
+```
+let foods = {
+  apples: 25,
+  oranges: 32,
+  plums: 28,
+  bananas: 13,
+  grapes: 35,
+  strawberries: 27
+};
+
+delete foods.apples;
+```
 
 ## Check if an Object has a Property
 
+JavaScript provides us with two different ways to know if an object has a specific property.  
 
+One uses the ``hasOwnProperty()`` method and the other uses the ``in`` keyword.  
+
+If we have an object ``users`` with a property of ``Alan``, we could check for its presence in either of the following ways:  
+
+```
+let users = {
+  Alan: {
+    age: 27,
+    online: true
+  }
+};
+
+users.hasOwnProperty('Alan');
+
+'Alan' in users;
+```
+Both of these would return ``true``.  
 
 ## Iterate Through the Keys of an Object with a for...in Statement
 
+Sometimes you may need to iterate through all the keys within an object. This requires a specific syntax in JavaScript called a _for...in_ statement.  
 
+For our users object, this could look like:  
+
+```
+let users = {
+  Alan: {
+    age: 27,
+    online: true
+  },
+  Jeff: {
+    age: 32,
+    online: true
+  },
+  Sarah: {
+    age: 48,
+    online: true
+  },
+  Ryan: {
+    age: 19,
+    online: true
+  }
+};
+
+for (let user in users) {
+  console.log(user);
+}
+```
+This would log ``Alan``, ``Jeff``, ``Sarah``, and ``Ryan`` - each value on its own line.  
+
+In this statement, we defined a variable ``user``, and as you can see, this variable was reset during each iteration to each of the object's keys as the statement looped through the object, resulting in each user's name being printed to the console.  
+
+NOTE: Objects do not maintain an ordering to stored keys like arrays do; thus a key's position on an object, or the relative order in which it appears, is irrelevant when referencing or accessing that key.  
 
 ## Generate an Array of All Object Keys with Object.keys()
 
-
+We can also generate an array which contains all the keys stored in an object using the ``Object.keys()`` method and passing in an object as the argument. This will return an array with strings representing each property in the object. Again, there will be no specific order to the entries in the array.  
 
 ## Modify an Array Stored in an Object
+
+Now you've seen all the basic operations for JavaScript objects. You can add, modify, and remove key-value pairs, check if keys exist, and iterate over all the keys in an object. As you continue learning JavaScript you will see even more versatile applications of objects. Additionally, the Data Structures lessons located in the Coding Interview Prep section of the curriculum also cover the ES6 _Map_ and _Set_ objects, both of which are similar to ordinary objects but provide some additional features. Now that you've learned the basics of arrays and objects, you're fully prepared to begin tackling more complex problems using JavaScript!  
