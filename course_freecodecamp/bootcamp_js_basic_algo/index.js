@@ -92,3 +92,38 @@ largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 85
 
 
 // Confirm the Ending
+
+function confirmEnding(str, target) {
+  return str.slice(str.length - target.length) === target;
+}
+console.log(confirmEnding("Bastian", "n"));
+console.log(confirmEnding("Congratulation", "on"));
+console.log(confirmEnding("Congratulation", "son"));
+console.log(confirmEnding("Connor", "n"));
+console.log(confirmEnding("Open sesame", "sage"));
+
+// or
+
+function confirmEnding(str, target) {
+  return str.slice(-target.length) === target
+}
+console.log(confirmEnding("Bastian", "n"));
+console.log(confirmEnding("Open sesame", "sage"));
+
+// (using Regular Expression)
+function confirmEnding(str, target) {
+  let re = new RegExp(target + "$", "i");
+  return re.test(str);
+}
+console.log(confirmEnding("Bastian", "n"));
+console.log(confirmEnding("Congratulation", "on"));
+console.log(confirmEnding("Congratulation", "son"));
+console.log(confirmEnding("Connor", "n"));
+console.log(confirmEnding("Open sesame", "sage"));
+
+// Repeat a String Repeat a String
+
+function repeatStringNumTimes(str, num) {
+  return str;
+}
+repeatStringNumTimes("abc", 3);
