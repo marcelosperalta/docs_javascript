@@ -124,6 +124,52 @@ console.log(confirmEnding("Open sesame", "sage"));
 // Repeat a String Repeat a String
 
 function repeatStringNumTimes(str, num) {
-  return str;
+  let arr = [];
+
+  for (let i = 0; i < num; i++){
+    if (num > 0) {
+      arr.push(str);
+    } else {
+      arr;
+    }
+  }
+
+  return arr.join("");
 }
-repeatStringNumTimes("abc", 3);
+console.log(repeatStringNumTimes("abc", 3)); // abcabcabc
+console.log(repeatStringNumTimes("abc", 0)); // ""
+
+// or
+
+function repeatStringNumTimes(str, num) {
+  var accumulatedStr = "";
+
+  while (num > 0) {
+    accumulatedStr += str;
+    num--;
+  }
+
+  return accumulatedStr;
+}
+console.log(repeatStringNumTimes("abc", 3)); // abcabcabc
+console.log(repeatStringNumTimes("abc", 0)); // ""
+
+// or (recursion)
+
+function repeatStringNumTimes(str, num) {
+  if (num < 1) {
+    return "";
+  } else {
+    return str + repeatStringNumTimes(str, num - 1);
+  }
+}
+console.log(repeatStringNumTimes("abc", 3)); // abcabcabc
+console.log(repeatStringNumTimes("abc", 0)); // ""
+
+// or (recursion)
+
+function repeatStringNumTimes(str, num) {
+  return num > 0 ? str + repeatStringNumTimes(str, num - 1) : '';
+}
+console.log(repeatStringNumTimes("abc", 3)); // abcabcabc
+console.log(repeatStringNumTimes("abc", 0)); // ""
