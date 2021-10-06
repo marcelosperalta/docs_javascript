@@ -1,11 +1,5 @@
-#!/bin/bash
-
-echo "Updating "JavaScript" Repo"
-
+#to execute on bash: ./.push.sh (enable permission to execute)
 git pull
-
 git add .
-
 git commit -m "javascript"
-
 git push
