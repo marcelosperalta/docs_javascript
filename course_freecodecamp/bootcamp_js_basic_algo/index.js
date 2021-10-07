@@ -173,3 +173,35 @@ function repeatStringNumTimes(str, num) {
 }
 console.log(repeatStringNumTimes("abc", 3)); // abcabcabc
 console.log(repeatStringNumTimes("abc", 0)); // ""
+
+
+// Truncate a String
+
+function truncateString(str, num) {
+    return str.length > num ? str.slice(0, num).concat("...") : str;
+}
+console.log(truncateString("A-tisket a-tasket A green and yellow basket", 8));
+// A-tisket...
+console.log(truncateString("A-", 1));                                          
+// A-
+console.log(truncateString("A-tisket a-tasket A green and yellow basket", "A-tisket a-tasket A green and yellow basket".length));
+// A-tisket a-tasket A green and yellow basket
+
+function truncateString(str, num) {
+  // Clear out that junk in your trunk
+  if (str.length > num) {
+    return str.slice(0, num) + "...";
+  } else {
+    return str;
+  }
+}
+
+
+// Finders Keepers
+
+function findElement(arr, func) {
+  let num = 0;
+  return num;
+}
+
+findElement([1, 2, 3, 4], num => num % 2 === 0);

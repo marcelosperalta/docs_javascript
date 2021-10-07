@@ -57,3 +57,11 @@ This challenge can be solved with the ``.endsWith()`` method, which was introduc
 ## Repeat a String Repeat a String
 
 Repeat a given string ``str`` (first argument) for ``num`` times (second argument). Return an empty string if ``num`` is not a positive number. For the purpose of this challenge, do not use the built-in ``.repeat()`` method.  
+
+## Truncate a String
+
+Truncate a string (first argument) if it is longer than the given maximum string length (second argument). Return the truncated string with a ``...`` ending.  
+
+## Finders Keepers
+
+Create a function that looks through an array ``arr`` and returns the first element in it that passes a 'truth test'. This means that given an element ``x``, the 'truth test' is passed if ``func(x)`` is ``true``. If no element passes the test, return ``undefined``.  
