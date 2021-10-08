@@ -65,3 +65,9 @@ Truncate a string (first argument) if it is longer than the given maximum string
 ## Finders Keepers
 
 Create a function that looks through an array ``arr`` and returns the first element in it that passes a 'truth test'. This means that given an element ``x``, the 'truth test' is passed if ``func(x)`` is ``true``. If no element passes the test, return ``undefined``.  
+
+## Boo who
+
+Check if a value is classified as a boolean primitive. Return ``true`` or ``false``.  
+
+Boolean primitives are ``true`` and ``false``.  

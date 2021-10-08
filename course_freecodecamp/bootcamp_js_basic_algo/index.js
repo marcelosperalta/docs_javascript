@@ -200,8 +200,80 @@ function truncateString(str, num) {
 // Finders Keepers
 
 function findElement(arr, func) {
-  let num = 0;
-  return num;
+  for (let i = 0; i < arr.length; i++) {
+    if (func(arr[i])) {
+      return arr[i];
+    }
+  }
 }
+console.log(findElement([1, 2, 3, 4], num => num % 2 === 0));
+console.log(findElement([1, 3, 5, 8, 9, 10], function(num) { return num % 2 === 0; }));
+console.log(findElement([1, 3, 5, 9], function(num) { return num % 2 === 0; }));
 
-findElement([1, 2, 3, 4], num => num % 2 === 0);
+// or
+
+function findElement(arr, func) {
+  let num = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    num = arr[i];
+    if (func(num)) {
+      return num;
+    }
+  }
+
+  return undefined;
+}
+console.log(findElement([1, 2, 3, 4], num => num % 2 === 0));
+console.log(findElement([1, 3, 5, 8, 9, 10], function(num) { return num % 2 === 0; }));
+console.log(findElement([1, 3, 5, 9], function(num) { return num % 2 === 0; }));
+
+// or
+
+function findElement(arr, func) {
+  return arr.find(func);
+}
+console.log(findElement([1, 2, 3, 4], num => num % 2 === 0));
+console.log(findElement([1, 3, 5, 8, 9, 10], function(num) { return num % 2 === 0; }));
+console.log(findElement([1, 3, 5, 9], function(num) { return num % 2 === 0; }));
+
+// or
+
+function findElement(arr, func) {
+  return arr[arr.map(func).indexOf(true)];
+}
+console.log(findElement([1, 2, 3, 4], num => num % 2 === 0));
+console.log(findElement([1, 3, 5, 8, 9, 10], function(num) { return num % 2 === 0; }));
+console.log(findElement([1, 3, 5, 9], function(num) { return num % 2 === 0; }));
+
+// or (Recursive Solution)
+
+function findElement(arr, func) {
+  return arr.length && !func(arr[0]) 
+    ? findElement(arr.slice(1), func)
+    : arr[0];
+}
+console.log(findElement([1, 2, 3, 4], num => num % 2 === 0));
+console.log(findElement([1, 3, 5, 8, 9, 10], function(num) { return num % 2 === 0; }));
+console.log(findElement([1, 3, 5, 9], function(num) { return num % 2 === 0; }));
+
+
+// Boo who
+
+function booWho(bool) {
+  return bool === true || bool === false ? true : false;
+}
+console.log(booWho(true));      // true
+console.log(booWho(false));     // true
+console.log(booWho(null));      // false
+console.log(booWho([1, 2, 3])); // false
+
+// or
+
+function booWho(bool) {
+  return typeof bool === "boolean";
+}
+console.log(booWho(true));      // true
+console.log(booWho(false));     // true
+console.log(booWho(null));      // false
+console.log(booWho([1, 2, 3])); // false
