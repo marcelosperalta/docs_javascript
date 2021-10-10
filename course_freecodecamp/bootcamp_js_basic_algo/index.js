@@ -277,3 +277,66 @@ console.log(booWho(true));      // true
 console.log(booWho(false));     // true
 console.log(booWho(null));      // false
 console.log(booWho([1, 2, 3])); // false
+
+
+// Title Case a Sentence
+
+function titleCase(str) {
+  let array = str.split(" ");
+  let result = []
+
+  for (let i = 0; i < array.length; i++) {
+      let string = array[i].split("").join("");
+      let newString = string[0].toUpperCase() + string.slice(1).toLowerCase();
+      result.push(newString);
+  }
+
+  return result.join(" ");
+}
+console.log(titleCase("I'm a little tea pot"));
+console.log(titleCase("sHoRt AnD sToUt"));
+console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));
+
+// or
+
+String.prototype.replaceAt = function(index, character) {
+  return (
+    this.substr(0, index) + character + this.substr(index + character.length)
+  );
+};
+
+function titleCase(str) {
+  var newTitle = str.split(" ");
+  var updatedTitle = [];
+  for (var st in newTitle) {
+    updatedTitle[st] = newTitle[st]
+      .toLowerCase()
+      .replaceAt(0, newTitle[st].charAt(0).toUpperCase());
+  }
+  return updatedTitle.join(" ");
+}
+console.log(titleCase("I'm a little tea pot"));
+console.log(titleCase("sHoRt AnD sToUt"));
+console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));
+
+// or 
+
+function titleCase(str) {
+  var convertToArray = str.toLowerCase().split(" ");
+  var result = convertToArray.map(function(val) {
+    return val.replace(val.charAt(0), val.charAt(0).toUpperCase());
+  });
+  return result.join(" ");
+}
+console.log(titleCase("I'm a little tea pot"));
+console.log(titleCase("sHoRt AnD sToUt"));
+console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));
+
+// or
+
+function titleCase(str) {
+  return str.toLowerCase().replace(/(^|\s)\S/g, L => L.toUpperCase());
+}
+console.log(titleCase("I'm a little tea pot"));
+console.log(titleCase("sHoRt AnD sToUt"));
+console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));

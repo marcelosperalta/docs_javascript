@@ -71,3 +71,9 @@ Create a function that looks through an array ``arr`` and returns the first elem
 Check if a value is classified as a boolean primitive. Return ``true`` or ``false``.  
 
 Boolean primitives are ``true`` and ``false``.  
+
+## Title Case a Sentence
+
+Return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.  
+
+For the purpose of this exercise, you should also capitalize connecting words like ``the`` and ``of``.  
