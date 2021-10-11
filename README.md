@@ -14,6 +14,7 @@
 [Static Code Analysis](https://github.com/marcelosperalta/study_javascript#mag_right-static-code-analysis)  
 [Quick Reference](https://github.com/marcelosperalta/study_javascript#dash-quick-reference)  
 [Debug](https://github.com/marcelosperalta/study_javascript#flashlight-debug)  
+[Tools](https://github.com/marcelosperalta/study_javascript#flashlight-debug)  
 [Tutorials](https://github.com/marcelosperalta/study_javascript#books-tutorials)  
 [Courses](https://github.com/marcelosperalta/study_javascript#mortar_board-courses)  
 [Challenges](https://github.com/marcelosperalta/study_javascript#question-challenges)  
@@ -266,6 +267,20 @@ Item | Type | Description
 ----- | ----- | -----
 console.log() | method | outputs a message to the web console
 typeof | operator | returns a string indicating the type of the unevaluated operand
+
+<hr>
+
+## :toolbox: Tools:
+
+### Static Typing 
+
+- [TypeScript](https://www.typescriptlang.org/)  
+- [flow](https://flow.org/)  
+- [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)  
+
+### Markup Language  
+
+- [JSDoc](https://jsdoc.app/)  
 
 <hr>
 
