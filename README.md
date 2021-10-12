@@ -89,9 +89,10 @@
 
 ### List
 
-**_String Properties_** | description
------------- | -------------
-[String length](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L8) | The length property of a String object contains the length of the string, in UTF-16 code units. length is a read-only data property of string instances.
+**_String Properties_** | **_Array Properties_** | **_Function Properties_** | **_Object Properties_**
+ ---------------------- | ---------------------- | ------------------------- | -----------------------
+ length                 | length                 | length                    | constructor            
+                        | @@unscopable           | name                      |                        
 
 ### Short Description
 
