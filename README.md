@@ -13,6 +13,8 @@
 [Design Patterns](https://github.com/marcelosperalta/study_javascript#book-design-patterns)  
 [Static Code Analysis](https://github.com/marcelosperalta/study_javascript#mag_right-static-code-analysis)  
 [Quick Reference](https://github.com/marcelosperalta/study_javascript#dash-quick-reference)  
+- [List](https://github.com/marcelosperalta/study_javascript#dash-quick-reference)  
+- [Short Description](https://github.com/marcelosperalta/study_javascript#dash-quick-reference)  
 [Debug](https://github.com/marcelosperalta/study_javascript#flashlight-debug-debugging)  
 [Tools](https://github.com/marcelosperalta/study_javascript#toolbox-tools)  
 [Tutorials](https://github.com/marcelosperalta/study_javascript#books-tutorials)  
@@ -85,9 +87,17 @@
 
 ## :dash: **Quick Reference**
 
+### List
+
 **_String Properties_** | description
 ------------ | -------------
 [String length](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/mdn.js#L8) | The length property of a String object contains the length of the string, in UTF-16 code units. length is a read-only data property of string instances.
+
+### Short Description
+
+**_String Properties_** | description
+------------ | -------------
+[String length](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/string.js#L8) | The length property of a String object contains the length of the string, in UTF-16 code units. length is a read-only data property of string instances.
 
 **_String Methods_** | description
 ------------ | -------------
@@ -272,15 +282,27 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 
 ## :toolbox: Tools:
 
+### Transcompiler
+
+- [Babel](https://babeljs.io/)
+- [Sucrase](https://sucrase.io/)
+
+
 ### Static Typing 
 
-- [TypeScript](https://www.typescriptlang.org/)  
-- [flow](https://flow.org/)  
-- [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)  
+- [TypeScript](https://www.typescriptlang.org/)
+- [flow](https://flow.org/)
+- [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
 
-### Markup Language  
+### Markup Language
 
-- [JSDoc](https://jsdoc.app/)  
+- [JSDoc](https://jsdoc.app/)
+
+### TypeScript
+
+#### Compiles and restarts
+
+- [ts-node-dev](https://github.com/wclr/ts-node-dev)
 
 <hr>
 

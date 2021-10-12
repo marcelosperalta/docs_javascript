@@ -77,3 +77,13 @@ Boolean primitives are ``true`` and ``false``.
 Return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.  
 
 For the purpose of this exercise, you should also capitalize connecting words like ``the`` and ``of``.  
+
+##  Slice and Splice
+
+You are given two arrays and an index.
+
+Copy each element of the first array into the second array, in order.
+
+Begin inserting elements at index ``n`` of the second array.
+
+Return the resulting array. The input arrays should remain the same after the function runs.

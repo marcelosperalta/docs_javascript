@@ -340,3 +340,12 @@ function titleCase(str) {
 console.log(titleCase("I'm a little tea pot"));
 console.log(titleCase("sHoRt AnD sToUt"));
 console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));
+
+
+// Slice and Splice
+
+function frankenSplice(arr1, arr2, n) {
+  arr2.splice(n, 0, arr1.slice(0));
+  return arr2
+}
+console.log(frankenSplice([1, 2, 3], [4, 5, 6], 1));
