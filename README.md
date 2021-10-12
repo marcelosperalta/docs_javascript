@@ -307,6 +307,13 @@ toString() | The String object overrides the toString() method of the Object obj
 [Function.prototype.call()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/function.js#L) | Calls a function with a given this value and arguments provided individually.  
 [Function.prototype.toString()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/function.js#L) | Returns a string representing the source code of the function.  
 
+**Statements and declarations:**  
+  
+**_Iterations_** | description | flow diagram
+---------------- | ----------- | -----------
+[do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements) | Creates a loop that executes a specified statement until the test condition evaluates to false. The condition is evaluated after executing the statement, resulting in the specified statement executing at least once. | [link](https://en.wikipedia.org/wiki/Do_while_loop#/media/File:Do-while-loop-diagram.svg)  
+[for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) | Creates a loop that consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement executed in the loop. | [link](https://en.wikipedia.org/wiki/For_loop#/media/File:For-loop-diagram.png)  
+
 <hr>
 
 ## :flashlight: Debug (_Debugging_)
