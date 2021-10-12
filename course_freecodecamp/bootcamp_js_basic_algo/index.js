@@ -345,20 +345,30 @@ console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));
 // Slice and Splice
 
 function frankenSplice(arr1, arr2, n) {
-  arr2.splice(n, 0, arr1.slice(0));
-  return arr2
-}
-console.log(frankenSplice([1, 2, 3], [4, 5, 6], 1));
 
-
-function frankenSplice(arr1, arr2, n) {
-  let arr3 = []
+  let localArray = arr2.slice();
 
   for (let i = 0; i < arr1.length; i++) {
-    arr3.push(arr2.splice(n, 0, arr1.slice(i)));
-    
+    localArray.splice(n, 0, arr1[i]);
+    n++;
   }
 
-  return arr2
+  return localArray;
+
 }
 console.log(frankenSplice([1, 2, 3], [4, 5, 6], 1));
+console.log(frankenSplice([1, 2], ["a", "b"], 1));
+console.log(frankenSplice(["claw", "tentacle"], ["head", "shoulders", "knees", "toes"], 2));
+console.log(frankenSplice([1, 2, 3, 4], [], 0));
+
+// or (using spread syntax "...")
+
+function frankenSplice(arr1, arr2, n) {
+  let localArr = arr2.slice();
+  localArr.splice(n, 0, ...arr1);
+  return localArr;
+}
+console.log(frankenSplice([1, 2, 3], [4, 5, 6], 1));
+console.log(frankenSplice([1, 2], ["a", "b"], 1));
+console.log(frankenSplice(["claw", "tentacle"], ["head", "shoulders", "knees", "toes"], 2));
+console.log(frankenSplice([1, 2, 3, 4], [], 0));
