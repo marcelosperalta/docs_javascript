@@ -89,10 +89,49 @@
 
 ### List
 
-**_String Properties_** | **_Array Properties_** | **_Function Properties_** | **_Object Properties_**
- ---------------------- | ---------------------- | ------------------------- | -----------------------
- length                 | length                 | length                    | constructor            
- \-                     | @@unscopable           | name                      | \-                     
+**_String Properties_** | **_Array Properties_** | **_Object Properties_**     | **_Function Properties_** 
+ ---------------------- | ---------------------- | -----------------------     | ------------------------- 
+ **length**             | **length**             | constructor                 | **length**                
+ \-                     | \[@@unscopable]        | \-                          | name                      
+
+**_String Methods_**    | **_Array Methods_**    | **_Object Methods_**        | **_Function Methods_**    
+ -------------------    | -------------------    | --------------------        | ----------------------    
+ **\[@@iterator]()**    | **\[@@iterator]()**    | assign()                    | apply()                   
+ charAt()               | get Array[@@species]   | create()                    | bind()                    
+ charCodeAt()           | **concat()**           | defineProperties()          | call()                    
+ codePointAt()          | copyWithin()           | defineProperty()            | **toString()**            
+ **concat()**           | **entries()**          | **entries()**               | \-                        
+ endsWith()             | every()                | freeze()                    | \-                        
+ fromCharCode()         | fill()                 | fromEntries()               | \-                        
+ fromCodePoint()        | filter()               | getOwnPropertyDescriptor()  | \-                        
+ **includes()**         | find()                 | getOwnPropertyDescriptors() | \-                        
+ **indexOf()**          | findIndex()            | getOwnPropertyNames()       | \-                        
+ **lastIndexOf()**      | flat()                 | getOwnPropertySymbols()     | \-                        
+ localeCompare()        | flatMap()              | getPrototypeOf()            | \-                        
+ match()                | forEach()              | hasOwnProperty()            | \-                        
+ matchAll()             | from()                 | is()                        | \-                        
+ normalize()            | **includes()**         | isExtensible()              | \-                        
+ padEnd()               | **indexOf()**          | isFrozen()                  | \-                        
+ padStart()             | isArray()              | isPrototypeOf()             | \-                        
+ raw()                  | join()                 | isSealed()                  | \-                        
+ repeat()               | **keys()**             | **keys()**                  | \-                        
+ replace()              | **lastIndexOf()**      | preventExtensions()         | \-                        
+ replaceAll()           | map()                  | propertyIsEnumerable()      | \-                        
+ search()               | of()                   | seal()                      | \-                        
+ **slice()**            | pop()                  | setPrototypeOf()            | \-                        
+ split()                | push()                 | **toLocaleString()**        | \-                        
+ startsWith()           | reduce()               | **toString()**              | \-                        
+ substring()            | reduceRight()          | **valueOf()**               | \-                        
+ toLocaleLowerCase()    | reverse()              | **values()**                | \-                        
+ toLocaleUpperCase()    | shift()                | \-                          | \-                        
+ toLowerCase()          | **slice()**            | \-                          | \-                        
+ **toString()**         | some()                 | \-                          | \-                        
+ toUpperCase()          | sort()                 | \-                          | \-                        
+ trim()                 | splice()               | \-                          | \-                        
+ trimEnd()              | **toLocaleString()**   | \-                          | \-                        
+ trimStart()            | **toString()**         | \-                          | \-                        
+ **valueOf()**          | unshift()              | \-                          | \-                        
+ \-                     | **values()**           | \-                          | \-                        
 
 ### Short Description
 
@@ -222,18 +261,6 @@ toString() | The String object overrides the toString() method of the Object obj
 [Array.prototype.unshift()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | Adds one or more elements to the beginning of an array and returns the new length of the array.  
 [Array.prototype.values()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/array.js#L) | Returns a new _array iterator_ object that contains the values for each index in the array.  
 
-**_Function Properties_** | description
------------- | -------------
-[Function.length](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/function.js#L8) | Indicates the number of parameters expected by the function.  
-[Function.name](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/function.js#L) | A Function object's read-only ``name`` property indicates the function's name as specified when it was created, or it may be either ``anonymous`` or ``''`` (an empty string) for functions created anonymously.  
-
-**_Function Methods_** | description
------------- | -------------
-[Function.prototype.apply()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/function.js#L) | Calls a function with a given this value, and arguments provided as an array (or an array-like object).  
-[Function.prototype.bind()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/function.js#L) | Creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.  
-[Function.prototype.call()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/function.js#L) | Calls a function with a given this value and arguments provided individually.  
-[Function.prototype.toString()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/function.js#L) | Returns a string representing the source code of the function.  
-
 **_Object Properties_** | description
 ------------ | -------------
 [Object.prototype.constructor](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns a reference to the Object constructor function that created the instance object. Note that the value of this property is a reference to _the function itself_, not a string containing the function's name.  
@@ -267,6 +294,18 @@ toString() | The String object overrides the toString() method of the Object obj
 [Object.prototype.toString()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns a string representing the object.  
 [Object.prototype.valueOf()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns the primitive value of the specified object.  
 [Object.values()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/object.js#L) | Returns an array of a given object's own enumerable property values, in the same order as that provided by a ``for...in`` loop. (The only difference is that a ``for...in`` loop enumerates properties in the prototype chain as well.)  
+
+**_Function Properties_** | description
+------------ | -------------
+[Function.length](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/function.js#L8) | Indicates the number of parameters expected by the function.  
+[Function.name](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/function.js#L) | A Function object's read-only ``name`` property indicates the function's name as specified when it was created, or it may be either ``anonymous`` or ``''`` (an empty string) for functions created anonymously.  
+
+**_Function Methods_** | description
+------------ | -------------
+[Function.prototype.apply()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/function.js#L) | Calls a function with a given this value, and arguments provided as an array (or an array-like object).  
+[Function.prototype.bind()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/function.js#L) | Creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.  
+[Function.prototype.call()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/function.js#L) | Calls a function with a given this value and arguments provided individually.  
+[Function.prototype.toString()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/function.js#L) | Returns a string representing the source code of the function.  
 
 <hr>
 

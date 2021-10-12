@@ -349,3 +349,16 @@ function frankenSplice(arr1, arr2, n) {
   return arr2
 }
 console.log(frankenSplice([1, 2, 3], [4, 5, 6], 1));
+
+
+function frankenSplice(arr1, arr2, n) {
+  let arr3 = []
+
+  for (let i = 0; i < arr1.length; i++) {
+    arr3.push(arr2.splice(n, 0, arr1.slice(i)));
+    
+  }
+
+  return arr2
+}
+console.log(frankenSplice([1, 2, 3], [4, 5, 6], 1));
