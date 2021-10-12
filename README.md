@@ -92,7 +92,7 @@
 **_String Properties_** | **_Array Properties_** | **_Function Properties_** | **_Object Properties_**
  ---------------------- | ---------------------- | ------------------------- | -----------------------
  length                 | length                 | length                    | constructor            
-                        | @@unscopable           | name                      |                        
+ /-                     | @@unscopable           | name                      | /-                     
 
 ### Short Description
 
