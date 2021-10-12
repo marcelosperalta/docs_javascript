@@ -6,22 +6,22 @@
 
 ## :arrow_heading_down: Table of Contents
 
-[Glossary](https://github.com/marcelosperalta/study_javascript#mag-glossary)  
-[Commom Practices](https://github.com/marcelosperalta/study_javascript#1-common-practices)  
-[Concepts](https://github.com/marcelosperalta/study_javascript#blue_book-concepts)  
-[Security](https://github.com/marcelosperalta/study_javascript#lock-security)  
-[Design Patterns](https://github.com/marcelosperalta/study_javascript#book-design-patterns)  
-[Static Code Analysis](https://github.com/marcelosperalta/study_javascript#mag_right-static-code-analysis)  
-[Quick Reference](https://github.com/marcelosperalta/study_javascript#dash-quick-reference)  
-- [List](https://github.com/marcelosperalta/study_javascript#dash-quick-reference)  
-- [Short Description](https://github.com/marcelosperalta/study_javascript#dash-quick-reference)  
-[Debug](https://github.com/marcelosperalta/study_javascript#flashlight-debug-debugging)  
-[Tools](https://github.com/marcelosperalta/study_javascript#toolbox-tools)  
-[Tutorials](https://github.com/marcelosperalta/study_javascript#books-tutorials)  
-[Courses](https://github.com/marcelosperalta/study_javascript#mortar_board-courses)  
-[Challenges](https://github.com/marcelosperalta/study_javascript#question-challenges)  
-[YouTube](https://github.com/marcelosperalta/study_javascript#tv-youtube)  
-[Articles](https://github.com/marcelosperalta/study_javascript#newspaper-articles)  
+* [Glossary](https://github.com/marcelosperalta/study_javascript#mag-glossary)  
+* [Commom Practices](https://github.com/marcelosperalta/study_javascript#1-common-practices)  
+* [Concepts](https://github.com/marcelosperalta/study_javascript#blue_book-concepts)  
+* [Security](https://github.com/marcelosperalta/study_javascript#lock-security)  
+* [Design Patterns](https://github.com/marcelosperalta/study_javascript#book-design-patterns)  
+* [Static Code Analysis](https://github.com/marcelosperalta/study_javascript#mag_right-static-code-analysis)  
+* [Quick Reference](https://github.com/marcelosperalta/study_javascript#dash-quick-reference)  
+  * [List](https://github.com/marcelosperalta/study_javascript#dash-quick-reference)  
+  * [Short Description](https://github.com/marcelosperalta/study_javascript#dash-quick-reference)  
+* [Debug](https://github.com/marcelosperalta/study_javascript#flashlight-debug-debugging)  
+* [Tools](https://github.com/marcelosperalta/study_javascript#toolbox-tools)  
+* [Tutorials](https://github.com/marcelosperalta/study_javascript#books-tutorials)  
+* [Courses](https://github.com/marcelosperalta/study_javascript#mortar_board-courses)  
+* [Challenges](https://github.com/marcelosperalta/study_javascript#question-challenges)  
+* [YouTube](https://github.com/marcelosperalta/study_javascript#tv-youtube)  
+* [Articles](https://github.com/marcelosperalta/study_javascript#newspaper-articles)  
 
 <hr>
 
