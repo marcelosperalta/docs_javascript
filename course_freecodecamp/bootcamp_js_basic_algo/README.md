@@ -80,10 +80,18 @@ For the purpose of this exercise, you should also capitalize connecting words li
 
 ##  Slice and Splice
 
-You are given two arrays and an index.
+You are given two arrays and an index.  
 
-Copy each element of the first array into the second array, in order.
+Copy each element of the first array into the second array, in order.  
 
-Begin inserting elements at index ``n`` of the second array.
+Begin inserting elements at index ``n`` of the second array.  
 
-Return the resulting array. The input arrays should remain the same after the function runs.
+Return the resulting array. The input arrays should remain the same after the function runs.  
+
+## Falsy Bouncer
+
+Remove all falsy values from an array.  
+
+Falsy values in JavaScript are ``false``, ``null``, ``0``, ``""``, ``undefined``, and ``NaN``.  
+
+Hint: Try converting each value to a Boolean.  

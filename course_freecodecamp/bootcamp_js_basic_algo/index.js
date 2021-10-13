@@ -372,3 +372,45 @@ console.log(frankenSplice([1, 2, 3], [4, 5, 6], 1));
 console.log(frankenSplice([1, 2], ["a", "b"], 1));
 console.log(frankenSplice(["claw", "tentacle"], ["head", "shoulders", "knees", "toes"], 2));
 console.log(frankenSplice([1, 2, 3, 4], [], 0));
+
+
+// Falsy Bouncer
+
+function bouncer(arr) {
+  let newArr = [];
+
+  for (let index = 0; index < arr.length; index++) {
+    if (Boolean(arr[index])) {
+      newArr.push(arr[index]);
+    }
+  }
+  return newArr;
+}
+console.log(bouncer([7, "ate", "", false, 9]));             // [7, "ate", 9]
+console.log(bouncer(["a", "b", "c"]));                      // ["a", "b", "c"]
+console.log(bouncer([false, null, 0, NaN, undefined, ""])); // []
+console.log(bouncer([null, NaN, 1, 2, undefined]));         // [1, 2]
+
+// or 
+
+function bouncer(arr) {
+  let newArray = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i]) newArray.push(arr[i]);
+  }
+  return newArray;
+}
+console.log(bouncer([7, "ate", "", false, 9]));             // [7, "ate", 9]
+console.log(bouncer(["a", "b", "c"]));                      // ["a", "b", "c"]
+console.log(bouncer([false, null, 0, NaN, undefined, ""])); // []
+console.log(bouncer([null, NaN, 1, 2, undefined]));         // [1, 2]
+
+// or
+
+function bouncer(arr) {
+  return arr.filter(Boolean);
+}
+console.log(bouncer([7, "ate", "", false, 9]));             // [7, "ate", 9]
+console.log(bouncer(["a", "b", "c"]));                      // ["a", "b", "c"]
+console.log(bouncer([false, null, 0, NaN, undefined, ""])); // []
+console.log(bouncer([null, NaN, 1, 2, undefined]));         // [1, 2]
