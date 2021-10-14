@@ -334,6 +334,12 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 - [Babel](https://babeljs.io/)
 - [Sucrase](https://sucrase.io/)
 
+### Module Bundler
+
+- [webpack](https://webpack.js.org/)
+- [Vite](https://vitejs.dev/)
+- [rollup.js](https://rollupjs.org/)
+- [Parcel](https://parceljs.org/)
 
 ### Static Typing 
 
