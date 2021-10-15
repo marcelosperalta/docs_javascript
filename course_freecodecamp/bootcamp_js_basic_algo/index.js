@@ -517,3 +517,20 @@ console.log(getIndexToIns([40, 60], 50));             // 1
 console.log(getIndexToIns([10, 20, 30, 40, 50], 35)); // 3
 console.log(getIndexToIns([10, 20, 30, 40, 50], 30)); // 2
 console.log(getIndexToIns([3, 10, 5], 3));            // 0
+
+
+// Mutations
+
+function mutation(arr) {
+  let test = arr[1].toLowerCase();
+  let target = arr[0].toLowerCase();
+  for (let i = 0; i < test.length; i++) {
+    if (target.indexOf(test[i]) < 0) return false;
+  }
+  return true;
+}
+console.log(mutation(["floor", "for"]));   // true
+console.log(mutation(["ate", "date"]));    // false
+console.log(mutation(["hello", "hey"]));   // false
+console.log(mutation(["hello", "Hello"])); // true
+console.log(mutation(["Noel", "Ole"]));    // true
