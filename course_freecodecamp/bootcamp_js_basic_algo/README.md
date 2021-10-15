@@ -113,3 +113,7 @@ For example, ``["hello", "Hello"]``, should return ``true`` because all of the l
 The arguments ``["hello", "hey"]`` should return ``false`` because the string hello does not contain a ``y``.  
 
 Lastly, ``["Alien", "line"]``, should return ``true`` because all of the letters in ``line`` are present in ``Alien``.  
+
+## Chunky Monkey
+
+Write a function that splits an array (first argument) into groups the length of ``size`` (second argument) and returns them as a two-dimensional array.  

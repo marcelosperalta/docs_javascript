@@ -568,3 +568,17 @@ console.log(mutation(["ate", "date"]));    // false
 console.log(mutation(["hello", "hey"]));   // false
 console.log(mutation(["hello", "Hello"])); // true
 console.log(mutation(["Noel", "Ole"]));    // true
+
+
+// Chunky Monkey
+
+function chunkArrayInGroups(arr, size) {
+  return arr;
+}
+console.log(chunkArrayInGroups([0, 1, 2, 3, 4, 5], 3));   // [[0, 1, 2], [3, 4, 5]]
+console.log(chunkArrayInGroups(["a", "b", "c", "d"], 2)); // [["a", "b"], ["c", "d"]]
+console.log(([0, 1, 2, 3, 4, 5], 2));                     // [[0, 1], [2, 3], [4, 5]]
+console.log(([0, 1, 2, 3, 4, 5, 6, 7, 8], 4));            // [[0, 1, 2, 3], [4, 5, 6, 7], [8]]
+console.log(([0, 1, 2, 3, 4, 5, 6], 3));                  // [[0, 1, 2], [3, 4, 5], [6]]
+
+
