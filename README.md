@@ -351,6 +351,10 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 
 - [JSDoc](https://jsdoc.app/)
 
+### Fake REST API
+
+- [JSON Server](https://github.com/marcelosperalta/study_javascript/edit/master/README.md)
+
 ### TypeScript
 
 #### Compiles and restarts
