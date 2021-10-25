@@ -81,3 +81,51 @@ let duck = {
       sayLegs: function() {return "This dog has " + this.numLegs + " legs.";}
     };
     console.log(dog.sayLegs()); // This dog has 4 legs.
+
+
+// Define a Constructor Function
+
+function Bird() {
+  this.name = "Albert";
+  this.color = "blue";
+  this.numLegs = 2;
+}
+
+    // // Test
+    // Create a constructor, Dog, with properties name, color, 
+    // and numLegs that are set to a string, a string, 
+    // and a number, respectively.
+    function Dog() {
+      this.name = "Rex";
+      this.color = "White";
+      this.numLegs = 4;
+    }
+
+
+// Use a Constructor to Create Objects
+
+function Bird() {
+  this.name = "Albert";
+  this.color  = "blue";
+  this.numLegs = 2;
+}
+let blueBird = new Bird();
+
+console.log(blueBird.name);    // Albert
+console.log(blueBird.color);   // blue
+console.log(blueBird.numLegs); // 2
+
+blueBird.name = 'Elvira';
+console.log(blueBird.name);    // Elvira
+
+console.log(blueBird)          // Bird { name: 'Elvira', color: 'blue', numLegs: 2 }
+
+    // // Test
+    // Use the "Dog" constructor from the last lesson to create a new instance of ""Dog"", 
+    // assigning it to a variable "hound".
+    function Dog() {
+      this.name = "Rupert";
+      this.color = "brown";
+      this.numLegs = 4;
+    }
+    let hound = new Dog();
