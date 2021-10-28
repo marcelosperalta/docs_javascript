@@ -13,8 +13,9 @@
 * [Design Patterns](https://github.com/marcelosperalta/study_javascript#book-design-patterns)  
 * [Static Code Analysis](https://github.com/marcelosperalta/study_javascript#mag_right-static-code-analysis)  
 * [Quick Reference](https://github.com/marcelosperalta/study_javascript#dash-quick-reference)  
-  * [List](https://github.com/marcelosperalta/study_javascript#list)  
-  * [Short Description](https://github.com/marcelosperalta/study_javascript#short-description)  
+  * [Built-in objects List](https://github.com/marcelosperalta/study_javascript#list)  
+  * [Built-in objects Short Description](https://github.com/marcelosperalta/study_javascript#short-description)  
+  * [Statements & declarations Description]()  
 * [Debug](https://github.com/marcelosperalta/study_javascript#flashlight-debug-debugging)  
 * [Tools](https://github.com/marcelosperalta/study_javascript#toolbox-tools)  
 * [Tutorials](https://github.com/marcelosperalta/study_javascript#books-tutorials)  
@@ -87,7 +88,7 @@
 
 ## :dash: **Quick Reference**
 
-### List
+### Built-in objects List
 
 **_String Properties_** | **_Array Properties_** | **_Object Properties_**     | **_Function Properties_** 
  ---------------------- | ---------------------- | --------------------------- | ------------------------- 
@@ -133,7 +134,7 @@
  **valueOf()**          | unshift()              | \-                          | \-                        
  \-                     | **values()**           | \-                          | \-                        
 
-### Short Description
+### Built-in objects Short Description
 
 **_String Properties_** | description
 ------------ | -------------
@@ -307,12 +308,14 @@ toString() | The String object overrides the toString() method of the Object obj
 [Function.prototype.call()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/function.js#L) | Calls a function with a given this value and arguments provided individually.  
 [Function.prototype.toString()](https://github.com/marcelosperalta/study_javascript/blob/master/doc_mdn/function.js#L) | Returns a string representing the source code of the function.  
 
-**Statements and declarations:**  
-  
-**_Iterations_** | description | flow diagram
----------------- | ----------- | -----------
+
+### Statements & declarations Short Description
+
+ **_Statement_** | description | flow diagram
+ --------------- | ----------- | -----------
 [do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements) | Creates a loop that executes a specified statement until the test condition evaluates to false. The condition is evaluated after executing the statement, resulting in the specified statement executing at least once. | [link](https://en.wikipedia.org/wiki/Do_while_loop#/media/File:Do-while-loop-diagram.svg)  
 [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) | Creates a loop that consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement executed in the loop. | [link](https://en.wikipedia.org/wiki/For_loop#/media/File:For-loop-diagram.png)  
+[for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) | Iterates over all enumerable properties of an object that are keyed by strings (ignoring ones keyed by Symbols), including inherited enumerable properties. | ----- 
 
 <hr>
 

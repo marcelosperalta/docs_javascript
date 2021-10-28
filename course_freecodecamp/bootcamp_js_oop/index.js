@@ -188,3 +188,31 @@ console.log(canary instanceof Bird); // false
     }
     let myHouse = new House(3);
     console.log(myHouse instanceof House); // true
+
+
+// Understand Own Properties
+
+function Bird(name) {
+  this.name  = name;
+  this.numLegs = 2;
+}
+let duck = new Bird("Donald");
+let canary = new Bird("Tweety");
+
+let ownProps = [];
+for (let property in duck) {
+  if(duck.hasOwnProperty(property)) {
+    ownProps.push(property);
+  }
+}
+console.log(ownProps);
+
+    // // Test
+    // Add the own properties of "canary" to the array "ownProps".
+    function Bird(name) {
+      this.name = name;
+      this.numLegs = 2;
+    }
+    
+    let canary = new Bird("Tweety");
+    let ownProps = [];
