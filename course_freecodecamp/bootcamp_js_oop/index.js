@@ -216,3 +216,26 @@ console.log(ownProps); // [ 'name', 'numLegs' ]
     
     let canary = new Bird("Tweety");
     let ownProps = [];
+    for (let property in canary){
+      if (canary.hasOwnProperty(property)) {
+        ownProps.push(property);
+      }
+    }
+    console.log(ownProps); // [ 'name', 'numLegs' ]
+
+
+// Use Prototype Properties to Reduce Duplicate Code
+
+Bird.prototype.numLegs = 2;
+console.log(duck.numLegs);
+console.log(canary.numLegs);
+
+    // // Test
+    // Add a numLegs property to the prototype of Dog
+    function Dog(name) {
+      this.name = name;
+    }
+    Dog.prototype.numLegs = 4;
+    let beagle = new Dog("Snoopy");
+    console.log(beagle);         // Dog { name: 'Snoopy' }
+    console.log(beagle.numLegs); // 4
