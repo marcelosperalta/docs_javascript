@@ -205,7 +205,7 @@ for (let property in duck) {
     ownProps.push(property);
   }
 }
-console.log(ownProps);
+console.log(ownProps); // [ 'name', 'numLegs' ]
 
     // // Test
     // Add the own properties of "canary" to the array "ownProps".
