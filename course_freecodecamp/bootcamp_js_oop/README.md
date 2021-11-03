@@ -272,3 +272,7 @@ console.log(prototypeProps);
 ```
 
 ``console.log(ownProps)`` would display ``["name"]`` in the console, and ``console.log(prototypeProps)`` would display ``["numLegs"]``.  
+
+## Understand the Constructor Property
+
+## Change the Prototype to a New Object
