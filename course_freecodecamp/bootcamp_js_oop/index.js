@@ -331,3 +331,56 @@ Bird.prototype = {
         console.log(`I have ${this.numLegs} legs`);
       }
     };
+
+
+// Remember to Set the Constructor Property when Changing the Prototype
+
+Bird.prototype = {
+  constructor: Bird,
+  numLegs: 2,
+  eat: function() {
+    console.log("nom nom nom");
+  },
+  describe: function() {
+    console.log("My name is " + this.name); 
+  }
+};
+
+    // // Test
+    // Define the "constructor" property on the "Dog" "prototype".
+    function Dog(name) {
+      this.name = name;
+    }
+    Dog.prototype = {
+      constructor: Dog,
+      numLegs: 4,
+      eat: function() {
+        console.log("nom nom nom");
+      },
+      describe: function() {
+        console.log("My name is " + this.name);
+      }
+    };
+
+
+// Understand Where an Object’s Prototype Comes From
+
+    // // Test
+    // Use "isPrototypeOf" to check the "prototype" of "beagle".
+    function Dog(name) {
+      this.name = name;
+    }
+    let beagle = new Dog("Snoopy");
+    console.log(Dog.prototype.isPrototypeOf(beagle)); // true
+
+
+// Understand the Prototype Chain
+
+    // // Test
+    function Dog(name) {
+      this.name = name;
+    }
+    
+    let beagle = new Dog("Snoopy");
+    Dog.prototype.isPrototypeOf(beagle);  // yields true
+    Object.prototype.isPrototypeOf(Dog.prototype);

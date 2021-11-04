@@ -275,4 +275,41 @@ console.log(prototypeProps);
 
 ## Understand the Constructor Property
 
+
+
 ## Change the Prototype to a New Object
+
+```
+Bird.prototype = {
+  numLegs: 2, 
+  eat: function() {
+    console.log("nom nom nom");
+  },
+  describe: function() {
+    console.log("My name is " + this.name);
+  }
+};
+```
+
+## Remember to Set the Constructor Property when Changing the Prototype
+
+``constructor``
+
+```
+Bird.prototype = {
+  constructor: Bird,
+  numLegs: 2,
+  eat: function() {
+    console.log("nom nom nom");
+  },
+  describe: function() {
+    console.log("My name is " + this.name); 
+  }
+};
+```
+
+## Understand Where an Object’s Prototype Comes From
+
+``isPrototypeOf``  
+
+## Understand the Prototype Chain
