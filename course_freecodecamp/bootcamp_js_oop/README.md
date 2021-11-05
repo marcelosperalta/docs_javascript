@@ -313,3 +313,72 @@ Bird.prototype = {
 ``isPrototypeOf``  
 
 ## Understand the Prototype Chain
+
+``Object.prototype``  
+
+## Use Inheritance So You Don't Repeat Yourself
+
+There's a principle in programming called _Don't Repeat Yourself (DRY)_. The reason repeated code is a problem is because any change requires fixing code in multiple places. This usually means more work for programmers and more room for errors.  
+
+Notice in the example below that the ``describe`` method is shared by ``Bird`` and ``Dog``:  
+
+```
+Bird.prototype = {
+  constructor: Bird,
+  describe: function() {
+    console.log("My name is " + this.name);
+  }
+};
+
+Dog.prototype = {
+  constructor: Dog,
+  describe: function() {
+    console.log("My name is " + this.name);
+  }
+};
+```
+
+The ``describe`` method is repeated in two places. The code can be edited to follow the DRY principle by creating a ``supertype`` (or parent) called ``Animal``:  
+
+```
+function Animal() { };
+
+Animal.prototype = {
+  constructor: Animal, 
+  describe: function() {
+    console.log("My name is " + this.name);
+  }
+};
+```
+
+Since ``Animal`` includes the ``describe`` method, you can remove it from ``Bird`` and ``Dog``:  
+
+```
+Bird.prototype = {
+  constructor: Bird
+};
+
+Dog.prototype = {
+  constructor: Dog
+};
+```
+
+## Inherit Behaviors from a Supertype
+
+It uses a technique called inheritance.  
+This challenge covers the first step: make an instance of the supertype (or parent).  
+
+```
+let animal = Object.create(Animal.prototype);
+```
+
+## Set the Child's Prototype to an Instance of the Parent
+
+This challenge covers the next step: set the ``prototype`` of the subtype (or child)—in this case, ``Bird``—to be an instance of ``Animal``.  `
+
+```
+Bird.prototype = Object.create(Animal.prototype);
+```
+
+## Reset an Inherited Constructor Property
+
