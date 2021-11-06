@@ -521,10 +521,33 @@ Dog.prototype = {
 
     Bird.prototype = Object.create(Animal.prototype);
     Dog.prototype = Object.create(Animal.prototype);
-
-    // Only change code below this line
-
-
+    
+    Bird.prototype.constructor = Bird;
+    Dog.prototype.constructor = Dog;
 
     let duck = new Bird();
+    let beagle = new Dog();
+
+
+// Add Methods After Inheritance
+
+    // // Test
+    // Add all necessary code so the "Dog" object inherits from "Animal"
+    // and the "Dog"'s "prototype" constructor is set to "Dog". Then add 
+    // a "bark()" method to the "Dog" object so that "beagle" can both "eat()" 
+    // and "bark()". The "bark()" method should print "Woof!" to the console.
+    function Animal() { }
+    Animal.prototype.eat = function() { 
+      console.log("nom nom nom"); 
+    };
+
+    function Dog() { }
+
+    Dog.prototype = Object.create(Animal.prototype);
+    Dog.prototype.constructor = Dog;
+
+    Dog.prototype.bark = function() {
+      console.log("Woof!");
+    }
+
     let beagle = new Dog();
