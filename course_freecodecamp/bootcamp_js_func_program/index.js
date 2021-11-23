@@ -32,7 +32,8 @@
 
     // Prepare 27 cups of green tea and 13 cups of black tea 
     // and store them in tea4GreenTeamFCC and tea4BlackTeamFCC variables, respectively. 
-    // Note that the getTea function has been modified so it now takes a function as the first argument.
+    // Note that the getTea function has been modified so it now takes a function 
+    // as the first argument.
 
     // Note: The data (the number of cups of tea) is supplied as the last argument. 
     // We'll discuss this more in later lessons.
@@ -108,9 +109,15 @@
     };
     
     // Let's create three browser windows
-    const workWindow = new Window(['GMail', 'Inbox', 'Work mail', 'Docs', 'freeCodeCamp']); // Your mailbox, drive, and other work sites
-    const socialWindow = new Window(['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium']); // Social sites
-    const videoWindow = new Window(['Netflix', 'YouTube', 'Vimeo', 'Vine']); // Entertainment sites
+
+    const workWindow = new Window(['GMail', 'Inbox', 'Work mail', 'Docs', 'freeCodeCamp']); 
+    // Your mailbox, drive, and other work sites
+    
+    const socialWindow = new Window(['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium']); 
+    // Social sites
+    
+    const videoWindow = new Window(['Netflix', 'YouTube', 'Vimeo', 'Vine']); 
+    // Entertainment sites
     
     // Now perform the tab opening, closing, and other operations
     const finalTabs = socialWindow
@@ -134,3 +141,132 @@
     // Only change code above this line
     }
     console.log(incrementer()); // 5
+
+
+// Pass Arguments to Avoid External Dependence in a Function
+
+    // Let's update the "incrementer" function to clearly declare its dependencies.
+
+    // Write the "incrementer" function so it takes an argument, 
+    // and then returns a result after increasing the value by one.
+
+    // The global variable
+    let fixedValue = 4;
+
+    // Only change code below this line
+    function incrementer(fixedValue) {
+        return fixedValue + 1;
+    // Only change code above this line
+    }
+
+
+// Refactor Global Variables Out of Functions
+    
+    // * Reminder *
+    // https://codeburst.io/javascript-passing-by-value-vs-reference-explained-in-plain-english-8d00fd06a47c
+    // changing a primitive value
+    let a = 1;
+    let b = a;
+    console.log(a); // 1
+    console.log(b); // 1
+    a = 2;
+    console.log(a); // 2
+    console.log(b); // 1
+    // changing a object
+    const arrVar = { a: 0, b: 1, c: 2 };
+    const newArr = arrVar;
+    newArr.c = 3;
+    console.log(newArr); // { a: 0, b: 1, c: 3 }
+    console.log(arrVar); // { a: 0, b: 1, c: 3 }
+    arrVar.c = 2; 
+    console.log(newArr); // { a: 0, b: 1, c: 2 }
+    console.log(arrVar); // { a: 0, b: 1, c: 3 }
+
+    // changing a value in "newArr" would change the value in "arrVar"
+    const arrVar = [0, 1, 2];
+    const newArr = arrVar;
+    newArr.push(3);
+    console.log(newArr); // [ 0, 1, 2, 3 ]
+    console.log(arrVar); // [ 0, 1, 2, 3 ]
+    arrVar.push(4);
+    console.log(newArr); // [ 0, 1, 2, 3, 4 ]
+    console.log(arrVar); // [ 0, 1, 2, 3, 4 ]
+
+    const arrVar = [0, 1, 2];
+    function newArray(array) {
+        let newArr = [];
+        return newArr.concat(arrVar, array);
+    }
+    console.log(newArray([3])); // [ 0, 1, 2, 3 ]
+    console.log(arrVar);        // [ 0, 1, 2 ]
+
+    // Rewrite the code so the global array bookList is not changed inside either function. 
+    // The add function should add the given bookName to the end of the array passed to it 
+    // and return a new array (list). The remove function should remove the given bookName 
+    // from the array passed to it.
+
+    // Note: Both functions should return an array, and any new parameters should be added 
+    // before the bookName parameter.
+    // The global variable
+    const bookList = [
+                        "The Hound of the Baskervilles", 
+                        "On The Electrodynamics of Moving Bodies", 
+                        "Philosophiæ Naturalis Principia Mathematica", 
+                        "Disquisitiones Arithmeticae"
+                     ];
+
+                     // Change code below this line
+    // function add (bookName) {
+
+    //     bookList.push(bookName);
+    //     return bookList;
+        
+    //     // Change code above this line
+    // }
+    /* This function should add a book to the list and return the list */
+    // New parameters should come before bookName
+    function add (arr, bookName) {
+        let newArr = [...arr]; // Copy the bookList array to a new array.
+        newArr.push(bookName); // Add bookName parameter to the end of the new array.
+        return newArr;         // Return the new array.
+    }
+
+    // Change code below this line
+    // function remove (bookName) {
+    //     let newBookName = []
+    //     newBookName.push[bookName];
+    //     const book_index = bookList.indexOf(newBookName);
+    //     if (book_index >= 0) {
+
+    //         bookList.splice(book_index, 1);
+    //         return bookList;
+
+    //         // Change code above this line
+    //         }
+    // }
+    /* This function should remove a book from the list and return the list */
+    // New parameters should come before the bookName one
+    function remove(arr, bookName) {
+        let newArr = [...arr]; // Copy the bookList array to a new array.
+        
+        if (newArr.indexOf(bookName) >= 0) {
+
+          // Check whether the bookName parameter is in new array.
+          newArr.splice(newArr.indexOf(bookName), 1); // Remove the given paramater 
+                                                      // from the new array.
+
+          return newArr;                              // Return the new array.
+
+        }
+    }
+
+    const newBookList    = add        (bookList, 'A Brief History of Time');
+    const newerBookList  = remove     (bookList, 'On The Electrodynamics of Moving Bodies');
+    const newestBookList = remove (add(
+                                        bookList, 'A Brief History of Time'
+                                       ),'On The Electrodynamics of Moving Bodies'
+                                  );
+
+    console.log(bookList);
+
+
