@@ -68,3 +68,13 @@ So far, we have seen two distinct principles for functional programming:
 2. Declare function parameters - any computation inside a function depends only on the arguments passed to the function, and not on any global object or variable.
 
 Adding one to a number is not very exciting, but we can apply these principles when working with arrays or more complex objects.  
+
+## Use the map Method to Extract Data from an Array
+
+ Functional programming is centered around a theory of functions.  
+
+ Functions are considered _first class objects_ in JavaScript, which means they can be used like any other object. They can be saved in variables, stored in an object, or passed as function arguments.  
+
+ The ``map`` method iterates over each item in an array and returns a new array containing the results of calling the callback function on each element. It does this without mutating the original array.  
+
+ When the callback is used, it is passed three arguments. The first argument is the current element being processed. The second is the index of that element and the third is the array upon which the ``map`` method was called.  
