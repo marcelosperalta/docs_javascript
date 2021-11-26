@@ -60,7 +60,7 @@
 **[Currying](https://javascript.info/currying-partials)**  
 **[Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)**  
 **[Hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)**  
-**[Pure Function]()**
+**[Pure Function](https://github.com/marcelosperalta/docs_javascript/tree/master/course_freecodecamp/20190301_js_pure_function)**  
 **[Recursion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#recursion)**  
 **[Rest parameters (Rest arguments)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)**  
 **[Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)**  
@@ -357,7 +357,11 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 
 ### Fake REST API
 
-- [JSON Server](https://github.com/marcelosperalta/docs_javascript/edit/master/README.md)
+- [JSON Server](https://github.com/typicode/json-server)
+
+### Functional Library
+
+- [Ramda](https://ramdajs.com/)
 
 ### TypeScript
 
