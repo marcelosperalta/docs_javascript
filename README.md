@@ -23,7 +23,7 @@
 * [Challenges](https://github.com/marcelosperalta/docs_javascript#question-challenges)  
 * [YouTube](https://github.com/marcelosperalta/docs_javascript#tv-youtube)  
 * [Articles](https://github.com/marcelosperalta/docs_javascript#newspaper-articles)  
-* [Books]()  
+* [Books](https://github.com/marcelosperalta/docs_javascript#closed_book-books)  
 
 <hr>
 
