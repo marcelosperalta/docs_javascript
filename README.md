@@ -367,6 +367,10 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 
 - [JSON Server](https://github.com/typicode/json-server)
 
+### API mocking library
+
+- [Mirage](https://miragejs.com/)
+
 ### Functional Library
 
 - [Ramda](https://ramdajs.com/)
