@@ -357,6 +357,12 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 
 - [JSDoc](https://jsdoc.app/)
 
+### List of APIs
+
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/API)
+
+- [ApiList.fun](https://apilist.fun/)
+
 ### Fake REST API
 
 - [JSON Server](https://github.com/typicode/json-server)
@@ -367,9 +373,9 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 
 ### TypeScript
 
-#### Compiles and restarts
+- **Compiles and restarts**
 
-- [ts-node-dev](https://github.com/wclr/ts-node-dev)
+  - [ts-node-dev](https://github.com/wclr/ts-node-dev)
 
 <hr>
 
