@@ -272,6 +272,22 @@
 
 // Use the map Method to Extract Data from an Array
 
+        // The "watchList" array holds objects with information on several movies. 
+        // Use "map" on "watchList" to assign a new array of objects to the "ratings" variable. 
+        // Each movie in the new array should have only a "title" key with the name of the film, 
+        // and a "rating" key with the IMDB rating. The code in the editor currently uses 
+        // a "for" loop to do this, so you should replace the loop functionality 
+        // with your "map" expression.
+
+        // ratings should equal 
+        // [
+        //  {"title": "Inception", "rating": "8.8"}, 
+        //  {"title": "Interstellar", "rating": "8.6"}, 
+        //  {"title": "The Dark Knight", "rating": "9.0"},
+        //  {"title": "Batman Begins", "rating": "8.3"}, 
+        //  {"title": "Avatar", "rating": "7.9"}
+        // ]
+
         // The global variable
         const watchList = [
             {
@@ -388,11 +404,29 @@
         
         // Only change code below this line
         
-        const ratings = [];
-        for (let i = 0; i < watchList.length; i++) {
-            ratings.push({title: watchList[i]["Title"], rating: watchList[i]["imdbRating"]});
-        }
+        // using "for" loop
+        // const ratings = [];
+        // for (let i = 0; i < watchList.length; i++) {
+        //     ratings.push({title: watchList[i]["Title"], rating: watchList[i]["imdbRating"]});
+        // }
         
+        // using "map" expression
+        const ratings = watchList.map(item => ({
+            title: item["Title"],
+            rating: item["imdbRating"]
+        }));
+
+        // or
+
+        // const ratings = watchList.map(({ Title: title, imdbRating: rating }) => ({title, rating}));
+
         // Only change code above this line
         
         console.log(JSON.stringify(ratings));
+        // [
+        //  {"title":"Inception","rating":"8.8"},
+        //  {"title":"Interstellar","rating":"8.6"},
+        //  {"title":"The Dark Knight","rating":"9.0"},
+        //  {"title":"Batman Begins","rating":"8.3"},
+        //  {"title":"Avatar","rating":"7.9"}
+        // ]

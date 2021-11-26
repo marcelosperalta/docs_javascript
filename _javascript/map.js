@@ -41,3 +41,43 @@ arr3.map(function(element, index, array){
     console.log(array);
     return element
 }, 80);
+
+
+// More examples from freeCodeCamp.org
+
+// 1
+
+const users = [
+    { name: 'John', age: 34 },
+    { name: 'Amy', age: 20 },
+    { name: 'camperCat', age: 10 }
+  ];
+const names = users.map(user => user.name);
+console.log(names);                         // [ 'John', 'Amy', 'camperCat' ]
+const ages = users.map(user => user.age);
+console.log(ages);                          // [ 34, 20, 10 ]
+
+// 2
+
+const watchList = [
+    { "Title": "Inception", "Year": "2010", "imdbRating": "8.8" },
+    { "Title": "Interstellar", "Year": "2014", "imdbRating": "8.6" },
+    { "Title": "The Dark Knight", "Year": "2008","imdbRating": "9.0" },
+    { "Title": "Batman Begins", "Year": "2005", "imdbRating": "8.3" },
+    { "Title": "Avatar", "Year": "2009", "imdbRating": "7.9" }
+];
+const ratings = watchList.map(item => ({
+    title: item["Title"],
+    rating: item["imdbRating"]
+}));
+// or
+// const ratings = watchList.map(({ Title: title, imdbRating: rating }) => ({title, rating}));
+
+console.log(JSON.stringify(ratings));
+// [
+//  {"title":"Inception","rating":"8.8"},
+//  {"title":"Interstellar","rating":"8.6"},
+//  {"title":"The Dark Knight","rating":"9.0"},
+//  {"title":"Batman Begins","rating":"8.3"},
+//  {"title":"Avatar","rating":"7.9"}
+// ]
