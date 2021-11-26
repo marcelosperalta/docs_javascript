@@ -23,6 +23,7 @@
 * [Challenges](https://github.com/marcelosperalta/docs_javascript#question-challenges)  
 * [YouTube](https://github.com/marcelosperalta/docs_javascript#tv-youtube)  
 * [Articles](https://github.com/marcelosperalta/docs_javascript#newspaper-articles)  
+* [Books]()  
 
 <hr>
 
@@ -56,6 +57,7 @@
 
 ## :blue_book: Concepts:
 
+**[Asynchronous Programming]()  
 **[Closures](https://github.com/marcelosperalta/docs_javascript/blob/master/course_freecodecamp/20200714_closures/closures.js)**  
 **[Currying](https://javascript.info/currying-partials)**  
 **[Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)**  
@@ -617,3 +619,7 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 \#this  
 **[Understanding JavaScript Function Invocation and "this"](https://github.com/marcelosperalta/docs_javascript/tree/master/articles_yehuda_katz_this)**  
+
+## :closed_book: Books:
+
+**[Eloquent JavaScript](https://eloquentjavascript.net/)** by [Marijn Haverbeke](https://github.com/marijnh)  
