@@ -1,3 +1,6 @@
+// source: https://www.freecodecamp.org/news/what-is-a-pure-function-in-javascript-acb887375dfe/
+// by: Yazeed Bzadough - https://yazeedb.com/
+
 // The Checklist
 
 // A function must pass two tests to be considered “pure”:
