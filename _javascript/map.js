@@ -66,6 +66,12 @@ const watchList = [
     { "Title": "Batman Begins", "Year": "2005", "imdbRating": "8.3" },
     { "Title": "Avatar", "Year": "2009", "imdbRating": "7.9" }
 ];
+
+// Arrow function expressions
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+// To return an object literal expression requires parentheses around expression:
+// params => ({foo: "a"}) // returning the object {foo: "a"}
+
 const ratings = watchList.map(item => ({
     title: item["Title"],
     rating: item["imdbRating"]

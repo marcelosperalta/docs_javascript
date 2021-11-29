@@ -69,7 +69,7 @@ So far, we have seen two distinct principles for functional programming:
 
 Adding one to a number is not very exciting, but we can apply these principles when working with arrays or more complex objects.  
 
-## Use the map Method to Extract Data from an Array
+## Use the ``map`` Method to Extract Data from an Array
 
  Functional programming is centered around a theory of functions.  
 
@@ -94,10 +94,21 @@ console.log(names);
 
 The console would display the value ``[ 'John', 'Amy', 'camperCat' ]``.  
 
-## Implement map on a Prototype
+## Implement ``map`` on a Prototype
 
 As you have seen from applying ``Array.prototype.map()``, or simply ``map()`` earlier, the ``map`` method returns an array of the same length as the one it was called on. It also doesn't alter the original array, as long as its callback function doesn't.  
 
 In other words, ``map`` is a pure function, and its output depends solely on its inputs. Plus, it takes another function as its argument.  
 
 You might learn a lot about the ``map`` method if you implement your own version of it. It is recommended you use a ``for`` loop or ``Array.prototype.forEach()``.  
+
+## Use the ``filter`` Method to Extract Data from an Array
+
+Another useful array function is ``Array.prototype.filter()``, or simply ``filter()``.  
+
+``filter`` calls a function on each element of an array and returns a new array containing only the elements for which that function returns ``true``. In other words, it filters the array, based on the function passed to it. Like ``map``, it does this without needing to modify the original array.  
+
+## Implement the ``filter`` Method on a Prototype
+
+You might learn a lot about the ``filter`` method if you implement your own version of it. It is recommended you use a ``for`` loop or ``Array.prototype.forEach()``.  
+
