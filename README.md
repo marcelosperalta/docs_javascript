@@ -139,6 +139,8 @@
 
 ### Built-in objects Short Description
 
+#### String
+
 **_String Properties_** | description
 ------------ | -------------
 [String length](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/string.js#L8) | The length property of a String object contains the length of the string, in UTF-16 code units. length is a read-only data property of string instances.
@@ -181,7 +183,7 @@
 [String.prototype.trimStart()](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/string.js#L634) | Removes whitespace from the beginning of a string. trimLeft() is an alias of this method.  
 [String.prototype.valueOf()](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/string.js#L649) | Returns the primitive value of a String object.  
 
-### String methods that _change_ and _do not change_ the original object.
+##### String methods that _change_ and _do not change_ the original object.
 
 **Method** |  _Change_  | _Do Not Change_
 ---------- | ---------- | ----------
@@ -220,6 +222,8 @@ trimEnd() | ---------- | returns a new string representing str stripped of white
 trimStart() | ---------- | returns a new string representing str stripped of whitespace from its beginning (left side).
 valueOf() | ---------- | returns a string representing the primitive value of a given String object
 toString() | The String object overrides the toString() method of the Object object | ----------
+
+#### Array
 
 **_Array Properties_** | description
 ------------ | -------------
@@ -265,6 +269,17 @@ toString() | The String object overrides the toString() method of the Object obj
 [Array.prototype.unshift()](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/array.js#L) | Adds one or more elements to the beginning of an array and returns the new length of the array.  
 [Array.prototype.values()](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/array.js#L) | Returns a new _array iterator_ object that contains the values for each index in the array.  
 
+##### Array methods that _change_ (mutate) and _do not change_ (not mutate) the original array.
+
+**Method**      |  Mutate / Not Mutate
+----------      | ---------------------
+filter()        | **Not Mutate**
+map()           | **Not Mutate**
+slice()         | **Not Mutate**
+splice()        | _Mutate_
+
+#### Objects
+
 **_Object Properties_** | description
 ------------ | -------------
 [Object.prototype.constructor](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/object.js#L) | Returns a reference to the Object constructor function that created the instance object. Note that the value of this property is a reference to _the function itself_, not a string containing the function's name.  
@@ -299,6 +314,8 @@ toString() | The String object overrides the toString() method of the Object obj
 [Object.prototype.valueOf()](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/object.js#L) | Returns the primitive value of the specified object.  
 [Object.values()](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/object.js#L) | Returns an array of a given object's own enumerable property values, in the same order as that provided by a ``for...in`` loop. (The only difference is that a ``for...in`` loop enumerates properties in the prototype chain as well.)  
 
+#### Function
+
 **_Function Properties_** | description
 ------------ | -------------
 [Function.length](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/function.js#L8) | Indicates the number of parameters expected by the function.  
@@ -311,8 +328,14 @@ toString() | The String object overrides the toString() method of the Object obj
 [Function.prototype.call()](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/function.js#L) | Calls a function with a given this value and arguments provided individually.  
 [Function.prototype.toString()](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/function.js#L) | Returns a string representing the source code of the function.  
 
+#### JSON
 
-### Statements & declarations Short Description
+**_JSON Methods_** | description
+------------ | -------------
+[JSON.parse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) | Parses a JSON string, constructing the JavaScript value or object described by the string. An optional **reviver** function can be provided to perform a transformation on the resulting object before it is returned.  
+[JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify) | Converts a JavaScript object or value to a JSON string, optionally replacing values if a replacer function is specified or optionally including only the specified properties if a replacer array is specified.  
+
+### Statements & declarations - Short Description
 
  **_Statement_** | description | flow diagram
  --------------- | ----------- | -----------

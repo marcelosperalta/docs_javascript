@@ -119,3 +119,6 @@ The ``slice`` method returns a copy of certain elements of an array. It can take
 **If the arguments are not provided, the default is to start at the beginning of the array through the end, which is an easy way to make a copy of the entire array**.  
 
 The ``slice`` method does not mutate the original array, but returns a new one.  
+
+## Remove Elements from an Array Using ``slice`` Instead of ``splice``
+
