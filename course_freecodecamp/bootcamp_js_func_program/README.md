@@ -112,3 +112,10 @@ Another useful array function is ``Array.prototype.filter()``, or simply ``filte
 
 You might learn a lot about the ``filter`` method if you implement your own version of it. It is recommended you use a ``for`` loop or ``Array.prototype.forEach()``.  
 
+## Return Part of an Array Using the ``slice`` Method
+
+The ``slice`` method returns a copy of certain elements of an array. It can take two arguments, the first gives the index of where to begin the slice, the second is the index for where to end the slice (and it's non-inclusive).  
+
+**If the arguments are not provided, the default is to start at the beginning of the array through the end, which is an easy way to make a copy of the entire array**.  
+
+<u>The ``slice`` method does not mutate the original array, but returns a new one.</u>  

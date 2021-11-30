@@ -599,8 +599,32 @@
     
     // Only change code below this line
     
-    const filteredList = "";
+    const filteredList = watchList
+        .map(movie => {
+            return {
+                title: movie.Title,         // or // title: movie["Title"],
+                rating: movie.imdbRating    // or // title: movie["imdbRating"],
+            };
+        })
+        .filter(movie => {
+            // return true it will keep the item
+            // return false it will reject the item
+            return parseFloat(movie.rating) >= 8.0;
+        });
     
     // Only change code above this line
     
     console.log(filteredList);
+    // [
+    //     { title: 'Inception', rating: '8.8' },
+    //     { title: 'Interstellar', rating: '8.6' },
+    //     { title: 'The Dark Knight', rating: '9.0' },
+    //     { title: 'Batman Begins', rating: '8.3' }
+    // ]
+
+
+// Return Part of an Array Using the "slice" Method
+
+const arr = ["Cat", "Dog", "Tiger", "Zebra"];
+const newArray = arr.slice(1, 3);
+console.log(newArray); // [ 'Dog', 'Tiger' ]
