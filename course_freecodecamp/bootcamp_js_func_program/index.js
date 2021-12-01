@@ -628,6 +628,7 @@
 const arr = ["Cat", "Dog", "Tiger", "Zebra"];
 const newArray = arr.slice(1, 3);
 console.log(newArray); // [ 'Dog', 'Tiger' ]
+console.log(arr);      // [ 'Cat', 'Dog', 'Tiger', 'Zebra' ]
 
     // Use the "slice" method in the "sliceArray" function to return part 
     // of the "anim" array given the provided "beginSlice" and "endSlice" indices. 
@@ -641,3 +642,36 @@ console.log(newArray); // [ 'Dog', 'Tiger' ]
     console.log(sliceArray(inputAnim, 1, 3)); // [ 'Dog', 'Tiger' ]
     console.log(sliceArray(inputAnim, 0, 1)); // [ 'Cat' ]
     console.log(sliceArray(inputAnim, 1, 4)); // [ 'Dog', 'Tiger', 'Zebra' ]
+
+
+//  Remove Elements from an Array Using ``slice`` Instead of ``splice``
+
+const cities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];
+console.log(cities.splice(3, 1)); // [ 'London' ]
+console.log(cities);              // [ 'Chicago', 'Delhi', 'Islamabad', 'Berlin' ]
+
+    // Rewrite the function nonMutatingSplice by using slice instead of splice. 
+    // It should limit the provided cities array to a length of 3, 
+    // and return a new array with only the first three items.
+
+    // Do not mutate the original array provided to the function.
+
+    // nonMutatingSplice(["Chicago", "Delhi", "Islamabad", "London", "Berlin"]) 
+    // should return ["Chicago", "Delhi", "Islamabad"].
+
+    function nonMutatingSplice(cities) {
+    // Only change code below this line
+    return cities.splice(3);
+    // Only change code above this line
+    }
+    const inputCities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];
+    console.log(nonMutatingSplice(inputCities)); // [ 'London', 'Berlin' ]
+    console.log(inputCities); // [ 'Chicago', 'Delhi', 'Islamabad' ]
+
+    // solution:
+    function nonMutatingSplice(cities) {
+        return cities.slice(0, 3);
+    }
+    const inputCities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];
+    console.log(nonMutatingSplice(inputCities)); 
+    // [ 'Chicago', 'Delhi', 'Islamabad' ]

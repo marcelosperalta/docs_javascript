@@ -122,3 +122,8 @@ The ``slice`` method does not mutate the original array, but returns a new one.
 
 ## Remove Elements from an Array Using ``slice`` Instead of ``splice``
 
+``splice`` method mutates the original array  
+
+``slice`` method does not mutate the original array, but returns a new one which can be saved into a variable.  
+
+ Using the ``slice`` method instead of ``splice`` <ins>helps to avoid any</ins> **array-mutating side effects**.  
