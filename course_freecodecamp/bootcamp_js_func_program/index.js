@@ -688,3 +688,50 @@ let concatenation = array1.concat(array2);
 console.log(concatenation); // [ 1, 2, 3, 4, 5, 6 ]
 console.log(array1);        // [ 1, 2, 3 ]
 console.log(array2);        // [ 4, 5, 6 ]
+
+    // Use the "concat" method in the "nonMutatingConcat" function to concatenate "attach" to 
+    // the end of "original". The function should return the concatenated array.
+
+    function nonMutatingConcat(original, attach) {
+        return original.concat(attach);
+    }
+    const first = [1, 2, 3];
+    const second = [4, 5];
+    console.log(nonMutatingConcat(first, second)); // [ 1, 2, 3, 4, 5 ]
+    console.log(first);                            // [ 1, 2, 3 ]
+    console.log(second);                           // [ 4, 5 ]
+
+
+// Add Elements to the End of an Array Using concat Instead of push
+
+const arr = [1, 2, 3];
+arr.push([4, 5, 6]);
+console.log(arr); // [ 1, 2, 3, [ 4, 5, 6 ] ]
+
+    // Change the nonMutatingPush function so it uses concat to add newItem 
+    // to the end of original instead of push. The function should return an array.
+
+    function nonMutatingPush(original, newItem) {
+      // Only change code below this line
+      return original.push(newItem);
+      // Only change code above this line
+    }
+    const first = [1, 2, 3];
+    const second = [4, 5];
+    console.log(first);                          // [ 1, 2, 3 ]
+    console.log(second);                         // [ 4, 5 ]
+    nonMutatingPush(first, second);
+    console.log(first);                          // [ 1, 2, 3, [ 4, 5 ] ] // Mutated!!!
+    console.log(second);                         // [ 4, 5 ]
+
+    // Solution:
+    function nonMutatingPush(original, newItem) {
+      return original.concat(newItem);
+    }
+    const first = [1, 2, 3];
+    const second = [4, 5];
+    console.log(first);                          // [ 1, 2, 3 ]
+    console.log(second);                         // [ 4, 5 ]
+    console.log(nonMutatingPush(first, second)); // [ 1, 2, 3, 4, 5 ]
+    console.log(first);                          // [ 1, 2, 3 ]
+    console.log(second);                         // [ 4, 5 ]

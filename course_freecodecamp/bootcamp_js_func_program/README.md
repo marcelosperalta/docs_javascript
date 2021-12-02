@@ -133,3 +133,9 @@ The ``slice`` method does not mutate the original array, but returns a new one.
 ``Concatenation`` means to join items end to end. JavaScript offers the ``concat`` method for both strings and arrays that work in the same way.  
 
 For arrays, the method is called on one, then another array is provided as the argument to ``concat``, which is added to the end of the first array. It returns a new array and <ins>does not mutate either of the original arrays</ins>.  
+
+## Add Elements to the End of an Array Using ``concat`` Instead of ``push``
+
+Functional programming is all about creating and using non-mutating functions.  
+
+``concat`` offers a way to add new items to the end of an array without any mutating side effects.  

@@ -271,11 +271,13 @@ toString() | The String object overrides the toString() method of the Object obj
 
 ##### Array methods that _change_ (mutate) and _do not change_ (not mutate) the original array.
 
-**Method**      |  Mutate / Not Mutate
+**Method**      |  Mutate / Not Mutate (avoiding side effects)
 ----------      | ---------------------
 filter()        | **Not Mutate**
 map()           | **Not Mutate**
 slice()         | **Not Mutate**
+concat()        | **Not Mutate**
+push()          | _Mutate_
 splice()        | _Mutate_
 
 #### Objects
