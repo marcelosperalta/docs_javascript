@@ -417,6 +417,11 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 * **Compiles and restarts**
   * [ts-node-dev](https://github.com/wclr/ts-node-dev)
 
+### Testing (end-to-end tests, integration tests, and unit tests)
+
+* [Jest](https://jestjs.io/)
+* [Cypress](https://www.cypress.io/)
+
 <hr>
 
 ## :books: Tutorials:
