@@ -13,9 +13,9 @@
 * [Design Patterns](https://github.com/marcelosperalta/docs_javascript#book-design-patterns)  
 * [Static Code Analysis](https://github.com/marcelosperalta/docs_javascript#mag_right-static-code-analysis)  
 * [Quick Reference](https://github.com/marcelosperalta/docs_javascript#dash-quick-reference)  
-  * [Built-in objects List](https://github.com/marcelosperalta/docs_javascript#built-in-objects-list)  
-  * [Built-in objects Short Description](https://github.com/marcelosperalta/docs_javascript#built-in-objects-short-description)  
-  * [Statements & declarations - Short Description](https://github.com/marcelosperalta/docs_javascript#statements--declarations---short-description)  
+  * [Built-in objects - List](https://github.com/marcelosperalta/docs_javascript#built-in-objects-list)  
+  * [Built-in objects - Short Description](https://github.com/marcelosperalta/docs_javascript#built-in-objects---short-description)  
+  * [Statements & Declarations - Short Description](https://github.com/marcelosperalta/docs_javascript#statements--declarations---short-description)  
 * [Debug](https://github.com/marcelosperalta/docs_javascript#flashlight-debug-debugging)  
 * [Tools](https://github.com/marcelosperalta/docs_javascript#toolbox-tools)  
 * [Tutorials](https://github.com/marcelosperalta/docs_javascript#books-tutorials)  
@@ -337,7 +337,7 @@ splice()        | _Mutate_
 [JSON.parse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) | Parses a JSON string, constructing the JavaScript value or object described by the string. An optional **reviver** function can be provided to perform a transformation on the resulting object before it is returned.  
 [JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify) | Converts a JavaScript object or value to a JSON string, optionally replacing values if a replacer function is specified or optionally including only the specified properties if a replacer array is specified.  
 
-### Statements & declarations - Short Description
+### Statements & Declarations - Short Description
 
  **_Statement_** | description | flow diagram
  --------------- | ----------- | -----------
