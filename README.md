@@ -653,6 +653,8 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 \#this  
 **[Understanding JavaScript Function Invocation and "this"](https://github.com/marcelosperalta/docs_javascript/tree/master/articles_yehuda_katz_this)**  
 
+<hr>
+
 ## :closed_book: Books:
 
 **[Eloquent JavaScript](https://eloquentjavascript.net/)** by [Marijn Haverbeke](https://github.com/marijnh)  
