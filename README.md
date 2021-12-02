@@ -28,7 +28,7 @@
 
 <hr>
 
-## :mag: Glossary:
+## :mag: Glossary
 
 **term** | definition
 ------------ | -------------
@@ -40,7 +40,7 @@
 
 <hr>
 
-## :+1: Common Practices:
+## :+1: Common Practices
 
 - **Immutable values and mutable values**
 
@@ -56,7 +56,7 @@
 
 <hr>
 
-## :blue_book: Concepts:
+## :blue_book: Concepts
 
 **[Asynchronous Programming](https://github.com/marcelosperalta/docs_javascript/tree/master/concept_async_program)**  
 **[Closures](https://github.com/marcelosperalta/docs_javascript/blob/master/course_freecodecamp/20200714_closures/closures.js)**  
@@ -72,19 +72,19 @@
 
 <hr>
 
-## :lock: Security:
+## :lock: Security
 
 **[Cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting)**  
 
 <hr>
 
-## :book: Design Patterns:
+## :book: Design Patterns
 
 **[Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/index.html)**  
 
 <hr>
 
-## :mag_right: Static Code Analysis:
+## :mag_right: Static Code Analysis
 
 **[ESLint](https://eslint.org/)**  
 
@@ -186,7 +186,7 @@
 [String.prototype.trimStart()](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/string.js#L634) | Removes whitespace from the beginning of a string. trimLeft() is an alias of this method.  
 [String.prototype.valueOf()](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/string.js#L649) | Returns the primitive value of a String object.  
 
-##### String methods that _change_ and _do not change_ the original object.
+##### String methods that _change_ and _do not change_ the original object
 
 **Method** |  _Change_  | _Do Not Change_
 ---------- | ---------- | ----------
@@ -272,7 +272,7 @@ toString() | The String object overrides the toString() method of the Object obj
 [Array.prototype.unshift()](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/array.js#L) | Adds one or more elements to the beginning of an array and returns the new length of the array.  
 [Array.prototype.values()](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/array.js#L) | Returns a new _array iterator_ object that contains the values for each index in the array.  
 
-##### Array methods that _change_ (mutate) and _do not change_ (not mutate) the original array.
+##### Array methods that _change_ (mutate) and _do not change_ (not mutate) the original array
 
 **Method**      |  Mutate / Not Mutate (avoiding side effects)
 ----------      | ---------------------
@@ -361,7 +361,7 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 
 <hr>
 
-## :toolbox: Tools:
+## :toolbox: Tools
 
 ### Source Code Editor
 
@@ -424,7 +424,7 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 
 <hr>
 
-## :books: Tutorials:
+## :books: Tutorials
 
 **_Regular expressions_**  
 
@@ -445,7 +445,7 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 
 <hr>
 
-## :mortar_board: Courses:  
+## :mortar_board: Courses
 
 <div>
   <img 
@@ -567,7 +567,7 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 <hr>
 
-## :question: Challenges:
+## :question: Challenges
 
 ### [Edabit](https://edabit.com/challenges)
 
@@ -635,7 +635,7 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 <hr>
 
-## :tv: YouTube:
+## :tv: YouTube
 
 <div>
   <img 
@@ -663,7 +663,7 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 <hr>
 
-## :newspaper: Articles:
+## :newspaper: Articles
 
 \#object  
 **[What is a JavaScript Object? Key Value Pairs and Dot Notation Explained](https://github.com/marcelosperalta/docs_javascript/tree/master/articles_freecodecamp)**  
@@ -673,6 +673,6 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 <hr>
 
-## :closed_book: Books:
+## :closed_book: Books
 
 **[Eloquent JavaScript](https://eloquentjavascript.net/)** by [Marijn Haverbeke](https://github.com/marijnh)  
