@@ -127,3 +127,9 @@ The ``slice`` method does not mutate the original array, but returns a new one.
 ``slice`` method does not mutate the original array, but returns a new one which can be saved into a variable.  
 
  Using the ``slice`` method instead of ``splice`` <ins>helps to avoid any</ins> **array-mutating side effects**.  
+
+## Combine Two Arrays Using the ``concat`` Method
+
+``Concatenation`` means to join items end to end. JavaScript offers the ``concat`` method for both strings and arrays that work in the same way.  
+
+For arrays, the method is called on one, then another array is provided as the argument to ``concat``, which is added to the end of the first array. It returns a new array and <ins>does not mutate either of the original arrays</ins>.  

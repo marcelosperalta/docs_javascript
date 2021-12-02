@@ -675,3 +675,16 @@ console.log(cities);              // [ 'Chicago', 'Delhi', 'Islamabad', 'Berlin'
     const inputCities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];
     console.log(nonMutatingSplice(inputCities)); 
     // [ 'Chicago', 'Delhi', 'Islamabad' ]
+
+
+// Combine Two Arrays Using the "concat" Method
+
+let concatenation = [1, 2, 3].concat([4, 5, 6]);
+console.log(concatenation); // [ 1, 2, 3, 4, 5, 6 ]
+
+let array1 = [1, 2, 3];
+let array2 = [4, 5, 6];
+let concatenation = array1.concat(array2);
+console.log(concatenation); // [ 1, 2, 3, 4, 5, 6 ]
+console.log(array1);        // [ 1, 2, 3 ]
+console.log(array2);        // [ 4, 5, 6 ]

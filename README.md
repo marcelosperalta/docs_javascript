@@ -358,51 +358,59 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 
 ## :toolbox: Tools:
 
+### Source Code Editor
+
+* [Visual Sutdio Code](https://code.visualstudio.com/)
+  * **Extension**
+    * _Run code snippet_
+      * [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+    * _Colorizing Matching Brackets_
+      * [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+* [Atom](https://atom.io/)
+
 ### Transcompiler
 
-- [Babel](https://babeljs.io/)
-- [Sucrase](https://sucrase.io/)
+* [Babel](https://babeljs.io/)
+* [Sucrase](https://sucrase.io/)
 
 ### Module Bundler
 
-- [webpack](https://webpack.js.org/)
-- [Vite](https://vitejs.dev/)
-- [rollup.js](https://rollupjs.org/)
-- [Parcel](https://parceljs.org/)
+* [webpack](https://webpack.js.org/)
+* [Vite](https://vitejs.dev/)
+* [rollup.js](https://rollupjs.org/)
+* [Parcel](https://parceljs.org/)
 
 ### Static Typing 
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [flow](https://flow.org/)
-- [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
+* [TypeScript](https://www.typescriptlang.org/)
+* [flow](https://flow.org/)
+* [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
 
 ### Markup Language
 
-- [JSDoc](https://jsdoc.app/)
+* [JSDoc](https://jsdoc.app/)
 
 ### List of APIs
 
-- [MDN](https://developer.mozilla.org/en-US/docs/Web/API)
-
-- [ApiList.fun](https://apilist.fun/)
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/API)
+* [ApiList.fun](https://apilist.fun/)
 
 ### Fake REST API
 
-- [JSON Server](https://github.com/typicode/json-server)
+* [JSON Server](https://github.com/typicode/json-server)
 
 ### API mocking library
 
-- [Mirage](https://miragejs.com/)
+* [Mirage](https://miragejs.com/)
 
 ### Functional Library
 
-- [Ramda](https://ramdajs.com/)
+* [Ramda](https://ramdajs.com/)
 
 ### TypeScript
 
-- **Compiles and restarts**
-
-  - [ts-node-dev](https://github.com/wclr/ts-node-dev)
+* **Compiles and restarts**
+  * [ts-node-dev](https://github.com/wclr/ts-node-dev)
 
 <hr>
 
