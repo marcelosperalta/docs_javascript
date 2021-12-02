@@ -13,7 +13,7 @@
 * [Design Patterns](https://github.com/marcelosperalta/docs_javascript#book-design-patterns)  
 * [Static Code Analysis](https://github.com/marcelosperalta/docs_javascript#mag_right-static-code-analysis)  
 * [Quick Reference](https://github.com/marcelosperalta/docs_javascript#dash-quick-reference)  
-  * [Built-in objects - List](https://github.com/marcelosperalta/docs_javascript#built-in-objects-list)  
+  * [Built-in objects - List](https://github.com/marcelosperalta/docs_javascript#built-in-objects---list)  
   * [Built-in objects - Short Description](https://github.com/marcelosperalta/docs_javascript#built-in-objects---short-description)  
   * [Statements & Declarations - Short Description](https://github.com/marcelosperalta/docs_javascript#statements--declarations---short-description)  
 * [Debug](https://github.com/marcelosperalta/docs_javascript#flashlight-debug-debugging)  
@@ -92,6 +92,8 @@
 ## :dash: **Quick Reference**
 
 ### Built-in objects - List
+
+#### String, Array, Object, Function
 
 **_String Properties_** | **_Array Properties_** | **_Object Properties_**     | **_Function Properties_** 
  ---------------------- | ---------------------- | --------------------------- | ------------------------- 
