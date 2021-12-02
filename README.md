@@ -15,7 +15,7 @@
 * [Quick Reference](https://github.com/marcelosperalta/docs_javascript#dash-quick-reference)  
   * [Built-in objects List](https://github.com/marcelosperalta/docs_javascript#built-in-objects-list)  
   * [Built-in objects Short Description](https://github.com/marcelosperalta/docs_javascript#built-in-objects-short-description)  
-  * [Statements & declarations Description](https://github.com/marcelosperalta/docs_javascript#statements--declarations-short-description)  
+  * [Statements & declarations - Short Description](https://github.com/marcelosperalta/docs_javascript#statements--declarations---short-description)  
 * [Debug](https://github.com/marcelosperalta/docs_javascript#flashlight-debug-debugging)  
 * [Tools](https://github.com/marcelosperalta/docs_javascript#toolbox-tools)  
 * [Tutorials](https://github.com/marcelosperalta/docs_javascript#books-tutorials)  
@@ -137,7 +137,7 @@
  **valueOf()**          | unshift()              | \-                          | \-                        
  \-                     | **values()**           | \-                          | \-                        
 
-### Built-in objects Short Description
+### Built-in objects - Short Description
 
 #### String
 
