@@ -91,7 +91,7 @@
 
 ## :dash: **Quick Reference**
 
-### Built-in objects List
+### Built-in objects - List
 
 **_String Properties_** | **_Array Properties_** | **_Object Properties_**     | **_Function Properties_** 
  ---------------------- | ---------------------- | --------------------------- | ------------------------- 
