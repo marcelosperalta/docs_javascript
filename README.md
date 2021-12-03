@@ -84,12 +84,6 @@
 
 <hr>
 
-## :mag_right: Static Code Analysis
-
-**[ESLint](https://eslint.org/)**  
-
-<hr>
-
 ## :dash: **Quick Reference**
 
 ### Built-in objects - List
@@ -373,7 +367,11 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
       * [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 * [Atom](https://atom.io/)
 
-### Transcompiler
+### Static Code Analysis (Linter / Lint)
+
+* [ESLint](https://eslint.org/)
+
+### Source-to-source compiler (Transcompiler / Transpiler)
 
 * [Babel](https://babeljs.io/)
 * [Sucrase](https://sucrase.io/)
