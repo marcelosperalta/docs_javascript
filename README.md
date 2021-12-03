@@ -369,6 +369,7 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 ### Static Code Analysis (Linter / Lint)
 
 * [ESLint](https://eslint.org/)
+* [JSLint](https://www.jslint.com/)
 
 ### Source-to-source compiler (Transcompiler / Transpiler)
 
@@ -381,6 +382,10 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 * [Vite](https://vitejs.dev/)
 * [rollup.js](https://rollupjs.org/)
 * [Parcel](https://parceljs.org/)
+
+### Data Interchange 
+
+* [JSON](https://www.json.org/)
 
 ### Static Typing 
 
