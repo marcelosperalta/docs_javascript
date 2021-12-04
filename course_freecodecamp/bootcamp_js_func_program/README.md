@@ -139,3 +139,15 @@ For arrays, the method is called on one, then another array is provided as the a
 Functional programming is all about creating and using non-mutating functions.  
 
 ``concat`` offers a way to add new items to the end of an array without any mutating side effects.  
+
+## Use the ``reduce`` Method to Analyze Data
+
+The ``reduce`` method allows for more general forms of array processing, and it's possible to show that both ``filter`` and ``map`` can be derived as special applications of ``reduce``. The ``reduce`` method iterates over each item in an array and returns a single value (i.e. string, number, object, array). This is achieved via a callback function that is called on each iteration.  
+
+The callback function accepts four arguments.  
+The first argument is known as the accumulator, which gets assigned the return value of the callback function from the previous iteration.  
+The second is the current element being processed.  
+The third is the index of that element.  
+The fourth is the array upon which ``reduce`` is called.  
+
+In addition to the callback function, ``reduce`` has an additional parameter which takes an initial value for the accumulator. If this second parameter is not used, then the first iteration is skipped and the second iteration gets passed the first element of the array as the accumulator.  
