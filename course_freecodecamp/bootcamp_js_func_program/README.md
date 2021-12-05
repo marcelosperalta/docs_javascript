@@ -151,3 +151,6 @@ The third is the index of that element.
 The fourth is the array upon which ``reduce`` is called.  
 
 In addition to the callback function, ``reduce`` has an additional parameter which takes an initial value for the accumulator. If this second parameter is not used, then the first iteration is skipped and the second iteration gets passed the first element of the array as the accumulator.  
+
+## Use Higher-Order Functions ``map``, ``filter``, or ``reduce`` to Solve a Complex Problem
+
