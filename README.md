@@ -275,6 +275,7 @@ slice()         | **Not Mutate**
 concat()        | **Not Mutate**
 push()          | _Mutate_
 splice()        | _Mutate_
+sort()          | _Mutate_
 
 #### Objects
 
