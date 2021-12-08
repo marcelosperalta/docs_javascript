@@ -137,6 +137,8 @@
 
 #### String
 
+**strings are immutable**  
+
 **_String Properties_** | description
 ------------ | -------------
 [String length](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/string.js#L8) | The length property of a String object contains the length of the string, in UTF-16 code units. length is a read-only data property of string instances.

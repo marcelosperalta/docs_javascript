@@ -163,3 +163,20 @@ When such a callback function, normally called ``compareFunction``, is supplied,
 If ``compareFunction(a,b)`` returns a value less than 0 for two elements ``a`` and ``b``, then ``a`` will come before ``b``.  
 If ``compareFunction(a,b)`` returns a value greater than 0 for two elements ``a`` and ``b``, then ``b`` will come before ``a``.  
 If ``compareFunction(a,b)`` returns a value equal to 0 for two elements ``a`` and ``b``, then ``a`` and ``b`` will remain unchanged.  
+
+## Return a Sorted Array Without Changing the Original Array
+
+A side effect of the ``sort`` method is that it changes the order of the elements in the original array. In other words, it mutates the array in place. One way to avoid this is to first concatenate an empty array to the one being sorted (remember that ``slice`` and ``concat`` return a new array), then run the sort method.  
+
+## Split a String into an Array Using the ``split`` Method
+
+The ``split`` method splits a string into an array of strings. It takes an argument for the delimiter, which can be a character to use to break up the string or a regular expression.  
+For example,  
+if the delimiter is a space, you get an array of words, and  
+if the delimiter is an empty string, you get an array of each character in the string.  
+
+Since strings are immutable, the ``split`` method makes it easier to work with them.  
+
+## Combine an Array into a String Using the ``join`` Method
+
+The ``join`` method is used to join the elements of an array together to create a string. It takes an argument for the delimiter that is used to separate the array elements in the string.  

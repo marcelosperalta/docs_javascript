@@ -1462,3 +1462,91 @@ console.log(reverseAlpha(['l', 'h', 'z', 'b', 's'])); // [ 'z', 's', 'l', 'h', '
     }
     console.log(alphabeticalOrder(["a", "d", "c", "a", "z", "g"])); 
     // [ 'a', 'a', 'c', 'd', 'g', 'z' ]
+
+
+// Return a Sorted Array Without Changing the Original Array
+
+    // Use the "sort" method in the "nonMutatingSort" function to sort the elements of 
+    // an array in ascending order. The function should return a new array, 
+    // and not mutate the "globalArray" variable.
+
+    const globalArray = [5, 6, 3, 2, 9];
+
+    function nonMutatingSort(arr) {
+        let newArray = arr.slice();
+
+        return newArray.sort(function(a, b) {
+            return a - b;
+          });
+        }
+
+    console.log(nonMutatingSort(globalArray)); // [ 2, 3, 5, 6, 9 ]
+    console.log(globalArray);                  // [ 5, 6, 3, 2, 9 ]
+
+    // or 
+
+    const globalArray = [5, 6, 3, 2, 9];
+
+    function nonMutatingSort(arr) {
+        let newArray = arr.slice();
+
+        return newArray.sort((a, b) => a - b);
+    }
+
+    console.log(nonMutatingSort(globalArray)); // [ 2, 3, 5, 6, 9 ]
+    console.log(globalArray);                  // [ 5, 6, 3, 2, 9 ]
+
+
+// Split a String into an Array Using the ``split`` Method
+
+const str = "Hello World";
+const bySpace = str.split(" ");
+console.log(bySpace); // [ 'Hello', 'World' ]
+console.log(str);     // "Hello World"
+
+const otherString = "How9are7you2today";
+const byDigits = otherString.split(/\d/);
+console.log(byDigits);    // [ 'How', 'are', 'you', 'today' ]
+console.log(otherString); // "How9are7you2today"
+
+    // Use the "split" method inside the "splitify" function to split "str" into an array of words.
+    // The function should return the array. Note that the words are not always 
+    // separated by spaces, and the array should not contain punctuation.
+
+    // splitify("Hello World,I-am code") should return ["Hello", "World", "I", "am", "code"].
+    // splitify("Earth-is-our home")     should return ["Earth", "is", "our", "home"].
+    // splitify("This.is.a-sentence")    should return ["This", "is", "a", "sentence"].
+
+    function splitify(str) {
+        return str.split(/\W/);
+    }
+    console.log(splitify("Hello World,I-am code")); // [ 'Hello', 'World', 'I', 'am', 'code' ]
+
+    // /\W/ Matches any non-word character. This includes spaces and punctuation, 
+    // but not underscores. It’s equivalent to /[^A-Za-z0-9_]/. 
+    // For more information about Regular Expressions, see the official MDN Documentation
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+
+
+// Combine an Array into a String Using the ``join`` Method
+
+const arr = ["Hello", "World"];
+const str = arr.join(" ");
+console.log(str); // Hello World
+
+    // Use the "join" method (among others) inside the "sentensify" function 
+    // to make a sentence from the words in the string "str". The function 
+    // should return a string. For example, "I-like-Star-Wars" would be converted 
+    // to "I like Star Wars". For this challenge, do not use the "replace" method.
+
+    // sentensify("May-the-force-be-with-you") should return a string.
+    // sentensify("May-the-force-be-with-you") should return the string May the force be with you.
+    // sentensify("The.force.is.strong.with.this.one") should return the string The force is strong with this one.
+    // sentensify("There,has,been,an,awakening") should return the string There has been an awakening.
+
+    function sentensify(str) {
+        return str.split(/\W/).join(" ");
+    }
+    console.log(sentensify("May-the-force-be-with-you"));         // May the force be with you
+    console.log(sentensify("The.force.is.strong.with.this.one")); // The force is strong with this one
+    console.log(sentensify("There,has,been,an,awakening"));       // There has been an awakening
