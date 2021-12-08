@@ -4,6 +4,8 @@
 
 # **[JavaScript](https://262.ecma-international.org/) Docs**
 
+JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. It has _dynamic typing_, _prototype-based object-orientation_ and _first-class functions_.  
+
 ## :arrow_heading_down: Table of Contents
 
 * [Glossary](https://github.com/marcelosperalta/docs_javascript#mag-glossary)
