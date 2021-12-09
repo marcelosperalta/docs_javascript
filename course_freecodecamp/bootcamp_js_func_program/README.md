@@ -180,3 +180,13 @@ Since strings are immutable, the ``split`` method makes it easier to work with t
 ## Combine an Array into a String Using the ``join`` Method
 
 The ``join`` method is used to join the elements of an array together to create a string. It takes an argument for the delimiter that is used to separate the array elements in the string.  
+
+## Apply Functional Programming to Convert Strings to URL Slugs
+
+Recall that ``map`` and ``filter`` are special cases of ``reduce``.  
+
+Many content management sites (CMS) have the titles of a post added to part of the URL for simple bookmarking purposes. For example, if you write a Medium post titled ``Stop Using Reduce``, it's likely the URL would have some form of the title string in it (``.../stop-using-reduce``). You may have already noticed this on the freeCodeCamp site.  
+
+## Use the ``every`` Method to Check that Every Element in an Array Meets a Criteria
+
+The ``every`` method works with arrays to check if every element passes a particular test. It returns a Boolean value - ``true`` if all values meet the criteria, ``false`` if not.  
