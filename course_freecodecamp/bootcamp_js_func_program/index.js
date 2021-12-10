@@ -1623,3 +1623,87 @@ console.log(numbers.every(function(currentValue) {
       return arr.every(val => val > 0);
     }
     checkPositive([1, 2, 3, -4, 5]);
+
+
+// Use the some Method to Check that Any Elements in an Array Meet a Criteria
+
+// Te following code would check if any element in the numbers array is less than 10:
+const numbers = [10, 50, 8, 220, 110, 11];
+console.log(numbers.some(function(currentValue) {
+                return currentValue < 10;
+            })); // true
+
+    // Use the "some" method inside the "checkPositive" function to check if 
+    // any element in "arr" is positive. The function should return a Boolean value.
+
+    // checkPositive([1, 2, 3, -4, 5])     should return true.
+    // checkPositive([1, 2, 3, 4, 5])      should return true.
+    // checkPositive([-1, -2, -3, -4, -5]) should return false.
+
+    function checkPositive(arr) {
+        return arr.some(function(currentValue){
+            return currentValue > 0;
+        })
+    }
+    console.log(checkPositive([1, 2, 3, -4, 5]));     // true
+    console.log(checkPositive([1, 2, 3, 4, 5]));      // true
+    console.log(checkPositive([-1, -2, -3, -4, -5])); // false
+
+
+// Introduction to Currying and Partial Application
+
+function unCurried(x, y) {
+  return x + y;
+}
+
+// ES5
+function curried(x) {
+  return function(y) {
+    return x + y;
+  }
+}
+console.log(curried(1)(2)); // 3
+
+// ES6
+const curried = x => y => x + y
+console.log(curried(1)(2)); // 3
+
+// This is useful in your program if you can't supply all the arguments to a function at one time.
+// You can save each function call into a variable, which will hold the returned function reference 
+// that takes the next argument when it's available.
+// Here's an example using the curried function in the example above:
+const curried = x => y => x + y
+const funcForY = curried(1);
+console.log(funcForY(2)); // 3
+
+// Similarly, partial application can be described as applying a few arguments
+// to a function at a time and returning another function that is applied 
+// to more arguments.
+// Here's an example:
+function impartial(x, y, z) {
+  return x + y + z;
+}
+const partialFn = impartial.bind(this, 1, 2);
+console.log(partialFn(10)); // 13
+
+    // Fill in the body of the "add" function so it uses currying to add parameters "x", "y", and "z".
+
+    // add(10)(20)(30) should return 60.
+    // add(1)(2)(3)    should return 6.
+    // add(11)(22)(33) should return 66.
+
+    function add(x) {
+        return function(y){
+            return function(z){
+                return x + y + z;
+            }
+        }
+    }
+    console.log(add(10)(20)(30)); // 60
+
+    // or
+
+    function add(x) {
+      return y => z => x + y + z;
+    }
+    add(10)(20)(30);

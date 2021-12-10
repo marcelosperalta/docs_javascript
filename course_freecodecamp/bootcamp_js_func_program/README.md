@@ -190,3 +190,15 @@ Many content management sites (CMS) have the titles of a post added to part of t
 ## Use the ``every`` Method to Check that Every Element in an Array Meets a Criteria
 
 The ``every`` method works with arrays to check if every element passes a particular test. It returns a Boolean value - ``true`` if all values meet the criteria, ``false`` if not.  
+
+## Use the ``some`` Method to Check that Any Elements in an Array Meet a Criteria
+
+The ``some`` method works with arrays to check if **any** element passes a particular test. It returns a Boolean value - ``true`` if any of the values meet the criteria, ``false`` if not.  
+
+# Introduction to Currying and Partial Application
+
+The **arity** of a function is the number of arguments it requires. 
+**Currying** a function means to convert a function of N arity into N functions of arity 1.  
+In other words, it restructures a function so it takes one argument, then returns another function that takes the next argument, and so on.  
+
+Similarly, **partial application** can be described as applying a few arguments to a function at a time and returning another function that is applied to more arguments.  

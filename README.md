@@ -34,6 +34,8 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
 **term** | definition
 ------------ | -------------
 [Case or letter case](https://en.wikipedia.org/wiki/Letter_case) | Is the difference between uppercase letters and lowercase letters.
+[Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) | A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
+[Currying](https://en.wikipedia.org/wiki/Currying) | In mathematics and computer science, currying is the technique of converting a function that takes multiple arguments into a sequence of functions that each takes a single argument. For example, currying a function ``f`` that takes three arguments creates three functions:``x = f(a, b, c)`` becomes: ``h = g(a)``, ``i = h(b)``,`` x = i(c)``.
 [``new`` Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new) | The ``new`` operator lets developers create an instance of a user-defined object type or of one of the built-in object types that has a constructor function.
 [Object Literals](https://betterprogramming.pub/object-literal-in-javascript-d3e0e7d58f3b) | An object literal is a comma-separated list of name-value pairs inside of curly braces.
 [Regular Expressions](https://en.wikipedia.org/wiki/Regular_expression) | Are used in programming languages to match parts of strings. You create patterns to help you do that matching.
