@@ -427,11 +427,13 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 
 * [JSON Server](https://github.com/typicode/json-server)
 * [Mirage](https://miragejs.com/)
+* [Mock Service Worker (MSW)](https://mswjs.io/)
 
 ### Fake / Mock GraphQL API
 
 * [GraphQL Tools](https://www.graphql-tools.com/)
 * [Mirage JS GraphQL](https://github.com/miragejs/graphql)
+* [Mock Service Worker (MSW)](https://mswjs.io/)
 
 ### Functional Library
 
