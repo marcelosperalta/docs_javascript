@@ -20,6 +20,18 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
   * [Statements & Declarations - Short Description](https://github.com/marcelosperalta/docs_javascript#statements--declarations---short-description)
 * [Debug](https://github.com/marcelosperalta/docs_javascript#flashlight-debug-debugging)
 * [Tools](https://github.com/marcelosperalta/docs_javascript#toolbox-tools)
+  * [Source Code Editor](https://github.com/marcelosperalta/docs_javascript#source-code-editor)
+  * [Static Code Analysis (Linter / Lint)](https://github.com/marcelosperalta/docs_javascript#static-code-analysis-linter--lint)
+  * [Source-to-source compiler (Transcompiler / Transpiler)](https://github.com/marcelosperalta/docs_javascript#static-code-analysis-linter--lint)
+  * [Module Bundler](https://github.com/marcelosperalta/docs_javascript#module-bundler)
+  * [Data Interchange](https://github.com/marcelosperalta/docs_javascript#data-interchange)
+  * [Static Typing](https://github.com/marcelosperalta/docs_javascript#static-typing)
+  * [Markup Language](https://github.com/marcelosperalta/docs_javascript#markup-language)
+  * [List of APIs](https://github.com/marcelosperalta/docs_javascript#list-of-apis)
+  * [Fake REST API](https://github.com/marcelosperalta/docs_javascript#fake-rest-api)
+  * [API mocking library](https://github.com/marcelosperalta/docs_javascript#api-mocking-library)
+  * [Functional Library](https://github.com/marcelosperalta/docs_javascript#functional-library)
+  * [Testing (end-to-end tests, integration tests, and unit tests)](https://github.com/marcelosperalta/docs_javascript#testing-end-to-end-tests-integration-tests-and-unit-tests)
 * [Tutorials](https://github.com/marcelosperalta/docs_javascript#books-tutorials)
 * [Courses](https://github.com/marcelosperalta/docs_javascript#mortar_board-courses)
 * [Challenges](https://github.com/marcelosperalta/docs_javascript#question-challenges)
@@ -397,6 +409,8 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 ### Static Typing 
 
 * [TypeScript](https://www.typescriptlang.org/)
+  * **Compiles and restarts**
+    * [ts-node-dev](https://github.com/wclr/ts-node-dev)
 * [flow](https://flow.org/)
 * [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
 
@@ -420,11 +434,6 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 ### Functional Library
 
 * [Ramda](https://ramdajs.com/)
-
-### TypeScript
-
-* **Compiles and restarts**
-  * [ts-node-dev](https://github.com/wclr/ts-node-dev)
 
 ### Testing (end-to-end tests, integration tests, and unit tests)
 
