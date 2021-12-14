@@ -423,13 +423,15 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/API)
 * [ApiList.fun](https://apilist.fun/)
 
-### Fake REST API
+### Fake / Mock REST API 
 
 * [JSON Server](https://github.com/typicode/json-server)
-
-### API mocking library
-
 * [Mirage](https://miragejs.com/)
+
+### Fake / Mock GraphQL API ()
+
+* [GraphQL Tools](https://www.graphql-tools.com/)
+* [Mirage JS GraphQL](https://github.com/miragejs/graphql)
 
 ### Functional Library
 
