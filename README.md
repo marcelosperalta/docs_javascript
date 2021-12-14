@@ -428,7 +428,7 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 * [JSON Server](https://github.com/typicode/json-server)
 * [Mirage](https://miragejs.com/)
 
-### Fake / Mock GraphQL API ()
+### Fake / Mock GraphQL API
 
 * [GraphQL Tools](https://www.graphql-tools.com/)
 * [Mirage JS GraphQL](https://github.com/miragejs/graphql)
