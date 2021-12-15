@@ -8,3 +8,4 @@ Now that you know the basics of algorithmic thinking, along with OOP and Functio
 
 ## Sum All Numbers in a Range
 
+## Diff Two Arrays

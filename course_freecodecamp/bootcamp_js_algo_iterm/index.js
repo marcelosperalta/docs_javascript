@@ -89,3 +89,131 @@ function sumAll(arr) {
 }
 console.log(sumAll([1, 4])); // 10
 console.log(sumAll([4, 1])); // 10
+
+
+// Diff Two Arrays
+
+// Compare two arrays and return a new array with any items only found in one of the two given arrays, 
+// but not both. In other words, return the symmetric difference of the two arrays.
+
+// Note: You can return the array with its elements in any order.
+
+// ["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], 
+// ["diorite", "andesite", "grass", "dirt", "dead shrub"] 
+// should return 
+// ["pink wool"]
+
+// ["andesite", "grass", "dirt", "dead shrub"], 
+// ["andesite", "grass", "dirt", "dead shrub"] 
+// should return 
+// []
+
+// [1, 2, 3, 5], 
+// [1, 2, 3, 4, 5] 
+// should return 
+// [4]
+
+// [1, "calf", 3, "piglet"], 
+// [1, "calf", 3, 4] 
+// should return 
+// ["piglet", 4]
+
+function diffArray(arr1, arr2) {
+  const newArr = 
+  arr1
+  .concat(arr2)
+  .filter(item => !arr1.includes(item) || !arr2.includes(item));
+
+  return console.log(newArr);
+}
+diffArray(
+[1, 2, 3, 5], 
+[1, 2, 3, 4, 5]
+); // [ 4 ]
+diffArray(
+["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], 
+["diorite", "andesite", "grass", "dirt", "dead shrub"]
+); // [ 'pink wool' ]
+diffArray(
+["andesite", "grass", "dirt", "dead shrub"],
+["andesite", "grass", "dirt", "dead shrub"]
+); // []
+
+// or (Imperative Solution)
+function diffArray(arr1, arr2) {
+  const newArr = [];
+
+  function onlyInFirst(first, second) {
+    // Looping through an array to find elements that don't exist in another array
+    for (var i = 0; i < first.length; i++) {
+      if (second.indexOf(first[i]) === -1) {
+        // Pushing the elements unique to first to newArr
+        newArr.push(first[i]);
+      }
+    }
+  }
+
+  onlyInFirst(arr1, arr2);
+  onlyInFirst(arr2, arr1);
+
+  return console.log(newArr);
+}
+diffArray(
+[1, 2, 3, 5], 
+[1, 2, 3, 4, 5]
+); // [ 4 ]
+diffArray(
+["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], 
+["diorite", "andesite", "grass", "dirt", "dead shrub"]
+); // [ 'pink wool' ]
+diffArray(
+["andesite", "grass", "dirt", "dead shrub"],
+["andesite", "grass", "dirt", "dead shrub"]
+); // []
+
+// or (Declarative Solution)
+
+function diffArray(arr1, arr2) {
+  return console.log(
+            arr1
+            .concat(arr2)
+            .filter(item => !arr1.includes(item) || !arr2.includes(item))
+          
+         );
+}
+diffArray(
+[1, 2, 3, 5], 
+[1, 2, 3, 4, 5]
+); // [ 4 ]
+diffArray(
+["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], 
+["diorite", "andesite", "grass", "dirt", "dead shrub"]
+); // [ 'pink wool' ]
+diffArray(
+["andesite", "grass", "dirt", "dead shrub"],
+["andesite", "grass", "dirt", "dead shrub"]
+); // []
+
+// or (Declarative Solution)
+
+function diffArray(arr1, arr2) {
+  return console.log(
+    [...diff(arr1, arr2), ...diff(arr2, arr1)]
+  );
+
+  function diff(a, b) {
+    return a.filter(item => b.indexOf(item) === -1);
+  }
+}
+diffArray(
+[1, 2, 3, 5], 
+[1, 2, 3, 4, 5]
+); // [ 4 ]
+diffArray(
+["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], 
+["diorite", "andesite", "grass", "dirt", "dead shrub"]
+); // [ 'pink wool' ]
+diffArray(
+["andesite", "grass", "dirt", "dead shrub"],
+["andesite", "grass", "dirt", "dead shrub"]
+); // []
