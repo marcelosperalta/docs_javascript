@@ -32,6 +32,7 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
   * [Fake / Mock GraphQL API](https://github.com/marcelosperalta/docs_javascript#fake--mock-graphql-api)
   * [Functional Library](https://github.com/marcelosperalta/docs_javascript#functional-library)
   * [Testing (end-to-end tests, integration tests, and unit tests)](https://github.com/marcelosperalta/docs_javascript#testing-end-to-end-tests-integration-tests-and-unit-tests)
+  * [CSS-in-JS]()
 * [Tutorials](https://github.com/marcelosperalta/docs_javascript#books-tutorials)
 * [Courses](https://github.com/marcelosperalta/docs_javascript#mortar_board-courses)
 * [Challenges](https://github.com/marcelosperalta/docs_javascript#question-challenges)
@@ -443,6 +444,15 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 
 * [Jest](https://jestjs.io/)
 * [Cypress](https://www.cypress.io/)
+
+### CSS-in-JS
+
+* [Emotion](https://emotion.sh/docs/introduction)
+* [styled-components](https://styled-components.com/)
+    * [VSC Syntax highlighting and IntelliSense](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
+* [JSS](https://cssinjs.org/)
+* [glamorous](https://glamorous.rocks/)
+* [polished](https://polished.js.org/)
 
 <hr>
 
