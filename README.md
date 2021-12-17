@@ -26,7 +26,7 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
   * [Module Bundler](https://github.com/marcelosperalta/docs_javascript#module-bundler)
   * [Data Interchange](https://github.com/marcelosperalta/docs_javascript#data-interchange)
   * [Static Typing](https://github.com/marcelosperalta/docs_javascript#static-typing)
-  * [API documentation generator](https://github.com/marcelosperalta/docs_javascript#markup-language)
+  * [API documentation generator](https://github.com/marcelosperalta/docs_javascript#api-documentation-generator)
   * [List of APIs](https://github.com/marcelosperalta/docs_javascript#list-of-apis)
   * [Fake / Mock REST API](https://github.com/marcelosperalta/docs_javascript#fake--mock-rest-api)
   * [Fake / Mock GraphQL API](https://github.com/marcelosperalta/docs_javascript#fake--mock-graphql-api)
