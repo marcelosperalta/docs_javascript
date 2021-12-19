@@ -1,3 +1,7 @@
+// string interpolation 
+// or variable interpolation, variable substitution, 
+// or variable expansion
+
 // Template literals are enclosed by the backtick (` `) (grave accent) 
 // character instead of double or single quotes.
 // Template literals can contain placeholders ${ }.

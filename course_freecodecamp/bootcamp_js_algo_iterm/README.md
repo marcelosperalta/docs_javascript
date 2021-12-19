@@ -9,3 +9,7 @@ Now that you know the basics of algorithmic thinking, along with OOP and Functio
 ## Sum All Numbers in a Range
 
 ## Diff Two Arrays
+
+## Seek and Destroy
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments  
