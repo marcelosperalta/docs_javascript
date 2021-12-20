@@ -16,7 +16,12 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
 * [Quick Reference](https://github.com/marcelosperalta/docs_javascript#dash-quick-reference)
   * [Built-in objects - List](https://github.com/marcelosperalta/docs_javascript#built-in-objects---list)
   * [Built-in objects - Short Description](https://github.com/marcelosperalta/docs_javascript#built-in-objects---short-description)
-  * [Array - Mutating and Non-Mutating Methods](https://github.com/marcelosperalta/docs_javascript#array-methods-that-change-mutate-and-do-not-change-not-mutate-the-original-array)
+    * [String](https://github.com/marcelosperalta/docs_javascript#string)
+    * [Array](https://github.com/marcelosperalta/docs_javascript#array)
+      * [Mutating and Non-Mutating Methods](https://github.com/marcelosperalta/docs_javascript#array-methods-that-change-mutate-and-do-not-change-not-mutate-the-original-array)
+    * [Object](https://github.com/marcelosperalta/docs_javascript#objects)
+    * [Function](https://github.com/marcelosperalta/docs_javascript#function)
+    * [JSON](https://github.com/marcelosperalta/docs_javascript#json)
   * [Statements & Declarations - Short Description](https://github.com/marcelosperalta/docs_javascript#statements--declarations---short-description)
 * [Debug](https://github.com/marcelosperalta/docs_javascript#flashlight-debug-debugging)
 * [Tools](https://github.com/marcelosperalta/docs_javascript#toolbox-tools)
@@ -284,6 +289,10 @@ toString() | The String object overrides the toString() method of the Object obj
 [Array.prototype.unshift()](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/array.js#L) | Adds one or more elements to the beginning of an array and returns the new length of the array.  
 [Array.prototype.values()](https://github.com/marcelosperalta/docs_javascript/blob/master/doc_mdn/array.js#L) | Returns a new _array iterator_ object that contains the values for each index in the array.  
 
+##### [The arguments object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)
+
+``arguments`` is an Array-like object accessible inside functions that contains the values of the arguments passed to that function.  
+
 ##### Array methods that _change_ (mutate) and _do not change_ (not mutate) the original array
 
 **Method**      |  Mutate / Not Mutate (avoiding side effects)
@@ -296,7 +305,7 @@ push()          | _Mutate_
 splice()        | _Mutate_
 sort()          | _Mutate_
 
-#### Objects
+#### Object
 
 **_Object Properties_** | description
 ------------ | -------------
