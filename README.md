@@ -18,6 +18,7 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
   * [Built-in objects - Short Description](https://github.com/marcelosperalta/docs_javascript#built-in-objects---short-description)
     * [String](https://github.com/marcelosperalta/docs_javascript#string)
     * [Array](https://github.com/marcelosperalta/docs_javascript#array)
+      * [The arguments object](https://github.com/marcelosperalta/docs_javascript#the-arguments-object)
       * [Mutating and Non-Mutating Methods](https://github.com/marcelosperalta/docs_javascript#array-methods-that-change-mutate-and-do-not-change-not-mutate-the-original-array)
     * [Object](https://github.com/marcelosperalta/docs_javascript#objects)
     * [Function](https://github.com/marcelosperalta/docs_javascript#function)
