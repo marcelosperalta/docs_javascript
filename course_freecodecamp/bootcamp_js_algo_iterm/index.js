@@ -227,12 +227,47 @@ diffArray(
 
 // Note: You have to use the "arguments" object.
 
-// destroyer([3, 5, 1, 2, 2], 2, 3, 5)              should return [1].
-// destroyer([2, 3, 2, 3], 2, 3)                    should return [].
-// destroyer(["tree", "hamburger", 53], "tree", 53) should return ["hamburger"].
+// destroyer([1, 2, 3, 1, 2, 3], 2, 3);             should return [ 1, 1 ]
+// destroyer([3, 5, 1, 2, 2], 2, 3, 5)              should return [1]
+// destroyer([2, 3, 2, 3], 2, 3)                    should return []
+// destroyer(["tree", "hamburger", 53], "tree", 53) should return ["hamburger"]
 
 function destroyer(arr) {
-  return arr
-}
+  let valsToRemove = Object.values(arguments).slice(1);
 
-destroyer([1, 2, 3, 1, 2, 3], 2, 3);
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < valsToRemove.length; j++) {
+      if (arr[i] === valsToRemove[j]) {
+        delete arr[i];
+      }
+    }
+  }
+  return console.log(arr.filter(item => item !== null));
+}
+destroyer([1, 2, 3, 1, 2, 3], 2, 3);              // [ 1, 1 ]
+destroyer([3, 5, 1, 2, 2], 2, 3, 5);              // [1]
+destroyer([2, 3, 2, 3], 2, 3);                    // []
+destroyer(["tree", "hamburger", 53], "tree", 53); // ["hamburger"]
+
+// or
+
+function destroyer(arr) {
+  var valsToRemove = Array.from(arguments).slice(1);
+  return arr.filter(function(val) {
+    return !valsToRemove.includes(val);
+  });
+}
+console.log(destroyer([1, 2, 3, 1, 2, 3], 2, 3));              // [ 1, 1 ]
+console.log(destroyer([3, 5, 1, 2, 2], 2, 3, 5));              // [1]
+console.log(destroyer([2, 3, 2, 3], 2, 3));                    // []
+console.log(destroyer(["tree", "hamburger", 53], "tree", 53)); // ["hamburger"]
+
+// or
+
+function destroyer(arr, ...valsToRemove) {
+  return arr.filter(elem => !valsToRemove.includes(elem));
+}
+console.log(destroyer([1, 2, 3, 1, 2, 3], 2, 3));              // [ 1, 1 ]
+console.log(destroyer([3, 5, 1, 2, 2], 2, 3, 5));              // [1]
+console.log(destroyer([2, 3, 2, 3], 2, 3));                    // []
+console.log(destroyer(["tree", "hamburger", 53], "tree", 53)); // ["hamburger"]
