@@ -393,7 +393,7 @@ sort()          | _Mutate_
 
 ### Source Code Editor
 
-* [Visual Sutdio Code](https://code.visualstudio.com/)
+* [Visual Studio Code](https://code.visualstudio.com/)
   * **Native**
     * [Bracket Pair Colorizer](https://code.visualstudio.com/updates/v1_60#_high-performance-bracket-pair-colorization)
   * **Extension**
