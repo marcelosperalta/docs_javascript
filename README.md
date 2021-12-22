@@ -377,10 +377,10 @@ sort()          | _Mutate_
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/javascript/)  
 
-  Item | Type | Description
-  ----- | ----- | -----
-  console.log() | method | outputs a message to the web console
-  typeof | operator | returns a string indicating the type of the unevaluated operand
+Item | Type | Description
+----- | ----- | -----
+console.log() | method | outputs a message to the web console
+typeof | operator | returns a string indicating the type of the unevaluated operand
 
 <hr>
 
