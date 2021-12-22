@@ -375,7 +375,7 @@ sort()          | _Mutate_
 
 ## :flashlight: Debug (_Debugging_)
 
-* [Chrome DevTools](https://developer.chrome.com/docs/devtools/javascript/)  
+[Chrome DevTools](https://developer.chrome.com/docs/devtools/javascript/)  
 
 Item | Type | Description
 ----- | ----- | -----
