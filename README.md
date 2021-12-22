@@ -490,12 +490,8 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 ## :mortar_board: Courses
 
 <div>
-  <img 
-    src="./.github/usa.png"
-    width="16px"
-    style="border-radius: 3px"
-  >
-    <b style="font-size: 20px">english:</b>
+  <img src="./.github/usa.png" width="16px">
+    <b>english:</b>
   </img>
 </div>
 
@@ -595,13 +591,11 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 #### :school: **[Fireship](./course_fireship)**  
 
+<br>
+
 <div>
-  <img 
-    src="./.github/brazil.png"
-    width="16px"
-    style="border-radius: 3px"
-  >
-    <b style="font-size: 20px">portuguese:</b>
+  <img src="./.github/brazil.png" width="16px">
+    <b>portuguese:</b>
   </img>
 </div>
 
@@ -686,12 +680,8 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 ## :tv: YouTube
 
 <div>
-  <img 
-    src="./.github/usa.png"
-    width="16px"
-    style="border-radius: 3px"
-  >
-    <b style="font-size: 20px">english:</b>
+  <img src="./.github/usa.png" width="16px">
+    <b>english:</b>
   </img>
 </div>
 
@@ -699,13 +689,11 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 
 ### :link: [Programming with Mosh](https://www.youtube.com/c/programmingwithmosh/)
 
+<br>
+
 <div>
-  <img 
-    src="./.github/brazil.png"
-    width="16px"
-    style="border-radius: 3px"
-  >
-    <b style="font-size: 20px">portuguese:</b>
+  <img src="./.github/brazil.png" width="16px">
+    <b>portuguese:</b>
   </img>
 </div>
 
