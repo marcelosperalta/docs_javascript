@@ -702,8 +702,6 @@ sort()          | _Mutate_
 
 * **[Programming with Mosh](https://www.youtube.com/c/programmingwithmosh/)**
 
-<br>
-
 <div>
   <img src="./.github/brazil.png" width="16px">
     <b>portuguese:</b>
