@@ -716,11 +716,11 @@ sort()          | _Mutate_
 
 ## :newspaper: Articles
 
-  \#object  
-* **[What is a JavaScript Object? Key Value Pairs and Dot Notation Explained](https://github.com/marcelosperalta/docs_javascript/tree/master/articles_freecodecamp)**
+* \#object
+  * **[What is a JavaScript Object? Key Value Pairs and Dot Notation Explained](https://github.com/marcelosperalta/docs_javascript/tree/master/articles_freecodecamp)**
 
-  \#this  
-* **[Understanding JavaScript Function Invocation and "this"](https://github.com/marcelosperalta/docs_javascript/tree/master/articles_yehuda_katz_this)**
+* \#this  
+  * **[Understanding JavaScript Function Invocation and "this"](https://github.com/marcelosperalta/docs_javascript/tree/master/articles_yehuda_katz_this)**
 
 <hr>
 
