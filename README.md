@@ -696,9 +696,9 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
   </img>
 </div>
 
-### :link: [Código Fonte TV](https://github.com/marcelosperalta/docs_javascript/tree/master/youtube_codigo_fonte_tv)
+#### :link: [Código Fonte TV](https://github.com/marcelosperalta/docs_javascript/tree/master/youtube_codigo_fonte_tv)
 
-### :link: [RocketSeat](https://www.youtube.com/c/RocketSeat/)
+#### :link: [RocketSeat](https://www.youtube.com/c/RocketSeat/)
 
 <hr>
 
