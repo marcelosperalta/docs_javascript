@@ -375,12 +375,17 @@ sort()          | _Mutate_
 
 ## :flashlight: Debug (_Debugging_)
 
-[Chrome DevTools](https://developer.chrome.com/docs/devtools/javascript/)  
+### Tool
 
-Item | Type | Description
------ | ----- | -----
-console.log() | method | outputs a message to the web console
-typeof | operator | returns a string indicating the type of the unevaluated operand
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/javascript/)
+* [Firefox Developer Tools](https://firefox-dev.tools/)
+
+### Method / Operator
+
+  Item | Type | Description
+  ----- | ----- | -----
+  console.log() | method | outputs a message to the web console
+  typeof | operator | returns a string indicating the type of the unevaluated operand
 
 <hr>
 
