@@ -397,8 +397,8 @@ sort()          | _Mutate_
   * **Extension**
     * _Run code snippet_
       * [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
-    * _Colorizing Matching Brackets_
-      * [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+    * _Native bracket pair colorization_
+      * [Bracket Pair Colorizer](https://code.visualstudio.com/updates/v1_60#_high-performance-bracket-pair-colorization)
 * [Atom](https://atom.io/)
 
 ### Static Code Analysis (Linter / Lint)
