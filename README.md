@@ -591,6 +591,8 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 [Use Recursion to Create a Countdown](https://github.com/marcelosperalta/javascript/blob/master/course_freecodecamp/freecodecamp.js#L3346)  
 [Use Recursion to Create a Range of Numbers](https://github.com/marcelosperalta/javascript/blob/master/course_freecodecamp/freecodecamp.js#L3448)  
 
+### :school: **[Fireship](./course_fireship)**  
+
 <div>
   <img 
     src="./.github/brazil.png"
