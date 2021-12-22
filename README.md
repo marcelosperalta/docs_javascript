@@ -64,13 +64,13 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
 
 ## :+1: Common Practices
 
-- **Immutable values and mutable values**
+* **Immutable values and mutable values**
 
   A common practice when naming constants is to use all uppercase letters, with words separated by an underscore.  
 
   It is common for developers to use uppercase variable identifiers for immutable values and lowercase or camelCase for mutable values (objects and arrays).  
 
-- **``Const``**
+* **``Const``**
 
   Some developers prefer to assign all their variables using ``const`` by default, unless they know they will need to reassign the value. Only in that case, they use ``let``.  
 
@@ -80,29 +80,29 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
 
 ## :blue_book: Concepts
 
-**[Asynchronous Programming](https://github.com/marcelosperalta/docs_javascript/tree/master/concept_async_program)**  
-**[Closures](https://github.com/marcelosperalta/docs_javascript/blob/master/course_freecodecamp/20200714_closures/closures.js)**  
-**[Currying](https://javascript.info/currying-partials)**  
-**[Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)**  
-**[Hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)**  
-**[Pure Function](https://github.com/marcelosperalta/docs_javascript/tree/master/course_freecodecamp/20190301_js_pure_function)**  
-**[Recursion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#recursion)**  
-**[Rest parameters (Rest arguments)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)**  
-**[Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)**  
-**[String interpolation (Template literals / Template strings)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)**  
-**[Temporal dead zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone)**  
+* **[Asynchronous Programming](https://github.com/marcelosperalta/docs_javascript/tree/master/concept_async_program)**
+* **[Closures](https://github.com/marcelosperalta/docs_javascript/blob/master/course_freecodecamp/20200714_closures/closures.js)**
+* **[Currying](https://javascript.info/currying-partials)**
+* **[Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)**
+* **[Hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)**  
+* **[Pure Function](https://github.com/marcelosperalta/docs_javascript/tree/master/course_freecodecamp/20190301_js_pure_function)**
+* **[Recursion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#recursion)**
+* **[Rest parameters (Rest arguments)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)**
+* **[Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)**
+* **[String interpolation (Template literals / Template strings)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)**
+* **[Temporal dead zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone)**
 
 <hr>
 
 ## :lock: Security
 
-**[Cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting)**  
+* **[Cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting)**  
 
 <hr>
 
 ## :book: Design Patterns
 
-**[Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/index.html)**  
+* **[Learning JavaScript Design Patterns by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/index.html)**  
 
 <hr>
 
@@ -375,12 +375,12 @@ sort()          | _Mutate_
 
 ## :flashlight: Debug (_Debugging_)
 
-[Chrome DevTools](https://developer.chrome.com/docs/devtools/javascript/)  
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/javascript/)  
 
-Item | Type | Description
------ | ----- | -----
-console.log() | method | outputs a message to the web console
-typeof | operator | returns a string indicating the type of the unevaluated operand
+  Item | Type | Description
+  ----- | ----- | -----
+  console.log() | method | outputs a message to the web console
+  typeof | operator | returns a string indicating the type of the unevaluated operand
 
 <hr>
 
