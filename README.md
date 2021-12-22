@@ -484,22 +484,20 @@ sort()          | _Mutate_
 
 ## :books: Tutorials
 
-**_Regular expressions_**  
+* **Regular expressions**
+  * [MDN Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+  * [RegExr by Grant Skinner and the gskinner team](https://regexr.com/)
 
-[MDN Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)  
-[RegExr by Grant Skinner and the gskinner team](https://regexr.com/)  
+* **Recursion**
+  * [A  Quick Intro to Recursion in Javascript](https://www.freecodecamp.org/news/quick-intro-to-recursion/)
+  * [Recursion in Functional JavaScript](https://www.sitepoint.com/recursion-functional-javascript/)
+  * [Program for length of a string using recursion](https://www.geeksforgeeks.org/program-for-length-of-a-string-using-recursion/)
 
-**_Recursion_**  
+### :book: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-[A  Quick Intro to Recursion in Javascript](https://www.freecodecamp.org/news/quick-intro-to-recursion/)  
-[Recursion in Functional JavaScript](https://www.sitepoint.com/recursion-functional-javascript/)  
-[Program for length of a string using recursion](https://www.geeksforgeeks.org/program-for-length-of-a-string-using-recursion/)  
-
-### :book: **[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**  
-
-[JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)  
-[JavaScript reference > Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)  
-[JavaScript reference > Standard built-in objects > String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)  
+* [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+* [JavaScript reference > Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
+* [JavaScript reference > Standard built-in objects > String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 <hr>
 
@@ -628,67 +626,67 @@ sort()          | _Mutate_
 
 ### [Edabit](https://edabit.com/challenges)
 
-**_very easy:_**  
-[_How Edabit Works_](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L20)  
-[Alphabet Soup](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L640)  
-[Are the Numbers Equal?](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L118)  
-[Area of a Triangle](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L136)  
-[Buggy Code (Part 1)](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L596)  
-[Check if an Integer is Divisible By Five](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L451)  
-[Compare Strings by Count of Characters](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L259)  
-[Convert Age to Days](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L582)  
-[Convert Hours and Minutes into Seconds](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L291)  
-[Convert Hours into Seconds](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L305)  
-[Convert Minutes into Seconds](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L150)  
-[Correct the Mistakes](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L74)  
-[Divides Evenly](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L371)  
-[Drinks Allowed?](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L568)  
-[Equality Check](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L199)  
-[Evaluate an Equation](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L388)  
-[Find the Perimeter of a Rectangle](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L217)  
-[Football Points](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L104)  
-[Is the Number Less than or Equal to Zero?](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L181)  
-[Is the String Empty?](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L419)  
-[Less Than 100?](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L164)  
-[Letters Only](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L656)  
-[Maximum Edge of a Triangle](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L277)  
-[Movie Theatre Admittance](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L348)  
-[Recursion: Length of a String](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L333)  
-[Return a String as an Integer](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L319)  
-[Return Something to Me!](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L245)  
-[Return the First Element in an Array](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L231)  
-[Return the Next Number from the Integer Passed](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L44)  
-[Return the Remainder from Two Numbers](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L88)  
-[Return the Sum of Two Numbers](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L32)  
-[Solve the Equation](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L405)  
-[The Farm Problem](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L437)  
-[Using the "&&" Operator](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L57)  
-[Word without First Character](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L627)  
+* **_very easy:_**  
+  * [_How Edabit Works_](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L20)  
+  * [Alphabet Soup](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L640)  
+  * [Are the Numbers Equal?](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L118)  
+  * [Area of a Triangle](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L136)  
+  * [Buggy Code (Part 1)](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L596)  
+  * [Check if an Integer is Divisible By Five](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L451)  
+  * [Compare Strings by Count of Characters](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L259)  
+  * [Convert Age to Days](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L582)  
+  * [Convert Hours and Minutes into Seconds](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L291)  
+  * [Convert Hours into Seconds](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L305)  
+  * [Convert Minutes into Seconds](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L150)  
+  * [Correct the Mistakes](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L74)  
+  * [Divides Evenly](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L371)  
+  * [Drinks Allowed?](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L568)  
+  * [Equality Check](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L199)  
+  * [Evaluate an Equation](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L388)  
+  * [Find the Perimeter of a Rectangle](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L217)  
+  * [Football Points](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L104)  
+  * [Is the Number Less than or Equal to Zero?](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L181)  
+  * [Is the String Empty?](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L419)  
+  * [Less Than 100?](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L164)  
+  * [Letters Only](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L656)  
+  * [Maximum Edge of a Triangle](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L277)  
+  * [Movie Theatre Admittance](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L348)  
+  * [Recursion: Length of a String](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L333)  
+  * [Return a String as an Integer](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L319)  
+  * [Return Something to Me!](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L245)  
+  * [Return the First Element in an Array](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L231)  
+  * [Return the Next Number from the Integer Passed](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L44)  
+  * [Return the Remainder from Two Numbers](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L88)  
+  * [Return the Sum of Two Numbers](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L32)  
+  * [Solve the Equation](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L405)  
+  * [The Farm Problem](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L437)  
+  * [Using the "&&" Operator](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L57)  
+  * [Word without First Character](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_easy.js#L627)  
 
-**_easy:_**  
-[Sort Numbers in Descending Order](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_easy.js#L20)  
-[Reverse the Case](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_easy.js#L38)  
-[Hiding the Card Number](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_easy.js#L73)  
+* **_easy:_**  
+  * [Sort Numbers in Descending Order](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_easy.js#L20)  
+  * [Reverse the Case](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_easy.js#L38)  
+  * [Hiding the Card Number](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_easy.js#L73)  
 
-**_medium:_**  
-[Finding Nemo](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_medium.js#L20)  
-[Return the Middle Character(s) of a String](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_medium.js#L79)  
+* **_medium:_**  
+  * [Finding Nemo](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_medium.js#L20)  
+  * [Return the Middle Character(s) of a String](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_medium.js#L79)  
 
-**_hard:_**  
-[Reverse the Odd Length Words](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_hard.js#L20)  
+* **_hard:_**  
+  * [Reverse the Odd Length Words](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_hard.js#L20)  
 
-**_very hard:_**  
-[Game of Thrones: Character Titles](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_hard.js#L20)  
+* **_very hard:_**  
+  * [Game of Thrones: Character Titles](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_edabit/edabit_very_hard.js#L20)  
 
 
 ### [Codility](https://app.codility.com/programmers/)
 
-[Refactor yourself](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_codility/codility.js#L12)  
+* [Refactor yourself](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_codility/codility.js#L12)
 
 ### [Coderbyte](https://coderbyte.com/)
 
-**_easy:_**  
-[Codeland Username Validation](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_coderbyte/coderbyte_easy.js#L14)  
+* **_easy:_**
+  * [Codeland Username Validation](https://github.com/marcelosperalta/docs_javascript/blob/master/challenges_coderbyte/coderbyte_easy.js#L14)
 
 <hr>
 
@@ -700,9 +698,9 @@ sort()          | _Mutate_
   </img>
 </div>
 
-### :link: [freeCodeCamp](https://www.youtube.com/c/Freecodecamp/)
+* **[freeCodeCamp](https://www.youtube.com/c/Freecodecamp/)**
 
-### :link: [Programming with Mosh](https://www.youtube.com/c/programmingwithmosh/)
+* **[Programming with Mosh](https://www.youtube.com/c/programmingwithmosh/)**
 
 <br>
 
@@ -712,22 +710,22 @@ sort()          | _Mutate_
   </img>
 </div>
 
-#### :link: [Código Fonte TV](https://github.com/marcelosperalta/docs_javascript/tree/master/youtube_codigo_fonte_tv)
+* **[Código Fonte TV](https://github.com/marcelosperalta/docs_javascript/tree/master/youtube_codigo_fonte_tv)**
 
-#### :link: [RocketSeat](https://www.youtube.com/c/RocketSeat/)
+* **[RocketSeat](https://www.youtube.com/c/RocketSeat/)**
 
 <hr>
 
 ## :newspaper: Articles
 
-\#object  
-**[What is a JavaScript Object? Key Value Pairs and Dot Notation Explained](https://github.com/marcelosperalta/docs_javascript/tree/master/articles_freecodecamp)**  
+  \#object  
+* **[What is a JavaScript Object? Key Value Pairs and Dot Notation Explained](https://github.com/marcelosperalta/docs_javascript/tree/master/articles_freecodecamp)**
 
-\#this  
-**[Understanding JavaScript Function Invocation and "this"](https://github.com/marcelosperalta/docs_javascript/tree/master/articles_yehuda_katz_this)**  
+  \#this  
+* **[Understanding JavaScript Function Invocation and "this"](https://github.com/marcelosperalta/docs_javascript/tree/master/articles_yehuda_katz_this)**
 
 <hr>
 
 ## :closed_book: Books
 
-**[Eloquent JavaScript](https://eloquentjavascript.net/)** by [Marijn Haverbeke](https://github.com/marijnh)  
+* **[Eloquent JavaScript](https://eloquentjavascript.net/)** by [Marijn Haverbeke](https://github.com/marijnh)
