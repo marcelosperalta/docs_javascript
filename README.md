@@ -505,7 +505,7 @@ sort()          | _Mutate_
 
 <div>
   <img src="./.github/usa.png" width="16px">
-    <b>english:</b>
+    <b>English</b>
   </img>
 </div>
 
@@ -608,7 +608,7 @@ sort()          | _Mutate_
 
 <div>
   <img src="./.github/brazil.png" width="16px">
-    <b>portuguese:</b>
+    <b>Portuguese</b>
   </img>
 </div>
 
