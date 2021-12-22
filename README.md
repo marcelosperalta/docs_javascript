@@ -497,7 +497,6 @@ sort()          | _Mutate_
 
 * [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 * [JavaScript reference > Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
-* [JavaScript reference > Standard built-in objects > String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 <hr>
 
