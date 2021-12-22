@@ -492,12 +492,14 @@ typeof | operator | returns a string indicating the type of the unevaluated oper
 <div>
   <img 
     src="./.github/usa.png"
-    width="16px">
-    <b>english:</b>
+    width="16px"
+    style="border-radius: 3px"
+  >
+    <b style="font-size: 20px">english:</b>
   </img>
 </div>
 
-### :school: **[FreeCodeCamp](https://www.freecodecamp.org/)**  
+#### :school: **[FreeCodeCamp](https://www.freecodecamp.org/)**  
 
 _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)_  
 **_index:_**  
@@ -591,21 +593,23 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 [Use Recursion to Create a Countdown](https://github.com/marcelosperalta/javascript/blob/master/course_freecodecamp/freecodecamp.js#L3346)  
 [Use Recursion to Create a Range of Numbers](https://github.com/marcelosperalta/javascript/blob/master/course_freecodecamp/freecodecamp.js#L3448)  
 
-### :school: **[Fireship](./course_fireship)**  
+#### :school: **[Fireship](./course_fireship)**  
 
 <div>
   <img 
     src="./.github/brazil.png"
-    width="16px">
-     <b>portuguese:</b>
+    width="16px"
+    style="border-radius: 3px"
+  >
+    <b style="font-size: 20px">portuguese:</b>
   </img>
 </div>
 
-### :school: **[Cod3r Cursos](https://www.cod3r.com.br/)**  
+#### :school: **[Cod3r Cursos](https://www.cod3r.com.br/)**  
 
 [O ESSENCIAL de JavaScript Funcional em DUAS HORAS](https://www.youtube.com/watch?v=W3f6hiTLipc)  
 
-### :school: **[Rocketseat Discover](https://rocketseat.com.br/discover)**  
+#### :school: **[Rocketseat Discover](https://rocketseat.com.br/discover)**  
 
 [O Guia Estelar de JavaScript](https://app.rocketseat.com.br/node/o-guia-estelar-de-java-script)  
 
@@ -684,8 +688,10 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 <div>
   <img 
     src="./.github/usa.png"
-    width="16px">
-    <b>english:</b>
+    width="16px"
+    style="border-radius: 3px"
+  >
+    <b style="font-size: 20px">english:</b>
   </img>
 </div>
 
@@ -696,8 +702,10 @@ _[**JavaScript Algorithms and Data Structures Certification (300 hours)**](https
 <div>
   <img 
     src="./.github/brazil.png"
-    width="16px">
-     <b>portuguese:</b>
+    width="16px"
+    style="border-radius: 3px"
+  >
+    <b style="font-size: 20px">portuguese:</b>
   </img>
 </div>
 
