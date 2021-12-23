@@ -38,7 +38,7 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
   * [List of APIs](https://github.com/marcelosperalta/docs_javascript#list-of-apis)
   * [Fake / Mock REST API](https://github.com/marcelosperalta/docs_javascript#fake--mock-rest-api)
   * [Fake / Mock GraphQL API](https://github.com/marcelosperalta/docs_javascript#fake--mock-graphql-api)
-  * [Query Language for APIs]()
+  * [Query Language for APIs](https://github.com/marcelosperalta/docs_javascript#query-language-for-apis)
   * [Functional Library](https://github.com/marcelosperalta/docs_javascript#functional-library)
   * [Testing (end-to-end tests, integration tests, and unit tests)](https://github.com/marcelosperalta/docs_javascript#testing-end-to-end-tests-integration-tests-and-unit-tests)
   * [CSS-in-JS](https://github.com/marcelosperalta/docs_javascript#css-in-js)
