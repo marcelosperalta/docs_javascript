@@ -13,3 +13,6 @@ Now that you know the basics of algorithmic thinking, along with OOP and Functio
 ## Seek and Destroy
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments  
+
+## Wherefore art thou
+
