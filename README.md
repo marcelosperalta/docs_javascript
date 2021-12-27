@@ -35,6 +35,7 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
   * [Data Interchange](https://github.com/marcelosperalta/docs_javascript#data-interchange)
   * [Data visualization](https://github.com/marcelosperalta/docs_javascript#data-visualization)
   * [Static Typing](https://github.com/marcelosperalta/docs_javascript#static-typing)
+  * [ECMAScript Internationalization API (date and time formatting...)]()
   * [API documentation generator](https://github.com/marcelosperalta/docs_javascript#api-documentation-generator)
   * [List of APIs](https://github.com/marcelosperalta/docs_javascript#list-of-apis)
   * [Fake / Mock REST API](https://github.com/marcelosperalta/docs_javascript#fake--mock-rest-api)
@@ -446,6 +447,10 @@ sort()          | _Mutate_
     * [ts-node-dev](https://github.com/wclr/ts-node-dev)
 * [flow](https://flow.org/)
 * [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
+
+### ECMAScript Internationalization API (language sensitive string comparison, number formatting, and date and time formatting.)
+
+* [Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl)
 
 ### API documentation generator
 
