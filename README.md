@@ -33,7 +33,7 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
   * [Source-to-source compiler (Transcompiler / Transpiler)](https://github.com/marcelosperalta/docs_javascript#source-to-source-compiler-transcompiler--transpiler)
   * [Module Bundler](https://github.com/marcelosperalta/docs_javascript#module-bundler)
   * [Data Interchange](https://github.com/marcelosperalta/docs_javascript#data-interchange)
-  * [Data visualization]()
+  * [Data visualization](https://github.com/marcelosperalta/docs_javascript#data-visualization)
   * [Static Typing](https://github.com/marcelosperalta/docs_javascript#static-typing)
   * [API documentation generator](https://github.com/marcelosperalta/docs_javascript#api-documentation-generator)
   * [List of APIs](https://github.com/marcelosperalta/docs_javascript#list-of-apis)
