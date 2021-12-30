@@ -400,3 +400,73 @@ console.log(
     { last: "Capulet" }
   )
 ); // [ { first: 'Tybalt', last: 'Capulet' } ]
+
+
+// Spinal Tap Case
+
+// Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
+
+// spinalCase("This Is Spinal Tap")     should return the string this-is-spinal-tap.
+// spinalCase("thisIsSpinalTap")        should return the string this-is-spinal-tap.
+// spinalCase("The_Andy_Griffith_Show") should return the string the-andy-griffith-show.
+// spinalCase("Teletubbies say Eh-oh")  should return the string teletubbies-say-eh-oh.
+// spinalCase("AllThe-small Things")    should return the string all-the-small-things.
+
+function spinalCase(str) {
+
+    // Create a variable for the white space and underscores.
+    var regex = /\s+|_+/g;
+  
+     // Replace low-upper case to low-space-uppercase
+    str = str.replace(/([a-z])([A-Z])/g, "$1 $2");
+    // console.log(str);
+
+    // Replace space and underscore with -
+    return console.log(str.replace(regex, "-").toLowerCase());
+
+}
+spinalCase("This Is Spinal Tap")     // this-is-spinal-tap
+spinalCase("thisIsSpinalTap")        // this-is-spinal-tap
+spinalCase("The_Andy_Griffith_Show") // the-andy-griffith-show
+spinalCase("Teletubbies say Eh-oh")  // teletubbies-say-eh-oh
+spinalCase("AllThe-small Things")    // all-the-small-things
+
+// or
+
+function spinalCase(str) {
+
+  // Replace low-upper case to low-space-uppercase
+  str = str.replace(/([a-z])([A-Z])/g, "$1 $2");
+
+  // Split on whitespace and underscores and join with dash
+  return console.log(
+    str
+    .toLowerCase()
+    .split(/(?:_| )+/)
+    .join("-")
+  );
+
+}
+spinalCase("This Is Spinal Tap")     // this-is-spinal-tap
+spinalCase("thisIsSpinalTap")        // this-is-spinal-tap
+spinalCase("The_Andy_Griffith_Show") // the-andy-griffith-show
+spinalCase("Teletubbies say Eh-oh")  // teletubbies-say-eh-oh
+spinalCase("AllThe-small Things")    // all-the-small-things
+
+// or
+
+function spinalCase(str) {
+
+  return console.log(
+    str
+    .split(/\s|_|(?=[A-Z])/)
+    .join("-")
+    .toLowerCase()
+  );
+
+}
+spinalCase("This Is Spinal Tap")     // this-is-spinal-tap
+spinalCase("thisIsSpinalTap")        // this-is-spinal-tap
+spinalCase("The_Andy_Griffith_Show") // the-andy-griffith-show
+spinalCase("Teletubbies say Eh-oh")  // teletubbies-say-eh-oh
+spinalCase("AllThe-small Things")    // all-the-small-things
