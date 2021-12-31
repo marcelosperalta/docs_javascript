@@ -32,7 +32,7 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
   * [Static Code Analysis (Linter / Lint)](https://github.com/marcelosperalta/docs_javascript#static-code-analysis-linter--lint)
   * [Source-to-source compiler (Transcompiler / Transpiler)](https://github.com/marcelosperalta/docs_javascript#source-to-source-compiler-transcompiler--transpiler)
   * [Module Bundler](https://github.com/marcelosperalta/docs_javascript#module-bundler)
-  * [Regular expression (regex or regexp or rational expression)]()
+  * [Regular expression (regex or regexp or rational expression)](https://github.com/marcelosperalta/docs_javascript#regular-expression-regex-or-regexp-or-rational-expression)
   * [Data Interchange](https://github.com/marcelosperalta/docs_javascript#data-interchange)
   * [Data visualization](https://github.com/marcelosperalta/docs_javascript#data-visualization)
   * [Static Typing](https://github.com/marcelosperalta/docs_javascript#static-typing)
