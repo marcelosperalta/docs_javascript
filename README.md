@@ -42,6 +42,7 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
   * [Fake / Mock REST API](https://github.com/marcelosperalta/docs_javascript#fake--mock-rest-api)
   * [Fake / Mock GraphQL API](https://github.com/marcelosperalta/docs_javascript#fake--mock-graphql-api)
   * [Query Language for APIs](https://github.com/marcelosperalta/docs_javascript#query-language-for-apis)
+  * [Realtime Web Applications]()
   * [Functional Library](https://github.com/marcelosperalta/docs_javascript#functional-library)
   * [Testing (end-to-end tests, integration tests, and unit tests)](https://github.com/marcelosperalta/docs_javascript#testing-end-to-end-tests-integration-tests-and-unit-tests)
   * [CSS-in-JS](https://github.com/marcelosperalta/docs_javascript#css-in-js)
@@ -482,6 +483,10 @@ sort()          | _Mutate_
 ### Query Language for APIs
 
 * [GraphQL](https://graphql.org/)
+
+### Realtime Web Applications
+
+* [Socket.IO](https://socket.io/)
 
 ### Functional Library
 
