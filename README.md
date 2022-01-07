@@ -52,7 +52,8 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
 * [YouTube](https://github.com/marcelosperalta/docs_javascript#tv-youtube)
 * [Articles](https://github.com/marcelosperalta/docs_javascript#newspaper-articles)
 * [Books](https://github.com/marcelosperalta/docs_javascript#closed_book-books)
-* [Topics]()
+* [Topics](https://github.com/marcelosperalta/docs_javascript#rotating_light-topics)
+  * [Browsers extension development](https://github.com/marcelosperalta/docs_javascript#browsers-extension-development)
 
 <hr>
 
