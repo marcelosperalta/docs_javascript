@@ -52,6 +52,7 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
 * [YouTube](https://github.com/marcelosperalta/docs_javascript#tv-youtube)
 * [Articles](https://github.com/marcelosperalta/docs_javascript#newspaper-articles)
 * [Books](https://github.com/marcelosperalta/docs_javascript#closed_book-books)
+* [Topics]()
 
 <hr>
 
@@ -752,3 +753,13 @@ sort()          | _Mutate_
 ## :closed_book: Books
 
 * **[Eloquent JavaScript](https://eloquentjavascript.net/)** by [Marijn Haverbeke](https://github.com/marijnh)
+
+<hr>
+
+## :rotating_light: Topics
+
+### Browsers extension development
+
+* **[Browser Extensions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions)**
+  * [Chrome](https://developer.chrome.com/docs/extensions/mv3/getstarted/)
+  * [Firefox](https://extensionworkshop.com/documentation/develop/browser-extension-development-tools/)
