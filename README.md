@@ -472,6 +472,7 @@ sort()          | _Mutate_
 
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/API)
 * [ApiList.fun](https://apilist.fun/)
+* [Public APIs](https://github.com/public-apis/public-apis#index)
 
 ### Fake / Mock REST API 
 
