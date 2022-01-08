@@ -66,6 +66,7 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
 [Currying](https://en.wikipedia.org/wiki/Currying) | In mathematics and computer science, currying is the technique of converting a function that takes multiple arguments into a sequence of functions that each takes a single argument. For example, currying a function ``f`` that takes three arguments creates three functions:``x = f(a, b, c)`` becomes: ``h = g(a)``, ``i = h(b)``,`` x = i(c)``.
 [``new`` Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new) | The ``new`` operator lets developers create an instance of a user-defined object type or of one of the built-in object types that has a constructor function.
 [Object Literals](https://betterprogramming.pub/object-literal-in-javascript-d3e0e7d58f3b) | An object literal is a comma-separated list of name-value pairs inside of curly braces.
+[Property accessors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors) | Property accessors provide access to an object's properties by using the dot notation or the bracket notation.
 [Regular Expressions](https://en.wikipedia.org/wiki/Regular_expression) | Are used in programming languages to match parts of strings. You create patterns to help you do that matching.
 [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) | Template literals are literals delimited with backticks (`` ` ``), allowing embedded expressions called substitutions.
 
