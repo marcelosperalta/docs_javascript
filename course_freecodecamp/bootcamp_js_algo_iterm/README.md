@@ -30,3 +30,4 @@ Pig Latin is a way of altering English Words. The rules are as follows:
 
 ## DNA Pairing
 
+## Missing letters
