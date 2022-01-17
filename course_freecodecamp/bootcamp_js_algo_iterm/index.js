@@ -785,3 +785,128 @@ console.log(fearNotLetter("abcdefghjklmno"));             // i
 console.log(fearNotLetter("stvwx"));                      // u
 console.log(fearNotLetter("bcdf"));                       // e
 console.log(fearNotLetter("abcdefghijklmnopqrstuvwxyz")); // undefined
+
+
+// Sorted Union
+
+// Write a function that takes two or more arrays and returns a new array of 
+// unique values in the order of the original provided arrays.
+
+// In other words, all values present from all arrays should be included in their original order, 
+// but with no duplicates in the final array.
+
+// The unique numbers should be sorted by their original order, 
+// but the final array should not be sorted in numerical order.
+
+// Check the assertion tests for examples.
+
+// uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1])            // [1, 3, 2, 5, 4]
+// uniteUnique([1, 2, 3], [5, 2, 1])                       // [1, 2, 3, 5]
+// uniteUnique([1, 2, 3], [5, 2, 1, 4], [2, 1], [6, 7, 8]) // [1, 2, 3, 5, 4, 6, 7, 8]
+
+function uniteUnique(arr1, arr2, arr3) {
+  // Creates an empty array to store our final result.
+  var finalArray = [];
+
+  // Loop through the arguments object to truly make the program work with two or more arrays
+  // instead of 3.
+  for (var i = 0; i < arguments.length; i++) {
+    var arrayArguments = arguments[i];
+
+    // Loops through the array at hand
+    for (var j = 0; j < arrayArguments.length; j++) {
+      var indexValue = arrayArguments[j];
+
+      // Checks if the value is already on the final array.
+      if (finalArray.indexOf(indexValue) < 0) {
+        finalArray.push(indexValue);
+      }
+    }
+  }
+
+  return console.log(finalArray);
+}
+uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1])            // [1, 3, 2, 5, 4]
+uniteUnique([1, 2, 3], [5, 2, 1])                       // [1, 2, 3, 5]
+uniteUnique([1, 2, 3], [5, 2, 1, 4], [2, 1], [6, 7, 8]) // [1, 2, 3, 5, 4, 6, 7, 8]
+
+// or
+
+function uniteUnique(...arr) {
+  return [...new Set(arr.flat())]
+}
+console.log(uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]));            // [1, 3, 2, 5, 4]
+console.log(uniteUnique([1, 2, 3], [5, 2, 1]));                       // [1, 2, 3, 5]
+console.log(uniteUnique([1, 2, 3], [5, 2, 1, 4], [2, 1], [6, 7, 8])); // [1, 2, 3, 5, 4, 6, 7, 8]
+
+
+// Convert HTML Entities
+
+// Convert the characters &, <, >, " (double quote), and ' (apostrophe),
+// in a string to their corresponding HTML entities.
+
+// convertHTML("Dolce & Gabbana")            // Dolce &amp; Gabbana
+// convertHTML("Hamburgers < Pizza < Tacos") // Hamburgers &lt; Pizza &lt; Tacos
+// convertHTML("Sixty > twelve")             // Sixty &gt; twelve
+// convertHTML('Stuff in "quotation marks"') // Stuff in &quot;quotation marks&quot;
+// convertHTML("Schindler's List")           // Schindler&apos;s List
+// convertHTML("<>")                         // &lt;&gt;
+// convertHTML("abc")                        // abc
+
+function convertHTML(str) {
+  // Split by character to avoid problems.
+  var temp = str.split("");
+
+  // Since we are only checking for a few HTML elements, use a switch
+  for (var i = 0; i < temp.length; i++) {
+    switch (temp[i]) {
+      case "<":
+        temp[i] = "&lt;";
+        break;
+      case "&":
+        temp[i] = "&amp;";
+        break;
+      case ">":
+        temp[i] = "&gt;";
+        break;
+      case '"':
+        temp[i] = "&quot;";
+        break;
+      case "'":
+        temp[i] = "&apos;";
+        break;
+    }
+  }
+
+  temp = temp.join("");
+  return console.log(temp);
+}
+convertHTML("Dolce & Gabbana")            // Dolce &amp; Gabbana
+convertHTML("Hamburgers < Pizza < Tacos") // Hamburgers &lt; Pizza &lt; Tacos
+convertHTML("Sixty > twelve")             // Sixty &gt; twelve
+convertHTML('Stuff in "quotation marks"') // Stuff in &quot;quotation marks&quot;
+convertHTML("Schindler's List")           // Schindler&apos;s List
+convertHTML("<>")                         // &lt;&gt;
+convertHTML("abc")                        // abc
+
+// or
+
+function convertHTML(str) {
+  // Use Object Lookup to declare as many HTML entities as needed.
+  const htmlEntities = {
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&apos;"
+  };
+  // Using a regex, replace characters with it's corresponding html entity
+  return console.log(str.replace(/([&<>\"'])/g, match => htmlEntities[match]));
+}
+convertHTML("Dolce & Gabbana")            // Dolce &amp; Gabbana
+convertHTML("Hamburgers < Pizza < Tacos") // Hamburgers &lt; Pizza &lt; Tacos
+convertHTML("Sixty > twelve")             // Sixty &gt; twelve
+convertHTML('Stuff in "quotation marks"') // Stuff in &quot;quotation marks&quot;
+convertHTML("Schindler's List")           // Schindler&apos;s List
+convertHTML("<>")                         // &lt;&gt;
+convertHTML("abc")                        // abc
