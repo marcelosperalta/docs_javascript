@@ -36,7 +36,7 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
   * [Data Interchange](https://github.com/marcelosperalta/docs_javascript#data-interchange)
   * [Data visualization](https://github.com/marcelosperalta/docs_javascript#data-visualization)
   * [Static Typing](https://github.com/marcelosperalta/docs_javascript#static-typing)
-  * [ECMAScript Internationalization API (date and time formatting...)](https://github.com/marcelosperalta/docs_javascript#ecmascript-internationalization-api-language-sensitive-string-comparison-number-formatting-and-date-and-time-formatting)
+  * [Internationalization and localization)]()
   * [API documentation generator](https://github.com/marcelosperalta/docs_javascript#api-documentation-generator)
   * [List of APIs](https://github.com/marcelosperalta/docs_javascript#list-of-apis)
   * [Fake / Mock REST API](https://github.com/marcelosperalta/docs_javascript#fake--mock-rest-api)
@@ -460,9 +460,11 @@ sort()          | _Mutate_
 * [flow](https://flow.org/)
 * [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
 
-### ECMAScript Internationalization API (language sensitive string comparison, number formatting, and date and time formatting.)
+### Internationalization and localization
 
-* [Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl)
+* [ECMAScript Internationalization API - Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl)
+* [FormatJS](https://formatjs.io/)
+* [LinguiJS](https://lingui.js.org/)
 
 ### API documentation generator
 
