@@ -910,3 +910,89 @@ convertHTML('Stuff in "quotation marks"') // Stuff in &quot;quotation marks&quot
 convertHTML("Schindler's List")           // Schindler&apos;s List
 convertHTML("<>")                         // &lt;&gt;
 convertHTML("abc")                        // abc
+
+
+// Sum All Odd Fibonacci Numbers
+
+// Given a positive integer "num", return the sum of all odd Fibonacci numbers 
+// that are less than or equal to "num".
+
+// The first two numbers in the Fibonacci sequence are 1 and 1. Every additional number 
+// in the sequence is the sum of the two previous numbers. The first six numbers 
+// of the Fibonacci sequence are 1, 1, 2, 3, 5 and 8.
+
+// For example, "sumFibs(10)" should return "10" because all odd Fibonacci numbers 
+// less than or equal to "10" are 1, 1, 3, and 5.
+
+// sumFibs(1)       // a number
+// sumFibs(1000)    // 1785
+// sumFibs(4000000) // 4613732
+// sumFibs(4)       // 5
+// sumFibs(75024)   // 60696
+// sumFibs(75025)   // 135721
+
+                                                     // first execution
+                                                        // secund execution
+                                                           // third execution
+function sumFibs(num) {                              // 1
+                                                        // 1
+                                                           // 1
+  let previousNumber = 0;                            // 0
+                                                        // 1
+                                                           // 1
+  let currentNumber = 1;                             // 1
+                                                        // 1
+                                                           // 2
+  let result = 0;                                    // 0
+                                                        // 1
+                                                           // 2
+  while (currentNumber <= num) {                     // true (1 <= 1)
+                                                        // true (1 <= 1)
+                                                           // false (2 <= 1) ---> return result
+    if (currentNumber % 2 !== 0) {                   // true
+                                                        // true
+   // result += currentNumber; // or
+      result = result + currentNumber;               // 0 + 1 = 1
+                                                        // 1 + 1 = 2   <---------- 
+    }
+ // currentNumber += previousNumber; // or
+    currentNumber = currentNumber + previousNumber;  // 1 + 0 = 1
+                                                        // 1 + 1 = 2
+    previousNumber = currentNumber - previousNumber; // 1 - 0 = 1
+                                                        // 2 - 1 = 1
+  }
+  return console.log(result); // 2
+}
+sumFibs(1);      // 2
+sumFibs(1000)    // 1785
+sumFibs(4000000) // 4613732
+sumFibs(4)       // 5
+sumFibs(75024)   // 60696
+sumFibs(75025)   // 135721
+
+// or
+
+function sumFibs(num) {
+  // Perform checks for the validity of the input
+  if (num <= 0) return 0;
+
+  // Create an array of fib numbers till num
+  const arrFib = [1, 1];
+  let nextFib = 0;
+
+  // We put the new Fibonacci numbers to the front so we
+  // don't need to calculate the length of the array on each
+  // iteration
+  while ((nextFib = arrFib[0] + arrFib[1]) <= num) {
+    arrFib.unshift(nextFib);
+  }
+
+  // We filter the array to get the odd numbers and reduce them to get their sum.
+  return console.log(arrFib.filter(x => x % 2 != 0).reduce((a, b) => a + b));
+}
+sumFibs(1);      // 2
+sumFibs(1000)    // 1785
+sumFibs(4000000) // 4613732
+sumFibs(4)       // 5
+sumFibs(75024)   // 60696
+sumFibs(75025)   // 135721

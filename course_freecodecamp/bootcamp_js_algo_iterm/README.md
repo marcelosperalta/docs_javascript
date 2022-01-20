@@ -35,3 +35,5 @@ Pig Latin is a way of altering English Words. The rules are as follows:
 ## Sorted Union
 
 ## Convert HTML Entities
+
+## Sum All Odd Fibonacci Numbers
