@@ -46,7 +46,7 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
   * [Functional Library](https://github.com/marcelosperalta/docs_javascript#functional-library)
   * [Testing (end-to-end tests, integration tests, and unit tests)](https://github.com/marcelosperalta/docs_javascript#testing-end-to-end-tests-integration-tests-and-unit-tests)
   * [CSS-in-JS](https://github.com/marcelosperalta/docs_javascript#css-in-js)
-  * [Managing projects with multiple packages]()
+  * [Managing projects with multiple packages](https://github.com/marcelosperalta/docs_javascript#managing-projects-with-multiple-packages)
 * [Tutorials](https://github.com/marcelosperalta/docs_javascript#books-tutorials)
 * [Courses](https://github.com/marcelosperalta/docs_javascript#mortar_board-courses)
 * [Challenges](https://github.com/marcelosperalta/docs_javascript#question-challenges)
