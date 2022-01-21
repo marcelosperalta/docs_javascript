@@ -1012,6 +1012,8 @@ sumFibs(75025)   // 135721
 
 function sumPrimes(num) {
 
+  // Primality test
+  // https://en.wikipedia.org/wiki/Primality_test#:~:text=The%20simplest%20primality%20test%20is,Otherwise%2C%20it%20is%20prime.
   // Helper function to check primality
   function isPrime(num) {
     for (let i = 2; i <= Math.sqrt(num); i++) {
