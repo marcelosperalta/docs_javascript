@@ -37,3 +37,5 @@ Pig Latin is a way of altering English Words. The rules are as follows:
 ## Convert HTML Entities
 
 ## Sum All Odd Fibonacci Numbers
+
+## Sum All Primes
