@@ -1454,3 +1454,237 @@ function binaryAgent(str) {
 }
 console.log(binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111")); // Aren't bonfires fun!?
 console.log(binaryAgent("01001001 00100000 01101100 01101111 01110110 01100101 00100000 01000110 01110010 01100101 01100101 01000011 01101111 01100100 01100101 01000011 01100001 01101101 01110000 00100001"));          // I love FreeCodeCamp!
+
+
+// Everything Be True
+
+// Check if the predicate (second argument) is "truthy" 
+// on all elements of a collection (first argument).
+
+// In other words, you are given an array collection of objects. 
+// The predicate "pre" will be an object property 
+// and you need to return "true" if its value is "truthy". Otherwise, return "false".
+
+// In JavaScript, "truthy" values are values that translate to "true" 
+// when evaluated in a Boolean context.
+
+// Remember, you can access object properties through either dot notation
+//  or "[]" notation.
+
+// truthCheck(
+//   [
+//     {"user": "Tinky-Winky", "sex": "male"}, 
+//     {"user": "Dipsy", "sex": "male"}, 
+//     {"user": "Laa-Laa", "sex": "female"}, 
+//     {"user": "Po", "sex": "female"}
+//   ], 
+//   "sex"
+// ) // true
+// truthCheck(
+//   [
+//     {"user": "Tinky-Winky", "sex": "male"}, 
+//     {"user": "Dipsy"}, 
+//     {"user": "Laa-Laa", "sex": "female"}, 
+//     {"user": "Po", "sex": "female"}
+//   ], 
+//   "sex"
+// ) // false
+// truthCheck(
+//   [
+//     {"user": "Tinky-Winky", "sex": "male", "age": 0}, 
+//     {"user": "Dipsy", "sex": "male", "age": 3}, 
+//     {"user": "Laa-Laa", "sex": "female", "age": 5}, 
+//     {"user": "Po", "sex": "female", "age": 4}
+//   ], 
+//   "age"
+// ) // false
+// truthCheck(
+//   [
+//     {"name": "Pete", "onBoat": true}, 
+//     {"name": "Repeat", "onBoat": true}, 
+//     {"name": "FastForward", "onBoat": null}
+//   ], 
+//     "onBoat"
+//   ) // false
+// truthCheck(
+//   [
+//     {"name": "Pete", "onBoat": true}, 
+//     {"name": "Repeat", "onBoat": true, "alias": "Repete"}, 
+//     {"name": "FastForward", "onBoat": true}
+//   ], 
+//   "onBoat"
+// ) // true
+// truthCheck([{"single": "yes"}], "single")                           // true
+// truthCheck([{"single": ""}, {"single": "double"}], "single")        // false
+// truthCheck([{"single": "double"}, {"single": undefined}], "single") // false
+// truthCheck([{"single": "double"}, {"single": NaN}], "single")       // false
+
+function truthCheck(collection, pre) {
+  // Create a counter to check how many are true.
+  var counter = 0;
+  // Check for each object
+  for (var c in collection) {
+    // If it is has property and value is truthy
+    if (collection[c].hasOwnProperty(pre) && Boolean(collection[c][pre])) {
+      counter++;
+    }
+  }
+  // Outside the loop, check to see if we got true for all of them and return true or false
+  return counter == collection.length;
+}
+console.log(truthCheck(
+                        [
+                          {"user": "Tinky-Winky", "sex": "male"}, 
+                          {"user": "Dipsy", "sex": "male"}, 
+                          {"user": "Laa-Laa", "sex": "female"}, 
+                          {"user": "Po", "sex": "female"}
+                        ], 
+                        "sex"
+                      )); // true
+console.log(truthCheck(
+                        [
+                          {"user": "Tinky-Winky", "sex": "male"}, 
+                          {"user": "Dipsy"}, 
+                          {"user": "Laa-Laa", "sex": "female"}, 
+                          {"user": "Po", "sex": "female"}
+                        ], 
+                        "sex"
+                      )); // false
+console.log(truthCheck(
+                        [
+                          {"user": "Tinky-Winky", "sex": "male", "age": 0}, 
+                          {"user": "Dipsy", "sex": "male", "age": 3}, 
+                          {"user": "Laa-Laa", "sex": "female", "age": 5}, 
+                          {"user": "Po", "sex": "female", "age": 4}
+                        ], 
+                        "age"
+                      )); // false
+console.log(truthCheck(
+                        [
+                          {"name": "Pete", "onBoat": true}, 
+                          {"name": "Repeat", "onBoat": true}, 
+                          {"name": "FastForward", "onBoat": null}
+                        ], 
+                          "onBoat"
+                        )); // false
+console.log(truthCheck(
+                        [
+                          {"name": "Pete", "onBoat": true}, 
+                          {"name": "Repeat", "onBoat": true, "alias": "Repete"}, 
+                          {"name": "FastForward", "onBoat": true}
+                        ], 
+                        "onBoat"
+                      )); // true
+console.log(truthCheck([{"single": "yes"}], "single"));                           // true
+console.log(truthCheck([{"single": ""}, {"single": "double"}], "single"));        // false
+console.log(truthCheck([{"single": "double"}, {"single": undefined}], "single")); // false
+console.log(truthCheck([{"single": "double"}, {"single": NaN}], "single"));       // false
+
+// or 
+
+function truthCheck(collection, pre) {
+  return collection.every(function(element) {
+    return element.hasOwnProperty(pre) && Boolean(element[pre]);
+  });
+}
+console.log(truthCheck(
+  [
+    {"user": "Tinky-Winky", "sex": "male"}, 
+    {"user": "Dipsy", "sex": "male"}, 
+    {"user": "Laa-Laa", "sex": "female"}, 
+    {"user": "Po", "sex": "female"}
+  ], 
+  "sex"
+)); // true
+console.log(truthCheck(
+  [
+    {"user": "Tinky-Winky", "sex": "male"}, 
+    {"user": "Dipsy"}, 
+    {"user": "Laa-Laa", "sex": "female"}, 
+    {"user": "Po", "sex": "female"}
+  ], 
+  "sex"
+)); // false
+console.log(truthCheck(
+  [
+    {"user": "Tinky-Winky", "sex": "male", "age": 0}, 
+    {"user": "Dipsy", "sex": "male", "age": 3}, 
+    {"user": "Laa-Laa", "sex": "female", "age": 5}, 
+    {"user": "Po", "sex": "female", "age": 4}
+  ], 
+  "age"
+)); // false
+console.log(truthCheck(
+  [
+    {"name": "Pete", "onBoat": true}, 
+    {"name": "Repeat", "onBoat": true}, 
+    {"name": "FastForward", "onBoat": null}
+  ], 
+    "onBoat"
+  )); // false
+console.log(truthCheck(
+  [
+    {"name": "Pete", "onBoat": true}, 
+    {"name": "Repeat", "onBoat": true, "alias": "Repete"}, 
+    {"name": "FastForward", "onBoat": true}
+  ], 
+  "onBoat"
+)); // true
+console.log(truthCheck([{"single": "yes"}], "single"));                           // true
+console.log(truthCheck([{"single": ""}, {"single": "double"}], "single"));        // false
+console.log(truthCheck([{"single": "double"}, {"single": undefined}], "single")); // false
+console.log(truthCheck([{"single": "double"}, {"single": NaN}], "single"));       // false
+
+// or
+
+function truthCheck(collection, pre) {
+  // Is everyone being true?
+  return collection.every(obj => obj[pre]);
+}
+console.log(truthCheck(
+  [
+    {"user": "Tinky-Winky", "sex": "male"}, 
+    {"user": "Dipsy", "sex": "male"}, 
+    {"user": "Laa-Laa", "sex": "female"}, 
+    {"user": "Po", "sex": "female"}
+  ], 
+  "sex"
+)); // true
+console.log(truthCheck(
+  [
+    {"user": "Tinky-Winky", "sex": "male"}, 
+    {"user": "Dipsy"}, 
+    {"user": "Laa-Laa", "sex": "female"}, 
+    {"user": "Po", "sex": "female"}
+  ], 
+  "sex"
+)); // false
+console.log(truthCheck(
+  [
+    {"user": "Tinky-Winky", "sex": "male", "age": 0}, 
+    {"user": "Dipsy", "sex": "male", "age": 3}, 
+    {"user": "Laa-Laa", "sex": "female", "age": 5}, 
+    {"user": "Po", "sex": "female", "age": 4}
+  ], 
+  "age"
+)); // false
+console.log(truthCheck(
+  [
+    {"name": "Pete", "onBoat": true}, 
+    {"name": "Repeat", "onBoat": true}, 
+    {"name": "FastForward", "onBoat": null}
+  ], 
+    "onBoat"
+  )); // false
+console.log(truthCheck(
+  [
+    {"name": "Pete", "onBoat": true}, 
+    {"name": "Repeat", "onBoat": true, "alias": "Repete"}, 
+    {"name": "FastForward", "onBoat": true}
+  ], 
+  "onBoat"
+)); // true
+console.log(truthCheck([{"single": "yes"}], "single"));                           // true
+console.log(truthCheck([{"single": ""}, {"single": "double"}], "single"));        // false
+console.log(truthCheck([{"single": "double"}, {"single": undefined}], "single")); // false
+console.log(truthCheck([{"single": "double"}, {"single": NaN}], "single"));       // false
