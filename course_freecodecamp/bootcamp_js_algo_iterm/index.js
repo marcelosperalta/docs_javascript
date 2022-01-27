@@ -1770,3 +1770,84 @@ console.log(addTogether(5)(7));                                          // 12
 console.log(addTogether("https://www.youtube.com/watch?v=dQw4w9WgXcQ")); // undefined
 console.log(addTogether(2, "3"));                                        // undefined
 console.log(addTogether(2)([3]));                                        // undefined
+
+
+// Make a Person
+
+// Fill in the object constructor with the following methods below:
+
+// getFirstName()
+// getLastName()
+// getFullName()
+// setFirstName(first)
+// setLastName(last)
+// setFullName(firstAndLast)
+
+// Run the tests to see the expected output for each method. The methods that take
+// an argument must accept only one argument and it has to be a string. These methods 
+// must be the only available means of interacting with the object.
+
+// No properties should be added. Object.keys(bob).length should always return 6.
+// bob instanceof Person should return true.
+
+// bob.firstName                    // undefined
+// bob.lastName                     // undefined
+// bob.getFirstName()               // Bob
+// bob.getLastName()                // Ross
+// bob.getFullName()                // Bob Ross
+// bob.setFirstName("Haskell")
+// bob.getFullName()                // Haskell Ross 
+// bob.setLastName("Curry")
+// bob.getFullName()                // Haskell Curry
+// bob.setFullName("Haskell Curry")
+// bob.getFullName()                // Haskell Curry
+// bob.setFullName("Haskell Curry")
+// bob.getFirstName()               // Haskell
+// bob.setFullName("Haskell Curry")
+// bob.getLastName()                // Curry
+
+const Person = function(firstAndLast) {
+
+  let fullName = firstAndLast;
+
+  this.getFirstName = function() {
+    return fullName.split(" ")[0];
+  };
+
+  this.getLastName = function() {
+    return fullName.split(" ")[1];
+  };
+
+  this.getFullName = function() {
+    return fullName;
+  };
+
+  this.setFirstName = function(name) {
+    fullName = name + " " + fullName.split(" ")[1];
+  };
+
+  this.setLastName = function(name) {
+    fullName = fullName.split(" ")[0] + " " + name;
+  };
+
+  this.setFullName = function(name) {
+    fullName = name;
+  };
+};
+const bob = new Person('Bob Ross');
+
+console.log(bob.firstName);                    // undefined
+console.log(bob.lastName);                     // undefined
+console.log(bob.getFirstName());               // Bob
+console.log(bob.getLastName());                // Ross
+console.log(bob.getFullName());                // Bob Ross
+bob.setFirstName("Haskell")
+console.log(bob.getFullName());                // Haskell Ross 
+bob.setLastName("Curry")
+console.log(bob.getFullName());                // Haskell Curry
+bob.setFullName("Haskell Curry")
+console.log(bob.getFullName());                // Haskell Curry
+bob.setFullName("Haskell Curry")
+console.log(bob.getFirstName());               // Haskell
+bob.setFullName("Haskell Curry")
+console.log(bob.getLastName());                // Curry

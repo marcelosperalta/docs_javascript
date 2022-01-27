@@ -51,3 +51,5 @@ Pig Latin is a way of altering English Words. The rules are as follows:
 ## Everything Be True
 
 ## Arguments Optional
+
+## Make a Person
