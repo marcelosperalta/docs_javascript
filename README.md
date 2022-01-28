@@ -39,7 +39,7 @@ JavaScript is _high-level_, often _just-in-time compiled_ and _multi-paradigm_. 
   * [Internationalization and localization](https://github.com/marcelosperalta/docs_javascript#internationalization-and-localization)
   * [API documentation generator](https://github.com/marcelosperalta/docs_javascript#api-documentation-generator)
   * [List of APIs](https://github.com/marcelosperalta/docs_javascript#list-of-apis)
-  * [Local Storage API]()
+  * [Local Storage API](https://github.com/marcelosperalta/docs_javascript#local-storage-api)
   * [Fake / Mock REST API](https://github.com/marcelosperalta/docs_javascript#fake--mock-rest-api)
   * [Fake / Mock GraphQL API](https://github.com/marcelosperalta/docs_javascript#fake--mock-graphql-api)
   * [Query Language for APIs](https://github.com/marcelosperalta/docs_javascript#query-language-for-apis)
