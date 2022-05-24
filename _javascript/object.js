@@ -1,4 +1,21 @@
-var contacts = [
+const obj = {
+    prop1: "I'm",
+    prop2: "an",
+    prop3: "object",
+    1: "one"
+}
+console.log(obj.prop1);          // expected output: I'm
+console.log(obj.prop2);          // expected output: an
+console.log(obj.prop3);          // expected output: object
+console.log(obj[1]);             // expected output: one
+console.log(obj["prop1"]);       // expected output: I'm
+console.log(Object.keys(obj));   // expected output: [ 'prop1', 'prop2', 'prop3' ]
+console.log(Object.values(obj)); // expected output: [ "I'm", 'an', 'object' ]
+// Object destructuring
+const { prop1 } = obj;
+console.log(prop1);              // expected output: I'm
+
+const contacts = [
     // index = 0
     {
         // index      01234
