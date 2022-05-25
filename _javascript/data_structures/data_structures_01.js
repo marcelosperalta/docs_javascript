@@ -114,3 +114,20 @@ console.log(stck.pop()) // value4
 // - The DOM model.
 // - Situation analysis in artificial intelligence.
 // - File folders in operating systems.
+
+        // Binary trees
+        // maximum of two children.
+
+        // Heaps
+        // MaxHeaps and MinHeaps
+
+
+///////////////// Graphs
+// Graphs are data structures often useful for:
+// - Social networks
+// - Geolocalizaton
+// - Recommendation systems
+
+        // Undirected and directed graphs
+
+        // Weighted and unweighted graphs
